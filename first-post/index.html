@@ -16,10 +16,8 @@
 
 <meta name="twitter:title" content="hugo&#43;github page搭建博客备忘录"/>
 <meta name="twitter:description" content="汇总了一些操作过程中的bug，另外记录一些常用操作免得忘记"/>
-<meta name="application-name" content="My cool site">
-<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Cyan-zhou.github.io/first-post/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<meta name="application-name" content="Cyan Zhou">
+<meta name="apple-mobile-web-app-title" content="Cyan Zhou"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Cyan-zhou.github.io/first-post/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -30,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/Cyan-zhou.github.io\/first-post\/"
-        },"genre": "posts","keywords": "Blog","wordcount":  327 ,
+        },"genre": "posts","keywords": "Blog","wordcount":  346 ,
         "url": "https:\/\/Cyan-zhou.github.io\/first-post\/","datePublished": "2022-05-21T21:21:18+08:00","dateModified": "2022-05-22T21:23:33+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -119,7 +117,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">hugo&#43;github page搭建博客备忘录</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-category">included in <a href="/categories/blog/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Blog</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;327 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;346 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -156,6 +154,11 @@
           <ul>
             <li><a href="#新建或修改文章">新建或修改文章</a></li>
             <li><a href="#删除文章">删除文章</a></li>
+          </ul>
+        </li>
+        <li><a href="#其他操作">其他操作</a>
+          <ul>
+            <li><a href="#添加favicon">添加favicon</a></li>
           </ul>
         </li>
         <li><a href="#查阅文档">查阅文档</a></li>
@@ -372,25 +375,37 @@
 </span></span><span class="line"><span class="cl">git push origin master
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="查阅文档">查阅文档</h3>
+</div><h3 id="其他操作">其他操作</h3>
+<h4 id="添加favicon">添加favicon</h4>
+<p>给网页增加一个icon图标，在标签页和书签栏都可以有更个性化的显示。</p>
+<ol>
+<li>首先在<a href="https://realfavicongenerator.net/" target="_blank" rel="noopener noreffer">favicon generator</a> 里可以上传自己选择的图片（260*260左右），然后一路下一步，在这里下载package</li>
+<li>把package里的东西解压到<code>/themes/LoveIt/exampleSite/static/</code> （不同主题可能路径不同，我也是试了很多次，只要找到每个static不停地试就差不多），官方文档里只需要放在<code>/static</code> 目录，不过我失败了，不知道是什么问题。至于底下这段代码，<a href="https://ibrights.github.io/post/blog20210527/" target="_blank" rel="noopener noreffer">Bright&rsquo;s Blog</a> 说可以复制到某个html文件里，但<code>LoveIt</code>不需要，如果用前面的步骤没有显示也可以试试</li>
+<li>最后<code>Hugo Server -D</code>察看有没有更改成功就好了</li>
+</ol>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/first_post/favicon.png"
+        data-srcset="/first_post/favicon.png, /first_post/favicon.png 1.5x, /first_post/favicon.png 2x"
+        data-sizes="auto"
+        alt="/first_post/favicon.png"
+        title="favicon" /></p>
+<h3 id="查阅文档">查阅文档</h3>
 <ul>
 <li><a href="https://www.markdown.xyz/basic-syntax/" target="_blank" rel="noopener noreffer">Markdown基本语法</a> 和<a href="https://www.markdown.xyz/cheat-sheet/" target="_blank" rel="noopener noreffer">Markdown速查表</a></li>
 <li><a href="https://hugoloveit.com/zh-cn" target="_blank" rel="noopener noreffer">LoveIt主题作者的博客</a> 以及两篇基本文档<a href="https://hugoloveit.com/zh-cn/theme-documentation-basics/" target="_blank" rel="noopener noreffer">基本概念</a> <a href="https://hugoloveit.com/zh-cn/theme-documentation-content/" target="_blank" rel="noopener noreffer">内容</a> (内有一些特殊的扩展语法)</li>
 </ul>
 <h3 id="reference">Reference</h3>
 <ul>
-<li>
-<p><a href="https://zz2summer.github.io/github-pages-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/#%E5%85%AB%E7%BB%86%E8%8A%82%E4%BC%98%E5%8C%96" target="_blank" rel="noopener noreffer">渣渣的夏天的搭建教程，很详细</a></p>
-</li>
-<li>
-<p><a href="https://z24z.com/post/2021/github-pages-for-blog/" target="_blank" rel="noopener noreffer">Claven&rsquo;s blog的记录，讲了域名的流程以及切换到docs的好处，之后再看</a></p>
-</li>
-<li>
-<p><a href="https://zhuanlan.zhihu.com/p/57361697" target="_blank" rel="noopener noreffer">评论值得一看，可能会有一些问题的解答</a></p>
-</li>
-<li>
-<p><a href="https://www.bilibili.com/video/BV1x64y117PX?spm_id_from=333.337.search-card.all.click" target="_blank" rel="noopener noreffer">这个视频讲的很清楚了</a></p>
-</li>
+<li><a href="https://zz2summer.github.io/github-pages-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/#%E5%85%AB%E7%BB%86%E8%8A%82%E4%BC%98%E5%8C%96" target="_blank" rel="noopener noreffer">渣渣的夏天的搭建教程，很详细</a></li>
+<li><a href="https://z24z.com/post/2021/github-pages-for-blog/" target="_blank" rel="noopener noreffer">Claven&rsquo;s blog的记录，讲了域名的流程以及切换到docs的好处，之后再看</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/57361697" target="_blank" rel="noopener noreffer">评论值得一看，可能会有一些问题的解答</a></li>
+<li><a href="https://www.bilibili.com/video/BV1x64y117PX?spm_id_from=333.337.search-card.all.click" target="_blank" rel="noopener noreffer">这个视频讲的很清楚了</a></li>
+<li><a href="http://nanshu.wang/post/2015-01-31/" target="_blank" rel="noopener noreffer">Nanshu Wang的教程，主题不同，也有一些新的功能指南</a></li>
+<li><a href="https://lewky.cn/posts/hugo-3.2.html/" target="_blank" rel="noopener noreffer">雨临Lewis的主题美化和功能增强，超长文，值得研究</a></li>
+<li><a href="https://www.bahuangshanren.tech/2021-2/#%E6%9C%AC%E5%9C%B0%E8%B0%83%E8%AF%95%E6%97%B6%E5%8A%A0%E8%BD%BD%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F" target="_blank" rel="noopener noreffer">八荒山人的博客，优化Hugo+LoveIt</a></li>
+<li><a href="https://kuang.netlify.app/blog/hugo.html" target="_blank" rel="noopener noreffer">风月的博客，Hugo的教程，也很长</a></li>
 </ul>
 <h3 id="总结">总结</h3>
 <ul>

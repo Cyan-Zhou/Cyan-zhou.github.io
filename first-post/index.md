@@ -129,7 +129,17 @@ git commit -m "yyyy/mm/dd-hh:mm"
 git push origin master
 ```
 
+### 其他操作
 
+#### 添加favicon
+
+给网页增加一个icon图标，在标签页和书签栏都可以有更个性化的显示。
+
+1. 首先在[favicon generator](https://realfavicongenerator.net/) 里可以上传自己选择的图片（260*260左右），然后一路下一步，在这里下载package
+2. 把package里的东西解压到`/themes/LoveIt/exampleSite/static/` （不同主题可能路径不同，我也是试了很多次，只要找到每个static不停地试就差不多），官方文档里只需要放在`/static` 目录，不过我失败了，不知道是什么问题。至于底下这段代码，[Bright's Blog](https://ibrights.github.io/post/blog20210527/) 说可以复制到某个html文件里，但`LoveIt`不需要，如果用前面的步骤没有显示也可以试试
+3. 最后`Hugo Server -D`察看有没有更改成功就好了
+
+![favicon](/first_post/favicon.png)
 
 ### 查阅文档
 
@@ -139,10 +149,13 @@ git push origin master
 ### Reference
 
 * [渣渣的夏天的搭建教程，很详细](https://zz2summer.github.io/github-pages-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/#%E5%85%AB%E7%BB%86%E8%8A%82%E4%BC%98%E5%8C%96)
-
 * [Claven's blog的记录，讲了域名的流程以及切换到docs的好处，之后再看](https://z24z.com/post/2021/github-pages-for-blog/)
 * [评论值得一看，可能会有一些问题的解答](https://zhuanlan.zhihu.com/p/57361697)
 * [这个视频讲的很清楚了](https://www.bilibili.com/video/BV1x64y117PX?spm_id_from=333.337.search-card.all.click)
+* [Nanshu Wang的教程，主题不同，也有一些新的功能指南](http://nanshu.wang/post/2015-01-31/)
+* [雨临Lewis的主题美化和功能增强，超长文，值得研究](https://lewky.cn/posts/hugo-3.2.html/)
+* [八荒山人的博客，优化Hugo+LoveIt](https://www.bahuangshanren.tech/2021-2/#%E6%9C%AC%E5%9C%B0%E8%B0%83%E8%AF%95%E6%97%B6%E5%8A%A0%E8%BD%BD%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F)
+* [风月的博客，Hugo的教程，也很长](https://kuang.netlify.app/blog/hugo.html)
 
 ### 总结
 
