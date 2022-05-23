@@ -17,7 +17,7 @@
 <meta name="twitter:title" content="hugo&#43;github page搭建博客备忘录"/>
 <meta name="twitter:description" content="汇总了一些操作过程中的bug，另外记录一些常用操作免得忘记"/>
 <meta name="application-name" content="Cyan Zhou">
-<meta name="apple-mobile-web-app-title" content="Cyan Zhou"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Cyan-zhou.github.io/first-post/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<meta name="apple-mobile-web-app-title" content="Cyan Zhou"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Cyan-zhou.github.io/first-post/" /><link rel="next" href="https://Cyan-zhou.github.io/the_republic_reading_note/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -28,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/Cyan-zhou.github.io\/first-post\/"
-        },"genre": "posts","keywords": "Blog","wordcount":  346 ,
+        },"genre": "posts","keywords": "Blog","wordcount":  423 ,
         "url": "https:\/\/Cyan-zhou.github.io\/first-post\/","datePublished": "2022-05-21T21:21:18+08:00","dateModified": "2022-05-22T21:23:33+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -117,7 +117,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">hugo&#43;github page搭建博客备忘录</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-category">included in <a href="/categories/blog/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Blog</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;346 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;423 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -159,6 +159,8 @@
         <li><a href="#其他操作">其他操作</a>
           <ul>
             <li><a href="#添加favicon">添加favicon</a></li>
+            <li><a href="#admonition用法">admonition用法</a></li>
+            <li><a href="#设置评论区">设置评论区</a></li>
           </ul>
         </li>
         <li><a href="#查阅文档">查阅文档</a></li>
@@ -194,61 +196,49 @@
 </ol>
 <h3 id="生成hugo的网站文件">生成Hugo的网站文件</h3>
 <h5 id="新建hugo网站">新建Hugo网站</h5>
+<ol>
+<li>
+<p>新建一个最顶层的文件夹用来放置所有相关文档，比如<code>E://HugoWebsite</code></p>
+</li>
+<li>
+<p>在cmd输入hugo new site [blog folder name]，生成一套文件框架</p>
+</li>
+<li>
+<p>选择主题，我直接使用的是LoveIt</p>
+</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">	1. 新建一个最顶层的文件夹用来放置所有相关文档，比如<span class="sb">`</span>E://HugoWebsite<span class="sb">`</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	2. 在cmd输入hugo new site <span class="o">[</span>blog folder name<span class="o">]</span>，生成一套文件框架
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	3. 选择主题，我直接使用的是LoveIt
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"> <span class="sb">```</span>cmd
-</span></span><span class="line"><span class="cl"> <span class="c1"># 切换目录到博客文件夹</span>
-</span></span><span class="line"><span class="cl"> <span class="nb">cd</span> <span class="o">[</span>blog folder name<span class="o">]</span>
-</span></span><span class="line"><span class="cl"> <span class="c1"># 切换到主题文件夹</span>
-</span></span><span class="line"><span class="cl"> <span class="nb">cd</span> themes
-</span></span><span class="line"><span class="cl"> <span class="c1"># 下载主题</span>
-</span></span><span class="line"><span class="cl"> git clone https://github.com/dillonzq/LoveIt.git LoveIt
-</span></span><span class="line"><span class="cl"> <span class="sb">```</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	4. 修改根目录下的config.toml, <span class="o">[</span>LoveIt作者的基本概念<span class="o">](</span>https://hugoloveit.com/zh-cn/theme-documentation-basics/<span class="o">)</span>里的**2.3 基础配置** 和**3.1 网站配置** 两个部分基本囊括了可以修改的部分，直接复制到config中，修改需要修改的部分即可。这里需要注意这连个部分的配置参考中有重复的部分，<span class="sb">`</span><span class="o">[</span>markup<span class="o">]</span><span class="sb">`</span>的部分就有所重合
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	5. 另外，config中修改头像的话，相对路径指的是blog根目录下的static文件夹，例如，在config中头像的地址为<span class="sb">`</span>/images/avatar.png<span class="sb">`</span>， 那么它的绝对路径为<span class="sb">`</span>E://HugoWebsite/<span class="o">[</span>Blog Folder name<span class="o">]</span>/images/avatar.png<span class="sb">`</span>  
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"> &gt; 图片压缩的快捷操作是用ffmpeg, 在cmd中切换到图片所在文件夹后，使用
-</span></span><span class="line"><span class="cl"> &gt;
-</span></span><span class="line"><span class="cl"> &gt; <span class="sb">`</span>ffmpeg -i input.jpg -vf “scale<span class="o">=</span>1920:-1” output.jpg<span class="sb">`</span> 
-</span></span><span class="line"><span class="cl"> &gt;
-</span></span><span class="line"><span class="cl"> &gt; 就可以等比例调整图片大小，再也不用打开ps了
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 切换目录到博客文件夹</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> <span class="o">[</span>blog folder name<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 切换到主题文件夹</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> themes
+</span></span><span class="line"><span class="cl"><span class="c1"># 下载主题</span>
+</span></span><span class="line"><span class="cl">git clone https://github.com/dillonzq/LoveIt.git LoveIt
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h5 id="作出修改">作出修改</h5>
+</div><ol start="4">
+<li>
+<p>修改根目录下的config.toml, <a href="https://hugoloveit.com/zh-cn/theme-documentation-basics/" target="_blank" rel="noopener noreffer">LoveIt作者的基本概念</a>里的<strong>2.3 基础配置</strong> 和<strong>3.1 网站配置</strong> 两个部分基本囊括了可以修改的部分，直接复制到config中，修改需要修改的部分即可。这里需要注意这连个部分的配置参考中有重复的部分，<code>[markup]</code>的部分就有所重合</p>
+</li>
+<li>
+<p>另外，config中修改头像的话，相对路径指的是blog根目录下的static文件夹，例如，在config中头像的地址为<code>/images/avatar.png</code>， 那么它的绝对路径为<code>E://HugoWebsite/[Blog Folder name]/images/avatar.png</code></p>
+</li>
+</ol>
+<blockquote>
+<p>图片压缩的快捷操作是用ffmpeg, 在cmd中切换到图片所在文件夹后，使用
+<code>ffmpeg -i input.jpg -vf “scale=1920:-1” output.jpg</code>
+就可以等比例调整图片大小，再也不用打开ps了</p>
+</blockquote>
+<h5 id="作出修改">作出修改</h5>
 <p>​		通常会修改一些配置文件，或者新建or修改博客文章</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -391,6 +381,136 @@
         data-sizes="auto"
         alt="/first_post/favicon.png"
         title="favicon" /></p>
+<h4 id="admonition用法">admonition用法</h4>
+<p>一共12个样式，用起来很方便，这里用到了shortcodes的扩展</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">admonition</span> <span class="na">type</span><span class="o">=</span><span class="s">tip</span> <span class="na">title</span><span class="o">=</span><span class="s">&#34;the name you want&#34;</span> <span class="na">open</span><span class="o">=</span><span class="s">true</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">Write something here
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">admonition</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gh"># 或者
+</span></span></span><span class="line"><span class="cl"><span class="gh"></span>
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">admonition</span> <span class="na">tip</span> <span class="err">&#34;</span><span class="na">the</span> <span class="na">name</span> <span class="na">you</span> <span class="na">want</span><span class="err">&#34;</span> <span class="na">true</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">Write something here
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">admonition</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>Note<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">type = note</div>
+        </div>
+    </div>
+<div class="details admonition abstract open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-list-ul fa-fw" aria-hidden="true"></i>Abstract<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">type = abstract</div>
+        </div>
+    </div>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw" aria-hidden="true"></i>Info<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">type = info</div>
+        </div>
+    </div>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">type = tip</div>
+        </div>
+    </div>
+<div class="details admonition success open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw" aria-hidden="true"></i>Success<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">type = success</div>
+        </div>
+    </div>
+<div class="details admonition question open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>Question<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">type = question</div>
+        </div>
+    </div>
+<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw" aria-hidden="true"></i>Warning<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">type = warning</div>
+        </div>
+    </div>
+<div class="details admonition failure open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-times-circle fa-fw" aria-hidden="true"></i>Failure<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">type = failure</div>
+        </div>
+    </div>
+<div class="details admonition danger open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-skull-crossbones fa-fw" aria-hidden="true"></i>Danger<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">type = danger</div>
+        </div>
+    </div>
+<div class="details admonition bug open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-bug fa-fw" aria-hidden="true"></i>Bug<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">type = bug</div>
+        </div>
+    </div>
+<div class="details admonition example open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-list-ol fa-fw" aria-hidden="true"></i>Example<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">type = example</div>
+        </div>
+    </div>
+<div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw" aria-hidden="true"></i>Quote<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">type = quote</div>
+        </div>
+    </div>
+<h4 id="设置评论区">设置评论区</h4>
+<p>评论区我用的是<strong><ruby>Valine<rt>简洁高效的无后端评论系统</rt></ruby></strong>，过程并不复杂，但也有容易忽视的bug</p>
+<ol>
+<li>先在LeanCloud注册国际版账号，获取相关参数，这一步的具体操作可以看<a href="https://shangzg.top/2021-10-19-hugo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/" target="_blank" rel="noopener noreffer">Hugo个人博客添加Valine评论系统</a></li>
+<li>在config文件里配置打开评论，注意要先打开评论，再打开valine的评论，填入appId, appKey, serverURLs，其他的参数参考<a href="https://valine.js.org/configuration.html" target="_blank" rel="noopener noreffer">valine的官方文档</a></li>
+<li>这一步完了以后我天真地以为就出现评论了，但localhost的预览并没有，尝试了第一步里的链接中修改comment.html的操作，也没有生效，最后终于找到是因为hugo server默认环境是development, 而hugo 的默认环境是production</li>
+<li>失败，回头再说</li>
+</ol>
 <h3 id="查阅文档">查阅文档</h3>
 <ul>
 <li><a href="https://www.markdown.xyz/basic-syntax/" target="_blank" rel="noopener noreffer">Markdown基本语法</a> 和<a href="https://www.markdown.xyz/cheat-sheet/" target="_blank" rel="noopener noreffer">Markdown速查表</a></li>
@@ -404,8 +524,11 @@
 <li><a href="https://www.bilibili.com/video/BV1x64y117PX?spm_id_from=333.337.search-card.all.click" target="_blank" rel="noopener noreffer">这个视频讲的很清楚了</a></li>
 <li><a href="http://nanshu.wang/post/2015-01-31/" target="_blank" rel="noopener noreffer">Nanshu Wang的教程，主题不同，也有一些新的功能指南</a></li>
 <li><a href="https://lewky.cn/posts/hugo-3.2.html/" target="_blank" rel="noopener noreffer">雨临Lewis的主题美化和功能增强，超长文，值得研究</a></li>
-<li><a href="https://www.bahuangshanren.tech/2021-2/#%E6%9C%AC%E5%9C%B0%E8%B0%83%E8%AF%95%E6%97%B6%E5%8A%A0%E8%BD%BD%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F" target="_blank" rel="noopener noreffer">八荒山人的博客，优化Hugo+LoveIt</a></li>
+<li><a href="https://www.bahuangshanren.tech/2021-2/" target="_blank" rel="noopener noreffer">八荒山人的博客，优化Hugo+LoveIt</a></li>
 <li><a href="https://kuang.netlify.app/blog/hugo.html" target="_blank" rel="noopener noreffer">风月的博客，Hugo的教程，也很长</a></li>
+<li><a href="https://www.andbible.com/post/hugo-content-management-shortcodes/" target="_blank" rel="noopener noreffer">Hugo框架中文文档 短代码</a></li>
+<li><a href="https://shenshilei1022.gitee.io/post/e277/" target="_blank" rel="noopener noreffer">给Hugo个人博客添加Valine评论系统</a></li>
+<li><a href="https://cloud.tencent.com/developer/article/1722255" target="_blank" rel="noopener noreffer">Hugo搭建博客（一）— 基本设置</a></li>
 </ul>
 <h3 id="总结">总结</h3>
 <ul>
@@ -434,9 +557,10 @@
         </section>
     </div>
 
-    <div class="post-nav"></div>
+    <div class="post-nav">
+            <a href="/the_republic_reading_note/" class="next" rel="next" title="The Republic - Plato Notes">The Republic - Plato Notes<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
-</article></div>
+<div id="comments"></div></article></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.99.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
                 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Cyan Zhou</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>

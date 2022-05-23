@@ -32,14 +32,13 @@
 
 ##### 	新建Hugo网站
 
-~~~bash
-	1. 新建一个最顶层的文件夹用来放置所有相关文档，比如`E://HugoWebsite`
+1. 新建一个最顶层的文件夹用来放置所有相关文档，比如`E://HugoWebsite`
 
-	2. 在cmd输入hugo new site [blog folder name]，生成一套文件框架
+2. 在cmd输入hugo new site [blog folder name]，生成一套文件框架
 
-	3. 选择主题，我直接使用的是LoveIt
+3. 选择主题，我直接使用的是LoveIt
 
- ```cmd
+ ```bash
  # 切换目录到博客文件夹
  cd [blog folder name]
  # 切换到主题文件夹
@@ -48,16 +47,14 @@
  git clone https://github.com/dillonzq/LoveIt.git LoveIt
  ```
 
-	4. 修改根目录下的config.toml, [LoveIt作者的基本概念](https://hugoloveit.com/zh-cn/theme-documentation-basics/)里的**2.3 基础配置** 和**3.1 网站配置** 两个部分基本囊括了可以修改的部分，直接复制到config中，修改需要修改的部分即可。这里需要注意这连个部分的配置参考中有重复的部分，`[markup]`的部分就有所重合
+4. 修改根目录下的config.toml, [LoveIt作者的基本概念](https://hugoloveit.com/zh-cn/theme-documentation-basics/)里的**2.3 基础配置** 和**3.1 网站配置** 两个部分基本囊括了可以修改的部分，直接复制到config中，修改需要修改的部分即可。这里需要注意这连个部分的配置参考中有重复的部分，`[markup]`的部分就有所重合
 
-	5. 另外，config中修改头像的话，相对路径指的是blog根目录下的static文件夹，例如，在config中头像的地址为`/images/avatar.png`， 那么它的绝对路径为`E://HugoWebsite/[Blog Folder name]/images/avatar.png`  
+5. 另外，config中修改头像的话，相对路径指的是blog根目录下的static文件夹，例如，在config中头像的地址为`/images/avatar.png`， 那么它的绝对路径为`E://HugoWebsite/[Blog Folder name]/images/avatar.png`  
 
  > 图片压缩的快捷操作是用ffmpeg, 在cmd中切换到图片所在文件夹后，使用
- >
  > `ffmpeg -i input.jpg -vf “scale=1920:-1” output.jpg` 
- >
  > 就可以等比例调整图片大小，再也不用打开ps了
-~~~
+
 
 ##### 	作出修改
 
@@ -141,6 +138,79 @@ git push origin master
 
 ![favicon](/first_post/favicon.png)
 
+#### admonition用法
+
+一共12个样式，用起来很方便，这里用到了shortcodes的扩展
+
+```markdown
+{{</* admonition type=tip title="the name you want" open=true */>}}
+Write something here
+{{</* /admonition */>}}
+
+# 或者
+
+{{</* admonition tip "the name you want" true */>}}
+Write something here
+{{</* /admonition */>}}
+```
+
+{{<admonition note "Note" true >}}
+type = note
+{{< /admonition >}}
+
+{{<admonition abstract "Abstract" true >}}
+type = abstract
+{{< /admonition >}}
+
+{{<admonition info "Info" true >}}
+type = info
+{{< /admonition >}}
+
+{{<admonition tip "Tip" true >}}
+type = tip
+{{< /admonition >}}
+
+{{<admonition success "Success" true >}}
+type = success
+{{< /admonition >}}
+
+{{<admonition question "Question" true >}}
+type = question
+{{< /admonition >}}
+
+{{<admonition warning "Warning" true >}}
+type = warning
+{{< /admonition >}}
+
+{{<admonition failure "Failure" true >}}
+type = failure
+{{< /admonition >}}
+
+{{<admonition danger "Danger" true >}}
+type = danger
+{{< /admonition >}}
+
+{{<admonition bug "Bug" true >}}
+type = bug
+{{< /admonition >}}
+
+{{<admonition example "Example" true >}}
+type = example
+{{< /admonition >}}
+
+{{<admonition quote "Quote" true >}}
+type = quote
+{{< /admonition >}}
+
+#### 设置评论区
+
+评论区我用的是[Valine]^(简洁高效的无后端评论系统)，过程并不复杂，但也有容易忽视的bug
+
+1. 先在LeanCloud注册国际版账号，获取相关参数，这一步的具体操作可以看[Hugo个人博客添加Valine评论系统](https://shangzg.top/2021-10-19-hugo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/) 
+2. 在config文件里配置打开评论，注意要先打开评论，再打开valine的评论，填入appId, appKey, serverURLs，其他的参数参考[valine的官方文档](https://valine.js.org/configuration.html) 
+3. 这一步完了以后我天真地以为就出现评论了，但localhost的预览并没有，尝试了第一步里的链接中修改comment.html的操作，也没有生效，最后终于找到是因为hugo server默认环境是development, 而hugo 的默认环境是production
+4. 失败，回头再说
+
 ### 查阅文档
 
 * [Markdown基本语法](https://www.markdown.xyz/basic-syntax/) 和[Markdown速查表](https://www.markdown.xyz/cheat-sheet/)
@@ -154,8 +224,11 @@ git push origin master
 * [这个视频讲的很清楚了](https://www.bilibili.com/video/BV1x64y117PX?spm_id_from=333.337.search-card.all.click)
 * [Nanshu Wang的教程，主题不同，也有一些新的功能指南](http://nanshu.wang/post/2015-01-31/)
 * [雨临Lewis的主题美化和功能增强，超长文，值得研究](https://lewky.cn/posts/hugo-3.2.html/)
-* [八荒山人的博客，优化Hugo+LoveIt](https://www.bahuangshanren.tech/2021-2/#%E6%9C%AC%E5%9C%B0%E8%B0%83%E8%AF%95%E6%97%B6%E5%8A%A0%E8%BD%BD%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F)
+* [八荒山人的博客，优化Hugo+LoveIt](https://www.bahuangshanren.tech/2021-2/)
 * [风月的博客，Hugo的教程，也很长](https://kuang.netlify.app/blog/hugo.html)
+* [Hugo框架中文文档 短代码](https://www.andbible.com/post/hugo-content-management-shortcodes/)
+* [给Hugo个人博客添加Valine评论系统](https://shenshilei1022.gitee.io/post/e277/)
+* [Hugo搭建博客（一）— 基本设置](https://cloud.tencent.com/developer/article/1722255)
 
 ### 总结
 
