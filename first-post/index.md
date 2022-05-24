@@ -208,7 +208,7 @@ type = quote
 
 1. 先在LeanCloud注册国际版账号，获取相关参数，这一步的具体操作可以看[Hugo个人博客添加Valine评论系统](https://shangzg.top/2021-10-19-hugo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/) ，需要用到`AppID` `AppKey` `MasterKey` 三个参数
 
-2. 基于[Hugo系列(3.1) - LoveIt主题美化与博客功能增强 · 第二章](https://lewky.cn/posts/hugo-3.1.html/)  再加上前一天晚上失败的valine尝试，改为Waline+Vercel来作为评论系统，这篇文章讲的很清楚，注意修改的文件包括`config`里增加Waline相关的变量
+2. 基于[Hugo系列(3.1) - LoveIt主题美化与博客功能增强 · 第二章](https://lewky.cn/posts/hugo-3.1.html/)  再加上前一天晚上失败的valine尝试，改为Waline+Vercel来作为评论系统，这篇文章讲的很清楚，注意修改的文件包括`config`里增加Waline相关的变量，具体环境变量的配置可以参考[Waline的官方文档-主要配置](https://waline.js.org/reference/server.html#%E4%B8%BB%E8%A6%81%E9%85%8D%E7%BD%AE)
 
    ```toml
          # Waline comment config (https://waline.js.org/)
