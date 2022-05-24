@@ -204,70 +204,9 @@ type = quote
 
 #### 设置评论区
 
-评论区我用的是[Valine]^(简洁高效的无后端评论系统)，过程并不复杂，但也有容易忽视的bug
+评论区我尝试过gitalk, [Valine]^(简洁高效的无后端评论系统)，waline，每个都出现了一些小问题，valine是评论区始终不显示，而且据说容易被攻击；而waline则是评论区始终加载，或许是渲染上的冲突，实在没找到修改办法。
 
-1. 先在LeanCloud注册国际版账号，获取相关参数，这一步的具体操作可以看[Hugo个人博客添加Valine评论系统](https://shangzg.top/2021-10-19-hugo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/) ，需要用到`AppID` `AppKey` `MasterKey` 三个参数
 
-2. 基于[Hugo系列(3.1) - LoveIt主题美化与博客功能增强 · 第二章](https://lewky.cn/posts/hugo-3.1.html/)  再加上前一天晚上失败的valine尝试，改为Waline+Vercel来作为评论系统，这篇文章讲的很清楚，注意修改的文件包括`config`里增加Waline相关的变量，具体环境变量的配置可以参考[Waline的官方文档-主要配置](https://waline.js.org/reference/server.html#%E4%B8%BB%E8%A6%81%E9%85%8D%E7%BD%AE)
-
-   ```toml
-         # Waline comment config (https://waline.js.org/)
-         # Waline 评论系统设置 (https://waline.js.org/)
-         [params.page.comment.waline]
-           enable = true
-           #js = "https://cdn.jsdelivr.net/npm/@waline/client@latest"
-           js = "https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js"
-           meta = ['nick','mail','link']          # 评论者相关属性
-           requiredMeta = ['nick','mail']         # 设置必填项，默认匿名
-           login = "force"                        # 评论必须先登录，用于防护恶意攻击
-           placeholder = "Say hi.."     
-           serverURL = ""                		   # Waline的服务端地址（必填） 
-           #imageHosting =                        # 图床api，如果允许评论框上传图片
-           uploadImage = false                    # 评论上传图片功能
-           avatar = "hide"                       
-           avatarCDN = "https://sdn.geekzu.org/avatar/"           
-           pageSize = 20                          
-           lang = "zh-CN"                         # 多语言支持
-           visitor = true                         # 文章访问量统计
-           highlight = true                       # 代码高亮
-   
-   ```
-
-   然后我用的是LoveIt的主题，在根目录的layouts文件夹下并没有文件，这里需要创建partials和posts两个文件夹，在前者复制themes里layouts对应的comment.html，修改文件，在valine后面增加这样的代码块
-
-   ```html
-           {{- /* Waline Comment System */ -}}
-           {{- $waline := $comment.waline | default dict -}}
-           {{- if $waline.enable -}}
-               <div id="waline"></div>
-   			<script src='{{ $waline.js }}'></script>
-   
-   			<script>
-   		    	new Waline({
-   		    	  el: '#waline',
-   				  meta: {{ $waline.meta }},
-   		    	  requiredMeta: {{ $waline.requiredMeta }},
-   		    	  login: {{ $waline.login }},
-   				  placeholder: {{ $waline.placeholder }},
-   		    	  serverURL: {{ $waline.serverURL }},
-   		    	  avatarCDN: {{ $waline.avatarCDN }},
-   		    	  pageSize: {{ $waline.pageSize }},
-   		    	  avatar: {{ $waline.avatar }},
-   		    	  lang: {{ $waline.lang }},
-   				  visitor: {{ $waline.visitor }},
-   				  highlight: {{ $waline.highlight }},
-   				  uploadImage: {{ $waline.uploadImage }}				  
-   		    	});
-   		    </script>
-           {{- end -}}
-   
-   ```
-
-   在posts里复制`LoveIt/layouts/posts/single.html`，按上面的教程修改文件代码来增加评论统计，然后`/themes/LoveIt/exampleSite/assets/css/_custom.scss`增加对应代码
-
-3. 然后参考[[转] 使用Waline搭建博客评论系统](https://blog.h1msk.cc/2021/09/25/%E4%BD%BF%E7%94%A8Waline%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/) 部署vercel，完成后访问`<serverURL>/ui/register`注册，成为管理员，可以管理评论，serverURL就是vercel部署完成后可以看到的几个域名之一
-
-4. 这一步完了以后我天真地以为就出现评论了，但localhost的预览并没有，尝试了第一步里的链接中修改comment.html的操作，也没有生效，最后终于找到是因为hugo server默认环境是development, 而hugo 的默认环境是production
 
 ### 查阅文档
 
@@ -294,5 +233,6 @@ type = quote
 
 * 就目前来看，博客是具有实用性的，但市面少有好用的产品，或者是古旧的新浪博客，或者就是这种需要一定代码的方式，难度并不大，但对于对计算机陌生的新手来说还是有些复杂
 * 之后需要搞定切换主题和设置第二个库的方法，或许可以拿来做作品集网站
+* hugo server默认环境是development, 而hugo 的默认环境是production，值得注意
 
 

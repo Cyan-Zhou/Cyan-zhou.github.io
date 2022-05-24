@@ -28,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/Cyan-zhou.github.io\/first-post\/"
-        },"genre": "posts","keywords": "Blog","wordcount":  645 ,
+        },"genre": "posts","keywords": "Blog","wordcount":  428 ,
         "url": "https:\/\/Cyan-zhou.github.io\/first-post\/","datePublished": "2022-05-21T21:21:18+08:00","dateModified": "2022-05-22T21:23:33+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -116,13 +116,9 @@
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">hugo&#43;github page搭建博客备忘录</h1><div class="post-meta">
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;645 words
-                <i class="far fa-clock fa-fw"></i>&nbsp;4 minutes&nbsp;<span id="/first-post/" class="leancloud_visitors" data-flag-title="hugo&#43;github page搭建博客备忘录">
-                        <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
-                    </span>&nbsp;
-					<a href="#comments" id="post-meta-vcount" title="View Comments">
-						<i class="fas fa-comment fa-fw"></i>&nbsp;<span id="/first-post/" class="waline-comment-count"></span>&nbsp;������
-					</a></div>
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-category">included in <a href="/categories/blog/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Blog</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;428 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -508,121 +504,7 @@
         </div>
     </div>
 <h4 id="设置评论区">设置评论区</h4>
-<p>评论区我用的是<strong><ruby>Valine<rt>简洁高效的无后端评论系统</rt></ruby></strong>，过程并不复杂，但也有容易忽视的bug</p>
-<ol>
-<li>
-<p>先在LeanCloud注册国际版账号，获取相关参数，这一步的具体操作可以看<a href="https://shangzg.top/2021-10-19-hugo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/" target="_blank" rel="noopener noreffer">Hugo个人博客添加Valine评论系统</a> ，需要用到<code>AppID</code> <code>AppKey</code> <code>MasterKey</code> 三个参数</p>
-</li>
-<li>
-<p>基于<a href="https://lewky.cn/posts/hugo-3.1.html/" target="_blank" rel="noopener noreffer">Hugo系列(3.1) - LoveIt主题美化与博客功能增强 · 第二章</a>  再加上前一天晚上失败的valine尝试，改为Waline+Vercel来作为评论系统，这篇文章讲的很清楚，注意修改的文件包括<code>config</code>里增加Waline相关的变量，具体环境变量的配置可以参考<a href="https://waline.js.org/reference/server.html#%E4%B8%BB%E8%A6%81%E9%85%8D%E7%BD%AE" target="_blank" rel="noopener noreffer">Waline的官方文档-主要配置</a></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl">      <span class="c"># Waline comment config (https://waline.js.org/)</span>
-</span></span><span class="line"><span class="cl">      <span class="c"># Waline 评论系统设置 (https://waline.js.org/)</span>
-</span></span><span class="line"><span class="cl">      <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">page</span><span class="p">.</span><span class="nx">comment</span><span class="p">.</span><span class="nx">waline</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">        <span class="nx">enable</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">        <span class="c">#js = &#34;https://cdn.jsdelivr.net/npm/@waline/client@latest&#34;</span>
-</span></span><span class="line"><span class="cl">        <span class="nx">js</span> <span class="p">=</span> <span class="s2">&#34;https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js&#34;</span>
-</span></span><span class="line"><span class="cl">        <span class="nx">meta</span> <span class="p">=</span> <span class="p">[</span><span class="s1">&#39;nick&#39;</span><span class="p">,</span><span class="s1">&#39;mail&#39;</span><span class="p">,</span><span class="s1">&#39;link&#39;</span><span class="p">]</span>          <span class="c"># 评论者相关属性</span>
-</span></span><span class="line"><span class="cl">        <span class="nx">requiredMeta</span> <span class="p">=</span> <span class="p">[</span><span class="s1">&#39;nick&#39;</span><span class="p">,</span><span class="s1">&#39;mail&#39;</span><span class="p">]</span>         <span class="c"># 设置必填项，默认匿名</span>
-</span></span><span class="line"><span class="cl">        <span class="nx">login</span> <span class="p">=</span> <span class="s2">&#34;force&#34;</span>                        <span class="c"># 评论必须先登录，用于防护恶意攻击</span>
-</span></span><span class="line"><span class="cl">        <span class="nx">placeholder</span> <span class="p">=</span> <span class="s2">&#34;Say hi..&#34;</span>     
-</span></span><span class="line"><span class="cl">        <span class="nx">serverURL</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>                		   <span class="c"># Waline的服务端地址（必填） </span>
-</span></span><span class="line"><span class="cl">        <span class="c">#imageHosting =                        # 图床api，如果允许评论框上传图片</span>
-</span></span><span class="line"><span class="cl">        <span class="nx">uploadImage</span> <span class="p">=</span> <span class="kc">false</span>                    <span class="c"># 评论上传图片功能</span>
-</span></span><span class="line"><span class="cl">        <span class="nx">avatar</span> <span class="p">=</span> <span class="s2">&#34;hide&#34;</span>                       
-</span></span><span class="line"><span class="cl">        <span class="nx">avatarCDN</span> <span class="p">=</span> <span class="s2">&#34;https://sdn.geekzu.org/avatar/&#34;</span>           
-</span></span><span class="line"><span class="cl">        <span class="nx">pageSize</span> <span class="p">=</span> <span class="mi">20</span>                          
-</span></span><span class="line"><span class="cl">        <span class="nx">lang</span> <span class="p">=</span> <span class="s2">&#34;zh-CN&#34;</span>                         <span class="c"># 多语言支持</span>
-</span></span><span class="line"><span class="cl">        <span class="nx">visitor</span> <span class="p">=</span> <span class="kc">true</span>                         <span class="c"># 文章访问量统计</span>
-</span></span><span class="line"><span class="cl">        <span class="nx">highlight</span> <span class="p">=</span> <span class="kc">true</span>                       <span class="c"># 代码高亮</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>然后我用的是LoveIt的主题，在根目录的layouts文件夹下并没有文件，这里需要创建partials和posts两个文件夹，在前者复制themes里layouts对应的comment.html，修改文件，在valine后面增加这样的代码块</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">        {{- /* Waline Comment System */ -}}
-</span></span><span class="line"><span class="cl">        {{- $waline := $comment.waline | default dict -}}
-</span></span><span class="line"><span class="cl">        {{- if $waline.enable -}}
-</span></span><span class="line"><span class="cl">            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;waline&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">			<span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#39;{{ $waline.js }}&#39;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">			<span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">		    	<span class="k">new</span> <span class="nx">Waline</span><span class="p">({</span>
-</span></span><span class="line"><span class="cl">		    	  <span class="nx">el</span><span class="o">:</span> <span class="s1">&#39;#waline&#39;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">				  <span class="nx">meta</span><span class="o">:</span> <span class="p">{{</span> <span class="nx">$waline</span><span class="p">.</span><span class="nx">meta</span> <span class="p">}},</span>
-</span></span><span class="line"><span class="cl">		    	  <span class="nx">requiredMeta</span><span class="o">:</span> <span class="p">{{</span> <span class="nx">$waline</span><span class="p">.</span><span class="nx">requiredMeta</span> <span class="p">}},</span>
-</span></span><span class="line"><span class="cl">		    	  <span class="nx">login</span><span class="o">:</span> <span class="p">{{</span> <span class="nx">$waline</span><span class="p">.</span><span class="nx">login</span> <span class="p">}},</span>
-</span></span><span class="line"><span class="cl">				  <span class="nx">placeholder</span><span class="o">:</span> <span class="p">{{</span> <span class="nx">$waline</span><span class="p">.</span><span class="nx">placeholder</span> <span class="p">}},</span>
-</span></span><span class="line"><span class="cl">		    	  <span class="nx">serverURL</span><span class="o">:</span> <span class="p">{{</span> <span class="nx">$waline</span><span class="p">.</span><span class="nx">serverURL</span> <span class="p">}},</span>
-</span></span><span class="line"><span class="cl">		    	  <span class="nx">avatarCDN</span><span class="o">:</span> <span class="p">{{</span> <span class="nx">$waline</span><span class="p">.</span><span class="nx">avatarCDN</span> <span class="p">}},</span>
-</span></span><span class="line"><span class="cl">		    	  <span class="nx">pageSize</span><span class="o">:</span> <span class="p">{{</span> <span class="nx">$waline</span><span class="p">.</span><span class="nx">pageSize</span> <span class="p">}},</span>
-</span></span><span class="line"><span class="cl">		    	  <span class="nx">avatar</span><span class="o">:</span> <span class="p">{{</span> <span class="nx">$waline</span><span class="p">.</span><span class="nx">avatar</span> <span class="p">}},</span>
-</span></span><span class="line"><span class="cl">		    	  <span class="nx">lang</span><span class="o">:</span> <span class="p">{{</span> <span class="nx">$waline</span><span class="p">.</span><span class="nx">lang</span> <span class="p">}},</span>
-</span></span><span class="line"><span class="cl">				  <span class="nx">visitor</span><span class="o">:</span> <span class="p">{{</span> <span class="nx">$waline</span><span class="p">.</span><span class="nx">visitor</span> <span class="p">}},</span>
-</span></span><span class="line"><span class="cl">				  <span class="nx">highlight</span><span class="o">:</span> <span class="p">{{</span> <span class="nx">$waline</span><span class="p">.</span><span class="nx">highlight</span> <span class="p">}},</span>
-</span></span><span class="line"><span class="cl">				  <span class="nx">uploadImage</span><span class="o">:</span> <span class="p">{{</span> <span class="nx">$waline</span><span class="p">.</span><span class="nx">uploadImage</span> <span class="p">}}</span>				  
-</span></span><span class="line"><span class="cl">		    	<span class="p">});</span>
-</span></span><span class="line"><span class="cl">		    <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">        {{- end -}}
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>在posts里复制<code>LoveIt/layouts/posts/single.html</code>，按上面的教程修改文件代码来增加评论统计，然后<code>/themes/LoveIt/exampleSite/assets/css/_custom.scss</code>增加对应代码</p>
-</li>
-<li>
-<p>然后参考<a href="https://blog.h1msk.cc/2021/09/25/%E4%BD%BF%E7%94%A8Waline%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/" target="_blank" rel="noopener noreffer">[转] 使用Waline搭建博客评论系统</a> 部署vercel，完成后访问<code>&lt;serverURL&gt;/ui/register</code>注册，成为管理员，可以管理评论，serverURL就是vercel部署完成后可以看到的几个域名之一</p>
-</li>
-<li>
-<p>这一步完了以后我天真地以为就出现评论了，但localhost的预览并没有，尝试了第一步里的链接中修改comment.html的操作，也没有生效，最后终于找到是因为hugo server默认环境是development, 而hugo 的默认环境是production</p>
-</li>
-</ol>
+<p>评论区我尝试过gitalk, <strong><ruby>Valine<rt>简洁高效的无后端评论系统</rt></ruby></strong>，waline，每个都出现了一些小问题，valine是评论区始终不显示，而且据说容易被攻击；而waline则是评论区始终加载，或许是渲染上的冲突，实在没找到修改办法。</p>
 <h3 id="查阅文档">查阅文档</h3>
 <ul>
 <li><a href="https://www.markdown.xyz/basic-syntax/" target="_blank" rel="noopener noreffer">Markdown基本语法</a> 和<a href="https://www.markdown.xyz/cheat-sheet/" target="_blank" rel="noopener noreffer">Markdown速查表</a></li>
@@ -648,6 +530,7 @@
 <ul>
 <li>就目前来看，博客是具有实用性的，但市面少有好用的产品，或者是古旧的新浪博客，或者就是这种需要一定代码的方式，难度并不大，但对于对计算机陌生的新手来说还是有些复杂</li>
 <li>之后需要搞定切换主题和设置第二个库的方法，或许可以拿来做作品集网站</li>
+<li>hugo server默认环境是development, 而hugo 的默认环境是production，值得注意</li>
 </ul></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -674,26 +557,20 @@
     <div class="post-nav">
             <a href="/the_republic_reading_note/" class="next" rel="next" title="The Republic - Plato Notes">The Republic - Plato Notes<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
-<div id="comments"><div id="waline"></div>
-			<script src='https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
-
-			<script>
-		    	new Waline({
-		    	  el: '#waline',
-				  meta: ["nick","mail","link"],
-		    	  requiredMeta: ["nick","mail"],
-		    	  login: "force",
-				  placeholder: "Say hi...",
-		    	  serverURL: "https://blog-comment-jszaybru3-cyan-zhou.vercel.app/",
-		    	  pageSize:  20 ,
-		    	  avatar: "hide",
-		    	  lang: "zh-CN",
-				  visitor:  true ,
-				  highlight:  true ,
-				  uploadImage:  false ,
-				  emoji: ['//unpkg.com/@waline/emojis@1.0.1/tw-emoji']
-		    	});
-		    </script></div></article></div>
+<script src="https://giscus.app/client.js"
+        data-repo="Cyan-Zhou/blog_comment"
+        data-repo-id="R_kgDOHY8H8w"
+        data-category="[在此输入分类名]"
+        data-category-id="[在此输入分类 ID]"
+        data-mapping="pathname"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script></article></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.99.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
                 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Cyan Zhou</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
@@ -705,5 +582,5 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>
