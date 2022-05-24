@@ -229,6 +229,8 @@ type = quote
 * [Hugo框架中文文档 短代码](https://www.andbible.com/post/hugo-content-management-shortcodes/)
 * [给Hugo个人博客添加Valine评论系统](https://shenshilei1022.gitee.io/post/e277/)
 * [Hugo搭建博客（一）— 基本设置](https://cloud.tencent.com/developer/article/1722255)
+* [[转] 使用Waline搭建博客评论系统](https://blog.h1msk.cc/2021/09/25/%E4%BD%BF%E7%94%A8Waline%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/) 写了很详细的vercel配置指南
+* [Hugo系列(3.1) - LoveIt主题美化与博客功能增强 · 第二章](https://lewky.cn/posts/hugo-3.1.html/) Waline替代Valine的评论系统
 
 ### 总结
 

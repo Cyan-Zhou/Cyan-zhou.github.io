@@ -28,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/Cyan-zhou.github.io\/first-post\/"
-        },"genre": "posts","keywords": "Blog","wordcount":  423 ,
+        },"genre": "posts","keywords": "Blog","wordcount":  432 ,
         "url": "https:\/\/Cyan-zhou.github.io\/first-post\/","datePublished": "2022-05-21T21:21:18+08:00","dateModified": "2022-05-22T21:23:33+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -116,9 +116,13 @@
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">hugo&#43;github page搭建博客备忘录</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-category">included in <a href="/categories/blog/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Blog</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;423 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;432 words
+                <i class="far fa-clock fa-fw"></i>&nbsp;3 minutes&nbsp;<span id="/first-post/" class="leancloud_visitors" data-flag-title="hugo&#43;github page搭建博客备忘录">
+                        <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
+                    </span>&nbsp;
+					<a href="#comments" id="post-meta-vcount" title="View Comments">
+						<i class="fas fa-comment fa-fw"></i>&nbsp;<span id="/first-post/" class="waline-comment-count"></span>&nbsp;������
+					</a></div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -529,6 +533,8 @@
 <li><a href="https://www.andbible.com/post/hugo-content-management-shortcodes/" target="_blank" rel="noopener noreffer">Hugo框架中文文档 短代码</a></li>
 <li><a href="https://shenshilei1022.gitee.io/post/e277/" target="_blank" rel="noopener noreffer">给Hugo个人博客添加Valine评论系统</a></li>
 <li><a href="https://cloud.tencent.com/developer/article/1722255" target="_blank" rel="noopener noreffer">Hugo搭建博客（一）— 基本设置</a></li>
+<li><a href="https://blog.h1msk.cc/2021/09/25/%E4%BD%BF%E7%94%A8Waline%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/" target="_blank" rel="noopener noreffer">[转] 使用Waline搭建博客评论系统</a> 写了很详细的vercel配置指南</li>
+<li><a href="https://lewky.cn/posts/hugo-3.1.html/" target="_blank" rel="noopener noreffer">Hugo系列(3.1) - LoveIt主题美化与博客功能增强 · 第二章</a> Waline替代Valine的评论系统</li>
 </ul>
 <h3 id="总结">总结</h3>
 <ul>
@@ -560,7 +566,27 @@
     <div class="post-nav">
             <a href="/the_republic_reading_note/" class="next" rel="next" title="The Republic - Plato Notes">The Republic - Plato Notes<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
-<div id="comments"></div></article></div>
+<div id="comments"><div id="waline"></div>
+			<script src='https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
+
+			<script>
+		    	new Waline({
+		    	  el: '#waline',
+				  meta: ["nick","mail","link"],
+		    	  requiredMeta: ["nick","mail"],
+		    	  login: "force",
+				  placeholder: "Say hi...",
+		    	  serverURL: "https://blog-comment-api-cyan-zhou.vercel.app",
+		    	  avatarCDN: "https://sdn.geekzu.org/avatar/",
+		    	  pageSize:  20 ,
+		    	  avatar: "retro",
+		    	  lang: "zh-CN",
+				  visitor:  true ,
+				  highlight:  true ,
+				  uploadImage:  false ,
+				  emoji: ['//unpkg.com/@waline/emojis@1.0.1/tw-emoji']
+		    	});
+		    </script></div></article></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.99.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
                 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Cyan Zhou</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
