@@ -204,9 +204,13 @@ type = quote
 
 #### 设置评论区
 
-评论区我尝试过gitalk, [Valine]^(简洁高效的无后端评论系统)，waline，每个都出现了一些小问题，valine是评论区始终不显示，而且据说容易被攻击；而waline则是评论区始终加载，或许是渲染上的冲突，实在没找到修改办法。
+评论区我尝试过gitalk, [Valine]^(简洁高效的无后端评论系统)，waline，每个都出现了一些小问题，valine是评论区始终不显示，而且据说容易被攻击；而waline则是评论区始终加载，或许是渲染上的冲突，实在没找到修改办法。本来我是想做可以免注册或者只需要简易注册的评论系统，但问题太多。本意是考虑到GitHub可能并不是人人都有，但没有办法，最后只好选择GitHub托管的评论插件giscus，不过giscus非常好用，基本十分钟设置完成。
 
+1. 在Github上新建公开仓库，参考[GitHub Discussions 快速入门](https://docs.github.com/cn/discussions/quickstart) 在repository &rarr; Settings &rarr; Features &rarr; Set up discussions &rarr; Start a new discussion
+2. 安装[giscus](https://github.com/apps/giscus) 可以配置只选择存放评论的仓库，在[giscus配置页面](https://giscus.app/zh-CN) 设置你的偏好，用来生成需要的代码，`仓库` 填写`username/repository_name` ，`页面discussion映射关系` 选择`pathname`，分类就是默认的`announcements ` 然后复制下面的代码，注意`data-repo` `data-repo-id` `data-category` `data-category-id`有没有自动生成
+3. 在根目录的`/layouts/partials/`新建`comment.html` （其他主题有可能是comment，查看主题文档即可）把第二步生成的代码复制进去
 
+ 
 
 ### 查阅文档
 
@@ -228,6 +232,12 @@ type = quote
 * [Hugo搭建博客（一）— 基本设置](https://cloud.tencent.com/developer/article/1722255)
 * [[转] 使用Waline搭建博客评论系统](https://blog.h1msk.cc/2021/09/25/%E4%BD%BF%E7%94%A8Waline%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/) 写了很详细的vercel配置指南
 * [Hugo系列(3.1) - LoveIt主题美化与博客功能增强 · 第二章](https://lewky.cn/posts/hugo-3.1.html/) Waline替代Valine的评论系统
+* [博客评论系统从 Utterances 迁移到 Giscus](https://www.dejavu.moe/posts/utterances-to-giscus/#fnref:3)
+* [迁移博客评论系统从Utteranc.es到Giscus](https://agou-ops.cn/myBlog-2/post/%E8%BF%81%E7%A7%BB%E5%8D%9A%E5%AE%A2%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E5%88%B0giscus/)
+* [Hugo Plugin Giscus Support](https://xwi88.com/hugo-plugin-giscus-support/)
+* [手把手教你如何用Hugo构建个人静态博客(六)](https://zhuyinjun.me/2020/how-to-setup-blog-by-hugo-6/#%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F-giscus) 另一种方法引入giscus
+* [Hugo的文件配置和博客功能增强(一)](https://www.yexxweb.com/hugo_conf/) 修改`_custom.scss`的方法美化LoveIt
+* [博客搭建过程（二）](https://www.cuichacha.site/process-of-building-the-blog-2.html/) 
 
 ### 总结
 
