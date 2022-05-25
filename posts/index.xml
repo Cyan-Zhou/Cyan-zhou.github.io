@@ -9,17 +9,18 @@
     <pubDate>Sun, 22 May 2022 23:45:39 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
     <guid>https://Cyan-zhou.github.io/the_republic_reading_note/</guid>
-    <description><![CDATA[Part I Introduction 1. Prelude 苏格拉底和Glaucon(Ariston的儿子)去Piraeus的班迪斯女神祭典上祈祷，在返回途中遇到Cephalus的儿子Polemarchus，Glaucon的兄弟Adeimantus，Nicias的儿子Niceratus等人。Polemarchus向苏格拉底邀约：
-327c&lsquo;Well, you will either have to get the better of us or stay here.&rsquo; &lsquo;Oh, but there&rsquo;s another alternative,&rsquo; said I. &lsquo;We might persuade you that you ought to let us go.&rsquo; &lsquo;You can&rsquo;t persuade people who won&rsquo;t listen,&rsquo; he replied. 注释从卫城去Piraeus是向下走，普罗克洛将本篇第一个词κατέβην&quot;向下走&quot;解析为本篇”穴喻“的暗示 苏格拉底应约前往晚上的庆典。在场的还有Polemarchus的兄弟Lysias，Euthydemus， Chalcedon的Thrasymachus， Paeania的Charmantides，Aristonymus的儿子Cleitophon，以及Polemarchus的父亲Cephalus。Cephalus是一个谦逊的老人，告诉苏格拉底他厌倦了繁华和理性的对话，但苏格拉底说他更希望和老人们对话。Cephalus是这样说的，多数老人哀叹衰老带来的失落，但他不这样认为，他举例索福克勒斯在被问到有关性的话题时，他说
-329d“Don’t talk about that; I am glad to have left it behind me and escaped from a fierce and frenzied master.]]></description>
+    <description><![CDATA[阅读版本阅读的英文版是企鹅出版社2007年出版的 The Republic ，Desmond Lee 翻译；同时对照人民出版社2017年王晓朝译本的增订版，后者直接基于希腊文文本翻译，并且有比较丰富的注释。
+这个笔记的目的是详细记录 The Republic 的阅读感受和章节内容，这是因为我之前阅读了一小部分，但不做笔记的话，太容易遗忘和走神，对话的形式让人很容易从理解变成浏览，所以打算记录故事的内容，并且写一些个人的感受，难以算为文章，更像是流水账式的读书笔记。先为不好的阅读感受道歉。
+ Part I Introduction 1. Prelude 苏格拉底和 Glaucon ( Ariston 的儿子)去 Piraeus 的班迪斯女神祭典上祈祷，在返回途中遇到 Cephalus 的儿子 Polemarchus，Glaucon 的兄弟 Adeimantus ，Nicias 的儿子 Niceratus 等人。Polemarchus 向苏格拉底邀约：
+327c&lsquo;Well, you will either have to get the better of us or stay here.&rsquo; &lsquo;Oh, but there&rsquo;s another alternative,&rsquo; said I. &lsquo;We might persuade you that you ought to let us go.]]></description>
 </item>
 <item>
-    <title>hugo&#43;github page搭建博客备忘录</title>
+    <title> Hugo &#43; GitHub Pages 搭建博客备忘录</title>
     <link>https://Cyan-zhou.github.io/first-post/</link>
     <pubDate>Sat, 21 May 2022 21:21:18 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
     <guid>https://Cyan-zhou.github.io/first-post/</guid>
-    <description><![CDATA[汇总了一些操作过程中的bug，另外记录一些常用操作免得忘记]]></description>
+    <description><![CDATA[汇总了一些操作过程中遇到的问题，另外记录一些常用操作免得忘记]]></description>
 </item>
 </channel>
 </rss>
