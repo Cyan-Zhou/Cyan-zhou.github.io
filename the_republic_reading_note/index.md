@@ -1,5 +1,7 @@
-# The Republic - Plato Notes
+# The Republic - Plato 读书笔记
 
+
+<!--more-->
 
 {{< admonition type=info title="阅读版本" open=true >}}
 阅读的英文版是企鹅出版社2007年出版的 *The Republic* ，Desmond Lee 翻译；同时对照人民出版社2017年王晓朝译本的增订版，后者直接基于希腊文文本翻译，并且有比较丰富的注释。
@@ -194,5 +196,5 @@ But tell me, do you think that the rulers of states (rulers in the true sense, t
 
 {{< /admonition >}}
 
-持续更新...
+持续更新..
 

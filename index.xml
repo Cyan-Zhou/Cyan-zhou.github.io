@@ -3,18 +3,23 @@
         <title>Cyan Zhou</title>
         <link>https://Cyan-zhou.github.io/</link>
         <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 22 May 2022 23:45:39 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 26 May 2022 21:09:47 &#43;0800</lastBuildDate>
             <atom:link href="https://Cyan-zhou.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>The Republic - Plato Notes</title>
+    <title>Application Memo 2022</title>
+    <link>https://Cyan-zhou.github.io/application_2022/</link>
+    <pubDate>Thu, 26 May 2022 21:09:47 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>https://Cyan-zhou.github.io/application_2022/</guid>
+    <description><![CDATA[Collection of interesting programs]]></description>
+</item>
+<item>
+    <title>The Republic - Plato 读书笔记</title>
     <link>https://Cyan-zhou.github.io/the_republic_reading_note/</link>
     <pubDate>Sun, 22 May 2022 23:45:39 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
     <guid>https://Cyan-zhou.github.io/the_republic_reading_note/</guid>
-    <description><![CDATA[阅读版本阅读的英文版是企鹅出版社2007年出版的 The Republic ，Desmond Lee 翻译；同时对照人民出版社2017年王晓朝译本的增订版，后者直接基于希腊文文本翻译，并且有比较丰富的注释。
-这个笔记的目的是详细记录 The Republic 的阅读感受和章节内容，这是因为我之前阅读了一小部分，但不做笔记的话，太容易遗忘和走神，对话的形式让人很容易从理解变成浏览，所以打算记录故事的内容，并且写一些个人的感受，难以算为文章，更像是流水账式的读书笔记。先为不好的阅读感受道歉。
- Part I Introduction 1. Prelude 苏格拉底和 Glaucon ( Ariston 的儿子)去 Piraeus 的班迪斯女神祭典上祈祷，在返回途中遇到 Cephalus 的儿子 Polemarchus，Glaucon 的兄弟 Adeimantus ，Nicias 的儿子 Niceratus 等人。Polemarchus 向苏格拉底邀约：
-327c&lsquo;Well, you will either have to get the better of us or stay here.&rsquo; &lsquo;Oh, but there&rsquo;s another alternative,&rsquo; said I. &lsquo;We might persuade you that you ought to let us go.]]></description>
+    <description><![CDATA[流水账式记录《国家篇》内容理解]]></description>
 </item>
 <item>
     <title> Hugo &#43; GitHub Pages 搭建博客备忘录</title>

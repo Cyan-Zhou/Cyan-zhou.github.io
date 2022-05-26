@@ -140,7 +140,7 @@ git push origin master
 2. 把package里的东西解压到`/themes/LoveIt/exampleSite/static/` （不同主题可能路径不同，我也是试了很多次，只要找到每个 `static` 不停地试就差不多），官方文档里只需要放在 `/static` 目录，不过我失败了，不知道是什么问题。至于底下这段代码，[Bright's Blog](https://ibrights.github.io/post/blog20210527/) 说可以复制到某个html文件里，但 `LoveIt` 不需要，如果用前面的步骤没有显示也可以试试
 3. 最后 `Hugo Server -D` 察看有没有更改成功就好了
 
-![favicon](/first_post/favicon.png)
+<a data-fancybox="gallery" href="/first_post/favicon.png"><img src="/first_post/favicon.png"></a>
 
 #### admonition用法
 
@@ -245,11 +245,159 @@ Markdown 语法并不注重排版，所以图片设置中经常会出现各种�
 </center>
 ```
 
+#### 图片放大功能
+
+LoveIt内置了 Lightgallery 的设置，但是不知道是不是长期没有维护的原因（作者最近突然打算开始维护了！），即便在  `config.toml` 中打开 Lightgallery 也并不会打开图片放大功能。后来参考[Github Pages + Hugo 搭建个人博客](https://zz2summer.github.io/github-pages-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/#%E5%85%AB%E7%BB%86%E8%8A%82%E4%BC%98%E5%8C%96) 大佬用 `jqury` 和 `fancybox` 实现了简单的图片放大效果。
+
+1. 把主题中 `/themes/LoveIt/layouts/partials/footer.html` 复制到根目录下 `/layouts/partials/` 然后在最后加上：
+
+   ```html
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+   
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+   ```
+
+2. 每次增加图片的时候修改一下代码，在插入图片的位置使用
+
+   ```html
+   <a data-fancybox="gallery" href="/pic_dir/picname.png"><img src="/pic_dir/picname.png"></a>
+   ```
 
 
-**单张居中**
+#### 访客统计功能
 
-**单张居中**
+统计文章阅读次数用插件 busuanzi 就可以实现，[Hugo 网站访问计数插件不蒜子集成](https://xwi88.com/hugo-plugin-busuanzi/) 这个教程讲的很详细，有以下几个需要配置的地方。
+
+1. 配置文件修改
+
+   ```toml
+    # xwi88 自定义配置 xwi88Cfg
+   [params.xwi88Cfg]
+     [params.xwi88Cfg.summary]
+       update = true # summary 更新日期显示
+     [params.xwi88Cfg.page]
+       update = true # pages 更新日期显示
+     [params.xwi88Cfg.busuanzi]
+       enable = true
+       # custom uv for the whole site
+       site_uv = true
+       site_uv_pre = '<i class="fa fa-user"></i>' # 字符或提示语
+       site_uv_post = ''
+       # custom pv for the whole site
+       site_pv = true
+       site_pv_pre = '<i class="fa fa-eye"></i>'
+       # site_pv_post = '<i class="far fa-eye fa-fw"></i>'
+       site_pv_post = ''
+       # custom pv span for one page only
+       page_pv = true
+       page_pv_pre = '<i class="far fa-eye fa-fw"></i>'
+       page_pv_post = ''
+   
+   ```
+
+2. 在根目录 `/layouts/` 从主题文件复制对应文件到 `/layouts/_default/summary.html` , `/layouts/partials/footer.html` ， `/layouts/partials/plugin/busuanzi.html`（新建)，`/layouts/posts/single.html` 接下来逐一修改
+
+3. 在 `/layouts/_default/summary.html` 文件中
+
+   ```html
+   # 基于原有的时间格式修改，首先删除原有日期显示
+   #{{- with .Site.Params.dateFormat | default "2006-01-02" | .Lastmod.Format -}}
+   #&nbsp;<span class="post-publish">
+   	{{- printf `<time datetime="%v">%v</time>` . . | dict "Date" | T #"updatedOnDateLower" | safeHTML -}}
+   #</span>
+   #然后增加 xwi88 的配置
+   {{- /* xwi88 config */ -}}
+   {{- if .Site.Params.xwi88Cfg.summary.update -}}
+   	{{- with .Site.Params.dateFormat | default "2006-01-02" | .Lastmod.Format -}}
+   	&nbsp;<span class="post-publish">
+   		{{- printf `<time datetime="%v">%v</time>` . . | dict "Date" | T "updatedOnDateLower" | safeHTML -}}
+   	</span>
+   		{{- end -}}
+   	{{- end -}}
+   ```
+
+4.  在 `/layouts/partials/footer.html ` 文件中
+
+   ```html
+   #在代码块主题插入两行代码调用插件
+   {{- /* busuanzi plugin */ -}}
+   {{- partial "plugin/busuanzi.html" (dict "params" .Site.Params.xwi88Cfg.busuanzi "bsz_type" "footer") -}}
+   ```
+
+5. 在 `/layouts/partials/plugin/busuanzi.html` 文件中
+
+   ```html
+   {{ if .params.enable }}
+       {{ if eq .bsz_type "footer" }}
+           {{/* 只有 footer 才刷新，防止页面进行多次调用，计数重复; 只要启用就计数，显示与否看具体设置 */}}
+           <script async src=" //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js "></script>
+       {{ end }}
+   
+       {{ if or (eq .params.site_pv true) (eq .params.site_uv true) (eq .params.page_pv true) }}
+           {{ if eq .bsz_type "footer" }}
+               <section>
+                   {{ if eq .params.site_pv true }}
+                       <span id="busuanzi_container_value_site_pv">
+                           {{- with .params.page_pv_pre -}}
+                               {{ . | safeHTML }}
+                           {{ end }}
+                           <span id="busuanzi_value_site_pv"></span>
+                       </span>
+                   {{ end }}
+   
+                   {{ if and (eq .params.site_pv true) (eq .params.site_uv true) }}
+                       &nbsp;|&nbsp;              
+                   {{ end }}
+   
+                   {{ if eq .params.site_uv true }}
+                       <span id="busuanzi_container_value_site_uv">
+                           {{- with .params.site_uv_pre -}}
+                               {{ . | safeHTML }}
+                           {{ end }}
+                           <span id="busuanzi_value_site_uv"></span>
+                       </span>
+                   {{ end }}
+               </section>
+           {{ end }}
+   
+           {{/*  page pv 只在 page 显示  */}}
+           {{ if and (eq .params.page_pv true) (eq .bsz_type "page-reading") }}
+               <span id="busuanzi_container_value_page_pv">
+                   {{- with .params.page_pv_pre -}}
+                       {{ . | safeHTML }}
+                   {{ end }}
+                   <span id="busuanzi_value_page_pv"></span>&nbsp;
+                   {{- T "views" -}}
+               </span>
+           {{ end }}
+       {{ end }}
+   {{ end }}
+   
+   ```
+
+   
+
+6. 在 `/layouts/posts/single.html` 文件中
+
+   ```html
+   # 类似第三步，先删除这两行
+   # {{- with .Site.Params.dateformat | default "2006-01-02" | .Lastmod.Format -}}
+   # <i class="far fa-calendar-check fa-fw"></i>&nbsp;<time datetime="{{ . }}">{{ . }}</time>&nbsp;
+   # 然后复制以下内容
+   {{- /* xwi88 config */ -}}
+   {{- if .Site.Params.xwi88Cfg.page.update -}}
+   	{{- with .Site.Params.dateformat | default "2006-01-02" | .Lastmod.Format -}}
+   	<i class="far fa-calendar-check fa-fw"></i>&nbsp;<time datetime="{{ . }}">{{ . }}</time>&nbsp;
+   	{{- end -}}
+   {{- end -}}
+   
+   # 此后两行后，增加
+   {{- /* busuanzi plugin */ -}}
+   {{- partial "plugin/busuanzi.html" (dict "params" .Site.Params.xwi88Cfg.busuanzi "bsz_type" "page-reading") -}}
+   ```
+
+   
 
 ### 查阅文档
 
@@ -259,13 +407,13 @@ Markdown 语法并不注重排版，所以图片设置中经常会出现各种�
 
 ### Reference
 
-* [Github Pages + Hugo 搭建个人博客](https://zz2summer.github.io/github-pages-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/#%E5%85%AB%E7%BB%86%E8%8A%82%E4%BC%98%E5%8C%96) 渣渣的夏天的搭建教程，很详细
+* [Github Pages + Hugo 搭建个人博客](https://zz2summer.github.io/github-pages-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/#%E5%85%AB%E7%BB%86%E8%8A%82%E4%BC%98%E5%8C%96) 搭建教程
 * [用Git Pages加Hugo搭建个人博客全记录](https://z24z.com/post/2021/github-pages-for-blog/) 讲了域名的流程以及切换到 `docs` 的好处，之后再看
 * [如何利用 GitHub Pages 和 Hugo 轻松搭建个人博客？](https://zhuanlan.zhihu.com/p/57361697) 评论值得一看，可能会有一些问题的解答
-* [Hugo - 10分钟搭建 & 部署个人网站/博客，简历中的博客网站怎么建](https://www.bilibili.com/video/BV1x64y117PX?spm_id_from=333.337.search-card.all.click) 这个视频讲的很清楚了
+* [Hugo - 10分钟搭建 & 部署个人网站/博客，简历中的博客网站怎么建](https://www.bilibili.com/video/BV1x64y117PX?spm_id_from=333.337.search-card.all.click) 视频
 * [Hugo静态网站生成器中文教程](http://nanshu.wang/post/2015-01-31/) 主题不同，也有一些新的功能指南
 * [Hugo系列(3.2) - LoveIt主题美化与博客功能增强 · 第三章](https://lewky.cn/posts/hugo-3.2.html/) 超长文，值得研究
-* [Hugo+Loveit优化记](https://www.bahuangshanren.tech/2021-2/) 八荒山人的博客，优化 Hugo + LoveIt
+* [Hugo+Loveit优化记](https://www.bahuangshanren.tech/2021-2/) 优化 Hugo + LoveIt
 * [风月的博客，Hugo的教程，也很长](https://kuang.netlify.app/blog/hugo.html)
 * [Hugo框架中文文档 短代码](https://www.andbible.com/post/hugo-content-management-shortcodes/)
 * [给Hugo个人博客添加Valine评论系统](https://shenshilei1022.gitee.io/post/e277/)
@@ -276,11 +424,12 @@ Markdown 语法并不注重排版，所以图片设置中经常会出现各种�
 * [迁移博客评论系统从Utteranc.es到Giscus](https://agou-ops.cn/myBlog-2/post/%E8%BF%81%E7%A7%BB%E5%8D%9A%E5%AE%A2%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E5%88%B0giscus/)
 * [Hugo Plugin Giscus Support](https://xwi88.com/hugo-plugin-giscus-support/)
 * [手把手教你如何用Hugo构建个人静态博客(六)](https://zhuyinjun.me/2020/how-to-setup-blog-by-hugo-6/#%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F-giscus) 另一种方法引入 giscus
-* [Hugo的文件配置和博客功能增强(一)](https://www.yexxweb.com/hugo_conf/) 修改`_custom.scss`的方法美化 LoveIt
+* [Hugo的文件配置和博客功能增强(一)](https://www.yexxweb.com/hugo_conf/) 修改 `_custom.scss` 的方法美化 LoveIt
 * [博客搭建过程（二）](https://www.cuichacha.site/process-of-building-the-blog-2.html/) 
 * [使用 Hugo 和 GitHub Pages 搭建并部署一个静态博客网站](https://blog.csdn.net/weixin_43958105/article/details/123316879) 写了 PaperMod 下 giscus 怎样实现主题自动切换
-* [构建自己的博客系统](https://www.whexy.com/posts/blog-diy) 设立一个终极目标吧！未来自己构建博客系统！
 * [Markdown 简明语法参考](http://whuhan2013.github.io/blog/2015/09/19/markdown-simple-grammar/) 以后放不下图片可以参考图床的使用
+* [Hugo 网站访问计数插件不蒜子集成](https://xwi88.com/hugo-plugin-busuanzi/)
+* [构建自己的博客系统](https://www.whexy.com/posts/blog-diy) 设立一个终极目标吧！未来自己构建博客系统！
 
 ### 总结
 
