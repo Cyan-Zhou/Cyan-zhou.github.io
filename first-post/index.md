@@ -217,7 +217,39 @@ type = quote
 3. 这样就设置完成了，用户只需要登陆 GitHub 账号就可以评论，评论的内容存储在创建的仓库里
 4. 目前还有一个问题是主题切换时 giscus 不能自动更新
 
- 
+ #### 图片并排显示
+
+Markdown 语法并不注重排版，所以图片设置中经常会出现各种令人难受的问题。如果想要让两三张图片并排显示的话，就需要用到 html 标签实现。
+
+**单张居中**
+
+```html
+<center>
+    <img src="http://dreamofbook.qiniudn.com/Zero.png">
+</center>
+```
+
+固定宽度/高度，增加图注
+
+```html
+<img src="http://xxx.jpg" title="Logo" width="100" /> # height="1080" 
+```
+
+**并排居中显示**
+
+```html
+<center class="third">                      # class="half" 是两张并排
+    <img src="http://xxx.jpg">
+    <img src="http://yyy.jpg">
+    <img src="http://zzz.jpg">
+</center>
+```
+
+
+
+**单张居中**
+
+**单张居中**
 
 ### 查阅文档
 
@@ -246,7 +278,9 @@ type = quote
 * [手把手教你如何用Hugo构建个人静态博客(六)](https://zhuyinjun.me/2020/how-to-setup-blog-by-hugo-6/#%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F-giscus) 另一种方法引入 giscus
 * [Hugo的文件配置和博客功能增强(一)](https://www.yexxweb.com/hugo_conf/) 修改`_custom.scss`的方法美化 LoveIt
 * [博客搭建过程（二）](https://www.cuichacha.site/process-of-building-the-blog-2.html/) 
+* [使用 Hugo 和 GitHub Pages 搭建并部署一个静态博客网站](https://blog.csdn.net/weixin_43958105/article/details/123316879) 写了 PaperMod 下 giscus 怎样实现主题自动切换
 * [构建自己的博客系统](https://www.whexy.com/posts/blog-diy) 设立一个终极目标吧！未来自己构建博客系统！
+* [Markdown 简明语法参考](http://whuhan2013.github.io/blog/2015/09/19/markdown-simple-grammar/) 以后放不下图片可以参考图床的使用
 
 ### 总结
 
