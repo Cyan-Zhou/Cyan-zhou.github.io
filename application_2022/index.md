@@ -50,7 +50,7 @@ Spend most time on looking for a job and prepare for exam, like NYLE or MPRE.
 
 85,000 - 95,000 USD/year roughly
 
-### Timeline:
+### Timeline
 
 | Time | Schedule |
 | ------- | ------------- |
@@ -59,14 +59,14 @@ Spend most time on looking for a job and prepare for exam, like NYLE or MPRE.
 | Before Thanksgiving | Submit all materials |
 | Nov - Mar					| Interview |
 
-### Advantages:
+### Advantages
 
 * Most law schools of T14 has 12 scores to access other majors' courses
 * Since there isn't bachelor in law in US, the background of students are very different
 * Logic and creativity
 * High revenue
 
-### Disadvantages:
+### Disadvantages
 
 * Many universities hire a few international students. Harvard and Columbia | Cornell and Georgetown is more friendly to international students. 
 
