@@ -68,7 +68,7 @@ Spend most time on looking for a job and prepare for exam, like NYLE or MPRE.
 
 ### Disadvantages
 
-* Many universities hire a few international students. Harvard and Columbia | Cornell and Georgetown is more friendly to international students. 
+* Many universities admit a few international students. Harvard and Columbia | Cornell and Georgetown is more friendly to international students. 
 
 ### Reference
 
@@ -138,7 +138,7 @@ NG, too art, seldom tech
 
 Too hard
 
-## III.Business School
+## III. Others
 
 ### JD + MBA
 
@@ -184,7 +184,31 @@ Regular Decision: Feb 15
 
 ###  MIT master of science in real estate development
 
-Interdisciplinary program with management, business, engineering and design. The thesis can defer so that  they have a long time to look for internship or other opportunities. The core courses focus on real estate business. 
+Interdisciplinary program with management, business, engineering and design. The thesis can defer so that  they have a long time to look for internship or other opportunities. The core courses focus on real estate business. 30 students / year, only 20% has less than three years work experience. 
+
+### Real Estate and the Built Environment GSD
+
+The trans-disciplinary program positions real estate development as a collaborative process, allowing students to enroll in courses from across the GSD as well as throughout the university—including Harvard Business School, Kennedy School of Government and Harvard Law School.
+
+{{<admonition tip "Four Areas of Concentration " false >}}
+
+Design and Innovation in Real Estate
+
+Real Estate Finance and Investment
+
+Leadership and Entrepreneurship
+
+City Making and Urban Economics
+
+{{< /admonition >}}
+
+[Real Estate and the Built Environment](https://www.gsd.harvard.edu/master-in-design-studies-mdes-pre-fall-2021/real-estate-and-the-built-environment/)
+
+### M.S. REAL ESTATE DEVELOPMENT Columbia GSAPP
+
+The Master of Science in Real Estate Development program is a three-semester degree. 
+
+[Admission Page](https://www.arch.columbia.edu/admissions/application-process/#m-s-real-estate-development)
 
 ### MS in Product Management
 

@@ -109,7 +109,7 @@ So the just man turns out to be a kind of thief, a view you have perhaps learned
 
 #### 1. First statement and Criticisms
 
-苏格拉底质疑了传统道德的谬误之处，咄咄逼人的 Thrasymachus 全盘否定，认为人的行为由且仅由其自身利益决定，亦即“强者的利益”。而苏格拉底用一串精彩的论证（我认为这比上一节要精彩的多，Thrasymachus 迫使苏格拉底回应得更加简洁明确）证明任何一个 skill 都为另一些 skill 提供有益的东西，而同时它们也缺少某些东西，而任何一个 skill 都不寻求自身的利益，因为他们自身没有这种需要，他们寻求的是需要这个 skill 的事物的利益。因此，强者（统治者）寻求的是被统治者的利益，他掌握的 skill 的对象是他的臣民，而不是他自己。
+苏格拉底质疑了传统道德的谬误之处，咄咄逼人的 Thrasymachus 全盘否定，认为人的行为由且仅由其自身利益决定，亦即“强者的利益”。而苏格拉底用一串精彩的论证（我认为这比上一节要精彩的多，Thrasymachus 迫使苏格拉底回应得更加简洁明确）证明任何一个 Technē 都为另一些 Technē 提供有益的东西，而同时它们也缺少某些东西，而任何一个 Technē 都不寻求自身的利益，因为他们自身没有这种需要，他们寻求的是需要这个 Technē 的事物的利益。因此，强者（统治者）寻求的是被统治者的利益，他掌握的 Technē 的对象是他的臣民，而不是他自己。
 
 Thrasymachus 不允许苏格拉底将权力解释为一种权利、义务或利益，而是要给出明确的定义，苏格拉底说，如果你问人十二是什么，而你又不许人回答是六的两倍，三乘四，四乘三，那么没人能回答这样的问题。Thrasymachus 说如果你要从我禁止的答案中选择一个回答，那么如果我想出来更好的答案，你就得付钱，Glaucon 愿意替苏格拉底付钱。Thrasymachus 说苏格拉底就是这样，**自己不提供答案，而只是驳斥他人的答案**
 
@@ -195,6 +195,18 @@ But tell me, do you think that the rulers of states (rulers in the true sense, t
 ‘So good men will not consent to govern for cash or honours. They do not want to be called mercenary for exacting a cash payment for the work of government, or thieves for making money on the side; and they will not work for honours, for they aren’t ambitious. We must therefore bring compulsion to bear and punish them if they refuse – perhaps that’s why it’s commonly considered improper to accept authority except with reluctance or under pressure; and **the worst penalty for refusal is to be governed by someone worse than themselves.** That is what, I believe, frightens honest men into accepting power, and they approach it not as if it were something desirable out of which they were going to do well, but as if it were something unavoidable, **which they cannot find anyone better or equally qualified to undertake**. For in a city of good men there might well be as much competition to avoid power as there now is to get it, and it would be quite clear that **the true ruler pursues his subjects’ interest and not his own**; consequently **all wise men would prefer the benefit of this service at the hands of others rather than the labour of affording it to others themselves.’**
 
 {{< /admonition >}}
+
+ 苏格拉底接下来问 Glaucon，Thrasymachus 刚才所说的，这诱人的为恶的好处，令人羡慕吗？Glaucon 有些像我们读者一样，显然是不能接受不义的果实。如果苏格拉底继续和 Thrasymachus 争辩下去，那么，他们必然需要一个裁判官来裁定最终的胜利者归属；而如果他们追求意见一致之处，就可以自己既是法官，也是辩护人。而 Glaucon 选择了后一种方法。
+
+接下来有一段非常流畅的论述。苏格拉底让 Thrasymachus 承认 
+
+1. 正义仅仅是 supreme simplicity, [ 心地善良和头脑简单 ]；而不义是 common sense [ 英明果断 ] &rarr; 不义是 good sensible man，而正义则正相反。<font color=B20600> **这种根本的分歧让苏格拉底无法基于双方的共识来反驳 Thrasymachus **</font>
+2. 正义的人不想和另一个正义的人斗争，但是会和不正义的人斗争；而不正义的人会为了利益和正义的人以及不正义的人斗争。<font color=B20600> **按照相对性原则，这会是他们的第一个共识 **</font>
+3. 在音乐、医疗等行业中，一个掌握知识的人（乐手，医生）不会将他的同行视为竞争者，因为他们清楚自己工作需要达到的标准，而达到这个标准就将满足工作的要求；而一个没有知识的人，他的自大会让他既希望胜过有知识的人，也希望胜过无知识的人。<font color=B20600> **引入 Technē 作为参考系，统治术和正义也是 Technē 的一种**</font>
+4. 掌握知识的人有智慧，并且善良；而无知识的人恶毒而无知。 <font color=B20600> **第二个共识**</font>
+5. 那么掌握正义的人基于第 2 点和第 3 点不会将另一个正义的人视为竞争者，而通过第 4 点证明正义的人是有智慧并且善良的人；而不义之人则正相反；这与第 1 点矛盾，因此 Thrasymachus的观点不攻自破。<font color=B20600> **证毕**</font>
+
+在这之后，Thrasymachus 发现自己被苏格拉底玩弄于掌心。但这也有他的观点确实太过激进的缘故。
 
 持续更新..
 
