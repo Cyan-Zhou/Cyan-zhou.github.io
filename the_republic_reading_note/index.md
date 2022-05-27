@@ -200,13 +200,18 @@ But tell me, do you think that the rulers of states (rulers in the true sense, t
 
 接下来有一段非常流畅的论述。苏格拉底让 Thrasymachus 承认 
 
-1. 正义仅仅是 supreme simplicity, [ 心地善良和头脑简单 ]；而不义是 common sense [ 英明果断 ] &rarr; 不义是 good sensible man，而正义则正相反。<font color=B20600> **这种根本的分歧让苏格拉底无法基于双方的共识来反驳 Thrasymachus **</font>
-2. 正义的人不想和另一个正义的人斗争，但是会和不正义的人斗争；而不正义的人会为了利益和正义的人以及不正义的人斗争。<font color=B20600> **按照相对性原则，这会是他们的第一个共识 **</font>
+1. 正义仅仅是 supreme simplicity, [ 心地善良和头脑简单 ]；而不义是 common sense [ 英明果断 ] &rarr; 不义是 good sensible man，而正义则正相反。<font color=B20600> **这种根本的分歧让苏格拉底无法基于双方的共识来反驳 Thrasymachus**</font>
+2. 正义的人不想和另一个正义的人斗争，但是会和不正义的人斗争；而不正义的人会为了利益和正义的人以及不正义的人斗争。<font color=B20600> **按照相对性原则，这会是他们的第一个共识**</font>
 3. 在音乐、医疗等行业中，一个掌握知识的人（乐手，医生）不会将他的同行视为竞争者，因为他们清楚自己工作需要达到的标准，而达到这个标准就将满足工作的要求；而一个没有知识的人，他的自大会让他既希望胜过有知识的人，也希望胜过无知识的人。<font color=B20600> **引入 Technē 作为参考系，统治术和正义也是 Technē 的一种**</font>
 4. 掌握知识的人有智慧，并且善良；而无知识的人恶毒而无知。 <font color=B20600> **第二个共识**</font>
 5. 那么掌握正义的人基于第 2 点和第 3 点不会将另一个正义的人视为竞争者，而通过第 4 点证明正义的人是有智慧并且善良的人；而不义之人则正相反；这与第 1 点矛盾，因此 Thrasymachus的观点不攻自破。<font color=B20600> **证毕**</font>
 
 在这之后，Thrasymachus 发现自己被苏格拉底玩弄于掌心。但这也有他的观点确实太过激进的缘故。
 
+{{< admonition note "See you later" true >}}
+
 持续更新..
+
+{{< /admonition >}}
+
 
