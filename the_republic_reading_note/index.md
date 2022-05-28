@@ -3,6 +3,8 @@
 
 <!--more-->
 
+<img src="https://img.shields.io/badge/last%20modified-2022--05--28-ff69b4?style=flat" > <img src="https://img.shields.io/badge/English version-Penguin Classic 2007-blue?style=flat" > <img src="https://img.shields.io/badge/中文版本-人民出版社2017年增订本-blue?style=flat" >
+
 {{< admonition type=info title="阅读版本" open=true >}}
 阅读的英文版是企鹅出版社2007年出版的 *The Republic* ，Desmond Lee 翻译；同时对照人民出版社2017年王晓朝译本的增订版，后者直接基于希腊文文本翻译，并且有比较丰富的注释。
 
@@ -42,7 +44,7 @@ Cephalus 认为如果他们遭受了生活上的不公，那么老年一定不�
 
 {{< /admonition >}}
 
-从这里开始引出了柏拉图有关财富的辩论。Cephalus 富有却并不喜爱金钱，他的祖父拥有大量的财富，但他的父亲挥霍到只剩一部分，而他增加了这些财富的量，却并未达到祖父曾经的富有。柏拉图认为他并不喜爱金钱的原因是因为这些钱不是他挣的，而靠自己变得富有的人比其他人更爱金钱，因为
+从这里开始引出了柏拉图有关财富的辩论。Cephalus 富有却并不喜爱金钱，他的祖父拥有大量的财富，但他的父亲挥霍到只剩一部分，而他增加了这些财富，却并未达到祖父曾经的富有。柏拉图认为他并不喜爱金钱的原因是因为这些钱不是他挣的，而靠自己变得富有的人比其他人更爱金钱，因为
 
 {{< admonition quote "330c" true >}}
 
@@ -58,11 +60,11 @@ For wealth contributes very greatly to one’s ability to avoid [b] both uninten
 
 {{< /admonition >}}
 
-但苏格拉底随后举出向疯子借来武器后，是否应该归还的例子，来质疑 doing right 该怎么定义。而 Cephalus要离开去观看祭祀，Polemarchus 继续讨论。很明显，这里用一个温和的角色引出话题，而刻薄的Polemarchus将会在下一章和苏格拉底唇枪舌剑地辩论一番。
+但苏格拉底随后举出向疯子借来武器后，是否应该归还的例子，来质疑 doing right 该怎么定义。而 Cephalus 要离开去观看祭祀，Polemarchus 继续讨论。很明显，温和的角色引出话题，而刻薄的 Polemarchus 将会在下一章和苏格拉底唇枪舌剑地辩论一番。
 
 ### 2. The Conventional View of Justice Developed
 
-一开始苏格拉底先问 Polemarchus 对 Simonides 有关正义的观点的看法（即无论如何，应该归还每个人你的所欠之物），Polemarchus 同意这个观点，但也同意苏格拉底所举的疯人的反例，因此他增加了一层定义，所归还之物必须用来从善而非从恶，而苏格拉底又援引敌人之间相互亏欠之物，来证明 Simonides 的观点可以转译为”正义就是把对每个人 appropriate 的东西还给他。“
+一开始苏格拉底先问 Polemarchus 对 Simonides 有关正义的观点的看法（即无论如何，应该归还每个人你的所欠之物），Polemarchus 同意这个观点，但也同意苏格拉底所举的疯人的反例，他强调所归还之物必须用来从善而非从恶，而苏格拉底又援引敌人之间相互亏欠之物，来证明 Simonides 的观点可以转译为”正义就是把对每个人 appropriate 的东西还给他。“
 
 接下来就是一段连珠炮般的对话，苏格拉底通过医疗和食物的例子，让 Polemarchus 说出正义给朋友提供帮助，给敌人伤害；苏格拉底进而用医生和导航者的例子，来引出正义的人在战争和结盟中最有用，而这就意味着没有战争之时，正义无用（如同没病时医生无用）。Polemarchus 反驳，正义在和平之时也有用，为了合作和契约，但仅仅正义并不能作为合格的合作者存在，Polemarchus 进一步之处在与金钱相关的事情上，正义的人是更好的合作者，并且这仅在于金钱没有被使用的情况下，
 
@@ -196,9 +198,13 @@ But tell me, do you think that the rulers of states (rulers in the true sense, t
 
 {{< /admonition >}}
 
- 苏格拉底接下来问 Glaucon，Thrasymachus 刚才所说的，这诱人的为恶的好处，令人羡慕吗？Glaucon 有些像我们读者一样，显然是不能接受不义的果实。如果苏格拉底继续和 Thrasymachus 争辩下去，那么，他们必然需要一个裁判官来裁定最终的胜利者归属；而如果他们追求意见一致之处，就可以自己既是法官，也是辩护人。而 Glaucon 选择了后一种方法。
+苏格拉底接下来用三段论述来驳斥 Thrasymachus 的观点。
 
-接下来有一段非常流畅的论述。苏格拉底让 Thrasymachus 承认 
+<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="3"><b>(A)</b></center></td></tr></table>
+
+苏格拉底接下来问 Glaucon，Thrasymachus 刚才所说的，这诱人的为恶的好处，令人羡慕吗？Glaucon 有些像我们读者一样，显然是不能接受不义的果实。如果苏格拉底继续和 Thrasymachus 争辩下去，那么，他们必然需要一个裁判官来裁定最终的胜利者归属；而如果他们追求意见一致之处，就可以自己既是法官，也是辩护人。而 Glaucon 选择了后一种方法。
+
+接下来有一段流畅的论述。
 
 1. 正义仅仅是 supreme simplicity, [ 心地善良和头脑简单 ]；而不义是 common sense [ 英明果断 ] &rarr; 不义是 good sensible man，而正义则正相反。<font color=B20600> **这种根本的分歧让苏格拉底无法基于双方的共识来反驳 Thrasymachus**</font>
 2. 正义的人不想和另一个正义的人斗争，但是会和不正义的人斗争；而不正义的人会为了利益和正义的人以及不正义的人斗争。<font color=B20600> **按照相对性原则，这会是他们的第一个共识**</font>
@@ -208,7 +214,20 @@ But tell me, do you think that the rulers of states (rulers in the true sense, t
 
 在这之后，Thrasymachus 发现自己被苏格拉底玩弄于掌心。但这也有他的观点确实太过激进的缘故。
 
-{{< admonition note "See you later" true >}}
+<table><tr><td height=15px; bgcolor=#F1EEEE><center><font color=205375 size="3"><b>(B)</b></center></td></tr></table>
+
+第二段论述主要关注纯粹的不义之人是否存在的问题。
+
+1. 奴役其他城邦的最不正义的城邦需要掌握强大的力量，而这个过程需要智慧和能力的参与。<font color=B20600> **如前所述，正义的人是有智慧并且善良的人，反之亦然**</font>
+2. 任何不正义的军队、盗贼、部落、城邦因为其共同的不正义的目的，需要相互之间的协作。而假如他们相互之间不正义，这种协作无法实现。<font color=B20600> **不义之人对任何人皆为敌，不义引发内战、仇恨和内斗**</font>
+3. 不义制造分裂和不平等，与统一为敌，也与和它相反的事物为敌。在个人身上，不义会让个人处于内乱。<font color=B20600> **而众神是正义的，因此不义之人与众神为敌**</font>
+4. 综合 2、3 点所述，当不义之人一起行动，取得伟大成就之时，真相是他们身上和之间必然存有一定程度的正义，来确保合作的进行。
+
+苏格拉底瓦解了纯粹的不义之人的真实性，他们的存在本身是不自洽的。
+
+<table><tr><td height=15px; bgcolor=#F1EEEE><center><font color=205375 size="3"><b>(C)</b></center></td></tr></table>
+
+{{< admonition note "See you later" false >}}
 
 持续更新..
 

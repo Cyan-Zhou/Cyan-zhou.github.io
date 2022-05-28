@@ -3,11 +3,14 @@
 
 <!--more-->
 
+<img src="https://img.shields.io/badge/last%20modified-2022--05--28-ff69b4?style=flat" >   <img src="https://img.shields.io/badge/Hugo version-0.99.1-blue?style=flat" >    <img src="https://img.shields.io/badge/Status-updating-blue?style=flat" >
+
 打算搭建博客的想法已经有两三年了，一直到最近对代码不再一无所知，而且待业在家才终于决定着手搭建一个简单的博客。之前大概看过 Squarespace、Cargo 这类 SaaS 平台，考虑到
 
-* 第一点：这类平台价格太贵，用来做作品集比较划算，只是做博客的话其实没有必要；
-* 第二点：可玩性不高，作为比较成熟的建站平台，完善的用户体验带来的是弱DIY感。
-* 所以最近在网上冲浪的时候偶然发现 Hugo + GitHub Pages 搭建博客好像并不是很难，用了大概三天时间成功让博客能打开了（其实全过程只需要不到二十分钟...但是遇到了一些奇怪的问题，大概重复了快十次才搭建成功）。这里主要记录一下：搭建流程、遇到的问题，这样之后添加其他内容也很容易。
+* 第一点：这类平台价格太贵，用来做作品集比较划算，只是做博客的话其实没有必要
+* 第二点：可玩性不高，作为比较成熟的建站平台，完善的用户体验带来的是弱DIY感
+
+所以最近在网上冲浪的时候偶然发现 Hugo + GitHub Pages 搭建博客好像并不是很难，用了大概三天时间成功让博客能打开了（其实全过程只需要不到二十分钟...但是遇到了一些奇怪的问题，大概重复了快十次才搭建成功）。这里主要记录一下：搭建流程、遇到的问题。
 
 ### 基本操作流程{#Chapter-1}
 
@@ -397,7 +400,26 @@ LoveIt内置了 Lightgallery 的设置，但是不知道是不是长期没有维
    {{- partial "plugin/busuanzi.html" (dict "params" .Site.Params.xwi88Cfg.busuanzi "bsz_type" "page-reading") -}}
    ```
 
-   
+
+#### 插入 Shields 徽章
+
+<img src="https://img.shields.io/badge/这就是-Shields徽章-blue?style=flat-square" >
+
+Shields 徽章可以用来显示文章有关的一些信息（主要是看起来很好看），可以直接用 [Shields.io官网](https://shields.io/) 来设置自定义内容，之后用 markdown 语法或者 html 标签放入文章之中即可
+
+```html
+<a href="https://link-to-a-site.net"><img src="https://img.shields.io/badge/[left info]-[right info]-[color]?style=flat&logo=WeChat" >
+```
+
+可以直接修改 URL 来实现自己想要的内容和颜色，前面还可以加入链接
+
+`color` 可以从<img src="https://img.shields.io/badge/brightgreen-brightgreen" > <img src="https://img.shields.io/badge/green-green" > <img src="https://img.shields.io/badge/yellow-yellow" > <img src="https://img.shields.io/badge/yellowgreen-yellowgreen" > <img src="https://img.shields.io/badge/orange-orange" > <img src="https://img.shields.io/badge/red-red" > <img src="https://img.shields.io/badge/blue-blue" > <img src="https://img.shields.io/badge/lightgrey-lightgrey" > <img src="https://img.shields.io/badge/blueviolet -blueviolet " > <img src="https://img.shields.io/badge/ff69b4-ff69b4" > 等十六进制颜色编码中选择
+
+`style` 默认是 <img src="https://img.shields.io/badge/style-flat-brightgreen?style=flat" > ，其他可设置的风格包括<img src="https://img.shields.io/badge/style-flat square-brightgreen?style=flat-square" > <img src="https://img.shields.io/badge/style-plastic-brightgreen?style=plastic" > <img src="https://img.shields.io/badge/style-social-brightgreen?style=social" > <img src="https://img.shields.io/badge/style-for--the--badge-brightgreen?style=for-the-badge" >
+
+`logo` 参考[Simple Icons](https://simpleicons.org/) 的 logo 选择
+
+动态小牌子的设置方法可以参考[用 Substats 和 Shields.io 为你的个人主页定制动态数据小牌子](https://sspai.com/post/59593) 
 
 ### 查阅文档
 
@@ -429,6 +451,7 @@ LoveIt内置了 Lightgallery 的设置，但是不知道是不是长期没有维
 * [使用 Hugo 和 GitHub Pages 搭建并部署一个静态博客网站](https://blog.csdn.net/weixin_43958105/article/details/123316879) 写了 PaperMod 下 giscus 怎样实现主题自动切换
 * [Markdown 简明语法参考](http://whuhan2013.github.io/blog/2015/09/19/markdown-simple-grammar/) 以后放不下图片可以参考图床的使用
 * [Hugo 网站访问计数插件不蒜子集成](https://xwi88.com/hugo-plugin-busuanzi/)
+* [使用Hugo框架搭建博客的过程 - 主题配置](https://www.xiaodejiyi.com/2021/01/build-blog-theme-config/)
 * [构建自己的博客系统](https://www.whexy.com/posts/blog-diy) 设立一个终极目标吧！未来自己构建博客系统！
 
 ### 总结
