@@ -3,7 +3,7 @@
 
 <!--more-->
 
-<img src="https://img.shields.io/badge/last%20modified-2022--05--28-ff69b4?style=flat" >   <img src="https://img.shields.io/badge/Hugo version-0.99.1-blue?style=flat" >    <img src="https://img.shields.io/badge/Status-updating-blue?style=flat" >
+<img src="https://img.shields.io/badge/last%20modified-2022--05--30-ff69b4?style=flat" >   <img src="https://img.shields.io/badge/Hugo version-0.99.1-blue?style=flat" >    <img src="https://img.shields.io/badge/Status-updating-blue?style=flat" >
 
 打算搭建博客的想法已经有两三年了，一直到最近对代码不再一无所知，而且待业在家才终于决定着手搭建一个简单的博客。之前大概看过 Squarespace、Cargo 这类 SaaS 平台，考虑到
 
@@ -417,9 +417,36 @@ Shields 徽章可以用来显示文章有关的一些信息（主要是看起来
 
 `style` 默认是 <img src="https://img.shields.io/badge/style-flat-brightgreen?style=flat" > ，其他可设置的风格包括<img src="https://img.shields.io/badge/style-flat square-brightgreen?style=flat-square" > <img src="https://img.shields.io/badge/style-plastic-brightgreen?style=plastic" > <img src="https://img.shields.io/badge/style-social-brightgreen?style=social" > <img src="https://img.shields.io/badge/style-for--the--badge-brightgreen?style=for-the-badge" >
 
-`logo` 参考[Simple Icons](https://simpleicons.org/) 的 logo 选择
+`logo`  参考 [Simple Icons](https://simpleicons.org/) 的 logo 选择
 
-动态小牌子的设置方法可以参考[用 Substats 和 Shields.io 为你的个人主页定制动态数据小牌子](https://sspai.com/post/59593) 
+动态小牌子的设置方法可以参考 [用 Substats 和 Shields.io 为你的个人主页定制动态数据小牌子](https://sspai.com/post/59593) 
+
+#### 添加音乐
+
+作者已经给出了用 Shortcode 实现音乐插入的教程 [主题文档 - music Shortcode](https://hugoloveit.com/zh-cn/theme-documentation-music-shortcode/) 基本很清楚
+
+```html
+# 如果想要插入本地文档，这里注意第一点是和图片一样放在 static 目录下，第二点是文件名最好是英文
+{{ < music url="/music/music.mp3" name=music_name artist=author cover="/images/cover.jpg" > }}
+# 如果插入流媒体外链的话
+{{ < music auto="https://music.163.com/#/playlist?id=60198" >}}
+# 自定义的方式还有
+{{ < music server="netease" type="song" id="60198" >}}
+其中 server = [netease, tencent, kugou, baidu], type = [song, playlist, album, search, artist]
+```
+
+这里插播一个小技巧，我有很多抓取的 `flac`  格式的音乐文件，但是文件太大，不太利于上传，所以使用
+
+```markdown
+ffmpeg -i music.flac music.mp3
+```
+
+就可以轻松转换格式。 PS：[给新手的 20 多个 FFmpeg 命令示例](https://zhuanlan.zhihu.com/p/67878761)
+
+
+
+此外可定义的还有很多，包括 `theme `  = `#448aff` ,  `fixed `  = `false` ,  `mini `  = `false` ,  `autoplay`  = `false`,  `volume`  = `0.7`,  `mutex`  = `true` (是否自动暂停其他播放器)
+如果是列表的话，还有参数  `loop`  = `all, one, none[default]`,  `order`  = `list(default), random`,  `list-folded`  = `false`,  `list-max-height`  = `340px(default)`
 
 ### 查阅文档
 

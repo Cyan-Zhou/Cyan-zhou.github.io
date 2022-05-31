@@ -28,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/Cyan-zhou.github.io\/first-post\/"
-        },"genre": "posts","keywords": "Blog","wordcount":  1315 ,
+        },"genre": "posts","keywords": "Blog","wordcount":  1429 ,
         "url": "https:\/\/Cyan-zhou.github.io\/first-post\/","datePublished": "2022-05-21T21:21:18+08:00","dateModified": "2022-05-21T21:21:18+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -117,7 +117,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX"> Hugo &#43; GitHub Pages 搭建博客备忘录</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-category">included in <a href="/categories/blog/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Blog</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="far fa-calendar-check fa-fw"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1315 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="far fa-calendar-check fa-fw"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1429 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;7 minutes&nbsp;
     
 
@@ -179,6 +179,7 @@
             <li><a href="#图片放大功能">图片放大功能</a></li>
             <li><a href="#访客统计功能">访客统计功能</a></li>
             <li><a href="#插入-shields-徽章">插入 Shields 徽章</a></li>
+            <li><a href="#添加音乐">添加音乐</a></li>
           </ul>
         </li>
         <li><a href="#查阅文档">查阅文档</a></li>
@@ -188,7 +189,7 @@
     </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><p><img src="https://img.shields.io/badge/last%20modified-2022--05--28-ff69b4?style=flat" >   <img src="https://img.shields.io/badge/Hugo version-0.99.1-blue?style=flat" >    <img src="https://img.shields.io/badge/Status-updating-blue?style=flat" ></p>
+            </div><div class="content" id="content"><p><img src="https://img.shields.io/badge/last%20modified-2022--05--30-ff69b4?style=flat" >   <img src="https://img.shields.io/badge/Hugo version-0.99.1-blue?style=flat" >    <img src="https://img.shields.io/badge/Status-updating-blue?style=flat" ></p>
 <p>打算搭建博客的想法已经有两三年了，一直到最近对代码不再一无所知，而且待业在家才终于决定着手搭建一个简单的博客。之前大概看过 Squarespace、Cargo 这类 SaaS 平台，考虑到</p>
 <ul>
 <li>第一点：这类平台价格太贵，用来做作品集比较划算，只是做博客的话其实没有必要</li>
@@ -874,8 +875,42 @@
 </div><p>可以直接修改 URL 来实现自己想要的内容和颜色，前面还可以加入链接</p>
 <p><code>color</code> 可以从<img src="https://img.shields.io/badge/brightgreen-brightgreen" > <img src="https://img.shields.io/badge/green-green" > <img src="https://img.shields.io/badge/yellow-yellow" > <img src="https://img.shields.io/badge/yellowgreen-yellowgreen" > <img src="https://img.shields.io/badge/orange-orange" > <img src="https://img.shields.io/badge/red-red" > <img src="https://img.shields.io/badge/blue-blue" > <img src="https://img.shields.io/badge/lightgrey-lightgrey" > <img src="https://img.shields.io/badge/blueviolet -blueviolet " > <img src="https://img.shields.io/badge/ff69b4-ff69b4" > 等十六进制颜色编码中选择</p>
 <p><code>style</code> 默认是 <img src="https://img.shields.io/badge/style-flat-brightgreen?style=flat" > ，其他可设置的风格包括<img src="https://img.shields.io/badge/style-flat square-brightgreen?style=flat-square" > <img src="https://img.shields.io/badge/style-plastic-brightgreen?style=plastic" > <img src="https://img.shields.io/badge/style-social-brightgreen?style=social" > <img src="https://img.shields.io/badge/style-for--the--badge-brightgreen?style=for-the-badge" ></p>
-<p><code>logo</code> 参考<a href="https://simpleicons.org/" target="_blank" rel="noopener noreffer">Simple Icons</a> 的 logo 选择</p>
-<p>动态小牌子的设置方法可以参考<a href="https://sspai.com/post/59593" target="_blank" rel="noopener noreffer">用 Substats 和 Shields.io 为你的个人主页定制动态数据小牌子</a></p>
+<p><code>logo</code>  参考 <a href="https://simpleicons.org/" target="_blank" rel="noopener noreffer">Simple Icons</a> 的 logo 选择</p>
+<p>动态小牌子的设置方法可以参考 <a href="https://sspai.com/post/59593" target="_blank" rel="noopener noreffer">用 Substats 和 Shields.io 为你的个人主页定制动态数据小牌子</a></p>
+<h4 id="添加音乐">添加音乐</h4>
+<p>作者已经给出了用 Shortcode 实现音乐插入的教程 <a href="https://hugoloveit.com/zh-cn/theme-documentation-music-shortcode/" target="_blank" rel="noopener noreffer">主题文档 - music Shortcode</a> 基本很清楚</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"># 如果想要插入本地文档，这里注意第一点是和图片一样放在 static 目录下，第二点是文件名最好是英文
+</span></span><span class="line"><span class="cl">{{ <span class="p">&lt;</span> <span class="nt">music</span> <span class="na">url</span><span class="o">=</span><span class="s">&#34;/music/music.mp3&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">music_name</span> <span class="na">artist</span><span class="o">=</span><span class="s">author</span> <span class="na">cover</span><span class="o">=</span><span class="s">&#34;/images/cover.jpg&#34;</span> <span class="p">&gt;</span> }}
+</span></span><span class="line"><span class="cl"># 如果插入流媒体外链的话
+</span></span><span class="line"><span class="cl">{{ <span class="p">&lt;</span> <span class="nt">music</span> <span class="na">auto</span><span class="o">=</span><span class="s">&#34;https://music.163.com/#/playlist?id=60198&#34;</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl"># 自定义的方式还有
+</span></span><span class="line"><span class="cl">{{ <span class="p">&lt;</span> <span class="nt">music</span> <span class="na">server</span><span class="o">=</span><span class="s">&#34;netease&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;song&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;60198&#34;</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">其中 server = [netease, tencent, kugou, baidu], type = [song, playlist, album, search, artist]
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这里插播一个小技巧，我有很多抓取的 <code>flac</code>  格式的音乐文件，但是文件太大，不太利于上传，所以使用</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">ffmpeg -i music.flac music.mp3
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>就可以轻松转换格式。 PS：<a href="https://zhuanlan.zhihu.com/p/67878761" target="_blank" rel="noopener noreffer">给新手的 20 多个 FFmpeg 命令示例</a></p>
+<p>此外可定义的还有很多，包括 <code>theme </code>  = <code>#448aff</code> ,  <code>fixed </code>  = <code>false</code> ,  <code>mini </code>  = <code>false</code> ,  <code>autoplay</code>  = <code>false</code>,  <code>volume</code>  = <code>0.7</code>,  <code>mutex</code>  = <code>true</code> (是否自动暂停其他播放器)
+如果是列表的话，还有参数  <code>loop</code>  = <code>all, one, none[default]</code>,  <code>order</code>  = <code>list(default), random</code>,  <code>list-folded</code>  = <code>false</code>,  <code>list-max-height</code>  = <code>340px(default)</code></p>
 <h3 id="查阅文档">查阅文档</h3>
 <ul>
 <li><a href="https://www.markdown.xyz/basic-syntax/" target="_blank" rel="noopener noreffer">Markdown基本语法</a> 和<a href="https://www.markdown.xyz/cheat-sheet/" target="_blank" rel="noopener noreffer">Markdown速查表</a></li>

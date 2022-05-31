@@ -3,7 +3,7 @@
 
 <!--more-->
 
-<img src="https://img.shields.io/badge/last%20modified-2022--05--28-ff69b4?style=flat" > <img src="https://img.shields.io/badge/English version-Penguin Classic 2007-blue?style=flat" > <img src="https://img.shields.io/badge/中文版本-人民出版社2017年增订本-blue?style=flat" >
+<img src="https://img.shields.io/badge/last%20modified-2022--05--31-ff69b4?style=flat" > <img src="https://img.shields.io/badge/English version-Penguin Classic 2007-blue?style=flat" > <img src="https://img.shields.io/badge/中文版本-人民出版社2017年增订本-blue?style=flat" >
 
 {{< admonition type=info title="阅读版本" open=true >}}
 阅读的英文版是企鹅出版社2007年出版的 *The Republic* ，Desmond Lee 翻译；同时对照人民出版社2017年王晓朝译本的增订版，后者直接基于希腊文文本翻译，并且有比较丰富的注释。
@@ -226,6 +226,77 @@ But tell me, do you think that the rulers of states (rulers in the true sense, t
 苏格拉底瓦解了纯粹的不义之人的真实性，他们的存在本身是不自洽的。
 
 <table><tr><td height=15px; bgcolor=#F1EEEE><center><font color=205375 size="3"><b>(C)</b></center></td></tr></table>
+
+第三段论述中，苏格拉底使用 `function` 和 `happiness` 来说明正义之人通过完成自己的预定任务，而因此他将比不义之人更加快乐。而这快乐的话题不仅与这场正义与否的争论有关，更与**我们应当选择什么样的生活**密切相关。
+
+{{< admonition quote "352d" true >}}
+
+We must now proceed to the further question which we set ourselves, whether the just live better and happier lives than the unjust. It is, in fact, already clear, I think, from what we have said, that they do; but we must look at the question more closely. For it is not a trivial one; it is our whole way of life that is at issue.
+
+{{< /admonition >}}
+
+这里有一句我不知道怎么理解，英译本和中译本的意思都很生涩。好在 Thrasymachus 也没明白这话的意思。苏格拉底接下来用眼睛的例子解释 `one can only do` , 用专门修剪葡萄藤的剪刀来解释 `does best` 。其实这句话的目的是定义我们如何确认一个物品的”功能“。
+
+{{< admonition quote "352e" true >}}
+
+‘And would you define the function of a horse, or of anything else, as something one can only do, or does best,**with the thing in question**?’
+
+”你能给马或者其他任何事物的功能下定义吗，人只能使用功能，或者只能很好地对待功能？“
+
+{{< /admonition >}}
+
+而 `function` 其实就是一种 `excellence` （中译本译为”德性“）。而眼睛缺乏了它的 `excellence` 时，将不能实现它的 `function` 。而当我们考虑 `mind` （中译本译为”灵魂“）时，一切在我们脑海中运行的事情，包括生命本身，都成为了 `mind` 的 `function ` 套件。
+
+{{< admonition quote "353e" true >}}
+
+‘It follows therefore that a good mind will perform the functions of control and attention well, a bad mind badly.’
+
+<font color=A0BCC2> ‘It follows.’</font>
+
+‘And we agreed, did we not, that justice was the peculiar excellence of the mind and injustice its defect?’
+
+<font color=A0BCC2>‘We did.’</font>
+
+‘So the just mind and the just man will have a good life, and the unjust a bad life?’
+
+<font color=A0BCC2>‘So it appears from your argument.’‘</font>
+
+But the man who has a good life is prosperous and happy, and his opposite the reverse?’
+
+<font color=A0BCC2>‘Of course.’ </font>
+
+‘So the just man is happy, and the unjust man miserable?’
+
+<font color=A0BCC2>‘So be it.’</font>
+
+‘But it never pays to be miserable, but to be happy.’
+
+<font color=A0BCC2>‘Of course.’</font>
+
+‘And so, my dear Thrasymachus, injustice never pays better than justice.’
+
+<font color=B20600>‘This is your holiday treat,’ he replied, ‘so enjoy it, Socrates.’</font>
+
+{{< /admonition >}}
+
+这里又是流畅的一段逼问，有趣的是，我明显感觉到 Thrasymachus 已经放弃反抗，只是机械的点头了。粗略来说，这段的论证过程是这样的：
+
+1. 一个物品的功能限于仅其能做的事，或者其能做到最好的事。而这个功能可以扩展到人的精神事件，即人的精神拥有一系列功能。<font color=B20600> **正义也在其中**</font>
+2. 而功能其实也是一种德性，德性也是功能行使的必要条件。<font color=B20600> **因此，如果说正义所能做的事情是灵魂的功能，那么正义就是灵魂的德性之一，而不义则是恶德**</font>
+3. 因此正义的灵魂和正义的人会享有好的生活，不义的人生活悲惨
+4. 而悲惨不会带给人好处，<font color=B20600> **injustice never pays better than justice**</font>
+
+综合 (A), (B), (C) 三段推论，苏格拉底并没有回答什么是正义的问题，但是他分别否认了不义之人的英明果断的优点，否认了纯粹的不义之人的存在，否认了不义比正义更加有益。
+
+{{< admonition tip "什么是 'happy' " true >}}
+
+happy 对应的希腊语词汇是 eudaimōn，这个词语的意思与英语中的 ”happy“ 并不一样。eudaimōn 更多指代的是生命的状态或者是一种性格，介于人性的丰富和完整之间。
+
+{{< /admonition >}}
+
+### 4. Adeimantus and Glaucon Restate the Case for Injustice
+
+
 
 {{< admonition note "See you later" false >}}
 
