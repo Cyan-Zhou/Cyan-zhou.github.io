@@ -98,7 +98,22 @@ git commit -m "first commit"
 # 提交修改
 git push -u origin master
 # 这里有可能第一次失败，事实是我也遇到过一次，但后来就没有再出现，出现这样的问题可以参考“渣渣的夏天”的说明
+#另外，如果在 push 的时候提示fatal: unable to access ‘https://github.com/...‘，一般是因为服务器的 SSL 证书没有经过第三方机构签署，因此报错，解决方法是解除 SSL 验证就好了，使用下句
+git config --global http.sslVerify "false"
 ```
+
+##### 修改 repository 地址
+
+```bash
+# 有时 repository 地址更改，或者填错的情况下，可以移除旧的 origin
+git remote rm origin
+# 查看是否清除
+git remote -v
+# 添加新的 origin
+git remote add origin master https://....../R.git
+```
+
+
 
 ### 日常操作
 
