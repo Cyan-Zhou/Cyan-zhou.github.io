@@ -45,14 +45,14 @@
 
 3. 选择主题，我直接使用的是 `LoveIt`
 
- ```bash
- # 切换目录到博客文件夹
- cd [blog folder name]
- # 切换到主题文件夹
- cd themes
- # 下载主题
- git clone https://github.com/dillonzq/LoveIt.git LoveIt
- ```
+     ```bash
+     # 切换目录到博客文件夹
+     cd [blog folder name]
+     # 切换到主题文件夹
+     cd themes
+     # 下载主题
+     git clone https://github.com/dillonzq/LoveIt.git LoveIt
+     ```
 
 4. 修改根目录下的 `config.toml` , [LoveIt作者的基本概念 ](https://hugoloveit.com/zh-cn/theme-documentation-basics/)里的 **2.3 基础配置** 和 **3.1 网站配置** 两个部分基本囊括了可以修改的部分，直接复制到 `config` 中，修改需要修改的部分即可。这里需要注意这连个部分的配置参考中有重复的部分，`[markup]` 的部分就有所重合
 
@@ -128,34 +128,34 @@ hugo server -w -e production -DF
 
 1. #### 新建或修改文章
 
-``` bash
-# 当前工作目录：E:\HugoWebsite\[Blog Folder Name]
-# 新建文章
-hugo new posts/Second.md
-#修改
-# 本地预览
-hugo server -D
-# 构建网站文档
-hugo
-# 切换目录
-cd public
-git add .
-git commit -m "yyyy/mm/dd-hh:mm"
-git push origin master
-```
+    ``` bash
+    # 当前工作目录：E:\HugoWebsite\[Blog Folder Name]
+    # 新建文章
+    hugo new posts/Second.md
+    #修改
+    # 本地预览
+    hugo server -D
+    # 构建网站文档
+    hugo
+    # 切换目录
+    cd public
+    git add .
+    git commit -m "yyyy/mm/dd-hh:mm"
+    git push origin master
+    ```
 
 2. #### 删除文章
 
-``` bash
-# 当前工作目录：E:\HugoWebsite\[Blog Folder Name]
-# 在blog/content/posts，blog/public下找到文章删除，后者并不重要，因为public中除了.git文件夹以外的文件都会在hugo命令中重建
-hugo server -D
-hugo
-cd public
-git add .
-git commit -m "yyyy/mm/dd-hh:mm"
-git push origin master
-```
+    ``` bash
+    # 当前工作目录：E:\HugoWebsite\[Blog Folder Name]
+    # 在blog/content/posts，blog/public下找到文章删除，后者并不重要，因为public中除了.git文件夹以外的文件都会在hugo命令中重建
+    hugo server -D
+    hugo
+    cd public
+    git add .
+    git commit -m "yyyy/mm/dd-hh:mm"
+    git push origin master
+    ```
 
 ### 其他操作
 
@@ -248,29 +248,29 @@ type = quote
 
 Markdown 语法并不注重排版，所以图片设置中经常会出现各种令人难受的问题。如果想要让两三张图片并排显示的话，就需要用到 html 标签实现。
 
-**单张居中**
+1. 单张居中
 
-```html
-<center>
-    <img src="http://dreamofbook.qiniudn.com/Zero.png">
-</center>
-```
+    ```html
+    <center>
+        <img src="http://dreamofbook.qiniudn.com/Zero.png">
+    </center>
+    ```
 
-固定宽度/高度，增加图注
+2. 固定宽度/高度，增加图注
 
-```html
-<img src="http://xxx.jpg" title="Logo" width="100" /> # height="1080" 
-```
+    ```html
+    <img src="http://xxx.jpg" title="Logo" width="100" /> # height="1080" 
+    ```
 
-**并排居中显示**
+3. 并排居中显示
 
-```html
-<center class="third">                      # class="half" 是两张并排
-    <img src="http://xxx.jpg">
-    <img src="http://yyy.jpg">
-    <img src="http://zzz.jpg">
-</center>
-```
+    ```html
+    <center class="third">                      # class="half" 是两张并排
+        <img src="http://xxx.jpg">
+        <img src="http://yyy.jpg">
+        <img src="http://zzz.jpg">
+    </center>
+    ```
 
 #### 图片放大功能
 
@@ -346,11 +346,11 @@ LoveIt内置了 Lightgallery 的设置，但是不知道是不是长期没有维
 
 4.  在 `/layouts/partials/footer.html ` 文件中
 
-   ```html
-   #在代码块主题插入两行代码调用插件
-   {{- /* busuanzi plugin */ -}}
-   {{- partial "plugin/busuanzi.html" (dict "params" .Site.Params.xwi88Cfg.busuanzi "bsz_type" "footer") -}}
-   ```
+       ```html
+       #在代码块主题插入两行代码调用插件
+       {{- /* busuanzi plugin */ -}}
+       {{- partial "plugin/busuanzi.html" (dict "params" .Site.Params.xwi88Cfg.busuanzi "bsz_type" "footer") -}}
+       ```
 
 5. 在 `/layouts/partials/plugin/busuanzi.html` 文件中
 
@@ -502,6 +502,34 @@ ffmpeg -i music.flac music.mp3
                    </span>
                </article>		
    		{{- end -}}
+   ```
+
+3. 因为目前并没有解决每篇文章底部导航栏的限定范围的问题，暂时的解决方案是关闭这个功能。在 `/layouts/partials/single/footer.html` 中，将
+
+   ```html
+   {{- with $prevPage -}}
+   	<a href="{{ .RelPermalink }}" class="prev" rel="prev" title="{{ .Title }}"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>{{ .Title | emojify }}</a>
+   {{- end -}}
+           
+   {{ with $nextPage }}
+   	<a href="{{ .RelPermalink }}" class="next" rel="next" title="{{ .Title }}">{{ .Title | emojify }}<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a>
+   {{- end -}}
+   ```
+
+   改为
+
+   ```html
+   {{- with $prevPage -}}
+   	{{- range (where .Pages ".Params.unlisted" "!=" "true") -}}
+   		<a href="{{ .RelPermalink }}" class="prev" rel="prev" title="{{ .Title }}"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>{{ .Title | emojify }}</a>
+   	{{- end -}}
+   {{- end -}}
+           
+   {{ with $nextPage }}
+   	{{- range (where .Pages ".Params.unlisted" "!=" "true") -}}
+   		<a href="{{ .RelPermalink }}" class="next" rel="next" title="{{ .Title }}">{{ .Title | emojify }}<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a>
+   	{{- end -}}
+   {{- end -}}
    ```
 
    
