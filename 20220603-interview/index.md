@@ -101,9 +101,9 @@ Summarize a situation where you **took the initiative** to **get others on** an 
 
 宝洁八大问的重中之重，最重要的问题没有之一！！！宝洁一面二面的必问问题！！！主要考察求职者的领导才能，可结合2个模型：一是**宝洁“5E”模型**：Envision（高瞻远瞩）、Engage（全情投入）、Energize（鼓舞士气）、Enable（授人以渔）、Execute（卓越执行）。二是**领导力模型“目标—分工—激励—反馈—指导—负责”**，从这6个独立的有逻辑顺序的分点去分析。
 
-{{< admonition answer "答案 2" true >}}
+{{< admonition answer "答案 2 - 领导力例子1" true >}}
 
-
+大四我参加了一门需要在哈尔滨实地搭建的参数化建筑课程，我们五位同学需要在不到三个月的时间里合作从设计到实地搭建。
 
 {{< /admonition >}}
 
