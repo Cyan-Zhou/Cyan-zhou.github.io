@@ -113,7 +113,16 @@ git remote -v
 git remote add origin master https://....../R.git
 ```
 
+##### 修改某些设置后没有更新
 
+在 xwi88 和毛哥的帮助下，我终于解决了 giscus 的问题。首先切换到 production 看看是不是解决了问题。如果此时预览实现了更改，而 push 到 GitHub 的页面却没有更新，问题可能是 `public` 文件夹下一些 `css` 、`js` 等文件没有实时更改
+
+```html
+# 首先使用以下命令可以让预览切换到 production 模式
+hugo server -w -e production -DF
+```
+
+解决方法是可以手动删除 `public` 文件夹下除了 `.git` 文件夹以外的全部内容，然后再重新 `hugo` 生成文件夹，这样修改应该就生效了。
 
 ### 日常操作
 
@@ -462,6 +471,40 @@ ffmpeg -i music.flac music.mp3
 
 此外可定义的还有很多，包括 `theme `  = `#448aff` ,  `fixed `  = `false` ,  `mini `  = `false` ,  `autoplay`  = `false`,  `volume`  = `0.7`,  `mutex`  = `true` (是否自动暂停其他播放器)
 如果是列表的话，还有参数  `loop`  = `all, one, none[default]`,  `order`  = `list(default), random`,  `list-folded`  = `false`,  `list-max-height`  = `340px(default)`
+
+#### 隐藏文章
+
+有的时候有一些把写好的文章隐藏的需求，我通过具体的 URL 可以分享给特定的人，但是这样的文章在首页是看不到的。有一些解决方案用到了加密的方法，目前来讲，还没有加密的必要。简单来说，只需要让主页面渲染时不去渲染特定页面就可以了。参考 [Creating Unlisted Content in Hugo](https://bphogan.com/2020/08/11/2020-08-11-creating-unlisted-content-in-hugo/)
+
+1. 对需要隐藏的文章，在 Markdown 文件前增加 `unlisted: true`
+
+2. 修改 `/layouts/_default/section.html` 
+
+   ```html
+   {{- /* Paginate */ -}}
+   {{- if .Pages -}}
+   	{{- $pages := .Pages.GroupByDate "2006" -}}
+   	{{- with .Site.Params.section.paginate | default .Site.Params.paginate -}}
+   		{{- $pages = $.Paginate $pages . -}}
+   	{{- else -}}
+   		{{- $pages = .Paginate $pages -}}
+   	{{- end -}}
+   	{{- range $pages.PageGroups -}}
+   		<h3 class="group-title">{{ .Key }}</h3>
+   		# 删掉 {{- range .Pages -}} ，改为下一句
+   		{{- range (where .Pages ".Params.unlisted" "!=" "true") -}}
+   			<article class="archive-item">
+      				 <a href="{{ .RelPermalink }}" class="archive-item-link">
+                       {{- .Title | emojify -}}
+                   </a>
+                   <span class="archive-item-date">
+                       {{- $.Site.Params.section.dateFormat | default "01-02" | .Date.Format -}}
+                   </span>
+               </article>		
+   		{{- end -}}
+   ```
+
+   
 
 ### 查阅文档
 

@@ -28,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/Cyan-zhou.github.io\/first-post\/"
-        },"genre": "posts","keywords": "Blog","wordcount":  1479 ,
+        },"genre": "posts","keywords": "Blog","wordcount":  1644 ,
         "url": "https:\/\/Cyan-zhou.github.io\/first-post\/","datePublished": "2022-05-21T21:21:18+08:00","dateModified": "2022-05-21T21:21:18+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -117,8 +117,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX"> Hugo &#43; GitHub Pages 搭建博客备忘录</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-category">included in <a href="/categories/blog/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Blog</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="far fa-calendar-check fa-fw"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1479 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;7 minutes&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="far fa-calendar-check fa-fw"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1644 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;8 minutes&nbsp;
     
 
     
@@ -161,6 +161,7 @@
               <ul>
                 <li><a href="#第一次运行需要">第一次运行需要</a></li>
                 <li><a href="#修改-repository-地址">修改 repository 地址</a></li>
+                <li><a href="#修改某些设置后没有更新">修改某些设置后没有更新</a></li>
               </ul>
             </li>
           </ul>
@@ -181,6 +182,7 @@
             <li><a href="#访客统计功能">访客统计功能</a></li>
             <li><a href="#插入-shields-徽章">插入 Shields 徽章</a></li>
             <li><a href="#添加音乐">添加音乐</a></li>
+            <li><a href="#隐藏文章">隐藏文章</a></li>
           </ul>
         </li>
         <li><a href="#查阅文档">查阅文档</a></li>
@@ -349,7 +351,20 @@
 </span></span><span class="line"><span class="cl">git remote add origin master https://....../R.git
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="日常操作">日常操作</h3>
+</div><h5 id="修改某些设置后没有更新">修改某些设置后没有更新</h5>
+<p>在 xwi88 和毛哥的帮助下，我终于解决了 giscus 的问题。首先切换到 production 看看是不是解决了问题。如果此时预览实现了更改，而 push 到 GitHub 的页面却没有更新，问题可能是 <code>public</code> 文件夹下一些 <code>css</code> 、<code>js</code> 等文件没有实时更改</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"># 首先使用以下命令可以让预览切换到 production 模式
+</span></span><span class="line"><span class="cl">hugo server -w -e production -DF
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>解决方法是可以手动删除 <code>public</code> 文件夹下除了 <code>.git</code> 文件夹以外的全部内容，然后再重新 <code>hugo</code> 生成文件夹，这样修改应该就生效了。</p>
+<h3 id="日常操作">日常操作</h3>
 <ol>
 <li>
 <h4 id="新建或修改文章">新建或修改文章</h4>
@@ -935,6 +950,64 @@
 </div><p>就可以轻松转换格式。 PS：<a href="https://zhuanlan.zhihu.com/p/67878761" target="_blank" rel="noopener noreffer">给新手的 20 多个 FFmpeg 命令示例</a></p>
 <p>此外可定义的还有很多，包括 <code>theme </code>  = <code>#448aff</code> ,  <code>fixed </code>  = <code>false</code> ,  <code>mini </code>  = <code>false</code> ,  <code>autoplay</code>  = <code>false</code>,  <code>volume</code>  = <code>0.7</code>,  <code>mutex</code>  = <code>true</code> (是否自动暂停其他播放器)
 如果是列表的话，还有参数  <code>loop</code>  = <code>all, one, none[default]</code>,  <code>order</code>  = <code>list(default), random</code>,  <code>list-folded</code>  = <code>false</code>,  <code>list-max-height</code>  = <code>340px(default)</code></p>
+<h4 id="隐藏文章">隐藏文章</h4>
+<p>有的时候有一些把写好的文章隐藏的需求，我通过具体的 URL 可以分享给特定的人，但是这样的文章在首页是看不到的。有一些解决方案用到了加密的方法，目前来讲，还没有加密的必要。简单来说，只需要让主页面渲染时不去渲染特定页面就可以了。参考 <a href="https://bphogan.com/2020/08/11/2020-08-11-creating-unlisted-content-in-hugo/" target="_blank" rel="noopener noreffer">Creating Unlisted Content in Hugo</a></p>
+<ol>
+<li>
+<p>对需要隐藏的文章，在 Markdown 文件前增加 <code>unlisted: true</code></p>
+</li>
+<li>
+<p>修改 <code>/layouts/_default/section.html</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">{{- /* Paginate */ -}}
+</span></span><span class="line"><span class="cl">{{- if .Pages -}}
+</span></span><span class="line"><span class="cl">	{{- $pages := .Pages.GroupByDate &#34;2006&#34; -}}
+</span></span><span class="line"><span class="cl">	{{- with .Site.Params.section.paginate | default .Site.Params.paginate -}}
+</span></span><span class="line"><span class="cl">		{{- $pages = $.Paginate $pages . -}}
+</span></span><span class="line"><span class="cl">	{{- else -}}
+</span></span><span class="line"><span class="cl">		{{- $pages = .Paginate $pages -}}
+</span></span><span class="line"><span class="cl">	{{- end -}}
+</span></span><span class="line"><span class="cl">	{{- range $pages.PageGroups -}}
+</span></span><span class="line"><span class="cl">		<span class="p">&lt;</span><span class="nt">h3</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;group-title&#34;</span><span class="p">&gt;</span>{{ .Key }}<span class="p">&lt;/</span><span class="nt">h3</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">		# 删掉 {{- range .Pages -}} ，改为下一句
+</span></span><span class="line"><span class="cl">		{{- range (where .Pages &#34;.Params.unlisted&#34; &#34;!=&#34; &#34;true&#34;) -}}
+</span></span><span class="line"><span class="cl">			<span class="p">&lt;</span><span class="nt">article</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;archive-item&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">   				 <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;{{ .RelPermalink }}&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;archive-item-link&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">                    {{- .Title | emojify -}}
+</span></span><span class="line"><span class="cl">                <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;archive-item-date&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">                    {{- $.Site.Params.section.dateFormat | default &#34;01-02&#34; | .Date.Format -}}
+</span></span><span class="line"><span class="cl">                <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">&lt;/</span><span class="nt">article</span><span class="p">&gt;</span>		
+</span></span><span class="line"><span class="cl">		{{- end -}}
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
 <h3 id="查阅文档">查阅文档</h3>
 <ul>
 <li><a href="https://www.markdown.xyz/basic-syntax/" target="_blank" rel="noopener noreffer">Markdown基本语法</a> 和<a href="https://www.markdown.xyz/cheat-sheet/" target="_blank" rel="noopener noreffer">Markdown速查表</a></li>
