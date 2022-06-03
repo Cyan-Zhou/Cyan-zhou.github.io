@@ -103,7 +103,7 @@ Summarize a situation where you **took the initiative** to **get others on** an 
 
 {{< admonition answer "答案 2 - 领导力例子1" true >}}
 
-大四我参加了一门需要在哈尔滨实地搭建的参数化建筑课程，我们五位同学需要在不到三个月的时间里合作从设计到实地搭建。
+大四我参加了一门需要在哈尔滨实地搭建的参数化建筑课程，我们五位同学需要在不到三个月的时间里合作从设计到实地搭建。在当时
 
 {{< /admonition >}}
 
