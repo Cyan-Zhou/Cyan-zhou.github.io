@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - Cyan Zhou</title>
+        <title>All Posts - Ush Terek</title>
         <link>https://Cyan-zhou.github.io/posts/</link>
-        <description>All Posts | Cyan Zhou</description>
+        <description>All Posts | Ush Terek</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 03 Jun 2022 17:08:03 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>公文写作相关知识</title>
     <link>https://Cyan-zhou.github.io/20220603-writing_test/</link>
