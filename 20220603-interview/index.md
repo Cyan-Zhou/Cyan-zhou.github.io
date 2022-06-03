@@ -87,6 +87,10 @@ S3   :(fa-solid fa-lightbulb): : 别人没完成，而你完成了，身边的�
 
 结果是我顺利在今年1月份和2月份从两所学校答辩后毕业，历史方向的论文也成功发表在权威期刊上。这段经历让我明白，在面对复杂困难的时候，高效、有计划的工作方式会让我保持稳定平和的心态；另外，只要愿意挑战自己，没有什么困难是克服不了的。但同时，这段经历也让我吸取了一些教训，因为当时着眼于挑战，没有做出全面的计划和候选方案，找工作的过程受到了今年经济形势和疫情较大的影响，那么我意识到在面对困难的时候，也要注意困难的方方面面，绝对不能只看到眼前的问题，遗漏了未来一些潜在的隐患。
 
+{{< /admonition >}}{{< admonition answer "答案 2 - 与领导力相关" true >}}
+
+在这个搭建的项目中，作为一个没有经验，成员在加入团队之前，其实并没有做好相应准备的团队，我们在一开始就打算挑战不可能的结构，这其实是一个十分冒险的目标。在资源方面，团队中对参数化有些了解的只有我一人，而我们要实现的结构需要不断跑grasshopper脚本运算优化反馈。我每天都坐在老师办公室修改程序，这样可以随时咨询老师一些我不知道怎么解决的问题，同时密切和懂编程的助教沟通，意外的收获是，因为我们的项目，让助教也优化了工作室原来写好的程序。技术方面，我努力学习grasshopper力学分析的模件，有问题就请教助教和老师；当结构总是变形时，设计缩放模型，控制变量屡次模拟，攻克设计难关。合作方面，当合作出现矛盾时，比如在即将前往哈尔滨的最后一周，联系好的材料商运输出了问题，而我也担心设计的复杂结构在现场很难指导当地工人施工。因此，我换了一家物流通畅的供应商，立即发货一部分材料，确保我们到场后可以即刻开始搭建，在到场一两天后，延迟的材料也顺利到货；同时，为了避免到场后不能顺利搭建，我特地制作了一份十分详细的说明书，事实证明，在说明书的帮助下，和工人师傅沟通要容易很多，复杂的结构的搭建过程也借着制作说明书的机会被我提前梳理了一遍，而说明书的内容详细到脚手架的位置、个数以及时间。
+
 {{< /admonition >}}
 
 ### 2. 领导力
@@ -101,9 +105,149 @@ Summarize a situation where you **took the initiative** to **get others on** an 
 
 宝洁八大问的重中之重，最重要的问题没有之一！！！宝洁一面二面的必问问题！！！主要考察求职者的领导才能，可结合2个模型：一是**宝洁“5E”模型**：Envision（高瞻远瞩）、Engage（全情投入）、Energize（鼓舞士气）、Enable（授人以渔）、Execute（卓越执行）。二是**领导力模型“目标—分工—激励—反馈—指导—负责”**，从这6个独立的有逻辑顺序的分点去分析。
 
-{{< admonition answer "答案 2 - 领导力例子1" true >}}
+{{< admonition answer "答案 2 - 领导力例子 1" true >}}
 
-大四我参加了一门需要在哈尔滨实地搭建的参数化建筑课程，我们五位同学需要在不到三个月的时间里合作从设计到实地搭建。在当时
+大四我参加了一门需要在哈尔滨实地搭建的参数化建筑课程，我们五位同学需要在不到三个月的时间里合作完成一个10米见方的参数化结构，从设计到实地搭建。那么在一开始，团队组建过程中其实就遇到了一些问题，首先是我们并没有指定组长，组内两位同学当时都在忙于别的事情，态度比较消极，让团队能有效运作起来是完成任务首先要解决的问题。
+
+首先解决第一个问题，我想在学校里其实合作的一个很常见的问题，就是当老师或者一个外部力量来确定 leader 人选时，大家有可能出于各种想法导致团队始终没有 leader 主动出现。那么我对于这种情况的对策很简单，就是只要主动多做一些，多想一些，多承担一些责任，自然就会成为 leader 这个角色，其实究竟有没有书面呈现出自己是 leader 这件事，对我来说是不重要的，重要的是这份责任的承担能推动任务的顺利进行。比如在这个哈尔滨的项目中，我考虑到设计，技术攻关过程十分漫长，而且任务量多且杂，根据我对两位忙于别的事情的同学的了解，她们既不擅长这方面，也没有时间、精力和兴趣去做这件事。他们一位擅长与人沟通，当时在计划转到社科类的方向，另一位擅长视觉，当时在计划转到动画的方向。恰好，项目需要在搭建方面，有人负责材料、和供应商以及工人沟通；而在最终评图和表现中，需要产出一系列图纸表现整个过程，而这两个任务相当关键，但并不会占用过多的精力，也符合他们两位的兴趣和擅长点。于是我在小组的讨论中，提出由我和其他两位同学负责设计等流程，这两位同学负责上述的两个任务，我发现她们立刻变得积极参与到这个过程中了。除此之外，我还主动扮演了团队各个方面之间粘合剂的角色，在讨论分配的参数化模拟程序修改的任务之外，我和负责设计的同学一起讨论设计的方向，组织其他同学制作测试模型，配合购买材料的同学制定材料清单，在出发前排版出图制作了清晰的拼接说明书，在现场搭建的时候监督每个流程的顺利进行，并且随时解决问题。最终，我想团队其他成员因为对我的信任，也进而更加投入地参与到团队的工作中，没有人各自为政，也没有人偷工减料。最终，我们的项目顺利完成了预计的每个环节，因为在技术上有突破，随后基于这个项目，我们还写了一篇论文被相关领域的国际会议接收。考虑到团队中没有人在此前有过参数化设计的经验和背景，我认为这次合作相当成功。
+
+{{< /admonition >}}
+
+{{< admonition answer "答案 2 - 领导力例子 2 - 我不是领导" true >}}
+
+在香港 Aedas 的实习中，我
+
+{{< /admonition >}}
+
+### 3. 决策能力
+
+{{< admonition question "问题 3" true >}}
+
+Describe a situation where you had to seek out relevant information define key  and decide on which steps to take to get the desired results. 
+
+第3问：请详细描述一个情景，在这个情景中你必须搜集相关信息，划定关键点，并且决定依照哪些步骤能够达到所期望的结果。
+
+{{< /admonition >}}
+
+{{< admonition answer "答案 1 " true >}}
+
+
+
+{{< /admonition >}}
+
+{{< admonition answer "答案 2 - 和领导力例子有关 " true >}}
+
+
+
+{{< /admonition >}}
+
+### 4. 说服力
+
+{{< admonition question "问题 4" true >}}
+
+Describe an instance where you made effective use of facts to secure the agreement of others.
+
+第4问：举例说明你是怎样用事实促使他人与你达成一致意见的。/描述一个例子，证明你用事实去说服别人。
+
+{{< /admonition >}}
+
+{{< admonition answer "答案 1 " true >}}
+
+
+
+{{< /admonition >}}
+
+{{< admonition answer "答案 2 - 和领导力例子有关 " true >}}
+
+
+
+{{< /admonition >}}
+
+### 5. 合作能力
+
+{{< admonition question "问题 5" true >}}
+
+5、Give an example of how you worked effectively with people to accomplish an important result. 
+
+第5问：举例证明你可以和他人合作，共同实现一个重要目标。
+
+{{< /admonition >}}
+
+{{< admonition answer "答案 1 " true >}}
+
+
+
+{{< /admonition >}}
+
+{{< admonition answer "答案 2 - 和领导力例子有关 " true >}}
+
+
+
+{{< /admonition >}}
+
+### 6. 创新力
+
+{{< admonition question "问题 6" true >}}
+
+6、Describe a creative/innovative idea that you produced which led to a significant contribution to the success of an activity or project. 
+
+第6问：举例证明，你的一个创意曾经对一个项目的成功起到至关重要的作用。
+
+{{< /admonition >}}
+
+{{< admonition answer "答案 1 " true >}}
+
+
+
+{{< /admonition >}}
+
+{{< admonition answer "答案 2 - 和领导力例子有关 " true >}}
+
+
+
+{{< /admonition >}}
+
+### 7. 判断优先级
+
+{{< admonition question "问题 7" true >}}
+
+7、Provide an example of how you assessed a situation and achieved good results by focusing on the most important 
+
+第7问：请举例，你是怎样评估一种情况，并将注意力集中在最重要事情上从而获得你所期望的结果。
+
+{{< /admonition >}}
+
+{{< admonition answer "答案 1 " true >}}
+
+
+
+{{< /admonition >}}
+
+{{< admonition answer "答案 2 - 和领导力例子有关 " true >}}
+
+
+
+{{< /admonition >}}
+
+### 8. 学习能力
+
+{{< admonition question "问题 8" true >}}
+
+8、Provide an example of how you acquired technical skills and converted them to practical application. 
+
+第8问：举例说明你怎样获得一种技能，并将其转化为实践。
+
+{{< /admonition >}}
+
+{{< admonition answer "答案 1 " true >}}
+
+
+
+{{< /admonition >}}
+
+{{< admonition answer "答案 2 - 和领导力例子有关 " true >}}
+
+
 
 {{< /admonition >}}
 
