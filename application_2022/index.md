@@ -188,23 +188,13 @@ Regular Decision: Feb 15
 
 Interdisciplinary program with management, business, engineering and design. The thesis can defer so that  they have a long time to look for internship or other opportunities. The core courses focus on real estate business. 30 students / year, only 20% has less than three years work experience. 
 
-### Real Estate and the Built Environment GSD
+### Master in Real Estate
 
-The trans-disciplinary program positions real estate development as a collaborative process, allowing students to enroll in courses from across the GSD as well as throughout the university—including Harvard Business School, Kennedy School of Government and Harvard Law School.
+12 month,  **The MRE program anticipates enrolling up to 25 students.** Applicants must possess a bachelor’s or equivalent degree. Two or more years of professional experience in real estate or related fields (urban planning, urban design, architecture, landscape architecture, etc.) is preferred. 
 
-{{<admonition tip "Four Areas of Concentration " false >}}
+9 month s on-campus courses, and 2 months practice
 
-Design and Innovation in Real Estate
-
-Real Estate Finance and Investment
-
-Leadership and Entrepreneurship
-
-City Making and Urban Economics
-
-{{< /admonition >}}
-
-[Real Estate and the Built Environment](https://www.gsd.harvard.edu/master-in-design-studies-mdes-pre-fall-2021/real-estate-and-the-built-environment/)
+[Master in Real Estate](https://www.gsd.harvard.edu/urban-planning-design/master-in-real-estate/)
 
 ### M.S. REAL ESTATE DEVELOPMENT Columbia GSAPP
 
