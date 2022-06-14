@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>RSS - Tag - Ush Terek</title>
+        <link>https://Cyan-zhou.github.io/tags/rss/</link>
+        <description>RSS - Tag - Ush Terek</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 14 Jun 2022 22:22:20 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/tags/rss/" rel="self" type="application/rss+xml" /><item>
+    <title>用RSS回到开放的互联网</title>
+    <link>https://Cyan-zhou.github.io/20220614-rss/</link>
+    <pubDate>Tue, 14 Jun 2022 22:22:20 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>https://Cyan-zhou.github.io/20220614-rss/</guid>
+    <description><![CDATA[为什么我觉得大家都应该用 RSS，以及使用 RSS 的教程和一些慢慢更新的推荐的订阅源]]></description>
+</item>
+</channel>
+</rss>

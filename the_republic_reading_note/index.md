@@ -296,7 +296,91 @@ happy 对应的希腊语词汇是 eudaimōn，这个词语的意思与英语中�
 
 ### 4. Adeimantus and Glaucon Restate the Case for Injustice
 
+在上一节中，Thrasymachus 以落败者的形象退场，看起来，苏格拉底胜利了。但事实上，从读者的角度来看，我们很难轻松地认可苏格拉底的论述，尽管他的问答步步为营，逻辑滴水不漏，但他还没有解决一个非常重要的问题：世界上太多不义之人用卑劣的手段得到了利益，从结果来看，行不义者依旧是比秉持正义的人拥有太多，该如何看待这个事实？另外，上节给人一种苏格拉底刻薄的形象，因此，Glaucon 和 Adeimantus 在这里温和地继承了 Thrasymachus 的观点，要求苏格拉底继续说服他们。
 
+<table><tr><td height=15px; bgcolor=#F1EEEE><center><font color=205375 size="3"><b>Part I: Glaucon</b></center></td></tr></table> 
+
+Glaucon 认为人们为自己谋取利益是天经地义的，而对正义、道德感的追求都应该让位于利益。道德感之所以出现在人类社会，是因为社会不能接受所有人的自私，必须让渡并限制一部分个人权利，因此，道德感是妥协的产物。
+
+Glaucon 阻止了 Thrasymachus 离场，他夺过反对苏格拉底的阵地，并且**开始反问苏格拉底问题**
+
+{{< admonition quote "357b" true >}}
+
+‘Do you want our conviction that right action is in all circumstances better than wrong to be genuine or merely apparent?’
+
+‘If I were given the choice,’ I replied, ‘I should want it to be genuine.’
+
+{{< /admonition >}}
+
+Glaucon 首先让苏格拉底承认在任何场合下，正确的行为都在绝对意义上优于错误的行为。Glaucon 按照目的将 good 拆分为了一组概念，为了它本身而不是它的影响的 good, 例如 `enjoyment or pleasure` ；既为了它本身也为了它的影响的 good, 例如 `wisdom and sight and health` ；**为了它的影响而不是为它本身的 good**, 例如 `exercise and medical treatment ` 。而苏格拉底认为，`justice and right` 是在第二个分类中，也是最高级的分类中的。然而，读者们在内的众人却更多认为它们应该被放置在第三类中——痛苦却带来好的结果的 good。
+
+Glaucon 接着更新了 Thrasymachus 的观点为三个部分：
+
+1. 大众眼中 justice 的天性与起源
+2. 人们在行善的时候，往往是由于受到某种程度的强迫，而不是为了行善
+3. 第 2 点的现象是正常的，不义之人的确比正义的人享有更好的生活
+
+Glaucon 坦诚他并非完全相信这一切，但 Thrasymachus 在内的许多人却不断给他灌输这样的观念。事实上，Glaucon 这里代表的正是大多数人，他们在内心深处认可正义，却受到社会现象和思想的负面影响，不得不默许大众观点的切实成立。Glaucon 因此决定彻底成为大众声音的代言人，他将试图扮演歌颂不义的角色，来让苏格拉底提出值得信服的解释。
+
+1. *大众眼中 justice 的天性与起源*
+
+   这里 Glaucon 首先给出了一个我没看懂的观点
+
+   {{< admonition quote "358e" true >}}
+
+   What they say is that it is according to nature a good thing to inflict wrong or injury, and a bad thing to suffer it, but that the disadvantages of suffering it exceed the advantages of inflicting it.
+
+   {{< /admonition >}}
+
+   王晓朝的译本里，也译为“行不正义是天然的善，承受不正义是天然的恶”，为什么这里“行不正义是天然的善”呢？或者是说，人的本性是利己的，这是善；但因为他人利己而导致自己利益遭受损失的，这是恶。因为善恶的不可协调，人们制定了法律和协议，而这就是正义的起源。因此，正义本身就是一种妥协的产物。
+
+2. *人们在行善的时候，往往是由于受到某种程度的强迫，而不是为了行善*
+
+   人们之所以行善，在于他们不能行恶。Glaucon 举例了一个场景，一个正义之人和一个不义之人被给予了行事自由的权利，而我们会发现，正义的人会因为私欲而损害他人。Glaucon 这里用了完美的 Gyges 的例子来说明这个观点的正确性，牧羊人 Gyges 从地狱中偷走了一个金戒指，当他发现戒指有隐身的能力之后，开始用戒指盗窃、偷情、篡权。**权力带给人的变化**。
+   
+3. *第 2 点的现象是正常的，不义之人的确比正义的人享有更好的生活*
+
+   Glaucon 首先对比了极端案例——绝对正义的人和绝对不义的人。绝对不义的人首先是不义方面的绝对专家，他清楚自己在每件事上应持的立场取决于这件事与自己利益的关系，那么，完美的不义者**一定在背地里行不义，同时表面极度良善**，他一定乐于行善，慷慨解囊，因为他给神祗们的贡品最多，神祗们也会保护他；反之，完美的正义者**一定私下里四处行善，而表面上是极度的恶人**，因为他秉持正义不是为了他自己的利益，而是为了别人的利益，而正义的名声会带来利益，因此他会伪装成令人厌恶的不义之人，这才是一个绝对的利他主义者。最终的结果是，不义之人比正义之人的生活中回报更多，也更加快乐。这里 Glaucon 没有采取 Thrasymachus 用双方的实际行为的差异来表达观点的方式，而是从表象出发，从两种极端形象会为了自己的身份 image 采取的行动，来反推生活上所享有的快乐的多少。
+
+<table><tr><td height=15px; bgcolor=#F1EEEE><center><font color=205375 size="3"><b>Part II: Adeimantus</b></center></td></tr></table> 
+
+Glaucon 的兄弟 Adeimantus 接着 Glaucon 的论述继续往下说，他认为人们行恶可以得到很多东西，而行善的所得一定少于行恶，而且，宗教鼓励人们行恶，因为宗教告诉人们他们可以通过给神祗的慷慨献金来抵消本世的罪恶，而下世的开始又将清空循环，因此，Adeimantus 要求苏格拉底讲明白，行善的目的是什么，而这个目的不能是任何外在的奖惩。
+
+Adeimantus 的观点同样十分现实，人们之所以教导其他人行正义之事，往往也是看重行正义之事带来的名声和荣誉，赫西俄德和荷马都描述过上帝对正义之人的嘉奖。在现实世界里，Glaucon 描述的极度正义的人会遭受的刑罚，还是会落在不义者的身上。
+
+另一方面，在世人的印象中，正义之路是崎岖的，不义之路是平坦的，正义带来痛苦、折磨和忍耐力，不义带来的是财富、快乐和轻松的生活。在宗教里，传福音的人会因为一些报酬而为任何一个富人消除他曾行的不义之事。而这一切都会让青年用品达的诗句质问自己
+
+{{< admonition quote "365b" true >}}
+
+Shall I by justice reach the higher stronghold, or by deceit
+
+{{< /admonition >}}
+
+人们终会被打败，这会导致人们伪装成为正义的人，却在私下里或者是秘密社团中大肆行恶。熟练的人可以伪装骗过所有人，那么众神呢？如果众神关注我们，他们就不会允许宗教贪污和收买的现象发生，而如果宗教都不关心我们，还有什么必要担心他们？相信众神的人，行恶之后只需要慷慨解囊献祭众神。如此一来，将不会有人行正义之事。Adeimantus 的论述其实是从信念的角度分析了这样一个信仰崩塌的社会将注定走向虚伪的正义和隐藏的恶之路。
+
+{{< admonition tip "Simonides" false >}}
+
+appearance has more force than reality，表象会用暴力战胜真理。这被推断为是前面提到过的 Simonides 的诗句。
+
+{{< /admonition >}}
+
+其实 Glaucon 和 Adeimantus 的立场是非常理性的，他们基于冲动的 Thrasymachus 的观点，从表象的方面否定了正义。他们并不追求驳倒苏格拉底，而是希望让苏格拉底给出令人信服的解释，否则隔靴搔痒的争论对社会的未来毫无裨益。他们在最后总结了苏格拉底到目前为止的观点以及其缺陷：
+
+1. 苏格拉底仅仅论证了正义强于不正义。然而，他并没有剥离外在因素的作用，那么他在事实上鼓励人们为了名声追求表面的正义。否则的话苏格拉底将
+
+   {{< admonition quote "367c" true >}}
+
+   you agree with Thrasymachus that justice is what is good for someone else, the interest of the stronger party, while injustice is what is to one’s own interest and advantage, and pursued at the expense of the weaker party.
+
+   {{< /admonition >}}
+
+2. 苏格拉底同意正义应该归属于**既为了它本身也为了它的影响的 good**。而这并未解释清楚正义能给人带来的好处，和不义能给人带来的坏处。
+
+
+
+
+
+<br><p align="right"><b>第一部分完</b></p>
 
 {{< admonition note "See you later" false >}}
 
