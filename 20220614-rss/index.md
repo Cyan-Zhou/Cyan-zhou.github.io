@@ -3,6 +3,8 @@
 
 <!--more-->
 
+<img src="https://img.shields.io/badge/last%20modified-2022--06--15-ff69b4?style=flat" >   <img src="https://img.shields.io/badge/Hugo version-0.100.1-blue?style=flat" >    <img src="https://img.shields.io/badge/Status-updating-blue?style=flat" >
+
 ## Why RSS?
 
 我经常会在失眠的夜晚，刷着小红书，痛恨大数据为我们精心策划的人生。好像我们一下子就习惯了很容易看到喜欢的内容的生活，久而久之，我都快忘记了小时候站在报刊亭前，面对着琳琅满目我从没听说过的杂志们的兴奋感。因为在哥哥家里看到《看电影》的杂志，我开始一发不可收拾地爱上看电影；因为在初中的书店偶然买到一本《Hobby Japan》，我得以一窥模型的隐秘世界，或许这也是我对会做模型的建筑系产生向往的原因之一。当然，我明白现在要接触到这些信息比那个时候要容易太多，你总可以找到无论多么冷门的电影资源，大佬们制作的做模型的视频也比比皆是。然而，什么能比得上我站在杂志店的那个充满期待和惊喜的瞬间呢？
@@ -38,6 +40,8 @@ graph LR;
 另外，有一些网站有反爬机制，我们看到的往往只是摘要，如果你使用也是 inoreader 的话，点击你想读的文章上面的这个咖啡图标，就可以爬取到全文啦。一个 RSS 阅读器如果没有爬取全文的功能，那可以说和不用 RSS 没什么两样。
 
 <a data-fancybox="gallery" href="/20220614-rss/image-20220615003708807.png"><img src="/20220614-rss/image-20220615003708807.png" ></a>
+
+如果不想让某篇文章被 rss 抓到的话，只需要在每篇文章设置里输入 `hiddenFromSearch: true` 就可以了
 
 ## 推荐阅读
 

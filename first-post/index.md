@@ -3,7 +3,7 @@
 
 <!--more-->
 
-<img src="https://img.shields.io/badge/last%20modified-2022--05--30-ff69b4?style=flat" >   <img src="https://img.shields.io/badge/Hugo version-0.99.1-blue?style=flat" >    <img src="https://img.shields.io/badge/Status-updating-blue?style=flat" >
+<img src="https://img.shields.io/badge/last%20modified-2022--06--15-ff69b4?style=flat" >   <img src="https://img.shields.io/badge/Hugo version-0.99.1-blue?style=flat" >    <img src="https://img.shields.io/badge/Status-updating-blue?style=flat" >
 
 打算搭建博客的想法已经有两三年了，一直到最近对代码不再一无所知，而且待业在家才终于决定着手搭建一个简单的博客。之前大概看过 Squarespace、Cargo 这类 SaaS 平台，考虑到
 
@@ -532,7 +532,75 @@ ffmpeg -i music.flac music.mp3
    {{- end -}}
    ```
 
+
+#### 设备更换
+
+最近正好在外地，临走之前用笔记本备份了台机上博客的相关文件。今天晚上没什么事，写了一篇 rss 的文档想更新一下，果然在同步操作上出了很多问题。这里记录一下，之后也方便再改设备的情况发生。
+
+1. 按流程，写好文章以后，一直到 `hugo` 的步骤都没什么问题。主要还是在 GitHub 的同步中有问题
+
+2. 问题一：需要添加笔记本的 SSH key。当看到下列信息时，首先对照[GitHub's SSH key fingerprints](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints) 中的 fingerprint 是否匹配。匹配的话说明没有发生 MITM(Man-In-The-Middle) attack，但我在这里点击 yes 以后，并没有成功，推测是笔记本的 SSH key 没有关联 GitHub 账号的缘故。参考[github设置添加SSH](https://www.jianshu.com/p/5cd341bddae6) 这篇文章进行设置。
+
+   ```bash
+   The authenticity of host 'github.com (ip)' can't be established.
+   RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+   Are you sure you want to continue connecting (yes/no)?
+   ```
+
+3. 问题二，在完成了这个步骤之后，我依旧不能 push 成功。先是在 commit 的时候报错 
+
+   ```bash
+   $ git commit -m "20220615-106"
+   Author identity unknown
    
+   *** Please tell me who you are.
+   
+   Run
+   
+     git config --global user.email "you@example.com"
+     git config --global user.name "Your Name"
+   
+   to set your account's default identity.
+   Omit --global to set the identity only in this repository.
+   
+   fatal: unable to auto-detect email address (got 'lenovo@DESKTOP-XXXXXXX.(none)')
+   ```
+
+   这个时候按照指示输入你的账户邮箱和用户名，是因为笔记本上并没有和 GitHub 产生关联，无法确认你的身份。
+
+4. 问题三，在 commit 成功以后，push 的时候再次报错
+
+   ```bash
+   $ git push origin master
+   ssh: connect to host github.com port 22: Connection timed out
+   fatal: Could not read from remote repository.
+   
+   Please make sure you have the correct access rights
+   and the repository exists.
+   ```
+
+   此时我首先用 `git remote -v` 的命令确认仓库正确，然后想到 [Github Pages + Hugo 搭建个人博客](https://zz2summer.github.io/github-pages-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/#%E5%85%AB%E7%BB%86%E8%8A%82%E4%BC%98%E5%8C%96) 讲到过远程库和本地库的冲突问题。尤其是在看到下面的报错以后确定是这个问题
+
+   ```bash
+   $ git push origin master
+   To github.com:Cyan-Zhou/Cyan-zhou.github.io.git
+    ! [rejected]        master -> master (fetch first)
+   error: failed to push some refs to 'github.com:Cyan-Zhou/Cyan-zhou.github.io.git'
+   hint: Updates were rejected because the remote contains work that you do
+   hint: not have locally. This is usually caused by another repository pushing
+   hint: to the same ref. You may want to first integrate the remote changes
+   hint: (e.g., 'git pull ...') before pushing again.
+   hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+   
+   ```
+
+   于是首先备份 public 文件夹里的文件，然后合并远程库和本地库的文件。
+
+   ```bash
+   git pull origin master --allow-unrelated-histories
+   ```
+
+   这之后就按顺序 git add, commit, push，然后顺利更新了页面
 
 ### 查阅文档
 
