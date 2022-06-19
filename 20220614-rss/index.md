@@ -73,11 +73,15 @@ graph LR;
 
 2. [koozArch](https://koozarch.com/)
 
+<<<<<<< HEAD
    也是我经常看的网站，最近更新了一次页面风格。不过没有现成的 RSS 接口，学学怎么自己写吧。
    
 3. [Volume64 CubeLab](https://volume64blog.com/about/)
 
    英国一群 MArch 学生运营的 diagram 网站，只通过 4 * 4 * 4 的体积呈现一个概念化的题目。2019 年以后一直没有更新，不过可以持续关注。
+=======
+   也是我经常看的网站，最近更新了一次页面风格。不过没有现成的 RSS 接口，学学怎么自己写吧
+>>>>>>> 4cc79b680a8797e40da4db6ba90bf4f10ebc0187
 
 ### 政治
 

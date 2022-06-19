@@ -9,7 +9,11 @@
     <pubDate>Tue, 14 Jun 2022 22:22:20 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
     <guid>https://Cyan-zhou.github.io/20220614-rss/</guid>
+<<<<<<< HEAD
     <description><![CDATA[为什么我觉得大家都应该用 RSS 和一些推荐的订阅源]]></description>
+=======
+    <description><![CDATA[为什么我觉得大家都应该用 RSS，以及使用 RSS 的教程和一些慢慢更新的推荐的订阅源]]></description>
+>>>>>>> 4cc79b680a8797e40da4db6ba90bf4f10ebc0187
 </item>
 <item>
     <title> Hugo &#43; GitHub Pages 搭建博客备忘录</title>
