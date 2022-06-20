@@ -49,41 +49,125 @@ graph LR;
 
 ### 科技
 
-1. [阮一峰的网络日志](https://www.ruanyifeng.com/blog/)
+1. [MIT 科技评论](https://www.mittrchina.com/)
 
-   只遗憾没有更早知道阮老师的这个博客，他的 `科技爱好者周刊` 知识面极广，精选后的超链接又可以让我进一步了解感兴趣的话题。在很长一段时间里都会是我的良师益友。有人吐槽他的技术文章有各种各样的问题，但我认为他的知识的准确性或许值得质疑，不过归根结底，我们也不应该期望在一个个人博客里看到多么正确权威的东西，借用一句 web3 的经典表述，do your own research，通常来讲，愿意开眼看世界的人，远少于闭门造车者。
+   <img src="https://img.shields.io/badge/Status-日更-76BA99?style=flat" > `MIT Technology Review` 在中国唯一官方授权网站。关注了热榜以后让我回忆起初中一定会买的《科学美国人》杂志。读了这么多年建筑以后，我感觉很多建筑领域的论文其难懂程度远超一些生物、物理、科技方面的前沿论文，但是，在这个榜单上几乎没有建筑方面的研究报道。
 
-2. [MIT 科技评论](https://www.mittrchina.com/)
+2. [人人都是产品经理](http://www.woshipm.com/)
 
-   `MIT Technology Review` 在中国唯一官方授权网站。关注了热榜以后让我回忆起初中一定会买的《科学美国人》杂志。读了这么多年建筑以后，我感觉很多建筑领域的论文其难懂程度远超一些生物、物理、科技方面的前沿论文，但是，在这个榜单上几乎没有建筑方面的研究报道。
+   <img src="https://img.shields.io/badge/Status-日更-76BA99?style=flat" > 关注这个网站并不是因为我想当产品经理（来不及了），而是发现这个站点的热门文章可以从 PM 的角度或多或少提供一些对互联网未来和当下的展望与反思。我粗浅理解的 PM 或许是互联网产业的中层枢纽，向下直达用户，向上也需要对新的热点和未来趋势有准确的判断。当然，某种程度上它的文章也有“公众号化”的趋势，这大概是简中互联网无法避免的短期未来，深度不够，广度……更是不能奢求，但好在我是外行，看什么都有意思。
 
-3. [人人都是产品经理](http://www.woshipm.com/)
+3. [少数派](https://sspai.com/)
 
-   关注这个网站并不是因为我想当产品经理（来不及了），而是发现这个站点的热门文章可以从 PM 的角度或多或少提供一些对互联网未来和当下的展望与反思。我粗浅理解的 PM 或许是互联网产业的中层枢纽，向下直达用户，向上也需要对新的热点和未来趋势有准确的判断。当然，某种程度上它的文章也有“公众号化”的趋势，这大概是简中互联网无法避免的短期未来，深度不够，广度……更是不能奢求，但好在我是外行，看什么都有意思，也无所谓非要追求多么深入浅出的内容。
+   <img src="https://img.shields.io/badge/Status-日更-76BA99?style=flat" > 之前经常在冲浪的时候看到过少数派的文章，有时会让我想到消失的 `好奇心日报` ，因为是作者制的网站，文章类别比较杂，推荐类文章和测评类文章比较多。
 
-4. [少数派](https://sspai.com/)
+4. [阮一峰的网络日志](https://www.ruanyifeng.com/blog/)
 
-   之前经常在冲浪的时候看到过少数派的文章，它的 UI 还有整个的感觉会让我想到消失的 `好奇心日报` ，因为是作者制的网站，文章类别比较杂，推荐类文章和测评类文章比较多。
+   <img src="https://img.shields.io/badge/Status-周更-76BA99?style=flat" > 只遗憾没有更早知道阮老师的这个博客，他的 `科技爱好者周刊` 知识面极广，精选后的超链接又可以让我进一步了解感兴趣的话题。在很长一段时间里都会是我的良师益友。有人吐槽他的技术文章有各种各样的问题，但我认为他的知识的准确性或许值得质疑，不过归根结底，我们也不应该期望在一个个人博客里看到多么正确权威的东西，借用一句 web3 的经典表述，do your own research，通常来讲，愿意开眼看世界的人，远少于闭门造车者。
 
 ### 建筑|设计
 
+1. [Divisare](https://divisare.com/)
+
+    <img src="https://img.shields.io/badge/Status-日更-76BA99?style=flat" > 很有名的罗马的建筑杂志。
+
+2. [afaasia](https://afasiaarchzine.com/)
+
+    <img src="https://img.shields.io/badge/Status-日更-76BA99?style=flat" > 应该是西班牙的建筑网站，让我对他们很有好感的地方是他们的 RSS 分得很清晰。
+
+3. [The Architecture Review](https://www.architectural-review.com/)
+
+    <img src="https://img.shields.io/badge/Status-日更-76BA99?style=flat" > ar 应该不用介绍了。
+
+1. [HIC](http://hicarquitectura.com/)
+
+   <img src="https://img.shields.io/badge/Status-更新频率2--5篇/周-76BA99?style=flat" > 西班牙建筑博客，有些文章是西语，持续更新。
+
+1. [SUBTILITAS](https://subtilitas.tumblr.com/)
+
+   <img src="https://img.shields.io/badge/Status-更新频率1--15篇/周-76BA99?style=flat" > 分享世界各地住宅案例。
+
+1. [OfHouses](https://ofhouses.com/)
+
+   <img src="https://img.shields.io/badge/Status-更新频率11--20篇/月-76BA99?style=flat" > 罗马尼亚建筑师 Daniel Tudor Munteanu 运营的网站，正如它的副标题中所写到的 "A collection of Old Forgotten Houses."，OfHouses 直到今日还在不断更新这些曝光度很低的世界各地住宅。
+
 1. [SOCKS](https://socks-studio.com/)
 
-   不用多说了，SOCKS 尽管更新速度有些慢，前一阵服务器还过期了，不过发布的内容一直都很不错，谁看谁知道。
+   <img src="https://img.shields.io/badge/Status-更新频率1--3篇/月-76BA99?style=flat" > 不用多说了，SOCKS 尽管更新速度有些慢，前一阵服务器还过期了，不过发布的内容一直都很不错，谁看谁知道。
 
-2. [koozArch](https://koozarch.com/)
+3. [Senses Atlas](https://www.sensesatlas.com/)
 
-   也是我经常看的网站，最近更新了一次页面风格。不过没有现成的 RSS 接口，学学怎么自己写吧。
+   <img src="https://img.shields.io/badge/Status-更新频率1--10篇/年-76BA99?style=flat" > 内容很丰富的设计网站，建筑、城市、cartography 等内容居多。
    
-3. [Volume64 CubeLab](https://volume64blog.com/about/)
+3. [TEXTURALITY](https://texturality.tumblr.com/post/654096609978826752/crafted-works-studio-timber-cabin-drenthe)
 
-   英国一群 MArch 学生运营的 diagram 网站，只通过 4 * 4 * 4 的体积呈现一个概念化的题目。2019 年以后一直没有更新，不过可以持续关注。
+    <img src="https://img.shields.io/badge/Status-似乎停更-76BA99?style=flat" > 比较杂的建筑博客，偏向 landscape 和 craft。
+   
+3. [SSPADONI AA](https://spadoniaa.com/)
+
+   <img src="https://img.shields.io/badge/Status-2021年停更-76BA99?style=flat" > Francisco Spadoni 的事务所官网，他们的设计有一种微妙的轻盈感，很喜欢。
+   
+4. [fisheye magazine](https://www.fisheyemagazine.fr/en/)
+
+    <img src="https://img.shields.io/badge/Status-2021年停更-76BA99?style=flat" > 法国的线上摄影杂志。
+    
+4. [OSSO magazine](http://ossomagazine.com/)
+
+    <img src="https://img.shields.io/badge/Status-2021年停更-76BA99?style=flat" > 意大利的线上设计杂志，选取的资讯风格很独特。页面基本都是意大利语，以我蹩脚的意语水平基本只能看图。
+    
+13. [Concept Model](https://conceptmodel.tumblr.com/)
+
+     <img src="https://img.shields.io/badge/Status-2021年停更-76BA99?style=flat" > 分享各种建筑模型的网站。
+
+13. [Volume64 CubeLab](https://volume64blog.com/about/)
+
+    <img src="https://img.shields.io/badge/Status-2019年停更-76BA99?style=flat" > 英国一群 MArch 学生运营的 diagram 网站，只通过 4 * 4 * 4 的体积呈现一个概念化的题目。
+
+15. [Drawing ARCHITECTURE](https://drawingarchitecture.tumblr.com/)
+
+     <img src="https://img.shields.io/badge/Status-2016年停更-76BA99?style=flat" > 关注建筑表现，图纸还都挺酷的。
+
+16. [volume control](https://volume-control.tumblr.com/)
+
+     <img src="https://img.shields.io/badge/Status-2015年停更-76BA99?style=flat" > 分享体量感很强的建筑。
+
+18. [koozArch](https://koozarch.com/)
+
+    <img src="https://img.shields.io/badge/Status-No%20RSS%20Feed%20yet-76BA99?style=flat" > 也是我经常看的网站，最近更新了一次页面风格。
+
+19. [Monoskop](https://monoskop.org/Monoskop)
+
+    <img src="https://img.shields.io/badge/Status-No%20RSS%20Feed%20yet-76BA99?style=flat" > 2004 年成立的设计平台，经常会发布一些文章和图片，官网有 RSS 订阅的链接，但是或许因为没人用，很久不更新的缘故，不能抓取到文章。
+
+20. [Arquitectura Viva](https://arquitecturaviva.com/en)
+
+    <img src="https://img.shields.io/badge/Status-No%20RSS%20Feed%20yet-76BA99?style=flat" > 也不用介绍了，在官网首页上放纪念已故建筑师栏目据我所知也只有 AV。
 
 ### 政治
 
 1. [The Funambulist](https://thefunambulist.net/)
 
-   经常看的左翼线上杂志，每期的选题都很有意思，pan-africanism, weaponized infrastructure, design & racism，都是我从这个杂志上了解到的。也没有 RSS 接口
+   <img src="https://img.shields.io/badge/Status-No%20RSS%20Feed%20yet-76BA99?style=flat" > Activism 线上杂志，每期的选题都很有意思，pan-africanism, weaponized infrastructure, design & racism，都是我从这个杂志上了解到的。
+
+### 其他
+
+1. [掘火](https://space.bilibili.com/353238687?spm_id_from=333.337.search-card.all.click)
+
+   <img src="https://img.shields.io/badge/Status-更新频率1--3篇/周-76BA99?style=flat" > 掘火的 bilibili 视频频道，大家看起来。
+
+1. [Mountain Beltway](https://blogs.agu.org/mountainbeltway/)
+
+   <img src="https://img.shields.io/badge/Status-更新频率1--5篇/月-76BA99?style=flat" > 一个地质学爱好者的个人博客，经常记录一些他在美国自然公园遇到的地质学现象。
+
+3. [Land Before Time](https://landbeforetime.home.blog/)
+
+   <img src="https://img.shields.io/badge/Status-似乎停更-76BA99?style=flat" > 从地图视角研究水文、地质和历史的关系。作者是个谷歌地图重度爱好者，还有一个 YouTube Channel: [Zero Control](https://www.youtube.com/c/ZeroControl) 来发布一些谷歌地球研究的直播视频。
+   
+4. [King Gizzard And The Lizard Wizard YouTube Channel](https://www.youtube.com/c/KingGizzardAndTheLizardWizard)
+
+   <img src="https://img.shields.io/badge/Status-更新频率1--5篇/月-76BA99?style=flat" > 尽管 YouTube 的订阅十分类似 RSS 的订阅界面，按理来说不应该在 YouTube 和 RSS 阅读器重复一样的信息，但是实在太喜欢 King Gizzard and the Lizard Wizard，破个例。
+
+   
 
 ## 参考文献
 
