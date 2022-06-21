@@ -602,6 +602,172 @@ ffmpeg -i music.flac music.mp3
 
    这之后就按顺序 git add, commit, push，然后顺利更新了页面
 
+#### Markdown 五线谱
+
+LoveIt 的 Markdown 渲染并不支持太多扩展库，但是可以通过使用在线编辑器的方法，生成一些特殊格式的 html 语句，再置入到文章的 `.md` 文件中，比如，五线谱。当然，截图是个更简单的办法，不过既然可以生成很酷的乐谱，何乐而不为呢？
+
+1. [Arya](https://markdown.lovejade.cn/?utm_source=appinn.com) 或者 [Vditor](https://b3log.org/vditor/) 都是支持五线谱的浏览器端 Markdown 编辑器。只要在在线编辑器中得到想要的效果，再导出成 `html` 格式的代码块就可以了。
+
+2. 参考 [abcjs.standard](http://abcnotation.com/wiki/abc:standard:v2.1#information_fields) 对于语法的定义，基本涵盖了乐谱的各种符号和注释。比如
+
+   ````html
+   ```abc
+   X:102
+   %%staves 1 2 3
+   T: Sonata I
+   C: J.S. Bach
+   M: C
+   Q:"Adagio"
+   L: 1/8
+   K:C
+   V:1 clef=treble name="Violino I"      sname="Vl. I"
+   V:2 clef=treble name="Violino II"     sname="Vl. II"  space=+10
+   V:3 clef=bass   name="Violoncello" sname="Vc."
+   [V:1]  g8-|gf/e/ {e}f>g (a/f/d/f/) (A//=B//A//B//TB3//A///B///)|
+   [V:2] z8 | z8 |
+   [V:3] z cec gGBG | Aa- a/_b/a/g/ f3 g/f/ |
+   %
+   [V:1] c/gf/ E/ed/ c/c'b/ A/ag/ | ^f/e/d- d/(c/B/A/) G/(e/c/e/) Aa| d2-d/g/_b/a/ a3 g/=f/|
+   [V:2] c8- | cB/A/ {A}B>c (e/c/A/c/) (E//^F//E//F//TF3//E///F///) | G/(D/G/A/) _B/G/g/e/ ^cA d2-|
+   [V:3] edcB AG^FE | D^FGg c3d/c/| _BG g2-gf/e/ f>g|
+   ```
+   ````
+
+   {{< admonition type=tip title="一些比较常用的参数" open=false >}}
+   X &rarr; reference number
+   
+   C &rarr; composer
+   
+   D &rarr; discography
+   
+   K &rarr; key, G, Gm, AMix
+   
+   L &rarr; 最小单元音符长度, 1/4, 1/8
+   
+   M &rarr; meter, 3/4, 4/4
+   
+   Q &rarr; tempo, "allegro" 1/4=120
+   
+   S &rarr; source
+   
+   T &rarr; title
+   
+   W &rarr; 歌词，在音符后出现
+   
+   w &rarr; 歌词，在音符中出现
+   
+   音符 &rarr; 以 C 为例，c,|c|c' 分别是 C 音的三个八度；_c|=c|^c 是降C、C、升C
+   
+   | &rarr; 分隔符 ；:| &rarr; 重复记号
+   
+   ()  &rarr; 过渡记号
+   
+   C> &rarr; 延长一半，c< &rarr; 缩短一半
+   
+   z, z2, z3, Z &rarr; 不同休止符
+   
+   ......|1"Dm"D3DEF:|2"Dm"D6|....... 
+
+
+   {{< /admonition >}}
+
+3. 最后就可以得到想要的效果。
+
+   <html><head><link rel="stylesheet" type="text/css" href="https://unpkg.com/vditor@3.8.15/dist/index.css"/>
+   
+   <script src="https://unpkg.com/vditor@3.8.15/dist/js/i18n/zh_CN.js"></script>
+   <script src="https://unpkg.com/vditor@3.8.15/dist/method.min.js"></script></head>
+   <body><div class="vditor-reset" id="preview"><div class="language-abc">X: 24
+   T: Honeysucker Rose
+   C: Fats Waller
+   S: Honeysucker Rose, Fats Waller, 1929
+   M: 4/4
+   L: 1/8
+   Q: 1/4=80
+   R: 
+   K: C
+   |&quot;Gm7&quot;c'_bdf a z z2 |]
+   </div>
+   </div>
+   <script>
+       const previewElement = document.getElementById('preview')
+       Vditor.setContentTheme('light', 'https://unpkg.com/vditor@3.8.15/dist/css/content-theme');
+       Vditor.codeRender(previewElement);
+       Vditor.highlightRender({"enable":true,"lineNumber":false,"style":"github"}, previewElement, 'https://unpkg.com/vditor@3.8.15');
+       Vditor.mathRender(previewElement, {
+           cdn: 'https://unpkg.com/vditor@3.8.15',
+           math: {"engine":"KaTeX","inlineDigit":false,"macros":{}},
+       });
+       Vditor.mermaidRender(previewElement, 'https://unpkg.com/vditor@3.8.15', 'classic');
+       Vditor.flowchartRender(previewElement, 'https://unpkg.com/vditor@3.8.15');
+       Vditor.graphvizRender(previewElement, 'https://unpkg.com/vditor@3.8.15');
+       Vditor.chartRender(previewElement, 'https://unpkg.com/vditor@3.8.15', 'classic');
+       Vditor.mindmapRender(previewElement, 'https://unpkg.com/vditor@3.8.15', 'classic');
+       Vditor.abcRender(previewElement, 'https://unpkg.com/vditor@3.8.15');
+       Vditor.mediaRender(previewElement);
+       Vditor.speechRender(previewElement);
+   </script>
+   <script src="https://unpkg.com/vditor@3.8.15/dist/js/icons/ant.js"></script></body></html>
+   
+   这是上面乐句的 Markdown 代码块 :(far fa-hand-point-down fa-fw)::
+   
+   ```html
+   ```abc
+   X: 24
+   T: Honeysucker Rose
+   C: Fats Waller
+   S: Honeysucker Rose, Fats Waller, 1929
+   M: 4/4
+   L: 1/8
+   Q: 1/4=80
+   R: 
+   K: C
+   |"Gm7"c'_bdf a z z2 |]
+   - ```
+   ```
+   
+   这是上面乐句的 html 代码块 :(far fa-hand-point-down fa-fw)::
+
+
+   ```html
+   <html><head><link rel="stylesheet" type="text/css" href="https://unpkg.com/vditor@3.8.15/dist/index.css"/>
+   <script src="https://unpkg.com/vditor@3.8.15/dist/js/i18n/zh_CN.js"></script>
+   <script src="https://unpkg.com/vditor@3.8.15/dist/method.min.js"></script></head>
+   <body><div class="vditor-reset" id="preview"><div class="language-abc">X: 24
+   T: Honeysucker Rose
+   C: Fats Waller
+   S: Honeysucker Rose, Fats Waller, 1929
+   M: 4/4
+   L: 1/8
+   Q: 1/4=80
+   R: 
+   K: C
+   |&quot;Gm7&quot;c'_bdf a z z2 |]
+   </div>
+   </div>
+   <script>
+       const previewElement = document.getElementById('preview')
+       Vditor.setContentTheme('light', 'https://unpkg.com/vditor@3.8.15/dist/css/content-theme');
+       Vditor.codeRender(previewElement);
+       Vditor.highlightRender({"enable":true,"lineNumber":false,"style":"github"}, previewElement, 'https://unpkg.com/vditor@3.8.15');
+       Vditor.mathRender(previewElement, {
+           cdn: 'https://unpkg.com/vditor@3.8.15',
+           math: {"engine":"KaTeX","inlineDigit":false,"macros":{}},
+       });
+       Vditor.mermaidRender(previewElement, 'https://unpkg.com/vditor@3.8.15', 'classic');
+       Vditor.flowchartRender(previewElement, 'https://unpkg.com/vditor@3.8.15');
+       Vditor.graphvizRender(previewElement, 'https://unpkg.com/vditor@3.8.15');
+       Vditor.chartRender(previewElement, 'https://unpkg.com/vditor@3.8.15', 'classic');
+       Vditor.mindmapRender(previewElement, 'https://unpkg.com/vditor@3.8.15', 'classic');
+       Vditor.abcRender(previewElement, 'https://unpkg.com/vditor@3.8.15');
+       Vditor.mediaRender(previewElement);
+       Vditor.speechRender(previewElement);
+   </script>
+   <script src="https://unpkg.com/vditor@3.8.15/dist/js/icons/ant.js"></script></body></html>
+   ```
+
+   
+
 ### 查阅文档
 
 * [Markdown基本语法](https://www.markdown.xyz/basic-syntax/) 和[Markdown速查表](https://www.markdown.xyz/cheat-sheet/)
