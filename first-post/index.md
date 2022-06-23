@@ -766,7 +766,7 @@ LoveIt 的 Markdown 渲染并不支持太多扩展库，但是可以通过使用
    <script src="https://unpkg.com/vditor@3.8.15/dist/js/icons/ant.js"></script></body></html>
    ```
 
-   
+   这个方法用着玩玩吧，还是太繁琐了。Arya 的交互不是很好用，另外 abcjs 的库写的也很不清晰，很多功能（比如某段乐句的注释，以及吉他简谱）都没有。以后还是乖乖用 Guitar Pro 写入以后截图吧。
 
 ### 查阅文档
 

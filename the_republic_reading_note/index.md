@@ -3,12 +3,12 @@
 
 <!--more-->
 
-<img src="https://img.shields.io/badge/last%20modified-2022--05--31-ff69b4?style=flat" > <img src="https://img.shields.io/badge/English version-Penguin Classic 2007-blue?style=flat" > <img src="https://img.shields.io/badge/中文版本-人民出版社2017年增订本-blue?style=flat" >
+<img src="https://img.shields.io/badge/last%20modified-2022--06--22-ff69b4?style=flat" > <img src="https://img.shields.io/badge/English version-Penguin Classic 2007-blue?style=flat" > <img src="https://img.shields.io/badge/中文版本-人民出版社2017年增订本-blue?style=flat" >
 
 {{< admonition type=info title="阅读版本" open=true >}}
 阅读的英文版是企鹅出版社2007年出版的 *The Republic* ，Desmond Lee 翻译；同时对照人民出版社2017年王晓朝译本的增订版，后者直接基于希腊文文本翻译，并且有比较丰富的注释。
 
-这个笔记的目的是详细记录 *The Republic* 的阅读感受和章节内容，这是因为我之前阅读了一小部分，但不做笔记的话，太容易遗忘和走神，对话的形式让人很容易从理解变成浏览，所以打算记录故事的内容，并且写一些个人的感受，难以算为文章，更像是流水账式的读书笔记。先为不好的阅读感受道歉。
+这个笔记的目的是详细记录 *The Republic* 的阅读感受和章节内容，不做笔记的话，太容易遗忘和走神，对话的形式让人很容易从理解变成浏览，所以打算记录内容，并且写一些个人的感受，更像是流水账式的读书笔记。先为可能糟糕的阅读感受道歉。
 
 {{< /admonition >}}
 
@@ -25,7 +25,7 @@
 {{< /admonition >}}
 
 {{< admonition type=info title="注释" open=true >}}
-从卫城去 Piraeu s是向下走，普罗克洛将本篇第一个词 [κατέβην] ^("向下走") 解析为本篇”穴喻“的暗示
+从卫城去 Piraeus 是向下走，普罗克洛将本篇第一个词 [κατέβην] ^("向下走") 解析为本篇”穴喻“的暗示
 {{< /admonition >}}
 
 苏格拉底应约前往晚上的庆典。在场的还有 Polemarchus 的兄弟 Lysias，Euthydemus，Chalcedon 的 Thrasymachus， Paeania 的 Charmantides，Aristonymus 的儿子 Cleitophon，以及 Polemarchus 的父亲 Cephalus。Cephalus 是一个谦逊的老人，他厌倦了繁华和理性的对话，但苏格拉底说他更希望和老人们对话。 Cephalus是这样说的，多数老人哀叹衰老带来的失落，但他不这样认为，他举例索福克勒斯在被问到有关性的话题时，他说
@@ -62,6 +62,12 @@ For wealth contributes very greatly to one’s ability to avoid [b] both uninten
 
 但苏格拉底随后举出向疯子借来武器后，是否应该归还的例子，来质疑 doing right 该怎么定义。而 Cephalus 要离开去观看祭祀，Polemarchus 继续讨论。很明显，温和的角色引出话题，而刻薄的 Polemarchus 将会在下一章和苏格拉底唇枪舌剑地辩论一番。
 
+{{< admonition tip "Greek Definition of 'Doing Right'" true >}}
+
+"Doing Right" 这里指代的希腊词汇是 dikaiosunē，通常译为 justice，但 dikaiosunē 和 justice 相比少了一些法律上的意义，而更重视道德含义。dikaiosunē 更好的译法或许是 morality。在希腊语中这个词汇的定义相当广泛，使用中可能强调的是不同的方面，类似的词汇还有 adikia ‘injustice’, ‘wrongdoing’; adikos ‘unjust’, ‘wrong’，对动词 adikein 的译法更加多样，及物和不及物的译法分别是 ‘to do wrong’ or ‘injustice’ (intrans.) or to ‘wrong’ or ‘injure’ (trans.)。在后文苏格拉底与 Thrasymachus 等人的争论中，可以看到不同译法对全文理解产生的影响。
+
+{{< /admonition >}}
+
 ### 2. The Conventional View of Justice Developed
 
 一开始苏格拉底先问 Polemarchus 对 Simonides 有关正义的观点的看法（即无论如何，应该归还每个人你的所欠之物），Polemarchus 同意这个观点，但也同意苏格拉底所举的疯人的反例，他强调所归还之物必须用来从善而非从恶，而苏格拉底又援引敌人之间相互亏欠之物，来证明 Simonides 的观点可以转译为”正义就是把对每个人 appropriate 的东西还给他。“
@@ -85,6 +91,14 @@ So the just man turns out to be a kind of thief, a view you have perhaps learned
 {{< /admonition >}}
 
 接下来，苏格拉底论证了如何定义 friend 和 enemy，达成的共识则是朋友必须看起来是好的，也是真正的好人，反之亦然。而 just man 就意味着要伤害是坏人的敌人，这意味着，`so men if harmed must become more unjust` 
+
+{{< admonition tip "Greek Definition of 'Excellence' and 'Standard'" true >}}
+
+‘Worse, that is, by the standard of excellence by which we judge horses, not dogs?’ ......‘But must we not then say of a man that if harmed he becomes worse by the standards of human excellence?’
+
+这里英译出现了两个模糊的词汇，“Excellence” 和 “Standard”。Excellence 这里对应的希腊词汇是 aretē，aretē 通常的译法是 virtue, 但和今日的 virtue 含义相比有了更强的道德意味。与它相关的 agathos 被称为”用在对人的描述中‘有最强大力量’的词汇“ (A. W. H. Adkins, Merit and Responsibility, p. 31)，英译通常译为 good，尽管两者含义并非完全对应。这两个词汇都有着广泛的 卓越、高效 的含义。Standard 在这里再次重复了 Excellence 所指的道德的高标准，尽管后者其实已经有了 Standard 的意思。
+
+{{< /admonition >}}
 
 因此，
 
@@ -113,6 +127,14 @@ So the just man turns out to be a kind of thief, a view you have perhaps learned
 
 苏格拉底质疑了传统道德的谬误之处，咄咄逼人的 Thrasymachus 全盘否定，认为人的行为由且仅由其自身利益决定，亦即“强者的利益”。而苏格拉底用一串精彩的论证（我认为这比上一节要精彩的多，Thrasymachus 迫使苏格拉底回应得更加简洁明确）证明任何一个 Technē 都为另一些 Technē 提供有益的东西，而同时它们也缺少某些东西，而任何一个 Technē 都不寻求自身的利益，因为他们自身没有这种需要，他们寻求的是需要这个 Technē 的事物的利益。因此，强者（统治者）寻求的是被统治者的利益，他掌握的 Technē 的对象是他的臣民，而不是他自己。
 
+{{< admonition tip "Greek Definition of 'technē' " true >}}
+
+‘Then is the science or art of medicine itself defective? Does it or any other skilled activity need **anything further to perfect** it?
+
+‘any further aretē’，每项 technē 都是自足的、在某个领域内的活动，不需要任何外界的支持和辅助。
+
+{{< /admonition >}}
+
 Thrasymachus 不允许苏格拉底将权力解释为一种权利、义务或利益，而是要给出明确的定义，苏格拉底说，如果你问人十二是什么，而你又不许人回答是六的两倍，三乘四，四乘三，那么没人能回答这样的问题。Thrasymachus 说如果你要从我禁止的答案中选择一个回答，那么如果我想出来更好的答案，你就得付钱，Glaucon 愿意替苏格拉底付钱。Thrasymachus 说苏格拉底就是这样，**自己不提供答案，而只是驳斥他人的答案**
 
 {{< admonition quote "338d" true >}}
@@ -130,9 +152,11 @@ Thrasymachus 不允许苏格拉底将权力解释为一种权利、义务或利�
 
 {{< admonition quote "342c" true >}}
 
-‘Then no science studies or enforces the interest of the controlling or stronger party, but rather that of the weaker party subjected to it.’
+‘Then no **science** studies or enforces the interest of the controlling or stronger party, but rather that of the weaker party subjected to it.’
 
 那么，没有任何知识寻找或规定对它自身有益的东西，而是寻找或规定臣服于它的弱者的利益（王晓朝译）
+
+这里 science 指 episteme，意为各种知识体系。
 
 {{< /admonition >}}
 
@@ -214,6 +238,12 @@ But tell me, do you think that the rulers of states (rulers in the true sense, t
 
 在这之后，Thrasymachus 发现自己被苏格拉底玩弄于掌心。但这也有他的观点确实太过激进的缘故。
 
+{{< admonition tip "Greek Definition of 'do better than'" true >}}
+
+第 3 点中谈到竞争的部分中，柏拉图使用的词汇是 pleonektein，英语译法可以是 get the better of, outdo, do better than, 英译本中使用的 compete 有些不准确的地方。
+
+{{< /admonition >}}
+
 <table><tr><td height=15px; bgcolor=#F1EEEE><center><font color=205375 size="3"><b>(B)</b></center></td></tr></table>
 
 第二段论述主要关注纯粹的不义之人是否存在的问题。
@@ -245,7 +275,13 @@ We must now proceed to the further question which we set ourselves, whether the 
 
 {{< /admonition >}}
 
-而 `function` 其实就是一种 `excellence` （中译本译为”德性“）。而眼睛缺乏了它的 `excellence` 时，将不能实现它的 `function` 。而当我们考虑 `mind` （中译本译为”灵魂“）时，一切在我们脑海中运行的事情，包括生命本身，都成为了 `mind` 的 `function ` 套件。
+而 `function` 其实就是一种 `excellence` 。眼睛缺乏了它的 `excellence` 时，将不能实现它的 `function` 。而当我们考虑 `mind` （中译本译为”灵魂“）时，一切在我们脑海中运行的事情，包括生命本身，都成为了 `mind` 的 `function ` 套件。
+
+{{< admonition tip "Greek Definition of 'mind'" true >}}
+
+对应的希腊词汇是 psuchē，指代生活的原则和精神的基石。有时这个词语指的是一种性格和秉性，但它同样可以指代类似于 soul 所包含的宗教与道德上的意义。Book X (Part XI, section 1 ff.) 就围绕着 psuchē 的不朽特点展开讨论
+
+{{< /admonition >}}
 
 {{< admonition quote "353e" true >}}
 
@@ -279,6 +315,8 @@ But the man who has a good life is prosperous and happy, and his opposite the re
 
 {{< /admonition >}}
 
+
+
 这里又是流畅的一段逼问，有趣的是，我明显感觉到 Thrasymachus 已经放弃反抗，只是机械的点头了。粗略来说，这段的论证过程是这样的：
 
 1. 一个物品的功能限于仅其能做的事，或者其能做到最好的事。而这个功能可以扩展到人的精神事件，即人的精神拥有一系列功能。<font color=B20600> **正义也在其中**</font>
@@ -296,7 +334,7 @@ happy 对应的希腊语词汇是 eudaimōn，这个词语的意思与英语中�
 
 ### 4. Adeimantus and Glaucon Restate the Case for Injustice
 
-在上一节中，Thrasymachus 以落败者的形象退场，看起来，苏格拉底胜利了。但事实上，从读者的角度来看，我们很难轻松地认可苏格拉底的论述，尽管他的问答步步为营，逻辑滴水不漏，但他还没有解决一个非常重要的问题：世界上太多不义之人用卑劣的手段得到了利益，从结果来看，行不义者依旧是比秉持正义的人拥有太多，该如何看待这个事实？另外，上节给人一种苏格拉底刻薄的形象，因此，Glaucon 和 Adeimantus 在这里温和地继承了 Thrasymachus 的观点，要求苏格拉底继续说服他们。
+在上一节中，Thrasymachus 以落败者的形象退场，看起来，苏格拉底胜利了。但事实上，从读者的角度来看，我们很难轻松地认可苏格拉底的论述，尽管他的问答步步为营，逻辑滴水不漏，但他还没有解决一个非常重要的问题：世界上太多不义之人用卑劣的手段得到了利益，从结果来看，行不义者依旧是比秉持正义的人拥有太多，该如何看待这个事实？另外，上节给人一种苏格拉底刻薄的形象，因此，Glaucon 和 Adeimantus 在这里温和地继承了 Thrasymachus 的观点，要求苏格拉底继续说服他们。考虑到 Glaucon 和 Adeimantus 是柏拉图本人的兄弟，这场辩论在这里似乎变得更加亲密，某种程度上也有了柏拉图和苏格拉底的辩论的底色。
 
 <table><tr><td height=15px; bgcolor=#F1EEEE><center><font color=205375 size="3"><b>Part I: Glaucon</b></center></td></tr></table> 
 
@@ -333,6 +371,12 @@ Glaucon 坦诚他并非完全相信这一切，但 Thrasymachus 在内的许多�
    {{< /admonition >}}
 
    王晓朝的译本里，也译为“行不正义是天然的善，承受不正义是天然的恶”，为什么这里“行不正义是天然的善”呢？或者是说，人的本性是利己的，这是善；但因为他人利己而导致自己利益遭受损失的，这是恶。因为善恶的不可协调，人们制定了法律和协议，而这就是正义的起源。因此，正义本身就是一种妥协的产物。
+
+   {{< admonition tip "Social Contract" true >}}
+
+   这一段被认为是 17 世纪的社会契约论的起源。差别在于 17 世纪的社会契约论是为了解决统治的问题（也即政治问题），而 Glaucon 是为了解决道德问题而提出这个概念。
+
+   {{< /admonition >}}
 
 2. *人们在行善的时候，往往是由于受到某种程度的强迫，而不是为了行善*
 
@@ -376,11 +420,85 @@ appearance has more force than reality，表象会用暴力战胜真理。这被
 
 2. 苏格拉底同意正义应该归属于**既为了它本身也为了它的影响的 good**。而这并未解释清楚正义能给人带来的好处，和不义能给人带来的坏处。
 
-
-
-
-
 <br><p align="right"><b>第一部分完</b></p>
+
+## Part II Preliminaries
+
+### 1. First Principles of Social Organization
+
+第一部分的讨论聚焦于个人在正义和道德感上的议题。在这一部分，苏格拉底提议先将讨论的对象设置为国家或者某个群体，之后再着眼于个体在此背景下的道德抉择。第一部分的讨论尽管相当精彩，但是苏格拉底并未获得最终的胜利——他所秉持的纯洁的清教徒的形象，并不适应普遍的社会规则。与其说他的论点除了错误，不如说讨论所基于的社会背景与他所认为的道德社会有显著的差异。如此一来，他必须先构造出一个理想的社会，再去讨论个体如何在这样的社会生存。
+
+首先，苏格拉底讨论了社会的基础是相互需求和才能的差异，让个体不得不借助他人的力量生活。在此基础上，苏格拉底建立了经济社会的五类人群，并描绘了在这样的简单社会中生活的展开方式。
+
+苏格拉底首先称赞了 Glaucon 在即便已知 injustice 有着诸多好处的时候，依旧能认同 justice 的意义的立场，但他也像一个老师一样，批评了他立场的不够坚定。
+
+{{< admonition quote "368a" true >}}
+
+And I am sure that you genuinely believe it; I can tell from your general character – though the speeches you have made would have left me in doubt about you. **But the surer I feel the more doubtful I am what to do**. I don’t see how I’m to help you; I don’t think I’ve got the ability – witness my failure to convince you just now, when I thought I had demonstrated the superiority of justice in my discussion with Thrasymachus. Yet I don’t see how I can refuse; for I am afraid it would be wicked, while I’ve life and voice in me, to hear justice slandered as I have done and then refuse to come to the rescue. So I must do my best to help her.’
+
+{{< /admonition >}}
+
+苏格拉底显出了疲态，他的长篇大论甚至没能说服 Glaucon，遑论其他本就不信任 justice 的人们。但他必须为了 justice 本身继续论战。既然 justice 可以既是个体也是国家的特征，那么不如先讨论宏观下一个国家的 justice 如何实现。
+
+苏格拉底首先抛出了一个观点，社会（或者 polis）的起源之一是个体无法做到完全的自给自足，必须借助他人的力量。而在这样形成的社会中，可以假设所有的相互交换都是建立在假设双方可以获得好处的前提上进行的。在一个极小尺度的 polis 中，至少要有四到五个人，他们分别提供食物（农民）、住宅（工人）、服装（纺织工人、鞋匠等）。在这个情况下，每个人，都会将他们全部的时间用于从事自己擅长的劳动中，例如农民致力于填饱四五个人的肚子，而不是留出时间为自己建造房屋和制作衣服。同时，每个人擅长的工作互不相同，因此最好是专长于某事，而不是掌握尽可能多的不同技能；由于每份工作都有着自己的关键时刻，因此每个劳动者也应该全身心投入其中，达到任务的质量和数量要求，而不是三天打鱼两天晒网。
+
+{{< admonition tip "Greek Definition of State" true >}}
+
+Greek *polis*, 意为 city-state, 英译本里译为 community, state, society
+
+{{< /admonition >}}
+
+在此基础上，苏格拉底一步步扩充了社会的五类必需人群 [农业和工业生产者 producer]^(1), [商人 merchant]^(2), [船长和水手 shipowner and sailor]^(3), [零售商 retail trader]^(4), [体力劳动者 Wage-earner or manual labourer]^(5)
+
+当然，这个分类是基于古希腊的城邦文明展开的，因此除了基础的生产之外，苏格拉底将围绕国内国际贸易产生的职业放在了十分重要的位置。尽管苏格拉底接下来获得了大家有关这个分类的认可，但是我很难认同这样简单的分类的正确和完整——即便是在三千年前的社会之中。对社会产生重大影响的两个人群，军人和政治家，似乎被刻意地忽视了，难道古希腊的城邦没有这两个职业？还是说，这是为了从头开始架构一个理想社会？
+
+### 2. Civilized Society
+
+上一节苏格拉底构想的社会，并不是一个成熟的城邦文明，而是，我们或许可以理解为一个原始部落的演化，苏格拉底希望的是带着读者一步步穿过上万年的人类历史，追溯社会的演化轨迹。
+
+Glaucon 刻薄地说苏格拉底描述的是一个猪猡的社会，于是，苏格拉底开始引入 civilization 的概念，观察 justice 和 injustice 是如何被孕育出来的。人的欲望和过剩的生产力会让人们开始追求非必需品，比如珍馐、香水、妓女和珠宝。城邦逐渐扩张，艺术家、乐手、诗人、演员，以及教师、保姆、理发匠和厨师开始出现。
+
+城邦的扩张意味着邻邦土地的丧失，战争将不可避免，军队必须出现，为了确保武力足够强大，必须演化出一个军人阶层，他们除了从军以外没有其他职业，这也契合了前文确定的每个人只有一个职业的规则。军人必须足够专业，而他们提供的保护确保了城邦的日常生活，因此，军人成为了一切职业中最重要的职业。如此一来，一个 civilized 的城邦，它的人民一定会追求必需品之外的享乐，而这享乐要求的是扩张，带来战争和暴力，以及一个权力极大的军队。
+
+{{< admonition quote "374d" true >}}
+
+‘And so the business of our defence force, just because it is the most important of all, requires a correspondingly complete freedom from other affairs and a correspondingly high degree of skill and practice.’
+
+{{< /admonition >}}
+
+### 3. Qualities Required in the Guardians
+
+这个诞生的军人阶层，*Greek* phulakes，guardians 成为了讨论的重点，而柏拉图关注的，正是如何让这个 guardian 转化为 philosopher。一个优秀的军人需要像猎犬一样，有着敏锐的强大力量，获得勇气的强大的精神力。此外，他们还要避免变得好战，他们需要温柔地面对国民，狂暴地攻击敌人。但是，这种性格上的温顺，和强大的灵魂，几乎是相反的。
+
+{{< admonition quote "375e" true >}}
+
+‘Would you agree then that our prospective Guardian needs, in addition to his high spirits, the disposition of a philosopher?’
+
+‘I don’t understand what you mean,’ he said.
+
+‘You will find it in the dog, and a remarkable quality it is.’
+
+‘What sort of quality?’
+
+‘It is annoyed when it sees a stranger, even though he has done it no harm: but it welcomes anyone it knows, even though it has never had a kindness from him. Haven’t you ever thought how remarkable this is?’
+
+‘I can’t say I ever thought about it before,’ he replied. ‘But of course it’s what a dog does.’
+
+‘And yet it is a trait that shows discrimination and a truly philosophic nature,’ I said.
+
+‘How so?’
+
+‘Because,’ I replied, ‘the dog distinguishes the sight of friend and foe simply by knowing one and not knowing the other. And a creature that distinguishes between the familiar and the unfamiliar on the grounds of knowledge or ignorance must surely be gifted with a real **love of knowledge**.’
+
+‘There is no denying it,’ he said.
+
+‘But is not philosophy the same thing as the love of knowledge?’
+
+{{< /admonition >}}
+
+这一串对话可真是 overwhelming，一个优秀的 guardian 必须像一只猎犬一样，分辨得出敌友，而这种分辨能力，证明在知识和无知之间，选择了知识，the love of knowledge，正是 philosophy。无懈可击的逻辑。最后，苏格拉底和Glaucon 达成了共识，一个优秀的 guardian, 必须拥有的品质包括 a philosophic disposition, high spirits, speed, and strength.
+
+<br><p align="right"><b>第二部分完</b></p>
 
 {{< admonition note "See you later" false >}}
 
