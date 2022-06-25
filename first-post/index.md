@@ -272,6 +272,17 @@ Markdown 语法并不注重排版，所以图片设置中经常会出现各种�
     </center>
     ```
 
+{{<admonition tip "图片快捷裁剪" true >}}
+使用 ffmpeg
+
+ffmpeg -i input.jpg -vf crop=width:height:from_x:from_y output.png
+
+from_x, from_y是裁剪的起始坐标
+
+如果不指定from_x和from_y表示从原始图片中心位置开始裁剪
+
+{{< /admonition >}}
+
 #### 图片放大功能
 
 LoveIt内置了 Lightgallery 的设置，但是不知道是不是长期没有维护的原因（作者最近突然打算开始维护了！），即便在  `config.toml` 中打开 Lightgallery 也并不会打开图片放大功能。后来参考[Github Pages + Hugo 搭建个人博客](https://zz2summer.github.io/github-pages-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/#%E5%85%AB%E7%BB%86%E8%8A%82%E4%BC%98%E5%8C%96) 大佬用 `jqury` 和 `fancybox` 实现了简单的图片放大效果。
@@ -766,7 +777,7 @@ LoveIt 的 Markdown 渲染并不支持太多扩展库，但是可以通过使用
    <script src="https://unpkg.com/vditor@3.8.15/dist/js/icons/ant.js"></script></body></html>
    ```
 
-   
+   这个方法用着玩玩吧，还是太繁琐了。Arya 的交互不是很好用，另外 abcjs 的库写的也很不清晰，很多功能（比如某段乐句的注释，以及吉他简谱）都没有。以后还是乖乖用 Guitar Pro 写入以后截图吧。
 
 ### 查阅文档
 
