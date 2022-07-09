@@ -8,7 +8,7 @@
 {{< admonition type=info title="阅读版本" open=true >}}
 阅读的英文版是企鹅出版社2007年出版的 *The Republic* ，Desmond Lee 翻译；同时对照人民出版社2017年王晓朝译本的增订版，后者直接基于希腊文文本翻译，并且有比较丰富的注释。
 
-这个笔记的目的是详细记录 *The Republic* 的阅读感受和章节内容，不做笔记的话，太容易遗忘和走神，对话的形式让人很容易从理解变成浏览，所以打算记录内容，并且写一些个人的感受，更像是流水账式的读书笔记。先为可能糟糕的阅读感受道歉。
+本文依照英文版的章节划分，因为英文版的章节以内容为划分依据，相对清晰，适合初学者。中文版的章节则与古代版本一致，也在文章中有所标记。本文的目的是详细记录 *The Republic* 的阅读感受和章节内容，不做笔记的话，太容易遗忘和走神，书中采用的对话的形式让人很容易胡罗内容主干，从理解变成浏览，所以打算用文字的形式记录内容，更像是流水账式的读书笔记。
 
 {{< /admonition >}}
 
@@ -25,10 +25,10 @@
 {{< /admonition >}}
 
 {{< admonition type=info title="注释" open=true >}}
-从卫城去 Piraeus 是向下走，普罗克洛将本篇第一个词 [κατέβην] ^("向下走") 解析为本篇”穴喻“的暗示
+从卫城去 Piraeus 是向下走，普罗克洛将本篇第一个词 [κατέβην]^("向下走") 解析为本篇”穴喻“的暗示
 {{< /admonition >}}
 
-苏格拉底应约前往晚上的庆典。在场的还有 Polemarchus 的兄弟 Lysias，Euthydemus，Chalcedon 的 Thrasymachus， Paeania 的 Charmantides，Aristonymus 的儿子 Cleitophon，以及 Polemarchus 的父亲 Cephalus。Cephalus 是一个谦逊的老人，他厌倦了繁华和理性的对话，但苏格拉底说他更希望和老人们对话。 Cephalus是这样说的，多数老人哀叹衰老带来的失落，但他不这样认为，他举例索福克勒斯在被问到有关性的话题时，他说
+苏格拉底应约前往晚上的庆典。在场的还有 Polemarchus 的兄弟 Lysias，Euthydemus，Chalcedon 的 Thrasymachus， Paeania 的 Charmantides，Aristonymus 的儿子 Cleitophon，以及 Polemarchus 的父亲 Cephalus 。Cephalus 是一个谦逊的老人，他厌倦了繁华和理性的对话，但苏格拉底说他更希望和老人们对话。 Cephalus 是这样说的，多数老人哀叹衰老带来的失落，但他不这样认为，他举例索福克勒斯在被问到有关性的话题时，他说
 
 {{< admonition quote "329d" true >}}
 
@@ -336,6 +336,8 @@ happy 对应的希腊语词汇是 eudaimōn，这个词语的意思与英语中�
 
 在上一节中，Thrasymachus 以落败者的形象退场，看起来，苏格拉底胜利了。但事实上，从读者的角度来看，我们很难轻松地认可苏格拉底的论述，尽管他的问答步步为营，逻辑滴水不漏，但他还没有解决一个非常重要的问题：世界上太多不义之人用卑劣的手段得到了利益，从结果来看，行不义者依旧是比秉持正义的人拥有太多，该如何看待这个事实？另外，上节给人一种苏格拉底刻薄的形象，因此，Glaucon 和 Adeimantus 在这里温和地继承了 Thrasymachus 的观点，要求苏格拉底继续说服他们。考虑到 Glaucon 和 Adeimantus 是柏拉图本人的兄弟，这场辩论在这里似乎变得更加亲密，某种程度上也有了柏拉图和苏格拉底的辩论的底色。
 
+<p align="right"><b>BK II</b></p>
+
 <table><tr><td height=15px; bgcolor=#F1EEEE><center><font color=205375 size="3"><b>Part I: Glaucon</b></center></td></tr></table> 
 
 Glaucon 认为人们为自己谋取利益是天经地义的，而对正义、道德感的追求都应该让位于利益。道德感之所以出现在人类社会，是因为社会不能接受所有人的自私，必须让渡并限制一部分个人权利，因此，道德感是妥协的产物。
@@ -499,6 +501,130 @@ Glaucon 刻薄地说苏格拉底描述的是一个猪猡的社会，于是，苏
 这一串对话可真是 overwhelming，一个优秀的 guardian 必须像一只猎犬一样，分辨得出敌友，而这种分辨能力，证明在知识和无知之间，选择了知识，the love of knowledge，正是 philosophy。无懈可击的逻辑。最后，苏格拉底和Glaucon 达成了共识，一个优秀的 guardian, 必须拥有的品质包括 a philosophic disposition, high spirits, speed, and strength.
 
 <br><p align="right"><b>第二部分完</b></p>
+
+## Part III Education: the First Stage
+
+上一节末尾，苏格拉底描绘了一个理想的军人阶层，如何通过教育培养出这样的人群，就成为落实这个想象必须解决的首要问题。在柏拉图的时代，「Education」还是一个属于个人的概念，国家并不提供任何程度的义务教育。为了改变这一情况，柏拉图引入了斯巴达式的国家教育体系，并且，着重强调了诗学和哲学在教育中的地位。教育可以分为三个层次：读写能力的教育、身体素质的教育和文学的教育，其中，文学的教育——Secondary or Literary Education ——更多指代的是哲学和诗学的教育——对古希腊人来说，诗人的作品起到了圣经一般的道德和神学上的指引作用。而柏拉图对这个方面教育的强调，这是为了他的哲学家治国的观点做出铺垫。
+
+### 1. Secondary or Literary Education
+
+对于青年来说，教育直接影响到世界观的形成，柏拉图首先探讨了神学教育的挑战和方向。
+
+当时，古希腊的教育体系包括体力上的训练和智力上的训练两个部分，它们耗时良久，并且难于进一步改进。苏格拉底试图从头阐述教育体系的建构，也就是说，每个部分教什么，为什么这样教育，以及教育的顺序都一步一步推演出来。
+
+先智力，后体力。这取决于幼儿的身体发育，我们必须先给孩子讲故事，等他长大到一定程度才能训练体力。
+
+先 fiction，后 true story。原因同上，后者应该指的是历史。最初的教育是最重要的教育，因此，stories，fictions，「故事」，就成为这个部分苏格拉底关注的重中之重。在苏格拉底的观念中，智力上的优越，要远超体力的优势，这恰对应了雅典和斯巴达的差异。而对故事的严苛要求，就意味着当下的大多数故事不能满足培养这个优秀的军人阶层的需要。
+
+{{< admonition quote "377c" true >}}
+
+We shall persuade mothers and nurses to tell our chosen stories to their children, and by means of them to mould their minds and characters which are more important than their bodies.
+
+{{< /admonition >}}
+
+{{< admonition tip "Greek Definition of Education" true >}}
+
+Greek mousikē. 和英语的 Education 差异较大，Paul Shorey 认为 mousikē 囊括了音乐、诗歌、语言、文化和哲学等知识内容，mousikē 与九位缪斯女神有关，通常来讲，我们可以理解为体力活动之外的智力活动。
+
+{{< /admonition >}}
+
+{{< admonition tip "Greek Definition of Fiction" true >}}
+
+Greek pseudos. 不仅仅指小说等虚构故事，pseudos 还包含一层 “what is not true” 的意思，这意味着它也可以代表谎言。
+
+{{< /admonition >}}
+
+接下来可能是我们能见到的最早有关审查制度建立的方式和目的的阐述。为了制造完美的个体，教育所使用的素材必须经过严格的审查，它们应该以经典的故事为主体，例如 荷马 或者 赫西奥德 等人的叙事诗，它们应该互相表达同一个宏大的主题，除此之外，这些诗文里不能出现谬误、虚假、不适宜的片段，即便是真实发生的事情，如果它们表达了某些负面的内容，也不能让大众所知，至多允许秘密地在一定人群中流传。
+
+{{< admonition quote "378a" true >}}
+
+‘Well, on the most important of subjects, there is first and foremost the foul story about Ouranos and the things Hesiod says he did, and the revenge Cronos took on him. **While the story of what Cronos did, and what he suffered at the hands of his son, is not fit as it is to be lightly repeated to the young and foolish, even if it were true**; it would be best to **say nothing about it**, or if it must be told, tell it **to a select few under oath of secrecy**, at a rite which required, to restrict it still further, the sacrifice not of a mere pig but of something large and difficult to get.’
+
+{{< /admonition >}}
+
+Sounds familiar? 当然，苏格拉底所举的例子是恰当的，儿子惩罚一个行为不恰当的父亲的故事，会引发普通民众的效仿和扩大化。然而用一个看似恰当的例子，来证实一个观点的不妥之处，这种处理方式注定的未来就是这种**不合适的内容**被不受限制地扩大，毕竟，制定规则的人，会越来越怀疑先前设定的边界是否正在变得宽松，对思想的过分保护——意图让人们不接触负面的思想，进而避免负面的行为——最终将导致的永远都是黑市和思想走私的盛行。
+
+苏格拉底意图禁止的内容包括：众神的劣迹、战争、阴谋，讽刺、暴力。理想来说，社会应该抹除掉这些内容的痕迹，从对话、文学、艺术，到工艺品、建筑，任何代表这些内容的符号和文字都应该被消除，艺术家和诗人应该恪守这样的创作原则，如此一来，我们才能给幼儿注入最纯洁最崇高的思想。
+
+{{< admonition tip "柏拉图的神学观念" true >}}
+
+众所周知，古希腊信奉的是多神教，在 *the Republic* 中，柏拉图混用了 god 和 gods, 这并不能解读为他区分了两者的意思和使用场景。不过，我们同样应该注意的是，柏拉图的确认为多神信仰的希腊宗教有太多误导性的粗糙内容，和大多数古希腊人一样，他也相信一个 supreme 的神的存在，然而，这并不意味着他否认了多神信仰。
+
+{{< /admonition >}}
+
+众神所代表的良善，仅仅是生活的很小一部分。因此，我们必须找到什么东西导致了占据生活多数空间的罪恶和伤害，而不能像荷马的诗句一样：
+
+> Zeus has two jars standing on the floor of his palace, full of fates, good in one and evil in the other
+
+也不能相信埃斯库罗斯所写的：
+
+> God implants a fault in man, when he wishes to destroy a house utterly.
+
+宙斯并不能决定人的善恶，人们与生俱来的**恶**。为了避免人们产生这样的认知，我们必须首先禁止这些错误的诗句的公开出现。苏格拉底甚至由此确定了一个国家未来发展的必要路径：
+
+{{< admonition quote "380b" true >}}
+
+But if a state is to be run on the right lines, every possible step must be taken to prevent anyone, young or old, either saying or being told, whether in poetry or prose, that god, being good, can cause harm or evil to any man. To say so would be sinful, inexpedient, and inconsistent.’
+
+{{< /admonition >}}
+
+<font color=B20600> **Law No.1**</font> God is the cause, not of all things, but only of good.
+
+神有魔力吗？神会像我们听过的故事一样，随心所欲变成各种各样的角色和动物吗？
+
+首先，改变有两种来源，来自外界因素或者来自自身。然而，最好的东西往往最难受外界因素的改变，最强壮的人最难被疾病侵袭；最好的家具最难损坏，而完美的神，自然不可能因为外界因素而改变自身。因此，这种改变必须来自于他们自己。然而，一个强壮的人同样不会主动变得虚弱，任何一个正在好的状态的物体都不会主动削弱自己的处境，因此拥有最完美形象的众神，当然也不会主动改变他们的外形。因此，苏格拉底继续主张禁止掉所有描写神改变形态，或者变成异客巡游城邦的故事，显然，荷马和埃斯库罗斯的书本要再薄一点了。
+
+接下来，苏格拉底用了一长串非常抽象难懂的论述来证明众神不会欺骗他人。大意是众神和人都不希望自己被欺骗，而神因此在表面和深层次都不愿意被欺骗，也不会为此欺骗凡人。（其实这一段是我认为非常难懂，也缺乏说服力的章节）因此，众神不会是那些虚构的诗篇的作者，他们就更不会伪装自己，欺骗凡人。他们不会改变自己，不会欺骗别人，他们的言行举止都无比真实。
+
+<font color=B20600> **Law No.2**</font> all that is said or written about the gods is that they shall not be represented as using magic to disguise themselves nor as playing us false in word or deed.
+
+抱歉了荷马，抱歉了埃斯库罗斯，再见了，那些描写了神明变身的章节。
+
+<p align="right"><b>BK III</b></p>
+
+软弱，这是苏格拉底想通过教育极力避免的性格特质。被培养的完美士兵不应该恐惧死亡，恐惧死后的地狱，在面对威胁和奴役时，他才能有勇气赴死。因此，应该禁止有关恐怖地狱的故事，从某种程度上，这个部分的文章，反对的就是荷马和埃斯库罗斯，更精确地说，反对的就是荷马的《奥德赛》和《伊利亚特》。
+
+{{< admonition tip "Odyssey, XI, 489" true >}}
+
+I would rather be a serf in the house of some landless man, with little enough for himself to live on, than king of all dead men that have done with life.
+
+我很喜欢这句被苏格拉底禁止的话，它并不是说我们要甘于被奴役，而是要我们挣脱对虚无的想象和痴迷。当然，在苏格拉底的「理想国」里，这个解释是非法的，它并不能解救这句箴言的生命。
+
+{{< /admonition >}}
+
+{{< admonition quote "387a" true >}}
+
+We must ask Homer and the other poets to excuse us if we delete all passages of this kind. It is not that they are bad poetry or are not popular; indeed the better they are as poetry the more unsuitable they are for the ears of children or men who are to be free and fear slavery more than death.’
+
+{{< /admonition >}}
+
+多么光明正大！这些是很好的诗句，但是它们让我们的孩子和男人们恐惧死亡。那我希望问苏格拉底，按照他前面的论述，内心强大的更不会被外界的因素改变，那么，如果他的国家的士兵是强大的士兵，又怎么会因为几篇故事而被轻易改变，或者说，如果他们变得害怕死亡，这里的原因是不是更应该深究，而不是封禁几篇文章了事？
+
+接下来，冥河、鬼魂、尸体，这些会引起负面感受的词汇，**删掉！**
+
+伟大的人物暴露出软弱一面，他们哭了？害怕了？**删掉！**
+
+高尚的人为了死去的朋友哀悼，不，死亡怎么让人恐惧了？**删掉！**
+
+失去了财产、家业、亲人的人，他们有着坚强的性格，他们不会被这些动摇，怎么，他们难过了？**删掉！**
+
+那当然，也要**删掉**那些写给名人的挽歌，把这些被悲伤浸泡的词句恩赐给懦弱的男女吧！
+
+荷马那些描写阿喀琉斯的词句，他怎么能「时而侧卧，时而仰卧，时而俯伏」，怎么能「心神错乱」，那些众神表露出的软弱的人性一面，会让我们的青年为了区区一点小事而怨天尤人，**删掉！**
+
+他们也不能总笑，众所周知，大笑时人们情绪不稳，那些著名的人物或者神明发笑的片段，**删掉！**
+
+噢，现在又需要荷马了，我们需要保留那些教导人民服从，教导青年自制的片段。但紧接着的戏弄君主和上级的句子，**删掉**！
+
+当然，那些描述性欲旺盛的宙斯和充满性暗示的神界生活，**删掉！**神的残暴，**删掉！**神的矛盾性格，**删掉！**神的劣迹，**删掉！**
+
+除此之外呢，在故事之外，我们的臣民不能撒谎，这是最严重的冒犯，他们试图颠覆国家的基础。当那些舞台上坚强的角色承受着痛苦和压力时，他们应该表达出来，要让年轻人听到和看到，而不仅仅是内心活动。
+
+这个章节读得我惊心动魄，仿佛一刹那间，苏格拉底褪去了远古哲人的外衣，露出了二十世纪恶魔的马脚。我总希望在某次 Adeimantus 无脑的赞同中，苏格拉底能突然调转船头，激烈抨击，唤醒被迷惑而无助的读者，「不！真正强大的灵魂不会害怕这些！只有懦夫才会用这样低劣的手段来施展控制！」但是，他没有。这个老人令我失望了，当然，我理解时代的错位下，这或许是正确的选择，他遥望斯巴达来纠正雅典的浪荡，因此不得不采取激进的手段，完全讲得通。但是我担心的是，这样的叙述，已经误导了数千年来的多少人，又还要误导多少人？
+
+在落实上述的制度之前，还需要解决一个之前章节的遗留问题：定义 justice。如果这个问题没有解决，那么所有的限制都是虚妄的。在排除了描写神明、半神、英雄和往生世界的文学作品之后，残存的，只有有关于人的文学，这个新的国家，是有关具体的人的。然而，当下的创作是不尽如人意的，诗人们描写着不义者享受珍馐，而正义之人生活悲惨的故事，要禁止这样的故事，就必须厘清一个问题：究竟什么是 justice。
+
+ 
 
 {{< admonition note "See you later" false >}}
 
