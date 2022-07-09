@@ -1,7 +1,11 @@
 {
 	"version": 3,
 	"file": "dark.min.css",
+<<<<<<< HEAD
 	"sourceRoot": "E:/HugoWebsite/cyan_blog",
+=======
+	"sourceRoot": "F:/filebackup-202205/cyan_blog",
+>>>>>>> 77ccf30d5f6cd996ecaed5c5e635dc78b83324c9
 	"sources": [
 		"stdin"
 	],
