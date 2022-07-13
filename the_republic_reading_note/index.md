@@ -1,22 +1,35 @@
-# The Republic - Plato 读书笔记
+# 《国家篇》读书笔记 - 第 1 - 3 部分
 
 
 <!--more-->
 
-<img src="https://img.shields.io/badge/last%20modified-2022--06--22-ff69b4?style=flat" > <img src="https://img.shields.io/badge/English version-Penguin Classic 2007-blue?style=flat" > <img src="https://img.shields.io/badge/中文版本-人民出版社2017年增订本-blue?style=flat" >
+<img src="https://img.shields.io/badge/last%20modified-2022--07--14-ff69b4?style=flat" > <img src="https://img.shields.io/badge/English version-Penguin Classic 2007-blue?style=flat" > <img src="https://img.shields.io/badge/中文版本-人民出版社2017年增订本-blue?style=flat" >
 
 {{< admonition type=info title="阅读版本" open=true >}}
-阅读的英文版是企鹅出版社2007年出版的 *The Republic* ，Desmond Lee 翻译；同时对照人民出版社2017年王晓朝译本的增订版，后者直接基于希腊文文本翻译，并且有比较丰富的注释。
+阅读的英文版是企鹅出版社2007年出版的 *The Republic* ，Desmond Lee 翻译；同时对照人民出版社 2017 年王晓朝译本的增订版，后者直接基于希腊文文本翻译，并且有比较丰富的注释。
 
-本文依照英文版的章节划分，因为英文版的章节以内容为划分依据，相对清晰，适合初学者。中文版的章节则与古代版本一致，也在文章中有所标记。本文的目的是详细记录 *The Republic* 的阅读感受和章节内容，不做笔记的话，太容易遗忘和走神，书中采用的对话的形式让人很容易胡罗内容主干，从理解变成浏览，所以打算用文字的形式记录内容，更像是流水账式的读书笔记。
+本文依照英文版的章节划分，因为英文版的章节以内容为划分依据，相对清晰，适合初学者。中文版的章节则与古代版本一致，也在文章中有所标记。本文的目的是详细记录 *The Republic* 的阅读感受和章节内容，不做笔记的话，太容易遗忘和走神，书中采用的对话的形式让人很容易忽略内容转而变成浏览，所以打算实时记录流水账式的读书笔记，再缓慢更新。
 
 {{< /admonition >}}
+
+<center><a data-fancybox="gallery" href="/plato/lawrence_alma-tadema-sappho_and_alcaeus-1881-obelisk-art-history.jpg"><img src="/plato/lawrence_alma-tadema-sappho_and_alcaeus-1881-obelisk-art-history.jpg"></a>
+<style>
+p.title {line-height:150%; font-size:15px; color:black; font-weight:bold;}
+p.source {line-height:70%; font-size:1px; color:gray;}
+</style>
+<body>
+<p class="title">
+想象这个故事的内容，出自苏格拉底之口，经柏拉图转为文字后，再由译者译为中英双语。这个过程远不及一个游吟歌手的歌声生动。
+</p>
+<p class="source">
+Sappho and Alcaeus, Sir Lawrence Alma-Tadema, 1881. The Walters Art Museum 
+</p></center>
 
 ## Part I Introduction
 
 ### 1. Prelude
 
-苏格拉底和 Glaucon ( Ariston 的儿子)去 Piraeus 的班迪斯女神祭典上祈祷，在返回途中遇到 Cephalus 的儿子 Polemarchus，Glaucon 的兄弟 Adeimantus ，Nicias 的儿子 Niceratus 等人。Polemarchus 向苏格拉底邀约：
+苏格拉底和 Glaucon ( Ariston 的儿子）去 Piraeus 的班迪斯女神祭典上祈祷，在返回途中遇到 Cephalus 的儿子 Polemarchus，Glaucon 的兄弟 Adeimantus ，Nicias 的儿子 Niceratus 等人。Polemarchus 向苏格拉底邀约：
 
 {{< admonition quote "327c" true >}}
 
@@ -28,7 +41,7 @@
 从卫城去 Piraeus 是向下走，普罗克洛将本篇第一个词 [κατέβην]^("向下走") 解析为本篇”穴喻“的暗示
 {{< /admonition >}}
 
-苏格拉底应约前往晚上的庆典。在场的还有 Polemarchus 的兄弟 Lysias，Euthydemus，Chalcedon 的 Thrasymachus， Paeania 的 Charmantides，Aristonymus 的儿子 Cleitophon，以及 Polemarchus 的父亲 Cephalus 。Cephalus 是一个谦逊的老人，他厌倦了繁华和理性的对话，但苏格拉底说他更希望和老人们对话。 Cephalus 是这样说的，多数老人哀叹衰老带来的失落，但他不这样认为，他举例索福克勒斯在被问到有关性的话题时，他说
+苏格拉底应约前往晚上的庆典。在场的还有 Polemarchus 的兄弟 Lysias，Euthydemus，Chalcedon 的 Thrasymachus， Paeania 的 Charmantides，Aristonymus 的儿子 Cleitophon，以及 Polemarchus 的父亲 Cephalus 。Cephalus 是一个谦逊的老人，他厌倦了繁华和理性的对话，但苏格拉底更希望和他对话。 Cephalus 是这样说的，多数老人哀叹衰老带来的失落，但他不这样认为，他举例索福克勒斯在被问到有关性的话题时，他说
 
 {{< admonition quote "329d" true >}}
 
@@ -36,7 +49,7 @@
 
 {{< /admonition >}}
 
-Cephalus 认为如果他们遭受了生活上的不公，那么老年一定不是值得怪罪的原因，而是他们的性格作祟。这里苏格拉底还耍了个小聪明，为了引诱 Cephalus 继续说下去，他假装不认可 Cephalus 的观点
+Cephalus 认为如果他们遭受了生活上的不公，那么老年一定不是值得怪罪的原因，而是他们的性格作祟。苏格拉底耍了个小聪明，为了引诱 Cephalus 继续说下去，他假装不认可 Cephalus 的观点
 
 {{< admonition quote "329d" true >}}
 
@@ -44,7 +57,7 @@ Cephalus 认为如果他们遭受了生活上的不公，那么老年一定不�
 
 {{< /admonition >}}
 
-从这里开始引出了柏拉图有关财富的辩论。Cephalus 富有却并不喜爱金钱，他的祖父拥有大量的财富，但他的父亲挥霍到只剩一部分，而他增加了这些财富，却并未达到祖父曾经的富有。柏拉图认为他并不喜爱金钱的原因是因为这些钱不是他挣的，而靠自己变得富有的人比其他人更爱金钱，因为
+从这里开始引出了苏格拉底有关财富的辩论。Cephalus 富有却并不喜爱金钱，他的祖父拥有大量的财富，但他的父亲挥霍到只剩一部分，而他增加了这些财富，却并未达到祖父曾经的富有。苏格拉底认为他并不喜爱金钱的原因是因为这些钱不是他挣的，而靠自己变得富有的人比其他人更爱金钱，因为
 
 {{< admonition quote "330c" true >}}
 
@@ -52,7 +65,7 @@ so money-makers become devoted to money, not only because, like other people, th
 
 {{< /admonition >}}
 
-苏格拉底接着询问财富带给他什么好处，Cephalus 认为财富可以让人有 doing right 的能力，比如偿还债务、祭祀神灵，而这让老人免于恐惧死后世界的惩罚和遗憾
+苏格拉底接着询问财富带给他什么好处，Cephalus 认为财富可以让人有 doing right 的能力，比如偿还债务、祭祀神灵，而这让老人免于恐惧死后世界的惩罚和遗憾。
 
 {{< admonition quote "331b" true >}}
 
@@ -64,19 +77,20 @@ For wealth contributes very greatly to one’s ability to avoid [b] both uninten
 
 {{< admonition tip "Greek Definition of 'Doing Right'" true >}}
 
-"Doing Right" 这里指代的希腊词汇是 dikaiosunē，通常译为 justice，但 dikaiosunē 和 justice 相比少了一些法律上的意义，而更重视道德含义。dikaiosunē 更好的译法或许是 morality。在希腊语中这个词汇的定义相当广泛，使用中可能强调的是不同的方面，类似的词汇还有 adikia ‘injustice’, ‘wrongdoing’; adikos ‘unjust’, ‘wrong’，对动词 adikein 的译法更加多样，及物和不及物的译法分别是 ‘to do wrong’ or ‘injustice’ (intrans.) or to ‘wrong’ or ‘injure’ (trans.)。在后文苏格拉底与 Thrasymachus 等人的争论中，可以看到不同译法对全文理解产生的影响。
+"Doing Right" 这里指代的希腊词汇是 *dikaiosunē*，通常译为 justice，但 *dikaiosunē* 和 justice 相比少了一些法律上的意义，而更重视道德含义。*dikaiosunē* 更好的译法或许是 morality。在希腊语中这个词汇的定义相当广泛，使用中可能强调的是不同的方面，类似的词汇还有 *adikia* ‘injustice’, ‘wrongdoing’; *adikos* ‘unjust’, ‘wrong’，对动词 adikein 的译法更加多样，及物和不及物的译法分别是 ‘to do wrong’ or ‘injustice’ (intrans.) or to ‘wrong’ or ‘injure’ (trans.)。在后文苏格拉底与 Thrasymachus 等人的争论中，可以看到不同译法对全文理解产生的影响。
 
 {{< /admonition >}}
 
 ### 2. The Conventional View of Justice Developed
 
-一开始苏格拉底先问 Polemarchus 对 Simonides 有关正义的观点的看法（即无论如何，应该归还每个人你的所欠之物），Polemarchus 同意这个观点，但也同意苏格拉底所举的疯人的反例，他强调所归还之物必须用来从善而非从恶，而苏格拉底又援引敌人之间相互亏欠之物，来证明 Simonides 的观点可以转译为”正义就是把对每个人 appropriate 的东西还给他。“
+一开始苏格拉底先问 Polemarchus 对 Simonides 有关正义的观点的看法（即无论如何，应该归还每个人你的所欠之物），Polemarchus 同意这个观点，但也同意苏格拉底所举的疯人的反例，他强调所归还之物必须用来从善而非从恶，而苏格拉底又援引敌人之间相互亏欠之物，来证明 Simonides 的观点可以转译为「正义就是把对每个人 appropriate 的东西还给他。」
 
 接下来就是一段连珠炮般的对话，苏格拉底通过医疗和食物的例子，让 Polemarchus 说出正义给朋友提供帮助，给敌人伤害；苏格拉底进而用医生和导航者的例子，来引出正义的人在战争和结盟中最有用，而这就意味着没有战争之时，正义无用（如同没病时医生无用）。Polemarchus 反驳，正义在和平之时也有用，为了合作和契约，但仅仅正义并不能作为合格的合作者存在，Polemarchus 进一步之处在与金钱相关的事情上，正义的人是更好的合作者，并且这仅在于金钱没有被使用的情况下，
 
 {{< admonition quote "333d" true >}}
 
 ‘And so in all spheres justice is useless when you are using things, and useful when you are not?’
+
 ‘Maybe.’
 
 {{< /admonition >}}
@@ -86,6 +100,7 @@ For wealth contributes very greatly to one’s ability to avoid [b] both uninten
 {{< admonition quote "334b" true >}}
 
 So the just man turns out to be a kind of thief, a view you have perhaps learned from Homer. For he approves of Odysseus’ grandfather Autolycus who, he says, **surpassed all men in stealing and lying**. **Justice**, in fact, according to you and Homer and Simonides, **is a kind of stealing, though it must be done to help a friend or harm an enemy**. Is that your meaning?’
+
 ‘It certainly isn’t,’ he replied, **‘but I don’t really know what I did mean.** Yet I still think that justice is to help your friends and harm your enemies.’
 
 {{< /admonition >}}
@@ -96,7 +111,7 @@ So the just man turns out to be a kind of thief, a view you have perhaps learned
 
 ‘Worse, that is, by the standard of excellence by which we judge horses, not dogs?’ ......‘But must we not then say of a man that if harmed he becomes worse by the standards of human excellence?’
 
-这里英译出现了两个模糊的词汇，“Excellence” 和 “Standard”。Excellence 这里对应的希腊词汇是 aretē，aretē 通常的译法是 virtue, 但和今日的 virtue 含义相比有了更强的道德意味。与它相关的 agathos 被称为”用在对人的描述中‘有最强大力量’的词汇“ (A. W. H. Adkins, Merit and Responsibility, p. 31)，英译通常译为 good，尽管两者含义并非完全对应。这两个词汇都有着广泛的 卓越、高效 的含义。Standard 在这里再次重复了 Excellence 所指的道德的高标准，尽管后者其实已经有了 Standard 的意思。
+这里英译出现了两个模糊的词汇「Excellence」和「Standard」。Excellence 这里对应的希腊词汇是 *aretē*，aretē 通常的译法是 virtue, 但和今日的 virtue 含义相比有了更强的道德意味。与它相关的 *agathos* 被称为”用在对人的描述中‘有最强大力量’的词汇“ (A. W. H. Adkins, Merit and Responsibility, p. 31)，英译通常译为 good，尽管两者含义并非完全对应。这两个词汇都有着广泛的 卓越、高效 的含义。Standard 在这里再次重复了 Excellence 所指的道德的高标准，尽管后者其实已经有了 Standard 的意思。
 
 {{< /admonition >}}
 
@@ -105,6 +120,7 @@ So the just man turns out to be a kind of thief, a view you have perhaps learned
 {{< admonition quote "335d" true >}}
 
 ‘Then will just men use their justice to make others unjust? Or, in short, will good men use their goodness to make others bad?’
+
 ‘That cannot be so.’
 
 ......
@@ -117,7 +133,7 @@ So the just man turns out to be a kind of thief, a view you have perhaps learned
 
 {{< admonition question "Note" true >}}
 
-苏格拉底在这里使用了各种各样的职业来证明这一论述，在希腊语中，**Technē** 可以指代包括艺术、职业、科学等各种行业，所以他的论证过程看似游移不定，但在当时的语境下，仅仅围绕着 Technē 相关的社会的基础和结构核心，驳斥了虚无缥缈的正义有关的观点。
+苏格拉底在这里使用了各种各样的职业来证明这一论述，在希腊语中，***Technē*** 可以指代包括艺术、职业、科学等各种行业，所以他的论证过程看似游移不定，但在当时的语境下，仅仅围绕着 *Technē* 相关的社会的基础和结构核心，驳斥了虚无缥缈的正义有关的观点。
 
 {{< /admonition >}}
 
@@ -125,23 +141,25 @@ So the just man turns out to be a kind of thief, a view you have perhaps learned
 
 #### 1. First statement and Criticisms
 
-苏格拉底质疑了传统道德的谬误之处，咄咄逼人的 Thrasymachus 全盘否定，认为人的行为由且仅由其自身利益决定，亦即“强者的利益”。而苏格拉底用一串精彩的论证（我认为这比上一节要精彩的多，Thrasymachus 迫使苏格拉底回应得更加简洁明确）证明任何一个 Technē 都为另一些 Technē 提供有益的东西，而同时它们也缺少某些东西，而任何一个 Technē 都不寻求自身的利益，因为他们自身没有这种需要，他们寻求的是需要这个 Technē 的事物的利益。因此，强者（统治者）寻求的是被统治者的利益，他掌握的 Technē 的对象是他的臣民，而不是他自己。
+苏格拉底质疑了传统道德的谬误之处，咄咄逼人的 Thrasymachus 全盘否定，认为人的行为由且仅由其自身利益决定，亦即“强者的利益”。而苏格拉底用一串精彩的论证（我认为这比上一节要精彩的多，Thrasymachus 迫使苏格拉底回应得更加简洁明确）证明任何一个 *Technē* 都为另一些 *Technē* 提供有益的东西，而同时它们也缺少某些东西，而任何一个 *Technē* 都不寻求自身的利益，因为他们自身没有这种需要，他们寻求的是需要这个 *Technē* 的事物的利益。因此，强者（统治者）寻求的是被统治者的利益，他掌握的 *Technē* 的对象是他的臣民，而不是他自己。
 
 {{< admonition tip "Greek Definition of 'technē' " true >}}
 
 ‘Then is the science or art of medicine itself defective? Does it or any other skilled activity need **anything further to perfect** it?
 
-‘any further aretē’，每项 technē 都是自足的、在某个领域内的活动，不需要任何外界的支持和辅助。
+‘any further aretē’，每项 *Technē* 都是自足的、在某个领域内的活动，不需要任何外界的支持和辅助。
 
 {{< /admonition >}}
 
-Thrasymachus 不允许苏格拉底将权力解释为一种权利、义务或利益，而是要给出明确的定义，苏格拉底说，如果你问人十二是什么，而你又不许人回答是六的两倍，三乘四，四乘三，那么没人能回答这样的问题。Thrasymachus 说如果你要从我禁止的答案中选择一个回答，那么如果我想出来更好的答案，你就得付钱，Glaucon 愿意替苏格拉底付钱。Thrasymachus 说苏格拉底就是这样，**自己不提供答案，而只是驳斥他人的答案**
+Thrasymachus 不允许苏格拉底将权力解释为一种权利、义务或利益，而是要给出明确的定义，苏格拉底说，如果你问人十二是什么，而你又不许人回答是六的两倍，三乘四，四乘三，那么没人能回答这样的问题。如果苏格拉底回答的是 Thrasymachus 禁止的答案，那么如果 Thrasymachus 想出来更好的答案，苏格拉底就得付钱，Glaucon 愿意替苏格拉底付钱。Thrasymachus 说苏格拉底就是这样，**自己不提供答案，而只是驳斥他人的答案**
 
 {{< admonition quote "338d" true >}}
 
 ‘Listen then,’ he replied. ‘I say that justice or right is simply what is in the interest of the stronger party. Now where is your praise? I can see you’re going to refuse it.’
+
 ‘You shall have it when I understand what you mean, which at present I don’t. You say that what is in the interest of the stronger party is right; but what do you mean by interest? For instance, Polydamas the athlete is stronger than us, and it’s in his interest to eat beef to keep fit; we are weaker than him, but you can’t mean that the same diet is in our interest and so right for us.’
 ‘You’re being tiresome, Socrates,’ he returned, ‘and **taking my definition in the sense most likely to damage it.’**
+
 ‘I assure you I’m not,’ I said; ‘you must explain your meaning more clearly.’
 
 {{< /admonition >}}
@@ -156,7 +174,7 @@ Thrasymachus 不允许苏格拉底将权力解释为一种权利、义务或利�
 
 那么，没有任何知识寻找或规定对它自身有益的东西，而是寻找或规定臣服于它的弱者的利益（王晓朝译）
 
-这里 science 指 episteme，意为各种知识体系。
+这里 science 指 *episteme*，意为各种知识体系。
 
 {{< /admonition >}}
 
@@ -165,11 +183,17 @@ Thrasymachus 不允许苏格拉底将权力解释为一种权利、义务或利�
 {{< admonition quote "342d" true >}}
 
 ‘Then it follows that the doctor qua doctor prescribes with a view not to his own interest but that of his patient. For we agreed that a doctor in the precise sense controlled the body and was not in business for profit, did we not?’
+
 He assented.
+
 ‘And did we not also agree that a ship’s captain in the precise sense controlled the crew but was not one of them?’
+
 He agreed. 
+
 ‘So that a captain in this sense is in control, but will not give his orders with his own interest in view, but that of the crew which he controls.’
+
 He agreed reluctantly.
+
 ‘And therefore, my dear Thrasymachus,’ I concluded, ‘no ruler of any kind, qua ruler, exercises his authority, whatever its sphere, with his own interest in view, but that of the subject of his skill. It is his subject and his subject’s proper interest to which he looks in all he says and does.’
 
 {{< /admonition >}}
@@ -178,7 +202,7 @@ He agreed reluctantly.
 
 Thrasymachus 总结了自己的两个观点：
 
-1.   political power 就是一个阶级对另一个阶级的剥削。Ordinary morality is simply the behaviour imposed by exploiter on exploited, and is thus ‘someone else’s interest’.
+1.   political power 就是一个阶级对另一个阶级的剥削。Ordinary morality is simply the behaviour imposed by exploiter on exploited, and is thus **‘someone else’s interest’**.
 2. 在日常生活中，对自我利益的追求是完全合法，并且对个人来讲最为有利的。
 
 Thrasymachus 用经典的牧羊人的例子，提出利益才是驱使牧羊人的关键，而不是对羊的利益的关切。而 just man 是为了他者的利益而活，不义则正相反，
@@ -199,11 +223,12 @@ For, of course, those who abuse wrongdoing and injustice do so because they are 
 
 {{< /admonition >}}
 
-这时候 Thrasymachus 打算离开（柏拉图用心描绘了一个固执的形象），苏格拉底道德绑架了他，希望让他来为他们答疑解惑，带领他们走上正确的道路。不得不说，在这些时候苏格拉底甚至有些用心险恶，他知道自己有着主角光环，想尽办法引诱与他意见不合的人继续和他对话，最终瓦解他们的观点。比如接下来，苏格拉底发现了 Thrasymachus 论证的前后不合之处：在更早以前，他同意医生的目的是为了病人的利益，而这时他却说牧羊人是为了自己的利益（这两点之所以可以类比，或许也和 Technē 有关），而 Thrasymachus 的牧羊人为了自己利益而活的描述，更像在描述商人，而非牧羊人。可这不过是一些小破绽。
+这时候 Thrasymachus 打算离开（柏拉图用心描绘了一个固执的形象），苏格拉底道德绑架了他，希望让他来为他们答疑解惑，带领他们走上正确的道路。不得不说，在这些时候苏格拉底甚至有些用心险恶，他知道自己有着主角光环，想尽办法引诱与他意见不合的人继续和他对话，最终瓦解他们的观点。比如接下来，苏格拉底发现了 Thrasymachus 论证的前后不合之处：在更早以前，他同意医生的目的是为了病人的利益，而这时他却说牧羊人是为了自己的利益（这两点之所以可以类比，或许也和 *Technē* 有关），而 Thrasymachus 的牧羊人为了自己利益而活的描述，更像在描述商人，而非牧羊人。可这不过是一些小破绽。
 
 {{< admonition quote "345e" true >}}
 
 But tell me, do you think that the rulers of states (rulers in the true sense, that is) really want to rule?’
+
 ‘I don’t think it, I know it,’ he replied.
 
 ”......但是，你认为，那些统治城邦的人，那些真正的统治者，很乐意统治吗？“
@@ -212,7 +237,7 @@ But tell me, do you think that the rulers of states (rulers in the true sense, t
 
 {{< /admonition >}}
 
-统治者竟然不乐于统治？读到这里，我有些意外他们在这里达成了共识，所以你要告诉我那些喷薄而出的暴君、庸人、婴儿和沽名钓誉者不乐于那宝座？或者说这些人并不在真正的统治者的范围里。如果我们讨论的是那些历史罕见的明君，或者哲学家的君王的话，他们在理智清醒之时，或许的确厌恶统治，因之对他们并无好处，而只对臣民有好处。苏格拉底接着指出每一种技艺都有自身的功能，他这里特别提出 wage-earning 的功能是 brings us wages，顺便解决了上一段的 Thrasymachus 的观点。我们之所以产生工作是为了交换金钱的错觉，是因为工作其实是技艺 + `wage earning` 的组合，如果没有后者，那么技艺本身不会给我们提供任何好处。它将成为我们撬动这个利益驱动的世界的基点。
+统治者竟然不乐于统治？读到这里，我有些意外他们在这里达成了共识，所以你要告诉我那些喷薄而出的暴君、庸人、婴儿和沽名钓誉者不乐于那宝座？或者说这些人并不在真正的统治者的范围里。如果我们讨论的是那些历史罕见的明君，或者哲学家的君王的话，他们在理智清醒之时，或许的确厌恶统治，因之对他们并无好处，而只对臣民有好处。苏格拉底接着指出每一种技艺都有自身的功能，他这里特别提出 wage-earning 的功能是 brings us wages，顺便解决了上一段的 Thrasymachus 的观点。我们之所以产生工作是为了交换金钱的错觉，是因为工作其实是*Technē* + `wage earning` 的组合，如果没有后者，那么技艺本身不会给我们提供任何好处。它将成为我们撬动这个利益驱动的世界的基点。
 
 那么如果要让人去统治，从这个角度来说，他是不愿意纯粹地施行统治之术的，如同医生不愿意免费看病、士兵不愿意无偿打仗，统治者必须得到荣誉或者金钱，或者，**如果他拒绝的话，就要施加惩罚**。Glaucon 可是被这个观点吓到了，如果一个医生不愿意从医，我们有什么资格去惩罚他呢？苏格拉底接着开始展开自己对统治术的观点，也就是哲学家被推上君主的宝座，极不情愿，其唯一动力在于迫不得已。 国家遭遇危难，而身边尽是败将庸人，潜在的真正统治者因此会被道德焦虑折磨，他恐惧的将是目睹错误的人统治自己，这将让他背负罪责。用罪责作为报酬，苏格拉底在描述真正的圣徒，某种程度上，将国家命运迷信于圣徒的传承，在起初将的确拯救国家，但这是一种注定导致自大和暴力的制度。
 
@@ -279,7 +304,7 @@ We must now proceed to the further question which we set ourselves, whether the 
 
 {{< admonition tip "Greek Definition of 'mind'" true >}}
 
-对应的希腊词汇是 psuchē，指代生活的原则和精神的基石。有时这个词语指的是一种性格和秉性，但它同样可以指代类似于 soul 所包含的宗教与道德上的意义。Book X (Part XI, section 1 ff.) 就围绕着 psuchē 的不朽特点展开讨论
+对应的希腊词汇是 *psuchē*，指代生活的原则和精神的基石。有时这个词语指的是一种性格和秉性，但它同样可以指代类似于 soul 所包含的宗教与道德上的意义。Book X (Part XI, section 1 ff.) 就围绕着 *psuchē* 的不朽特点展开讨论
 
 {{< /admonition >}}
 
@@ -328,7 +353,7 @@ But the man who has a good life is prosperous and happy, and his opposite the re
 
 {{< admonition tip "什么是 'happy' " true >}}
 
-happy 对应的希腊语词汇是 eudaimōn，这个词语的意思与英语中的 ”happy“ 并不一样。eudaimōn 更多指代的是生命的状态或者是一种性格，介于人性的丰富和完整之间。
+happy 对应的希腊语词汇是 *eudaimōn*，这个词语的意思与英语中的 「happy」并不一样。*eudaimōn* 更多指代的是生命的状态或者是一种性格，介于人性的丰富和完整之间。
 
 {{< /admonition >}}
 
@@ -406,7 +431,7 @@ Shall I by justice reach the higher stronghold, or by deceit
 
 {{< admonition tip "Simonides" false >}}
 
-appearance has more force than reality，表象会用暴力战胜真理。这被推断为是前面提到过的 Simonides 的诗句。
+Appearance has more force than reality，表象会用暴力战胜真理。这被推断为是前面提到过的 Simonides 的诗句。
 
 {{< /admonition >}}
 
@@ -442,7 +467,7 @@ And I am sure that you genuinely believe it; I can tell from your general charac
 
 苏格拉底显出了疲态，他的长篇大论甚至没能说服 Glaucon，遑论其他本就不信任 justice 的人们。但他必须为了 justice 本身继续论战。既然 justice 可以既是个体也是国家的特征，那么不如先讨论宏观下一个国家的 justice 如何实现。
 
-苏格拉底首先抛出了一个观点，社会（或者 polis）的起源之一是个体无法做到完全的自给自足，必须借助他人的力量。而在这样形成的社会中，可以假设所有的相互交换都是建立在假设双方可以获得好处的前提上进行的。在一个极小尺度的 polis 中，至少要有四到五个人，他们分别提供食物（农民）、住宅（工人）、服装（纺织工人、鞋匠等）。在这个情况下，每个人，都会将他们全部的时间用于从事自己擅长的劳动中，例如农民致力于填饱四五个人的肚子，而不是留出时间为自己建造房屋和制作衣服。同时，每个人擅长的工作互不相同，因此最好是专长于某事，而不是掌握尽可能多的不同技能；由于每份工作都有着自己的关键时刻，因此每个劳动者也应该全身心投入其中，达到任务的质量和数量要求，而不是三天打鱼两天晒网。
+苏格拉底首先抛出了一个观点，社会（或者 *polis*）的起源之一是个体无法做到完全的自给自足，必须借助他人的力量。而在这样形成的社会中，可以假设所有的相互交换都是建立在假设双方可以获得好处的前提上进行的。在一个极小尺度的 *polis* 中，至少要有四到五个人，他们分别提供食物（农民）、住宅（工人）、服装（纺织工人、鞋匠等）。在这个情况下，每个人，都会将他们全部的时间用于从事自己擅长的劳动中，例如农民致力于填饱四五个人的肚子，而不是留出时间为自己建造房屋和制作衣服。同时，每个人擅长的工作互不相同，因此最好是专长于某事，而不是掌握尽可能多的不同技能；由于每份工作都有着自己的关键时刻，因此每个劳动者也应该全身心投入其中，达到任务的质量和数量要求，而不是三天打鱼两天晒网。
 
 {{< admonition tip "Greek Definition of State" true >}}
 
@@ -470,7 +495,7 @@ Glaucon 刻薄地说苏格拉底描述的是一个猪猡的社会，于是，苏
 
 ### 3. Qualities Required in the Guardians
 
-这个诞生的军人阶层，*Greek* phulakes，guardians 成为了讨论的重点，而柏拉图关注的，正是如何让这个 guardian 转化为 philosopher。一个优秀的军人需要像猎犬一样，有着敏锐的强大力量，获得勇气的强大的精神力。此外，他们还要避免变得好战，他们需要温柔地面对国民，狂暴地攻击敌人。但是，这种性格上的温顺，和强大的灵魂，几乎是相反的。
+这个诞生的军人阶层，*phulakes*，guardians 成为了讨论的重点，而柏拉图关注的，正是如何让这个 guardian 转化为 philosopher。一个优秀的军人需要像猎犬一样，有着敏锐的强大力量，获得勇气的强大的精神力。此外，他们还要避免变得好战，他们需要温柔地面对国民，狂暴地攻击敌人。但是，这种性格上的温顺，和强大的灵魂，几乎是相反的。
 
 {{< admonition quote "375e" true >}}
 
@@ -524,13 +549,13 @@ We shall persuade mothers and nurses to tell our chosen stories to their childre
 
 {{< admonition tip "Greek Definition of Education" true >}}
 
-Greek mousikē. 和英语的 Education 差异较大，Paul Shorey 认为 mousikē 囊括了音乐、诗歌、语言、文化和哲学等知识内容，mousikē 与九位缪斯女神有关，通常来讲，我们可以理解为体力活动之外的智力活动。
+Greek *mousikē*. 和英语的 Education 差异较大，Paul Shorey 认为 *mousikē* 囊括了音乐、诗歌、语言、文化和哲学等知识内容，*mousikē* 与九位缪斯女神有关，通常来讲，我们可以理解为体力活动之外的智力活动。
 
 {{< /admonition >}}
 
 {{< admonition tip "Greek Definition of Fiction" true >}}
 
-Greek pseudos. 不仅仅指小说等虚构故事，pseudos 还包含一层 “what is not true” 的意思，这意味着它也可以代表谎言。
+Greek *pseudos*. 不仅仅指小说等虚构故事，*pseudos* 还包含一层 “what is not true” 的意思，这意味着它也可以代表谎言。
 
 {{< /admonition >}}
 
@@ -582,6 +607,8 @@ But if a state is to be run on the right lines, every possible step must be take
 
 <p align="right"><b>BK III</b></p>
 
+1） subject-matter
+
 软弱，这是苏格拉底想通过教育极力避免的性格特质。被培养的完美士兵不应该恐惧死亡，恐惧死后的地狱，在面对威胁和奴役时，他才能有勇气赴死。因此，应该禁止有关恐怖地狱的故事，从某种程度上，这个部分的文章，反对的就是荷马和埃斯库罗斯，更精确地说，反对的就是荷马的《奥德赛》和《伊利亚特》。
 
 {{< admonition tip "Odyssey, XI, 489" true >}}
@@ -622,14 +649,121 @@ We must ask Homer and the other poets to excuse us if we delete all passages of 
 
 这个章节读得我惊心动魄，仿佛一刹那间，苏格拉底褪去了远古哲人的外衣，露出了二十世纪恶魔的马脚。我总希望在某次 Adeimantus 无脑的赞同中，苏格拉底能突然调转船头，激烈抨击，唤醒被迷惑而无助的读者，「不！真正强大的灵魂不会害怕这些！只有懦夫才会用这样低劣的手段来施展控制！」但是，他没有。这个老人令我失望了，当然，我理解时代的错位下，这或许是正确的选择，他遥望斯巴达来纠正雅典的浪荡，因此不得不采取激进的手段，完全讲得通。但是我担心的是，这样的叙述，已经误导了数千年来的多少人，又还要误导多少人？
 
+1） form
+
 在落实上述的制度之前，还需要解决一个之前章节的遗留问题：定义 justice。如果这个问题没有解决，那么所有的限制都是虚妄的。在排除了描写神明、半神、英雄和往生世界的文学作品之后，残存的，只有有关于人的文学，这个新的国家，是有关具体的人的。然而，当下的创作是不尽如人意的，诗人们描写着不义者享受珍馐，而正义之人生活悲惨的故事，要禁止这样的故事，就必须厘清一个问题：究竟什么是 justice。
 
- 
+ 接下来，柏拉图从反对表象转移到了反对 form 上。他将诗划分为直接叙事和间接叙事两种倾向，他反对的则是直接叙事，也就是第一人称叙事。为什么呢？因为他认为完美的 guardians 是不能经常性地、在精神上扮演其他角色的。
 
-{{< admonition note "See you later" false >}}
+直接叙事，被柏拉图称为 representation，间接的叙事，则被称为 narrative。苏格拉底用《伊利亚特》作为反例，在很大一部分章节中，荷马都以克律塞斯的口吻说话，乞求、发怒，尽其所能让读者代入克律塞斯的角色之中。苏格拉底用这种客观的口吻翻译了一段《伊利亚特》，他的第三人称描述非常冷静、疏离。读者的确更容易获得事情的全貌，做出客观公正的判断，但是，显然亲身体验故事的感觉已经丧失了。Adeimantus 指出，当代的悲剧和喜剧，最喜欢使用 representation 的手法，因此，苏格拉底打算彻底禁止悲剧和喜剧吗？不。值得指出的是，苏格拉底依旧用着强大的逻辑进一步解释了他的意图。首先，guardians 只擅长并且只能完成一件事情——the expert provision of freedom for our state；其次，任何诗人或者作家都只最擅长一个类型的角色，和上一条同样来自有关 techno 的争辩的理由；因此，guardians 不能在幼年时先入为主地带入一个有缺陷的角色类型，即便要让他们接触 representation 的艺术，也要把他们塑造成为 `men of courage, self-control, piety, freedom of spirit and similar qualities` ，他们不能看到女人、年轻人、老人、或者是奴隶的角色，不能看到坏人、懦夫的角色，不能接触看到、疯子的角色，不能看到铁匠、船长的角色，不能看到任何暗示性的描写——马的嘶鸣，牛的哞叫，江河湖海的波涛。seriously？
 
-持续更新..
+在这一番陈述之后，显然，苏格拉底尽管没有直言，但他已经表明了自己的态度，他甚至假惺惺地表示他会投票给那个禁止模仿和第一人称叙述的方案。至于那些采用了让人感同身受的第一人称的悲喜剧，它们是给儿童和普通民众的一剂麻醉剂。
+
+所以，显然苏格拉底的城邦里，人人只会从事自己擅长的唯一工作。假如一个误打误撞的诗人闯入这样的城邦，表现了他超群的模仿能力和多面手的天赋，苏格拉底会做的是，把他奉为神明，再告诉他这个城邦里没有他的一席之地。在这样的城邦里，诗人只能严肃地教育未来的完美的军人阶级。
+
+3） Musical requirements
+
+聪明如苏格拉底的人，一定不会遗漏音乐——这个最强大也最隐蔽的政治武器。
+
+古希腊的音乐主要以歌曲的形式存在，而歌曲可以分为三个部分，歌词，调式和律动。
+
+Mixed Lydian and the Extreme Lydian （后者不知道具体指的是哪种 Lydian）是用在挽歌和哀悼中的，这显然不能有助于一个强大的军人性格的形成。这样的调式不应该出现在这个城邦。
+
+那些用来给喝酒助兴的 Ionian 和某些 Lydian 调式，当然也只能算做靡靡之音。只有 Dorian 和 Phrygian 可以用来表现战士的强大韧性，和和平时期的军人道德。
+
+<center><a data-fancybox="gallery" href="/plato/1990.24.0481.jpg"><img src="/plato/1990.24.0481.jpg"></a>
+<style>
+p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
+p.source {line-height:70%; font-size:1px; color:gray;}
+</style>
+<body>
+<p class="title">
+布吕戈斯绘制的雅典风格 Cithara 乐手. 
+</p>
+<p class="source">
+Museum of Fine Arts, Boston. ca. 490 BC - 470 BC.
+</p></center>
+
+<center><a data-fancybox="gallery" href="/plato/Fresco_from_Pompeii,_1st_century_AD,_National_Archaeological_Museum_of_Naples,_Italy.jpg"><img src="/plato/Fresco_from_Pompeii,_1st_century_AD,_National_Archaeological_Museum_of_Naples,_Italy.jpg"></a>
+<style>
+p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
+p.source {line-height:70%; font-size:1px; color:gray;}
+</style>
+<body>
+<p class="title">
+戴着戏剧面具的男人和头戴花环的正在演奏 Lyre 的女人
+</p>
+<p class="source">
+庞贝. 1st century AD.
+</p></center>
+
+
+
+既然对调式也做出了如此严格的规定，那么这个城邦生产的乐器就也需要受到限制，不需要制造多弦的乐器，不需要音域广泛的乐器，不需要齐特琴和芦笛，城市里只能使用 Lyre 和 Cithara「竖琴」，乡村则只能用某些简易的风笛。苏格拉底引用阿波罗和芦笛的故事，来说服 Glaucon 这些限制并不是什么新鲜的举动。
+
+{{< admonition quote "399d" true >}}
+
+‘We aren’t really doing anything revolutionary, you know, my dear Glaucon,’ I said, ‘in preferring **Apollo and his instruments to Marsyas and his**.’
+
+‘Good God, no,’ he replied.
+
+‘And in the dog’s name,’I rejoined, ‘we have, without noticing it, been purging our state of the luxury from which we said it suffered.’
 
 {{< /admonition >}}
+
+{{< admonition tip "芦笛的故事和 in the dog’s name" true >}}
+
+这里 Apllo 和 Marsyas 的故事指的是古希腊传说中，阿波罗创造了竖琴，雅典娜创造了芦笛，但是，雅典娜认为芦笛不符合自己的个性，因此 Phrygian 族的半神 Marsyas 捡起了芦笛并创造了笛子的使用方式。他甚至用芦笛向阿波罗挑战，失败后被阿波罗剥皮。 苏格拉底引用这个故事是为了证明竖琴优于芦笛s的判断能在传说中找到依据。讽刺的是，这个故事本身就包括了苏格拉底先前禁止的暴露神残暴一面的特征，在苏格拉底的城邦里，这个故事是不允许讲述的。
+
+「In the dog’s name」 则是苏格拉底用来替代 「By Zeus」 的话前的誓言。
+
+{{< /admonition >}}
+
+---
+
+接下来，苏格拉底开始分析 Rhythm 「律动」。他希望只保留最能唤起勇气和纪律的节奏。苏格拉底和 Glaucon 两个门外汉不能精确表达节奏的具体特征的限制，在限制节奏的意识形态意义的同时，他们还需要兼顾节奏本身是否悦耳。他们由此转而从另一面展开对节奏的分析。
+
+ {{< admonition quote "400d" true >}}
+
+‘Good literature, therefore, and good music, beauty of form and good rhythm all depend on goodness of character; I don’t mean that lack of awareness of the world which we politely call “goodness”, but a mind and character truly well and fairly formed.’
+
+{{< /admonition >}}
+
+苏格拉底巧妙地将棘手的美学问题——节奏、歌词和调式，以及之后谈论到的其他艺术形式中对美的创造和知觉——转化为道德问题，即一切表达 goodness （不出意外，这个 goodness 的定义同样是苏格拉底，或哲人王给出的）的艺术，都将自然而然地具有美的特质。这个定义被迅速扩展到了绘画、纺织、手工业和建筑领域，甚至包括活生生的植物和动物（人为制造出害虫和野兽）。
+
+{{< admonition quote "401d" true >}}
+
+‘And that, my dear Glaucon,’ I said, ‘is why this stage of education is crucial. For rhythm and harmony penetrate deeply into the mind and take a most powerful hold on it, and, if education is good, bring and impart grace and beauty, if it is bad, the reverse. And moreover the proper training we propose to give will make a man quick to perceive the shortcomings of works of art or nature, whose ugliness he will
+rightly dislike; anything beautiful he will welcome gladly, will make it his own and so grow in true goodness of character; anything ugly he will rightly condemn and dislike, even when he is still young and cannot understand the reason for so doing, while when reason comes he will recognize and welcome her as a familiar friend because of his upbringing.’
+
+{{< /admonition >}}
+
+不得不说，这段十分动人的陈述让我突然有些理解苏格拉底到底想做什么。他描述的教育的确可能可以打造出完美个体，他们唾弃邪恶，勇敢而仁义。但是，即便我现在可以接受苏格拉底这套教育体系的目的，有关这套教育被操纵和偏移的可能性的质疑却始终如影随形。要让这样的教育能够真正施行，我们需要的将会是一整个体系的辅佐的官员和工作人员，他们必须毫无私心（尤其是领导者），有着完全契合的教育理念和施政方针，最重要的是，统治者本人必须克制自己的私心，全心全意为这样的教育体系服务。
+
+接下来，柏拉图从自我克制的角度，阐述了他的基本的爱情观——柏拉图式恋爱。被教育出的完美的 guardians 在享受快乐上，必须节制——他们不能沉溺在纵欲和性的快乐中，否则的话，理性就无从谈起。正确的爱与被爱的方式吗，应当是为了美好的事物而相爱，而不是为了超越这种日常的行为，陷入狂乱的情绪而相爱。值得注意的是，柏拉图在这段论述中，对爱人使用的更多词汇是 「boys」，这与古希腊的同性恋文化有着直接的关系，对柏拉图来说，性别和年龄不是爱情的关键，他所关心的，更多的是爱情和爱情有关的道德。
+
+### 2. Physical Education
+
+在 secondary education 之后，下一个阶段被称为 physical education，体育教育。在苏格拉底看来，体育的重要性不如心智和性格，唯有好的心智，才可以最大限度地利用强壮的身体。Guardians 应该类似当时的运动员，但与运动员的训练不同，他们不能沉溺于训练之中，更不能像那些看似强壮的运动员一样，饮食节律一旦被打破就将身体有恙。Guardians 必须随时警觉，也能经受各种残酷条件的挑战，他们的饮食要简化到没有调味料和复杂的烹饪技巧。
+
+对于完美的 Guardians 来说，他们要绝对避免他人的帮助，哪怕这种帮助是他人的职业服务。例如，guardians 要尽可能避免生病和惹上官司，以此避免依赖医生和律师。苏格拉底认为当代雅典的医学不免陷入了无病呻吟的窘境，古代先哲们从没有像当代人这样小心翼翼，也没有像如今受伤的士兵一样恐惧死亡。生病的人对社会是一个负面的影响——他们让自己的技艺闲置，“得闲死，唔得闲病”。Phocylides 认为有钱人更应该在获取了足够的金钱之后，转而实践社会美德。（Glaucon 这里质疑到在挣到足够的金钱之前，我们同样需要实践美德，但被苏格拉底刻意糊弄过去了）在对待那些患有绝症或者严重疾病的人，苏格拉底持有法西斯主义观点—— `no treatment should be given to the man who cannot survive the routine of his ordinary job, and who is therefore of no use either to himself or society` ，摆脱这些「寄生虫」，来「为第三帝国节省资源」。当然，我并不想用 20 世纪的恐怖现实来证明苏格拉底是法西斯主义者，这与过去我们将一些古代人物划分为封建地主阶级或者是无产阶级一样荒唐。
+
+话赶话，苏格拉底接着讨论起了医生和法官，他们应该用 mind 来解决一切他们应当能解决的问题，各种各样的疾病，各式各样的罪恶。但是，他们并不需要去亲身体验这些负面的经历，来提供专业的解决方案。与此相反，他们必须从小保持一个纯洁简单的心灵（某种程度上类似于 guardians 接受的教育），他们要凭借本性认识到善良和健康，而不能依靠知识或者经验。苏格拉底的城邦里，这样的医生和法官优先为那些灵魂和身体都十分健全的人服务，而那些不健康的、生而邪恶的人，应当他们自生自灭，或者处死。当然，这样的医生和法官并不是为 guardians 服务的，如前所述，guardians 不需要这些冗余的服务，他们不会生病，品德高尚。
+
+终于，在这段十分跳跃，主体概念又十分清晰的论述之后，苏格拉底开始总结。在他看来，secondary education 和 physical education 最终都是为了 `train the mind` 服务。缺失了任何一种教育，都将只能教育出畸形的人，excessively uncivilized type 或者 men indecently soft。这两种教育并不是为了形塑一个人的不同方面，真正的教育，关注的是如何协调这两种截然不同的知识体系，来达到一种内在的 harmony。
+
+{{< admonition quote "412a" true >}}
+
+‘We must therefore ensure, my dear Glaucon,’ I said, ‘that there is always someone like this in charge of education in our state, if its constitution is to be preserved.’
+
+{{< /admonition >}}
+
+## 1 - 3 部分小结
+
+这一部分大概占据了全书内容的三分之一，柏拉图借苏格拉底之口，从 justice 的定义入手，开始引出自己希望建立的哲人王统治的国家理念。第一部分对 justice 和社会道德之间的差异的描述其实是为了表达苏格拉底对当时雅典社会的不满，一个堕落的、失去道德守则的城邦。第二部分则用社会演绎的方式，一步步建构起他的城邦的职业体系，并且引出了一个最重要的阶级的存在—— guardians 「守卫者」。这个理想化的人群为了达到保卫城邦的目的，必须拥有超乎想象的高尚品德，而为了打造这样的完美造物，苏格拉底在第三部分则描述了非常详细的教育体系，从德育和体育两个方面入手，来让青年在成年之时充满着「正能量」。遗憾的是，苏格拉底在塑造这个教育方式的时候，采用的却是施加层层限制的审查法，他希望通过禁止任何领域的负面信息的存在，让这些 guardians 成长为不知道邪恶为何物的正义军队。这也是为什么，在 20 世纪初期，墨索里尼从包括「国家篇」在内的一系列哲学典籍中汲取思想，创造了法西斯主义。当然，这也是由于 20 世纪一系列恐怖政权的诞生在实操层面证明了柏拉图的理想国家建立的困难，以及其多么容易就会演化为极权。
+
+另一个方面，我也惊讶于这本两千多年前的典籍中清晰的论证和简洁的逻辑，尽管一些地方有逻辑的瑕疵（尤其以类比和使用特例为主），不过苏格拉底循循善诱和灵活多变的演讲风格，即便在今天也是非常抓人的 mesmerizing charisma。
+
+
 
 

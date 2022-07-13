@@ -605,13 +605,26 @@ ffmpeg -i music.flac music.mp3
    
    ```
 
-   于是首先备份 public 文件夹里的文件，然后合并远程库和本地库的文件。
+   于是首先备份 public 文件夹里的文件（此时不需要删除 public 文件夹内的内容），然后合并远程库和本地库的文件。
 
    ```bash
    git pull origin master --allow-unrelated-histories
    ```
 
-   这之后就按顺序 git add, commit, push，然后顺利更新了页面
+   pull 后，当命令行里的 (master) 变为 (master|MERGING), 就意味着远程仓库里的文件已经被下载进来，这时我们查看此时 public 文件夹内的内容，会发现一些页面发生了改变，例如，在编辑过的文章中，html 文件中会出现对比的字段，主要是字数和阅读时间的统计，奇妙的是，增加的内容并没有显示为 add，而是被放置在了 html 文件中，所以 pull 似乎也不是一个完全意义上的复制和下载操作。
+   
+5. 如果变动较大的话，这里可以合并 pull 下来的文件夹和备份的文件夹中的内容；如果变动不大的话（通常由于我会在切换设备时复制一份最新文件，因此通常正在使用的设备上的文件是另一台电脑上的迭代版本），则需要重新
+   
+   ```bash
+   cd ..
+   hugo
+   cd public
+   git add .
+   git commit -m ""
+   git push origin master
+   ```
+   
+   如果这里忘记回退后重新生成 public 文件的话，就会出现那些 pull 下来等待合并的代码并未修改，直接被 push 到远程仓库的场景，在这种情况下，很容易出现的问题是页面显示发生变化，因为页面开头的 head 部分字数统计出现了两段重复的类似代码，导致整个页面显示失常。解决的办法也很简单，重新进行 hugo - push 的操作即可。
 
 #### Markdown 五线谱
 
