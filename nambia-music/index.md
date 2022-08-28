@@ -3,7 +3,7 @@
 
 <!--more-->
 
-<img src="https://img.shields.io/badge/last%20modified-2022--06--26-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Album-Namibie: musique instrumentale-blue?style=flat" >
+<img src="https://img.shields.io/badge/last%20modified-2022--06--2-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Album-Namibie: musique instrumentale-blue?style=flat" >
 
 {{< admonition type=info title="Intro" open=true >}}
 
@@ -57,8 +57,6 @@ Bushmen 和 the San 通常指的是南部非洲操 Khoe, Tuu, Kx'a 等语言，�
 
 </center>
 
-
-
 这张专辑并不是唯一一张记录 Ju'hoansi 族人的音乐的专辑，1997 年同样由法国 Radio France 发行的 [Namibie • Chants Des Bushmen Ju'hoansi](https://www.discogs.com/release/15302635-Bushmen-Juhoansi-Namibie-Chants-Des-Bushmen-Juhoansi) 同样采用了 Emmanuelle Olivier 采集的音乐，使用的音乐同样来自于村庄 ||Xa|oba 和 ||Auru 。1997 年的专辑主要使用的是 1995 年的采样，专辑的组织方式主要依照的是歌曲使用的场景，例如，4-11 表现的是日常生活中使用的音乐，而12-16, 17, 18-19, 20-21 则分别表现了游戏、狩猎、治疗和夜间活动时使用的音乐。而在 Namibie (Musique Instrumentale) 专辑中，音乐并没有被按照这样的档案逻辑整合起来，而是更关注乐器和人声的配合。
 
 ## Ju/’hoansi 的社会习俗
@@ -72,7 +70,6 @@ Ju/'hoansi 人以其实行平均主义的社会结构闻名，在 *N!ai, The Sto
 在 !Kung 族人的生活中，一个非常重要的部分是医疗的仪式，!Kung 族人相信一种被称为 N|um 的精神力量，掌握了 N|um 的人可以通过进入一种催眠状态来与被治疗人获得精神上的连接，借此驱逐疾病。在 *N!ai, The Story of a !Kung Woman* 中，可以看到 N!ai 的叔叔和丈夫进行治疗仪式的镜头。在治疗者和被治疗者之外，部落的其他人还会聚集在他们身边，表演治疗仪式需要的音乐。（这里有一个有趣的现象，在 *N!ai, The Story of a !Kung Woman* 中出现的镜头并没有这个烘托氛围的音乐的部分，治疗者在努力进入有一定危险性的催眠状态，而被治疗者奄奄一息，即便有围观的人群，他们也不会发出多余的声音来干扰仪式的进行。至于这些有音乐的仪式，不知道是不是在 80 年代才演化出来的表演性质的治疗场景。）
 
 <br>
-
 
 {{< youtube YJdtsd_Cjro >}}
 
@@ -89,66 +86,64 @@ Ju/'hoansi 人以其实行平均主义的社会结构闻名，在 *N!ai, The Sto
 
 {{< /admonition >}}
 
-
-
 ## 曲目信息
 
 #### 1. Python (nǂang)
 
-<p align="right"><code> Composed By</code> Dam&nbsp;<code> BPM</code> 118&nbsp;<code> Key</code>&nbsp;D&nbsp;<code> Length</code> 4:29 </p>
+<p align="right"><code> Composed By</code> Dam <code> BPM</code> 118 <code> Key</code> D <code> Length</code> 4:29 </p>
 
 {{< music server="netease" type="song" id="483269649"  mini="false">}}
 
 > 四弦弓鲁特琴和三个女声部
->
+> 
 > Pluriarc à quatre cordes et trois voix féminines 
 
 弓鲁特琴的声音在十分空灵的同时，又有着明显的弦乐器的特征，1:23 - 1:30 的三个女声的吟唱相互叠加，互相铺垫，当一个歌手哼唱时，另外两位重复着唯一的一句唱词，像是延绵不绝的波涛拍打着琴声。 最后一分多种明显分出了主唱，有一个略粗的女声统领了歌曲的进行，另外两位则是偶尔跳入，随着节奏或者是主唱的歌声进行。
 
 #### 2. Le lac de Nllaru (nllaru !oa)
 
-<p align="right"><code> Composed By</code> Xaru De Nǂama&nbsp;<code> BPM</code> 109&nbsp;<code> Key</code>&nbsp;<sup>b</sup>A<sub>m</sub>&nbsp;<code> Length</code> 3:11 </p>
+<p align="right"><code> Composed By</code> Xaru De Nǂama <code> BPM</code> 109 <code> Key</code> <sup>b</sup>A<sub>m</sub> <code> Length</code> 3:11 </p>
 
 {{< music server="netease" type="song" id="483269650"  mini="false">}}
 
 > 四弦弓鲁特琴，女声合唱及舞蹈
->
+> 
 > Pluriarc à quatre cordes, chœur féminin et danse 
 
 开头节奏从慢到快的感受很自然，主唱的女声感觉年纪较大，click 声的使用恰到好处，在某些地方有节奏的功效。低音女声则全程担任背景，与似有似无的拍手声一起撑起了歌曲的框架。仔细聆听的话，还会发现弓鲁特琴的节奏之间微妙的变化。尽管整首歌看起来毫无变化，但是那些意外的修饰的部分——突然跳出的对话、主唱的 click 声、拍手声和琴声的波动，让这首歌非常耐听。
 
 #### 3. Zone conservatoire
 
-<p align="right"><code> Composed By</code> Nlhakxa, ||Uce&nbsp;<code> BPM</code> 123&nbsp;<code> Key</code>&nbsp;<sup>b</sup>D&nbsp;<code> Length</code> 7:28 </p>
+<p align="right"><code> Composed By</code> Nlhakxa, ||Uce <code> BPM</code> 123 <code> Key</code> <sup>b</sup>D <code> Length</code> 7:28 </p>
 
 {{< music server="netease" type="song" id="483269651"  mini="false">}}
 
 > 四弦弓鲁特琴和混声合唱
->
+> 
 > Pluriarc à quatre cordes et chœur mixte
 
 这首使用的弓鲁特琴声音更加高亢，女声却变得很低沉，而男声部，则是在背景铺垫。我很喜欢闭着眼睛听这首歌的中段，尽管没有影像，但我可以想象到现场的气氛，人群围绕，一个年轻人坐着弹奏弓鲁特琴，村子的人们聚集在一起，当有人想要加入合唱时，他/她的声音会为这首集体创作的曲子增加一层厚度，在这个过程中，歌曲就像一艘大海里翻滚的船，人们来了又去，歌曲则一直进行。
 
 #### 4. Mangetti (gllka)
 
-<p align="right"><code> Composed By</code> Tsaq'an ||u'urice&nbsp;<code>BPM</code> 111&nbsp; <code>Key</code>&nbsp;B<sub>m</sub>&nbsp;<code> Length</code> 3:54 </p>
+<p align="right"><code> Composed By</code> Tsaq'an ||u'urice <code>BPM</code> 111  <code>Key</code> B<sub>m</sub> <code> Length</code> 3:54 </p>
 
 {{< music server="netease" type="song" id="483269652"  mini="false">}}
 
 > 22 个叶片的薄片乐器和两个混合声部
->
+> 
 > Lamellophone à vingt-deux lames et deux voix mixtes
 
 Mangetti 一种树，它的果实是 !Kung 族人的食物。 这里使用的薄片乐器或许类似卡林巴琴，声音清脆悦耳。苍老的男人重复着一句唱词，但音调却在不断变化，直到 2:06 左右吟唱开始变化，2:20 左右琴声也跟着变化，薄片乐器呈现出了吉他般的旋律，仿佛琴在和老人对话一般。尽管专辑介绍这首歌有两个混合声部，但我没有听到女声部的存在。
 
 #### 5. La mouche (nlaro tzi)
 
-<p align="right"><code> Composed By</code>&nbsp;N!ani&nbsp;<code> BPM</code> 122 &nbsp;<code> Key</code>&nbsp;<sup>b</sup>B&nbsp;<code> Length</code> 1:11 </p>
+<p align="right"><code> Composed By</code> N!ani <code> BPM</code> 122  <code> Key</code> <sup>b</sup>B <code> Length</code> 1:11 </p>
 
 {{< music server="netease" type="song" id="483269653"  mini="false">}}
 
 > 口弓独奏
->
+> 
 > Arc de chasse à résonateur buccal solo
 
 La mouche 是法语中苍蝇的意思，本曲使用的口弓的声音也非常像苍蝇飞翔时的嗡嗡声。下面是一个来自博茨瓦纳的桑族乐手演奏口弓的视频，口弓作为乐器在非洲非常普遍，声音也很丰富，有观点认为口弓来自于狩猎中使用的弓箭。口弓可以同时发出两种声音（让人想起 *斯布孜额* 和呼麦），第一个声音是击打弓弦发出的敲击声，用作节奏；第二个声音则是弦的震动传到口腔后借助口腔产生共鸣后的声音，可以通过变换口型和舌头的位置、调整气流来改变声音。
@@ -157,60 +152,60 @@ La mouche 是法语中苍蝇的意思，本曲使用的口弓的声音也非常�
 
 #### 6. Le benjamin (da’ama !xo)
 
-<p align="right"><code> Composed By</code>&nbsp;N!ani&nbsp;<code> BPM</code> 115 &nbsp;<code> Key</code>&nbsp;<sup>b</sup>B&nbsp;<code> Length</code> 3:14 </p>
+<p align="right"><code> Composed By</code> N!ani <code> BPM</code> 115  <code> Key</code> <sup>b</sup>B <code> Length</code> 3:14 </p>
 
 {{< music server="netease" type="song" id="483269654"  mini="false">}}
 
 > 口弓和女声部
->
+> 
 > Arc de chasse à résonateur buccal et voix féminine
 
 薄片乐器用作背景节奏，似乎还有类似沙锤的节奏乐器，一个女声部作为背景，另一个女声从 0:42 跳入音乐，声音曲调较高。不知道为什么专辑介绍中说用到了口弓，我没有听出来。
 
 #### 7. La pluie fine (!uru di)
 
-<p align="right"><code> Composed By</code>&nbsp;||'Ao&nbsp;<code> BPM</code> 125&nbsp;<code> Key</code>&nbsp;<sup>b</sup>B<sub>m</sub>&nbsp;<code> Length</code> 1:59</p>
+<p align="right"><code> Composed By</code> ||'Ao <code> BPM</code> 125 <code> Key</code> <sup>b</sup>B<sub>m</sub> <code> Length</code> 1:59</p>
 
 {{< music server="netease" type="song" id="483269655"  mini="false">}}
 
 > 口弓独奏
->
+> 
 > Arc de chasse à résonateur buccal solo
 
 一开始的口弓太像口弦了，感觉应该比之前用的口弓小很多，声音紧凑而富有活力。若有若无的男声的哼唱非常喜欢，像是耳语一般。口弓的声音像密集的雨滴，从天空落下一刻不得停歇，而男声则像隐隐生长的植物，非常契合 The light rain 的歌名，对 !Kung 族人来说，春雨意味着植物开始增长，一年中食物最充裕的季节即将来临，用这样的音乐模仿细雨，the female rain，再恰当不过了。
 
 #### 8. Arc de chasse
 
-<p align="right"><code> Composed By</code>&nbsp;ǂAmace&nbsp;<code> BPM</code> 165&nbsp;<code> Key</code>&nbsp;F&nbsp;<code> Length</code> 1:26</p>
+<p align="right"><code> Composed By</code> ǂAmace <code> BPM</code> 165 <code> Key</code> F <code> Length</code> 1:26</p>
 
 {{< music server="netease" type="song" id="483269656"  mini="false">}}
 
 > 带外置共鸣器，双人演奏
->
+> 
 > à résonateur externe joué par deux personnes
 
 这首歌的名字是弓箭，或许与狩猎有关，这样的主题使用口弓也非常恰当。口弓的声音相当低沉，在空腔中回响，声音厚重而富有弹性，像是战鼓。隐隐约约有一个打击乐的音轨，像是敲击某个弹性很大的平面发出的声音，动感十足。
 
 #### 9. Mangetti (gllkàá)
 
-<p align="right"><code> BPM </code> 96 &nbsp;<code> Key </code>&nbsp;<sup> b</sup>E<sub>m</sub>&nbsp;<code> Length </code> 3:13 </p>
+<p align="right"><code> BPM </code> 96  <code> Key </code> <sup> b</sup>E<sub>m</sub> <code> Length </code> 3:13 </p>
 
 {{< music server="netease" type="song" id="483269657"  mini="false">}}
 
 > 五弦弓鲁特琴和男声部
->
+> 
 > Pluriarc à cinq cordes et voix masculine
 
 相比于前一首 Mangetti 只有一个男声，五弦弓鲁特琴的音域向低音扩展。不知道这样的命名法可不可以理解为 Ju/'hoansi 人有一些标准的曲目样板。2:30 开始的吟唱变得低沉，唱词也发生了变化。
 
 #### 10. La formation d’un chamane (kuru ka ce)
 
-<p align="right"><code> Composed By </code>&nbsp;ǂAmace&nbsp;<code> Length </code> 6:10 </p>
+<p align="right"><code> Composed By </code> ǂAmace <code> Length </code> 6:10 </p>
 
 {{< music server="netease" type="song" id="483269658"  mini="false">}}
 
 > 五弦弓鲁特琴和两个混合声部
->
+> 
 > Pluriarc à cinq cordes et deux voix mixtes
 
 弓鲁特琴主要在高音区，高音女声非常动听，和男声部的交替唱法让歌声像是拉链一样锁在一起。男女声看似毫无章法，仔细听起来，会发现他们各自遵循着自己的节奏范式，几乎不受对方影响。
@@ -219,36 +214,36 @@ La mouche 是法语中苍蝇的意思，本曲使用的口弓的声音也非常�
 
 #### 11. La police des noirs (goba l’are-n!ahm)
 
-<p align="right"><code> BPM </code> 99 &nbsp;<code> Key </code><sup> b</sup>E<sub>m</sub>&nbsp;<code> Length </code> 3:22 </p>
+<p align="right"><code> BPM </code> 99  <code> Key </code><sup> b</sup>E<sub>m</sub> <code> Length </code> 3:22 </p>
 
 {{< music server="netease" type="song" id="483269659"  mini="false">}}
 
 > 五弦弓鲁特琴和混声合唱
->
+> 
 > Pluriarc à cinq cordes et chœur mixte
 
 不知道这首歌为什么要叫 the black police，这是目前为止第一首多个男声的歌曲，从一分半开始突然很多个男声插入，让人意识到周围可能围绕着很多人，弓鲁特琴在后半部分几乎消声了，男声占据了全部舞台，尽管声音很多，但是异常整齐，很好奇歌词的内容和涵义。
 
 #### 12. Arc de chasse
 
-<p align="right"><code> BPM</code> 164&nbsp;<code> Key</code>&nbsp;G<sub>m</sub>&nbsp;<code> Length</code> 1:46</p>
+<p align="right"><code> BPM</code> 164 <code> Key</code> G<sub>m</sub> <code> Length</code> 1:46</p>
 
 {{< music server="netease" type="song" id="483269660"  mini="false">}}
 
 > 带外置共鸣器，双人演奏
->
+> 
 > à résonateur externe joué par deux personnes
 
 和上一首 Arc de chasse 很像，弹奏的节奏大概是 弱弱强 弱弱强 弱弱强强。
 
 #### 13. Les femmes (dshausi)
 
-<p align="right"><code>BPM</code> 104&nbsp;<code> Key</code>&nbsp;<sup>b</sup>G<sub>m</sub>&nbsp;<code> Length</code> 3:04</p>
+<p align="right"><code>BPM</code> 104 <code> Key</code> <sup>b</sup>G<sub>m</sub> <code> Length</code> 3:04</p>
 
 {{< music server="netease" type="song" id="483269661"  mini="false">}}
 
 > 22 个叶片的薄片乐器和混声合唱
->
+> 
 > Lamellophone à vingt-deux lames et chœur mixte
 
 薄片乐器的音色很清脆，女声进入的方式在前面也出现过，男声铺垫底色，薄片乐器的旋律和女声的旋律相同。薄片乐器的音色和视频里的乐器接近。
@@ -259,73 +254,72 @@ La mouche 是法语中苍蝇的意思，本曲使用的口弓的声音也非常�
 
 #### 14. prénom féminin (Baqu)
 
-<p align="right"><code> Composed By</code>&nbsp;N!aici&nbsp;<code> BPM</code> 109&nbsp;<code> Key</code>&nbsp;<sup>b</sup>A<sub>m</sub>&nbsp;<code> Length</code> 2:18</p>
+<p align="right"><code> Composed By</code> N!aici <code> BPM</code> 109 <code> Key</code> <sup>b</sup>A<sub>m</sub> <code> Length</code> 2:18</p>
 
 {{< music server="netease" type="song" id="483269662"  mini="false">}}
 
 > 22 个叶片的薄片乐器和男声部
->
+> 
 > Lamellophone à vingt-deux lames et voix masculine
 
 薄片乐器像清脆的水滴的声音，男声非常轻柔。
 
 #### 15. Chemin fréquenté (tarakuce)
 
-<p align="right"><code> Composed By</code>&nbsp;N!aici, |Ai!ae&nbsp;<code> Length</code> 1:36</p>
+<p align="right"><code> Composed By</code> N!aici, |Ai!ae <code> Length</code> 1:36</p>
 
 {{< music server="netease" type="song" id="483269663"  mini="false">}}
 
 > 口腔共鸣的环形口弓
->
+> 
 > Arc musical bagué avec résonateur buccal
 
 口弓的变化更多体现在了共鸣的声音的旋律，相比于之前口弓更多作为节奏乐器，这首音乐呈现了口弓更丰富的可能性。一条 frequented path，活动丰富，声音就应该快速而变化多样。
 
 #### 16. Le buffle mâle (lao g!oq)
 
-<p align="right"><code> Composed By</code>&nbsp;Xandisi&nbsp;<code> BPM</code> 120&nbsp;<code> Key</code>&nbsp;<sup>b</sup>A&nbsp;<code> Length</code> 3:09</p>
+<p align="right"><code> Composed By</code> Xandisi <code> BPM</code> 120 <code> Key</code> <sup>b</sup>A <code> Length</code> 3:09</p>
 
 {{< music server="netease" type="song" id="483269664"  mini="false">}}
 
 > 口腔共鸣的环形口弓
->
+> 
 > Arc musical bagué avec résonateur buccal
 
 歌名叫公牛 male buffalo。口弓的旋律感更强了，让人想起一些西南地区彝族的口弦作品。
 
 #### 17. Arc musical
 
-<p align="right"><code> Composed By</code>&nbsp;N!ani&nbsp;<code> BPM</code> 120&nbsp;<code> Key</code>&nbsp;<sup>b</sup>A<sub>m</sub>&nbsp;<code> Length</code> 1:47</p>
+<p align="right"><code> Composed By</code> N!ani <code> BPM</code> 120 <code> Key</code> <sup>b</sup>A<sub>m</sub> <code> Length</code> 1:47</p>
 
 {{< music server="netease" type="song" id="483269665"  mini="false">}}
 
 > 口腔共鸣和打磨过的木板
->
+> 
 > avec résonateur buccal et bois raclé
 
 木板的声音像蜜蜂的蜂鸣和拉锯声音的结合，另一个口腔共鸣的声音听起来像口哨，不知道是不是口弓的某种特殊表演方式或者某种特殊的口弓。
 
 #### 18. Je veux une femme (kapenda ceca)
 
-<p align="right"><code> BPM</code> 104&nbsp;<code> Key</code>&nbsp;<sup>b</sup>A<sub>m</sub>&nbsp;<code> Length</code> 2:12</p>
+<p align="right"><code> BPM</code> 104 <code> Key</code> <sup>b</sup>A<sub>m</sub> <code> Length</code> 2:12</p>
 
 {{< music server="netease" type="song" id="483269666"  mini="false">}}
 
 > 9 个叶片的薄片乐器和两个混合声部
->
+> 
 > Lamellophone à neuf lames et deux voix mixtes
 
 歌名 I want a wife，薄片乐器声音低沉而富有回响，人声更加突出，女声十分动人，而且几乎没有唱词，始终在哼唱；男声承担了主要的唱词。
 
 #### 19. Le benjamin (da’ama !xo)
 
-<p align="right"><code> Composed By</code> Tsaq'an ||u'urice&nbsp;<code>BPM</code> 105&nbsp;<code> Key</code>&nbsp;B<sub>m</sub>&nbsp;<code> Length</code> 3:30</p>
+<p align="right"><code> Composed By</code> Tsaq'an ||u'urice <code>BPM</code> 105 <code> Key</code> B<sub>m</sub> <code> Length</code> 3:30</p>
 
 {{< music server="netease" type="song" id="483269667"  mini="false">}}
 
-
 > 22 个叶片的薄片乐器和两个混合声部
->
+> 
 > Lamellophone à vingt-deux lames et deux voix mixtes
 
 和前面的 Le benjamin 几乎可以连接起来。0:43 加入的女声很有磁性，为一成不变的节奏增加了变化。
@@ -335,8 +329,6 @@ La mouche 是法语中苍蝇的意思，本曲使用的口弓的声音也非常�
 20 年写本文的时候，听了很多遍这张专辑，一个突出的特点是这张专辑的音乐比马里、尼日利亚等地的音乐要简单和随性太多。这与 Ju/'hoansi 人的生活有很密切的关系，作为一个 70 年代之前还基本生活在部落社会的民族，他们的音乐结构更加松散，乐器使用单一而且原始，口弓、薄片乐器和弓鲁特琴大概就是使用最多的乐器。另外， Ju/'hoansi 人对人声的重视似乎超过了非洲其他地区的民族，他们的人声在音乐的伴奏上跳跃，而且互不相同，更多人的参与意味着更加立体的声音，而不仅仅是合唱般的单一声部，最明显的就是第 4 首 Mangetti 中那个自由变换音调的男声。
 
 在这次重新修改的过程中，发现两年前写作的文章有太多不准确之处，当然，这次修改也一定有很多问题，毕竟，非洲对我来说还是太过遥远，许多常识性的东西只有在当地才能知道。还是希望将来有机会拿到实体专辑，我相信 20 页的手册里一定充满着各种有用的信息。时至今日，不知道当地还能有多少录音中的音乐留存，!Kung 族人融入现代社会的过程必定充满挫折和迷茫，在传统和现代的挤压下，他们必须抛弃简单走向复杂，在这个过程中需要抛弃太多东西。音乐必定要深深扎根在社会文化之中，社会剧变，音乐消失又能算得了什么。
-
-
 
 ## Reference
 

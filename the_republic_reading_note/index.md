@@ -3,12 +3,13 @@
 
 <!--more-->
 
-<img src="https://img.shields.io/badge/last%20modified-2022--07--14-ff69b4?style=flat" > <img src="https://img.shields.io/badge/English version-Penguin Classic 2007-blue?style=flat" > <img src="https://img.shields.io/badge/中文版本-人民出版社2017年增订本-blue?style=flat" >
+<img src="https://img.shields.io/badge/last%20modified-2022--07--14-ff69b4?style=flat" > <img src="https://img.shields.io/badge/English version-Penguin Classic 2007-blue?style=flat" > <img src="https://img.shields.io/badge/中文版本-人民出版社2017年增订本-blue?style=flat" > <img src="https://geps.dev/progress/30" >
+
 
 {{< admonition type=info title="阅读版本" open=true >}}
 阅读的英文版是企鹅出版社2007年出版的 *The Republic* ，Desmond Lee 翻译；同时对照人民出版社 2017 年王晓朝译本的增订版，后者直接基于希腊文文本翻译，并且有比较丰富的注释。
 
-本文依照英文版的章节划分，因为英文版的章节以内容为划分依据，相对清晰，适合初学者。中文版的章节则与古代版本一致，也在文章中有所标记。本文的目的是详细记录 *The Republic* 的阅读感受和章节内容，不做笔记的话，太容易遗忘和走神，书中采用的对话的形式让人很容易忽略内容转而变成浏览，所以打算实时记录流水账式的读书笔记，再缓慢更新。
+本文依照英文版的章节划分，因为英文版的章节以内容为划分依据，相对清晰，适合初学者。中文版的章节则与古代版本一致，也在文章中有所标记。本文的目的是详细记录 *The Republic* 的阅读感受和章节内容，不做笔记的话，太容易遗忘和走神，书中采用的对话的形式让人很容易忽略内容转而变成浏览，所以打算实时记录流水账式的读书笔记，逐步更新。
 
 {{< /admonition >}}
 
@@ -19,7 +20,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 </style>
 <body>
 <p class="title">
-想象这个故事的内容，出自苏格拉底之口，经柏拉图转为文字后，再由译者译为中英双语。这个过程远不及一个游吟歌手的歌声生动。
+想象这个故事的内容，出自苏格拉底之口，经柏拉图转为文字后，再由译者译为中英双语。一个远不及游吟歌手的歌声生动的过程。
 </p>
 <p class="source">
 Sappho and Alcaeus, Sir Lawrence Alma-Tadema, 1881. The Walters Art Museum 
@@ -202,7 +203,7 @@ He agreed reluctantly.
 
 Thrasymachus 总结了自己的两个观点：
 
-1.   political power 就是一个阶级对另一个阶级的剥削。Ordinary morality is simply the behaviour imposed by exploiter on exploited, and is thus **‘someone else’s interest’**.
+1. political power 就是一个阶级对另一个阶级的剥削。Ordinary morality is simply the behaviour imposed by exploiter on exploited, and is thus **‘someone else’s interest’**.
 2. 在日常生活中，对自我利益的追求是完全合法，并且对个人来讲最为有利的。
 
 Thrasymachus 用经典的牧羊人的例子，提出利益才是驱使牧羊人的关键，而不是对羊的利益的关切。而 just man 是为了他者的利益而活，不义则正相反，
@@ -340,8 +341,6 @@ But the man who has a good life is prosperous and happy, and his opposite the re
 
 {{< /admonition >}}
 
-
-
 这里又是流畅的一段逼问，有趣的是，我明显感觉到 Thrasymachus 已经放弃反抗，只是机械的点头了。粗略来说，这段的论证过程是这样的：
 
 1. 一个物品的功能限于仅其能做的事，或者其能做到最好的事。而这个功能可以扩展到人的精神事件，即人的精神拥有一系列功能。<font color=B20600> **正义也在其中**</font>
@@ -363,7 +362,7 @@ happy 对应的希腊语词汇是 *eudaimōn*，这个词语的意思与英语�
 
 <p align="right"><b>BK II</b></p>
 
-<table><tr><td height=15px; bgcolor=#F1EEEE><center><font color=205375 size="3"><b>Part I: Glaucon</b></center></td></tr></table> 
+<table><tr><td height=15px; bgcolor=#F1EEEE><center><font color=205375 size="3"><b>Part I: Glaucon</b></center></td></tr></table>
 
 Glaucon 认为人们为自己谋取利益是天经地义的，而对正义、道德感的追求都应该让位于利益。道德感之所以出现在人类社会，是因为社会不能接受所有人的自私，必须让渡并限制一部分个人权利，因此，道德感是妥协的产物。
 
@@ -388,32 +387,32 @@ Glaucon 接着更新了 Thrasymachus 的观点为三个部分：
 Glaucon 坦诚他并非完全相信这一切，但 Thrasymachus 在内的许多人却不断给他灌输这样的观念。事实上，Glaucon 这里代表的正是大多数人，他们在内心深处认可正义，却受到社会现象和思想的负面影响，不得不默许大众观点的切实成立。Glaucon 因此决定彻底成为大众声音的代言人，他将试图扮演歌颂不义的角色，来让苏格拉底提出值得信服的解释。
 
 1. *大众眼中 justice 的天性与起源*
-
+   
    这里 Glaucon 首先给出了一个我没看懂的观点
-
+   
    {{< admonition quote "358e" true >}}
-
+   
    What they say is that it is according to nature a good thing to inflict wrong or injury, and a bad thing to suffer it, but that the disadvantages of suffering it exceed the advantages of inflicting it.
-
+   
    {{< /admonition >}}
-
+   
    王晓朝的译本里，也译为“行不正义是天然的善，承受不正义是天然的恶”，为什么这里“行不正义是天然的善”呢？或者是说，人的本性是利己的，这是善；但因为他人利己而导致自己利益遭受损失的，这是恶。因为善恶的不可协调，人们制定了法律和协议，而这就是正义的起源。因此，正义本身就是一种妥协的产物。
-
+   
    {{< admonition tip "Social Contract" true >}}
-
+   
    这一段被认为是 17 世纪的社会契约论的起源。差别在于 17 世纪的社会契约论是为了解决统治的问题（也即政治问题），而 Glaucon 是为了解决道德问题而提出这个概念。
-
+   
    {{< /admonition >}}
 
 2. *人们在行善的时候，往往是由于受到某种程度的强迫，而不是为了行善*
-
-   人们之所以行善，在于他们不能行恶。Glaucon 举例了一个场景，一个正义之人和一个不义之人被给予了行事自由的权利，而我们会发现，正义的人会因为私欲而损害他人。Glaucon 这里用了完美的 Gyges 的例子来说明这个观点的正确性，牧羊人 Gyges 从地狱中偷走了一个金戒指，当他发现戒指有隐身的能力之后，开始用戒指盗窃、偷情、篡权。**权力带给人的变化**。
    
-3. *第 2 点的现象是正常的，不义之人的确比正义的人享有更好的生活*
+   人们之所以行善，在于他们不能行恶。Glaucon 举例了一个场景，一个正义之人和一个不义之人被给予了行事自由的权利，而我们会发现，正义的人会因为私欲而损害他人。Glaucon 这里用了完美的 Gyges 的例子来说明这个观点的正确性，牧羊人 Gyges 从地狱中偷走了一个金戒指，当他发现戒指有隐身的能力之后，开始用戒指盗窃、偷情、篡权。**权力带给人的变化**。
 
+3. *第 2 点的现象是正常的，不义之人的确比正义的人享有更好的生活*
+   
    Glaucon 首先对比了极端案例——绝对正义的人和绝对不义的人。绝对不义的人首先是不义方面的绝对专家，他清楚自己在每件事上应持的立场取决于这件事与自己利益的关系，那么，完美的不义者**一定在背地里行不义，同时表面极度良善**，他一定乐于行善，慷慨解囊，因为他给神祗们的贡品最多，神祗们也会保护他；反之，完美的正义者**一定私下里四处行善，而表面上是极度的恶人**，因为他秉持正义不是为了他自己的利益，而是为了别人的利益，而正义的名声会带来利益，因此他会伪装成令人厌恶的不义之人，这才是一个绝对的利他主义者。最终的结果是，不义之人比正义之人的生活中回报更多，也更加快乐。这里 Glaucon 没有采取 Thrasymachus 用双方的实际行为的差异来表达观点的方式，而是从表象出发，从两种极端形象会为了自己的身份 image 采取的行动，来反推生活上所享有的快乐的多少。
 
-<table><tr><td height=15px; bgcolor=#F1EEEE><center><font color=205375 size="3"><b>Part II: Adeimantus</b></center></td></tr></table> 
+<table><tr><td height=15px; bgcolor=#F1EEEE><center><font color=205375 size="3"><b>Part II: Adeimantus</b></center></td></tr></table>
 
 Glaucon 的兄弟 Adeimantus 接着 Glaucon 的论述继续往下说，他认为人们行恶可以得到很多东西，而行善的所得一定少于行恶，而且，宗教鼓励人们行恶，因为宗教告诉人们他们可以通过给神祗的慷慨献金来抵消本世的罪恶，而下世的开始又将清空循环，因此，Adeimantus 要求苏格拉底讲明白，行善的目的是什么，而这个目的不能是任何外在的奖惩。
 
@@ -438,11 +437,11 @@ Appearance has more force than reality，表象会用暴力战胜真理。这被
 其实 Glaucon 和 Adeimantus 的立场是非常理性的，他们基于冲动的 Thrasymachus 的观点，从表象的方面否定了正义。他们并不追求驳倒苏格拉底，而是希望让苏格拉底给出令人信服的解释，否则隔靴搔痒的争论对社会的未来毫无裨益。他们在最后总结了苏格拉底到目前为止的观点以及其缺陷：
 
 1. 苏格拉底仅仅论证了正义强于不正义。然而，他并没有剥离外在因素的作用，那么他在事实上鼓励人们为了名声追求表面的正义。否则的话苏格拉底将
-
+   
    {{< admonition quote "367c" true >}}
-
+   
    you agree with Thrasymachus that justice is what is good for someone else, the interest of the stronger party, while injustice is what is to one’s own interest and advantage, and pursued at the expense of the weaker party.
-
+   
    {{< /admonition >}}
 
 2. 苏格拉底同意正义应该归属于**既为了它本身也为了它的影响的 good**。而这并未解释清楚正义能给人带来的好处，和不义能给人带来的坏处。
@@ -697,8 +696,6 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 庞贝. 1st century AD.
 </p></center>
 
-
-
 既然对调式也做出了如此严格的规定，那么这个城邦生产的乐器就也需要受到限制，不需要制造多弦的乐器，不需要音域广泛的乐器，不需要齐特琴和芦笛，城市里只能使用 Lyre 和 Cithara「竖琴」，乡村则只能用某些简易的风笛。苏格拉底引用阿波罗和芦笛的故事，来说服 Glaucon 这些限制并不是什么新鲜的举动。
 
 {{< admonition quote "399d" true >}}
@@ -763,7 +760,4 @@ rightly dislike; anything beautiful he will welcome gladly, will make it his own
 这一部分大概占据了全书内容的三分之一，柏拉图借苏格拉底之口，从 justice 的定义入手，开始引出自己希望建立的哲人王统治的国家理念。第一部分对 justice 和社会道德之间的差异的描述其实是为了表达苏格拉底对当时雅典社会的不满，一个堕落的、失去道德守则的城邦。第二部分则用社会演绎的方式，一步步建构起他的城邦的职业体系，并且引出了一个最重要的阶级的存在—— guardians 「守卫者」。这个理想化的人群为了达到保卫城邦的目的，必须拥有超乎想象的高尚品德，而为了打造这样的完美造物，苏格拉底在第三部分则描述了非常详细的教育体系，从德育和体育两个方面入手，来让青年在成年之时充满着「正能量」。遗憾的是，苏格拉底在塑造这个教育方式的时候，采用的却是施加层层限制的审查法，他希望通过禁止任何领域的负面信息的存在，让这些 guardians 成长为不知道邪恶为何物的正义军队。这也是为什么，在 20 世纪初期，墨索里尼从包括「国家篇」在内的一系列哲学典籍中汲取思想，创造了法西斯主义。当然，这也是由于 20 世纪一系列恐怖政权的诞生在实操层面证明了柏拉图的理想国家建立的困难，以及其多么容易就会演化为极权。
 
 另一个方面，我也惊讶于这本两千多年前的典籍中清晰的论证和简洁的逻辑，尽管一些地方有逻辑的瑕疵（尤其以类比和使用特例为主），不过苏格拉底循循善诱和灵活多变的演讲风格，即便在今天也是非常抓人的 mesmerizing charisma。
-
-
-
 

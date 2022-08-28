@@ -18,8 +18,6 @@
 2. 在 GitHub 新建 Repository；
 3. 通过 Hugo 搭建本地的博客文件框架，之后用 Git 推到 GitHub 上
 
-
-
 ### 安装Hugo & Git
 
 1. Hugo的安装在：[Install Hugo](https://gohugo.io/getting-started/installing/) 有详细指南，或者直接在 [Hugo GitHub Release Page](https://github.com/gohugoio/hugo/releases) 下载最新版的extended版本，我在*2022/05/21*安装的是 [hugo_extended_0.99.1_Windows-64bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.99.1/hugo_extended_0.99.1_Windows-64bit.zip) ，解压后把hugo.exe文件放到指定的安装目录，比如`D:/Program Files/Hugo/bin`，然后打开**win+R &rarr; sysdm.cpl &rarr; Advanced &rarr; Environment Variables &rarr; System variables - path **  添加进去，命令行输入`Hugo version` 如果显示则成功
@@ -27,45 +25,44 @@
 
 ### GitHub新建仓库
 
-作为为了博客才注册GitHub的真正新手，大概理解GitHub是怎么工作的耗费了不少调整的时间，光是不断重头再来新建仓库就做了十遍有余。
+作为为了博客才注册 GitHub 的真正新手，大概理解 GitHub 是怎么工作的耗费了不少调整的时间，光是不断重头再来新建仓库就做了十遍有余。
 
 1. 新建一个库，这里注意三点：
-   1. Repository name必须是username.github.io，用户名大小写不敏感
-   2. 添加一个README文档，倒也不那么重要就是了 :(far fa-grin-tears):
+   1. Repository name 必须是 username.github.io，用户名大小写不敏感
+   2. 添加一个 README 文档，倒也不那么重要就是了 :(far fa-grin-tears):
    3. **新手踩坑**，这里设置了 `:(fas fa-code-branch): main ` 作为默认分支，但搭建博客的很多教程依旧基于 `master` 的分支来同步文档。这是因为2020年10月1日以后 Github 把新建仓库的默认分支从 `master` 改为 `main` 了，其实只需要在仓库的设置里把 **branch** 和 **pages**  中的有关设置从 `main` 改为 `master` 即可
    4. 另外这里可以注意一下 `SSH` 的问题，网上教程很多，出现问题修改一下就行
 
 ### 生成Hugo的网站文件
 
-##### 	新建Hugo网站
+##### 新建Hugo网站
 
 1. 新建一个最顶层的文件夹用来放置所有相关文档，比如`E://HugoWebsite`
 
 2. 在命令行输入 `hugo new site [blog folder name]` ，生成一套文件框架
 
 3. 选择主题，我直接使用的是 `LoveIt`
-
-     ```bash
-     # 切换目录到博客文件夹
-     cd [blog folder name]
-     # 切换到主题文件夹
-     cd themes
-     # 下载主题
-     git clone https://github.com/dillonzq/LoveIt.git LoveIt
-     ```
+   
+   ```bash
+   # 切换目录到博客文件夹
+   cd [blog folder name]
+   # 切换到主题文件夹
+   cd themes
+   # 下载主题
+   git clone https://github.com/dillonzq/LoveIt.git LoveIt
+   ```
 
 4. 修改根目录下的 `config.toml` , [LoveIt作者的基本概念 ](https://hugoloveit.com/zh-cn/theme-documentation-basics/)里的 **2.3 基础配置** 和 **3.1 网站配置** 两个部分基本囊括了可以修改的部分，直接复制到 `config` 中，修改需要修改的部分即可。这里需要注意这连个部分的配置参考中有重复的部分，`[markup]` 的部分就有所重合
 
 5. 另外， ` config.toml ` 中修改头像的话，相对路径指的是blog根目录下的 `static` 文件夹，例如，在 `config.toml` 中头像的地址为 `/images/avatar.png` ， 那么它的绝对路径为 `E://HugoWebsite/[Blog Folder name]/images/avatar.png`  
+   
+   > 图片压缩的快捷操作是用 `ffmpeg` , 在命令行中切换到图片所在文件夹后，使用
+   > `ffmpeg -i input.jpg -vf “scale=1920:-1” output.jpg` 
+   > 就可以等比例调整图片大小，再也不用打开PhotoShop了
 
- > 图片压缩的快捷操作是用 `ffmpeg` , 在命令行中切换到图片所在文件夹后，使用
- > `ffmpeg -i input.jpg -vf “scale=1920:-1” output.jpg` 
- > 就可以等比例调整图片大小，再也不用打开PhotoShop了
+##### 作出修改
 
-
-##### 	作出修改
-
-​		通常会修改一些配置文件，或者新建or修改博客文章
+​        通常会修改一些配置文件，或者新建or修改博客文章
 
 ```bash
 #1.在blog name的根目录里右键打开 Git Bash Here
@@ -127,35 +124,35 @@ hugo server -w -e production -DF
 ### 日常操作
 
 1. #### 新建或修改文章
-
-    ``` bash
-    # 当前工作目录：E:\HugoWebsite\[Blog Folder Name]
-    # 新建文章
-    hugo new posts/Second.md
-    #修改
-    # 本地预览
-    hugo server -D
-    # 构建网站文档
-    hugo
-    # 切换目录
-    cd public
-    git add .
-    git commit -m "yyyy/mm/dd-hh:mm"
-    git push origin master
-    ```
+   
+   ```bash
+   # 当前工作目录：E:\HugoWebsite\[Blog Folder Name]
+   # 新建文章
+   hugo new posts/Second.md
+   #修改
+   # 本地预览
+   hugo server -D
+   # 构建网站文档
+   hugo
+   # 切换目录
+   cd public
+   git add .
+   git commit -m "yyyy/mm/dd-hh:mm"
+   git push origin master
+   ```
 
 2. #### 删除文章
-
-    ``` bash
-    # 当前工作目录：E:\HugoWebsite\[Blog Folder Name]
-    # 在blog/content/posts，blog/public下找到文章删除，后者并不重要，因为public中除了.git文件夹以外的文件都会在hugo命令中重建
-    hugo server -D
-    hugo
-    cd public
-    git add .
-    git commit -m "yyyy/mm/dd-hh:mm"
-    git push origin master
-    ```
+   
+   ```bash
+   # 当前工作目录：E:\HugoWebsite\[Blog Folder Name]
+   # 在blog/content/posts，blog/public下找到文章删除，后者并不重要，因为public中除了.git文件夹以外的文件都会在hugo命令中重建
+   hugo server -D
+   hugo
+   cd public
+   git add .
+   git commit -m "yyyy/mm/dd-hh:mm"
+   git push origin master
+   ```
 
 ### 其他操作
 
@@ -238,39 +235,42 @@ type = quote
 评论区的设置有很多选择，我尝试过 Gitalk、 [Valine]^(简洁高效的无后端评论系统)、Waline ，每个都出现了一些小问题，Valine 是评论区始终不显示，而且据说容易被匿名攻击；而 Waline 则是评论区始终加载，或许是渲染上的冲突，实在没找到修改办法。本来我是想做可以免注册或者只需要简易注册的评论系统，但问题太多。本意是考虑到 GitHub 可能并不是人人都有，没有办法，最后只好选择 GitHub 托管的评论插件 giscus，不过 giscus非常好用，基本十分钟设置完成。
 
 1. 在 Github 上新建公开仓库，参考 [GitHub Discussions 快速入门](https://docs.github.com/cn/discussions/quickstart) ， Repository &rarr; Settings &rarr; Features &rarr; Set up discussions &rarr; Start a new discussion
+
 2. 安装 [giscus](https://github.com/apps/giscus) 可以配置只选择存放评论的仓库，在 [giscus配置页面](https://giscus.app/zh-CN) 设置你的偏好，用来生成需要的代码，`仓库` 填写  `username/repository_name`  ， `页面discussion映射关系` 选择 `pathname` ，分类就是默认的 `announcements `  然后复制下面的代码，注意 `data-repo`  、`data-repo-id` 、 `data-category` 、 `data-category-id` 有没有自动生成
+   
    1. 在根目录的 `/layouts/partials/` 新建 `comment.html` （其他主题有可能是 `comment` ，查看主题文档即可）把第二步生成的代码复制进去
 
 3. 这样就设置完成了，用户只需要登陆 GitHub 账号就可以评论，评论的内容存储在创建的仓库里
-4. 目前还有一个问题是主题切换时 giscus 不能自动更新
 
- #### 图片并排显示
+4. 目前还有一个问题是主题切换时 giscus 不能自动更新
+   
+   #### 图片并排显示
 
 Markdown 语法并不注重排版，所以图片设置中经常会出现各种令人难受的问题。如果想要让两三张图片并排显示的话，就需要用到 html 标签实现。
 
 1. 单张居中
-
-    ```html
-    <center>
-        <img src="http://dreamofbook.qiniudn.com/Zero.png">
-    </center>
-    ```
+   
+   ```html
+   <center>
+       <img src="http://dreamofbook.qiniudn.com/Zero.png">
+   </center>
+   ```
 
 2. 固定宽度/高度，增加图注
-
-    ```html
-    <img src="http://xxx.jpg" title="Logo" width="100" /> # height="1080" 
-    ```
+   
+   ```html
+   <img src="http://xxx.jpg" title="Logo" width="100" /> # height="1080" 
+   ```
 
 3. 并排居中显示
-
-    ```html
-    <center class="third">                      # class="half" 是两张并排
-        <img src="http://xxx.jpg">
-        <img src="http://yyy.jpg">
-        <img src="http://zzz.jpg">
-    </center>
-    ```
+   
+   ```html
+   <center class="third">                      # class="half" 是两张并排
+       <img src="http://xxx.jpg">
+       <img src="http://yyy.jpg">
+       <img src="http://zzz.jpg">
+   </center>
+   ```
 
 {{<admonition tip "图片快捷裁剪" true >}}
 使用 ffmpeg
@@ -288,7 +288,7 @@ from_x, from_y是裁剪的起始坐标
 LoveIt内置了 Lightgallery 的设置，但是不知道是不是长期没有维护的原因（作者最近突然打算开始维护了！），即便在  `config.toml` 中打开 Lightgallery 也并不会打开图片放大功能。后来参考[Github Pages + Hugo 搭建个人博客](https://zz2summer.github.io/github-pages-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/#%E5%85%AB%E7%BB%86%E8%8A%82%E4%BC%98%E5%8C%96) 大佬用 `jqury` 和 `fancybox` 实现了简单的图片放大效果。
 
 1. 把主题中 `/themes/LoveIt/layouts/partials/footer.html` 复制到根目录下 `/layouts/partials/` 然后在最后加上：
-
+   
    ```html
    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
    
@@ -297,18 +297,17 @@ LoveIt内置了 Lightgallery 的设置，但是不知道是不是长期没有维
    ```
 
 2. 每次增加图片的时候修改一下代码，在插入图片的位置使用
-
+   
    ```html
    <a data-fancybox="gallery" href="/pic_dir/picname.png"><img src="/pic_dir/picname.png"></a>
    ```
-
 
 #### 访客统计功能
 
 统计文章阅读次数用插件 busuanzi 就可以实现，[Hugo 网站访问计数插件不蒜子集成](https://xwi88.com/hugo-plugin-busuanzi/) 这个教程讲的很详细，有以下几个需要配置的地方。
 
 1. 配置文件修改
-
+   
    ```toml
     # xwi88 自定义配置 xwi88Cfg
    [params.xwi88Cfg]
@@ -331,40 +330,39 @@ LoveIt内置了 Lightgallery 的设置，但是不知道是不是长期没有维
        page_pv = true
        page_pv_pre = '<i class="far fa-eye fa-fw"></i>'
        page_pv_post = ''
-   
    ```
 
 2. 在根目录 `/layouts/` 从主题文件复制对应文件到 `/layouts/_default/summary.html` , `/layouts/partials/footer.html` ， `/layouts/partials/plugin/busuanzi.html`（新建)，`/layouts/posts/single.html` 接下来逐一修改
 
 3. 在 `/layouts/_default/summary.html` 文件中
-
+   
    ```html
    # 基于原有的时间格式修改，首先删除原有日期显示
    #{{- with .Site.Params.dateFormat | default "2006-01-02" | .Lastmod.Format -}}
-   #&nbsp;<span class="post-publish">
-   	{{- printf `<time datetime="%v">%v</time>` . . | dict "Date" | T #"updatedOnDateLower" | safeHTML -}}
+   # <span class="post-publish">
+       {{- printf `<time datetime="%v">%v</time>` . . | dict "Date" | T #"updatedOnDateLower" | safeHTML -}}
    #</span>
    #然后增加 xwi88 的配置
    {{- /* xwi88 config */ -}}
    {{- if .Site.Params.xwi88Cfg.summary.update -}}
-   	{{- with .Site.Params.dateFormat | default "2006-01-02" | .Lastmod.Format -}}
-   	&nbsp;<span class="post-publish">
-   		{{- printf `<time datetime="%v">%v</time>` . . | dict "Date" | T "updatedOnDateLower" | safeHTML -}}
-   	</span>
-   		{{- end -}}
-   	{{- end -}}
+       {{- with .Site.Params.dateFormat | default "2006-01-02" | .Lastmod.Format -}}
+        <span class="post-publish">
+           {{- printf `<time datetime="%v">%v</time>` . . | dict "Date" | T "updatedOnDateLower" | safeHTML -}}
+       </span>
+           {{- end -}}
+       {{- end -}}
    ```
 
-4.  在 `/layouts/partials/footer.html ` 文件中
-
-       ```html
-       #在代码块主题插入两行代码调用插件
-       {{- /* busuanzi plugin */ -}}
-       {{- partial "plugin/busuanzi.html" (dict "params" .Site.Params.xwi88Cfg.busuanzi "bsz_type" "footer") -}}
-       ```
+4. 在 `/layouts/partials/footer.html ` 文件中
+   
+   ```html
+   #在代码块主题插入两行代码调用插件
+   {{- /* busuanzi plugin */ -}}
+   {{- partial "plugin/busuanzi.html" (dict "params" .Site.Params.xwi88Cfg.busuanzi "bsz_type" "footer") -}}
+   ```
 
 5. 在 `/layouts/partials/plugin/busuanzi.html` 文件中
-
+   
    ```html
    {{ if .params.enable }}
        {{ if eq .bsz_type "footer" }}
@@ -385,7 +383,7 @@ LoveIt内置了 Lightgallery 的设置，但是不知道是不是长期没有维
                    {{ end }}
    
                    {{ if and (eq .params.site_pv true) (eq .params.site_uv true) }}
-                       &nbsp;|&nbsp;              
+                        |               
                    {{ end }}
    
                    {{ if eq .params.site_uv true }}
@@ -405,36 +403,32 @@ LoveIt内置了 Lightgallery 的设置，但是不知道是不是长期没有维
                    {{- with .params.page_pv_pre -}}
                        {{ . | safeHTML }}
                    {{ end }}
-                   <span id="busuanzi_value_page_pv"></span>&nbsp;
+                   <span id="busuanzi_value_page_pv"></span> 
                    {{- T "views" -}}
                </span>
            {{ end }}
        {{ end }}
    {{ end }}
-   
    ```
 
-   
-
 6. 在 `/layouts/posts/single.html` 文件中
-
+   
    ```html
    # 类似第三步，先删除这两行
    # {{- with .Site.Params.dateformat | default "2006-01-02" | .Lastmod.Format -}}
-   # <i class="far fa-calendar-check fa-fw"></i>&nbsp;<time datetime="{{ . }}">{{ . }}</time>&nbsp;
+   # <i class="far fa-calendar-check fa-fw"></i> <time datetime="{{ . }}">{{ . }}</time> 
    # 然后复制以下内容
    {{- /* xwi88 config */ -}}
    {{- if .Site.Params.xwi88Cfg.page.update -}}
-   	{{- with .Site.Params.dateformat | default "2006-01-02" | .Lastmod.Format -}}
-   	<i class="far fa-calendar-check fa-fw"></i>&nbsp;<time datetime="{{ . }}">{{ . }}</time>&nbsp;
-   	{{- end -}}
+       {{- with .Site.Params.dateformat | default "2006-01-02" | .Lastmod.Format -}}
+       <i class="far fa-calendar-check fa-fw"></i> <time datetime="{{ . }}">{{ . }}</time> 
+       {{- end -}}
    {{- end -}}
    
    # 此后两行后，增加
    {{- /* busuanzi plugin */ -}}
    {{- partial "plugin/busuanzi.html" (dict "params" .Site.Params.xwi88Cfg.busuanzi "bsz_type" "page-reading") -}}
    ```
-
 
 #### 插入 Shields 徽章
 
@@ -455,6 +449,16 @@ Shields 徽章可以用来显示文章有关的一些信息（主要是看起来
 `logo`  参考 [Simple Icons](https://simpleicons.org/) 的 logo 选择
 
 动态小牌子的设置方法可以参考 [用 Substats 和 Shields.io 为你的个人主页定制动态数据小牌子](https://sspai.com/post/59593) 
+
+#### 插入进度条
+
+类似上面插入小徽章的操作，在 Markdown 中插入图片，url 改为 
+
+```
+https://geps.dev/progress/*number*
+```
+
+其中 number 替换为想要的进度数字即可。该方法来自于 [Markdown Progress](https://github.com/gepser/markdown-progress)
 
 #### 添加音乐
 
@@ -478,8 +482,6 @@ ffmpeg -i music.flac music.mp3
 
 就可以轻松转换格式。 PS：[给新手的 20 多个 FFmpeg 命令示例](https://zhuanlan.zhihu.com/p/67878761)
 
-
-
 此外可定义的还有很多，包括 `theme `  = `#448aff` ,  `fixed `  = `false` ,  `mini `  = `false` ,  `autoplay`  = `false`,  `volume`  = `0.7`,  `mutex`  = `true` (是否自动暂停其他播放器)
 如果是列表的话，还有参数  `loop`  = `all, one, none[default]`,  `order`  = `list(default), random`,  `list-folded`  = `false`,  `list-max-height`  = `340px(default)`
 
@@ -490,59 +492,58 @@ ffmpeg -i music.flac music.mp3
 1. 对需要隐藏的文章，在 Markdown 文件前增加 `unlisted: true`
 
 2. 修改 `/layouts/_default/section.html` 
-
+   
    ```html
    {{- /* Paginate */ -}}
    {{- if .Pages -}}
-   	{{- $pages := .Pages.GroupByDate "2006" -}}
-   	{{- with .Site.Params.section.paginate | default .Site.Params.paginate -}}
-   		{{- $pages = $.Paginate $pages . -}}
-   	{{- else -}}
-   		{{- $pages = .Paginate $pages -}}
-   	{{- end -}}
-   	{{- range $pages.PageGroups -}}
-   		<h3 class="group-title">{{ .Key }}</h3>
-   		# 删掉 {{- range .Pages -}} ，改为下一句
-   		{{- range (where .Pages ".Params.unlisted" "!=" "true") -}}
-   			<article class="archive-item">
-      				 <a href="{{ .RelPermalink }}" class="archive-item-link">
+       {{- $pages := .Pages.GroupByDate "2006" -}}
+       {{- with .Site.Params.section.paginate | default .Site.Params.paginate -}}
+           {{- $pages = $.Paginate $pages . -}}
+       {{- else -}}
+           {{- $pages = .Paginate $pages -}}
+       {{- end -}}
+       {{- range $pages.PageGroups -}}
+           <h3 class="group-title">{{ .Key }}</h3>
+           # 删掉 {{- range .Pages -}} ，改为下一句
+           {{- range (where .Pages ".Params.unlisted" "!=" "true") -}}
+               <article class="archive-item">
+                       <a href="{{ .RelPermalink }}" class="archive-item-link">
                        {{- .Title | emojify -}}
                    </a>
                    <span class="archive-item-date">
                        {{- $.Site.Params.section.dateFormat | default "01-02" | .Date.Format -}}
                    </span>
-               </article>		
-   		{{- end -}}
+               </article>        
+           {{- end -}}
    ```
 
 3. 因为目前并没有解决每篇文章底部导航栏的限定范围的问题，暂时的解决方案是关闭这个功能。在 `/layouts/partials/single/footer.html` 中，将
-
+   
    ```html
    {{- with $prevPage -}}
-   	<a href="{{ .RelPermalink }}" class="prev" rel="prev" title="{{ .Title }}"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>{{ .Title | emojify }}</a>
+       <a href="{{ .RelPermalink }}" class="prev" rel="prev" title="{{ .Title }}"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>{{ .Title | emojify }}</a>
    {{- end -}}
-           
+   
    {{ with $nextPage }}
-   	<a href="{{ .RelPermalink }}" class="next" rel="next" title="{{ .Title }}">{{ .Title | emojify }}<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a>
+       <a href="{{ .RelPermalink }}" class="next" rel="next" title="{{ .Title }}">{{ .Title | emojify }}<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a>
    {{- end -}}
    ```
-
+   
    改为
-
+   
    ```html
    {{- with $prevPage -}}
-   	{{- range (where .Pages ".Params.unlisted" "!=" "true") -}}
-   		<a href="{{ .RelPermalink }}" class="prev" rel="prev" title="{{ .Title }}"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>{{ .Title | emojify }}</a>
-   	{{- end -}}
+       {{- range (where .Pages ".Params.unlisted" "!=" "true") -}}
+           <a href="{{ .RelPermalink }}" class="prev" rel="prev" title="{{ .Title }}"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>{{ .Title | emojify }}</a>
+       {{- end -}}
    {{- end -}}
-           
+   
    {{ with $nextPage }}
-   	{{- range (where .Pages ".Params.unlisted" "!=" "true") -}}
-   		<a href="{{ .RelPermalink }}" class="next" rel="next" title="{{ .Title }}">{{ .Title | emojify }}<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a>
-   	{{- end -}}
+       {{- range (where .Pages ".Params.unlisted" "!=" "true") -}}
+           <a href="{{ .RelPermalink }}" class="next" rel="next" title="{{ .Title }}">{{ .Title | emojify }}<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a>
+       {{- end -}}
    {{- end -}}
    ```
-
 
 #### 设备更换
 
@@ -551,7 +552,7 @@ ffmpeg -i music.flac music.mp3
 1. 按流程，写好文章以后，一直到 `hugo` 的步骤都没什么问题。主要还是在 GitHub 的同步中有问题
 
 2. 问题一：需要添加笔记本的 SSH key。当看到下列信息时，首先对照[GitHub's SSH key fingerprints](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints) 中的 fingerprint 是否匹配。匹配的话说明没有发生 MITM(Man-In-The-Middle) attack，但我在这里点击 yes 以后，并没有成功，推测是笔记本的 SSH key 没有关联 GitHub 账号的缘故。参考[github设置添加SSH](https://www.jianshu.com/p/5cd341bddae6) 这篇文章进行设置。
-
+   
    ```bash
    The authenticity of host 'github.com (ip)' can't be established.
    RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
@@ -559,7 +560,7 @@ ffmpeg -i music.flac music.mp3
    ```
 
 3. 问题二，在完成了这个步骤之后，我依旧不能 push 成功。先是在 commit 的时候报错 
-
+   
    ```bash
    $ git commit -m "20220615-106"
    Author identity unknown
@@ -576,11 +577,11 @@ ffmpeg -i music.flac music.mp3
    
    fatal: unable to auto-detect email address (got 'lenovo@DESKTOP-XXXXXXX.(none)')
    ```
-
+   
    这个时候按照指示输入你的账户邮箱和用户名，是因为笔记本上并没有和 GitHub 产生关联，无法确认你的身份。
 
 4. 问题三，在 commit 成功以后，push 的时候再次报错
-
+   
    ```bash
    $ git push origin master
    ssh: connect to host github.com port 22: Connection timed out
@@ -589,9 +590,9 @@ ffmpeg -i music.flac music.mp3
    Please make sure you have the correct access rights
    and the repository exists.
    ```
-
+   
    此时我首先用 `git remote -v` 的命令确认仓库正确，然后想到 [Github Pages + Hugo 搭建个人博客](https://zz2summer.github.io/github-pages-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/#%E5%85%AB%E7%BB%86%E8%8A%82%E4%BC%98%E5%8C%96) 讲到过远程库和本地库的冲突问题。尤其是在看到下面的报错以后确定是这个问题
-
+   
    ```bash
    $ git push origin master
    To github.com:Cyan-Zhou/Cyan-zhou.github.io.git
@@ -602,17 +603,16 @@ ffmpeg -i music.flac music.mp3
    hint: to the same ref. You may want to first integrate the remote changes
    hint: (e.g., 'git pull ...') before pushing again.
    hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-   
    ```
-
+   
    于是首先备份 public 文件夹里的文件（此时不需要删除 public 文件夹内的内容），然后合并远程库和本地库的文件。
-
+   
    ```bash
    git pull origin master --allow-unrelated-histories
    ```
-
-   pull 后，当命令行里的 (master) 变为 (master|MERGING), 就意味着远程仓库里的文件已经被下载进来，这时我们查看此时 public 文件夹内的内容，会发现一些页面发生了改变，例如，在编辑过的文章中，html 文件中会出现对比的字段，主要是字数和阅读时间的统计，奇妙的是，增加的内容并没有显示为 add，而是被放置在了 html 文件中，所以 pull 似乎也不是一个完全意义上的复制和下载操作。
    
+   pull 后，当命令行里的 (master) 变为 (master|MERGING), 就意味着远程仓库里的文件已经被下载进来，这时我们查看此时 public 文件夹内的内容，会发现一些页面发生了改变，例如，在编辑过的文章中，html 文件中会出现对比的字段，主要是字数和阅读时间的统计，奇妙的是，增加的内容并没有显示为 add，而是被放置在了 html 文件中，所以 pull 似乎也不是一个完全意义上的复制和下载操作。
+
 5. 如果变动较大的话，这里可以合并 pull 下来的文件夹和备份的文件夹中的内容；如果变动不大的话（通常由于我会在切换设备时复制一份最新文件，因此通常正在使用的设备上的文件是另一台电脑上的迭代版本），则需要重新
    
    ```bash
@@ -633,8 +633,8 @@ LoveIt 的 Markdown 渲染并不支持太多扩展库，但是可以通过使用
 1. [Arya](https://markdown.lovejade.cn/?utm_source=appinn.com) 或者 [Vditor](https://b3log.org/vditor/) 都是支持五线谱的浏览器端 Markdown 编辑器。只要在在线编辑器中得到想要的效果，再导出成 `html` 格式的代码块就可以了。
 
 2. 参考 [abcjs.standard](http://abcnotation.com/wiki/abc:standard:v2.1#information_fields) 对于语法的定义，基本涵盖了乐谱的各种符号和注释。比如
-
-   ````html
+   
+   ```html
    ```abc
    X:102
    %%staves 1 2 3
@@ -655,52 +655,54 @@ LoveIt 的 Markdown 渲染并不支持太多扩展库，但是可以通过使用
    [V:2] c8- | cB/A/ {A}B>c (e/c/A/c/) (E//^F//E//F//TF3//E///F///) | G/(D/G/A/) _B/G/g/e/ ^cA d2-|
    [V:3] edcB AG^FE | D^FGg c3d/c/| _BG g2-gf/e/ f>g|
    ```
-   ````
-
+   
+   ```
    {{< admonition type=tip title="一些比较常用的参数" open=false >}}
-   X &rarr; reference number
+   X → reference number
    
-   C &rarr; composer
+   C → composer
    
-   D &rarr; discography
+   D → discography
    
-   K &rarr; key, G, Gm, AMix
+   K → key, G, Gm, AMix
    
-   L &rarr; 最小单元音符长度, 1/4, 1/8
+   L → 最小单元音符长度, 1/4, 1/8
    
-   M &rarr; meter, 3/4, 4/4
+   M → meter, 3/4, 4/4
    
-   Q &rarr; tempo, "allegro" 1/4=120
+   Q → tempo, "allegro" 1/4=120
    
-   S &rarr; source
+   S → source
    
-   T &rarr; title
+   T → title
    
-   W &rarr; 歌词，在音符后出现
+   W → 歌词，在音符后出现
    
-   w &rarr; 歌词，在音符中出现
+   w → 歌词，在音符中出现
    
-   音符 &rarr; 以 C 为例，c,|c|c' 分别是 C 音的三个八度；_c|=c|^c 是降C、C、升C
+   音符 → 以 C 为例，c,|c|c' 分别是 C 音的三个八度；_c|=c|^c 是降C、C、升C
    
-   | &rarr; 分隔符 ；:| &rarr; 重复记号
+   | → 分隔符 ；:| → 重复记号
    
-   ()  &rarr; 过渡记号
+   ()  → 过渡记号
    
-   C> &rarr; 延长一半，c< &rarr; 缩短一半
+   C> → 延长一半，c< → 缩短一半
    
-   z, z2, z3, Z &rarr; 不同休止符
+   z, z2, z3, Z → 不同休止符
    
    ......|1"Dm"D3DEF:|2"Dm"D6|....... 
-
-
+   
    {{< /admonition >}}
+   ```
 
 3. 最后就可以得到想要的效果。
-
+   
    <html><head><link rel="stylesheet" type="text/css" href="https://unpkg.com/vditor@3.8.15/dist/index.css"/>
    
    <script src="https://unpkg.com/vditor@3.8.15/dist/js/i18n/zh_CN.js"></script>
+   
    <script src="https://unpkg.com/vditor@3.8.15/dist/method.min.js"></script></head>
+   
    <body><div class="vditor-reset" id="preview"><div class="language-abc">X: 24
    T: Honeysucker Rose
    C: Fats Waller
@@ -710,7 +712,7 @@ LoveIt 的 Markdown 渲染并不支持太多扩展库，但是可以通过使用
    Q: 1/4=80
    R: 
    K: C
-   |&quot;Gm7&quot;c'_bdf a z z2 |]
+   |"Gm7"c'_bdf a z z2 |]
    </div>
    </div>
    <script>
@@ -752,43 +754,42 @@ LoveIt 的 Markdown 渲染并不支持太多扩展库，但是可以通过使用
    
    这是上面乐句的 html 代码块 :(far fa-hand-point-down fa-fw)::
 
-
-   ```html
-   <html><head><link rel="stylesheet" type="text/css" href="https://unpkg.com/vditor@3.8.15/dist/index.css"/>
-   <script src="https://unpkg.com/vditor@3.8.15/dist/js/i18n/zh_CN.js"></script>
-   <script src="https://unpkg.com/vditor@3.8.15/dist/method.min.js"></script></head>
-   <body><div class="vditor-reset" id="preview"><div class="language-abc">X: 24
-   T: Honeysucker Rose
-   C: Fats Waller
-   S: Honeysucker Rose, Fats Waller, 1929
-   M: 4/4
-   L: 1/8
-   Q: 1/4=80
-   R: 
-   K: C
-   |&quot;Gm7&quot;c'_bdf a z z2 |]
-   </div>
-   </div>
-   <script>
-       const previewElement = document.getElementById('preview')
-       Vditor.setContentTheme('light', 'https://unpkg.com/vditor@3.8.15/dist/css/content-theme');
-       Vditor.codeRender(previewElement);
-       Vditor.highlightRender({"enable":true,"lineNumber":false,"style":"github"}, previewElement, 'https://unpkg.com/vditor@3.8.15');
-       Vditor.mathRender(previewElement, {
-           cdn: 'https://unpkg.com/vditor@3.8.15',
-           math: {"engine":"KaTeX","inlineDigit":false,"macros":{}},
-       });
-       Vditor.mermaidRender(previewElement, 'https://unpkg.com/vditor@3.8.15', 'classic');
-       Vditor.flowchartRender(previewElement, 'https://unpkg.com/vditor@3.8.15');
-       Vditor.graphvizRender(previewElement, 'https://unpkg.com/vditor@3.8.15');
-       Vditor.chartRender(previewElement, 'https://unpkg.com/vditor@3.8.15', 'classic');
-       Vditor.mindmapRender(previewElement, 'https://unpkg.com/vditor@3.8.15', 'classic');
-       Vditor.abcRender(previewElement, 'https://unpkg.com/vditor@3.8.15');
-       Vditor.mediaRender(previewElement);
-       Vditor.speechRender(previewElement);
-   </script>
-   <script src="https://unpkg.com/vditor@3.8.15/dist/js/icons/ant.js"></script></body></html>
-   ```
+```html
+<html><head><link rel="stylesheet" type="text/css" href="https://unpkg.com/vditor@3.8.15/dist/index.css"/>
+<script src="https://unpkg.com/vditor@3.8.15/dist/js/i18n/zh_CN.js"></script>
+<script src="https://unpkg.com/vditor@3.8.15/dist/method.min.js"></script></head>
+<body><div class="vditor-reset" id="preview"><div class="language-abc">X: 24
+T: Honeysucker Rose
+C: Fats Waller
+S: Honeysucker Rose, Fats Waller, 1929
+M: 4/4
+L: 1/8
+Q: 1/4=80
+R: 
+K: C
+|"Gm7"c'_bdf a z z2 |]
+</div>
+</div>
+<script>
+    const previewElement = document.getElementById('preview')
+    Vditor.setContentTheme('light', 'https://unpkg.com/vditor@3.8.15/dist/css/content-theme');
+    Vditor.codeRender(previewElement);
+    Vditor.highlightRender({"enable":true,"lineNumber":false,"style":"github"}, previewElement, 'https://unpkg.com/vditor@3.8.15');
+    Vditor.mathRender(previewElement, {
+        cdn: 'https://unpkg.com/vditor@3.8.15',
+        math: {"engine":"KaTeX","inlineDigit":false,"macros":{}},
+    });
+    Vditor.mermaidRender(previewElement, 'https://unpkg.com/vditor@3.8.15', 'classic');
+    Vditor.flowchartRender(previewElement, 'https://unpkg.com/vditor@3.8.15');
+    Vditor.graphvizRender(previewElement, 'https://unpkg.com/vditor@3.8.15');
+    Vditor.chartRender(previewElement, 'https://unpkg.com/vditor@3.8.15', 'classic');
+    Vditor.mindmapRender(previewElement, 'https://unpkg.com/vditor@3.8.15', 'classic');
+    Vditor.abcRender(previewElement, 'https://unpkg.com/vditor@3.8.15');
+    Vditor.mediaRender(previewElement);
+    Vditor.speechRender(previewElement);
+</script>
+<script src="https://unpkg.com/vditor@3.8.15/dist/js/icons/ant.js"></script></body></html>
+```
 
    这个方法用着玩玩吧，还是太繁琐了。Arya 的交互不是很好用，另外 abcjs 的库写的也很不清晰，很多功能（比如某段乐句的注释，以及吉他简谱）都没有。以后还是乖乖用 Guitar Pro 写入以后截图吧。
 
@@ -830,6 +831,5 @@ LoveIt 的 Markdown 渲染并不支持太多扩展库，但是可以通过使用
 * 就目前来看，博客是具有实用性的，但市面少有好用的产品，或者是古旧的新浪博客，或者就是这种需要一定代码的方式，但后者对于非技术专业的新手来说还是有些复杂。以我为例，修改 config 和 html 文件还算颤颤巍巍能搞得来，但 giscus 要修改 json 和 css 的时候是真的懵逼了。
 * 在博客的书写中要注意兼顾Markdown语法和书写规范，即便是个人博客，也不要增加阅读上的困难，例如明确区分中英文混杂的写作规则，避免使用错误的缩略语，避免使用流行语，避免自我审查。
 * 之后需要搞定切换主题和设置第二个库的方法，或许可以拿来做作品集网站。
-*  `Hugo server` 默认环境是 `development` , 而 `Hugo` 的默认环境是 `production` ，值得注意。
-
+* `Hugo server` 默认环境是 `development` , 而 `Hugo` 的默认环境是 `production` ，值得注意。
 
