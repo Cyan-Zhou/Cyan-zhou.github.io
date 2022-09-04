@@ -360,7 +360,7 @@ happy 对应的希腊语词汇是 *eudaimōn*，这个词语的意思与英语�
 
 在上一节中，Thrasymachus 以落败者的形象退场，看起来，苏格拉底胜利了。但事实上，从读者的角度来看，我们很难轻松地认可苏格拉底的论述，尽管他的问答步步为营，逻辑滴水不漏，但他还没有解决一个非常重要的问题：世界上太多不义之人用卑劣的手段得到了利益，从结果来看，行不义者依旧是比秉持正义的人拥有太多，该如何看待这个事实？另外，上节给人一种苏格拉底刻薄的形象，因此，Glaucon 和 Adeimantus 在这里温和地继承了 Thrasymachus 的观点，要求苏格拉底继续说服他们。考虑到 Glaucon 和 Adeimantus 是柏拉图本人的兄弟，这场辩论在这里似乎变得更加亲密，某种程度上也有了柏拉图和苏格拉底的辩论的底色。
 
-<p align="right"><b>BK II</b></p>
+<p align="right"><b>BOOK II</b></p>
 
 <table><tr><td height=15px; bgcolor=#F1EEEE><center><font color=205375 size="3"><b>Part I: Glaucon</b></center></td></tr></table>
 
@@ -604,7 +604,7 @@ But if a state is to be run on the right lines, every possible step must be take
 
 抱歉了荷马，抱歉了埃斯库罗斯，再见了，那些描写了神明变身的章节。
 
-<p align="right"><b>BK III</b></p>
+<p align="right"><b>BOOK III</b></p>
 
 1） subject-matter
 

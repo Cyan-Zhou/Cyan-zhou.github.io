@@ -19,7 +19,16 @@
 <meta name="application-name" content="Cyan Zhou">
 <meta name="apple-mobile-web-app-title" content="Cyan Zhou"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Cyan-zhou.github.io/first-post/" /><link rel="next" href="https://Cyan-zhou.github.io/the_republic_reading_note/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script>
+    (function(d) {
+      var config = {
+        kitId: 'vlv5igv',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -28,7 +37,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/Cyan-zhou.github.io\/first-post\/"
-        },"genre": "posts","keywords": "Blog","wordcount":  2597 ,
+        },"genre": "posts","keywords": "Blog","wordcount":  2782 ,
         "url": "https:\/\/Cyan-zhou.github.io\/first-post\/","datePublished": "2022-05-21T21:21:18+08:00","dateModified": "2022-05-21T21:21:18+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -115,10 +124,10 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX"> Hugo &#43; GitHub Pages 搭建博客备忘录</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX" > Hugo &#43; GitHub Pages 搭建博客备忘录</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-category">included in <a href="/categories/blog/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Blog</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="far fa-calendar-check fa-fw"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2597 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;13 minutes&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="far fa-calendar-check fa-fw"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2782 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;14 minutes&nbsp;
     
 
     
@@ -186,6 +195,7 @@
             <li><a href="#隐藏文章">隐藏文章</a></li>
             <li><a href="#设备更换">设备更换</a></li>
             <li><a href="#markdown-五线谱">Markdown 五线谱</a></li>
+            <li><a href="#修改字体和颜色">修改字体和颜色</a></li>
           </ul>
         </li>
         <li><a href="#查阅文档">查阅文档</a></li>
@@ -1456,6 +1466,108 @@ K: C
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>这个方法用着玩玩吧，还是太繁琐了。Arya 的交互不是很好用，另外 abcjs 的库写的也很不清晰，很多功能（比如某段乐句的注释，以及吉他简谱）都没有。以后还是乖乖用 Guitar Pro 写入以后截图吧。</p>
+<h4 id="修改字体和颜色">修改字体和颜色</h4>
+<p>在入门了 <code>Html</code> 和 <code>CSS</code> 之后，就动了修改主题模板的小心思。大的改动还没有能力，不过对字体和颜色相关的简单修改可以做到了。</p>
+<ol>
+<li>
+<p>首先复制一下 <code>/themes/LoveIt/asset/</code> 文件夹的内容到根目录里（后面会用到的 html 文件和其他字体等也需要类似操作），这是为了区分开自己的修改和主题源文件。通常来讲，本地 <code>woff</code> 和 <code>woff2</code> 格式的字体文件保存在主题中 <code>/static/lib/webfonts</code> 文件夹下，最好在根目录创建一下相同的目录</p>
+</li>
+<li>
+<p>安装字体有两种途径，一种是使用本地 <code>woff</code> 格式的文件渲染，另一种则是调用线上的资源。</p>
+<blockquote>
+<p>这里还有一点需要提前了解，通常英文字体这两种方式区别不大，但中文字体由于需要保存上千个文字，源文件极大，在使用第二种方法时容易有数秒的延迟（这与 Adobe 等服务器在大陆访问的速度也有关系，尽管 Adobe 会提供按需加载用到的子集和异步加载的服务，延迟依旧相当明显）。</p>
+<p>但另一个问题则是，当我试图将 <code>思源宋体</code> 和 <code>思源黑体</code> 通过一些在线的 woff 转换器转换格式时，又是怎么也不能转换出正确的文件。于是只能采用第二种办法。</p>
+</blockquote>
+</li>
+<li>
+<p>首先说一下怎么使用本地文件。这里以 <a href="https://3type.cn/fonts/rvs_basic/index.html" target="_blank" rel="noopener noreffer">三言 3type 的厉致谦设计师设计的基本美术体</a> 为例。</p>
+<ol>
+<li>首先在链接中下载试用版本的字体文件，在 <a href="https://transfonter.org/" target="_blank" rel="noopener noreffer">Transfonter</a> 中转换成 <code>woff</code>  和 <code>woff2</code> 格式的文件，并且复制到 <code>/static/lib/webfonts</code>  中。</li>
+</ol>
+<center><a data-fancybox="gallery" href="first_post\image-20220904172213403.png"><img src="first_post\image-20220904172213403.png"></a>
+<style>
+p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
+p.source {line-height:70%; font-size:1px; color:gray;}
+</style>
+<body>
+<p class="title">
+基本美术体的字体样式
+</p>
+<p class="source">
+source: 3type
+</p></center>
+2. 在 `/assets/css/_partial/_variables.scss` 中添加
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="k">@font-face</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="na">font-family</span><span class="o">:</span> <span class="s1">&#39;RVS Basic Demo&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="na">src</span><span class="o">:</span> <span class="sx">url(&#39;../../static/lib/webfonts/RVSBasicDemo-Regular.woff2&#39;)</span> <span class="nf">format</span><span class="p">(</span><span class="s1">&#39;woff2&#39;</span><span class="p">)</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl">        <span class="sx">url(&#39;../../static/lib/webfonts/RVSBasicDemo-Regular.woff&#39;)</span> <span class="nf">format</span><span class="p">(</span><span class="s1">&#39;woff&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>
+<p>在 <code>/assets/css/_page/_single.scss</code> 中的 <code>.single</code> 类下的 <code>.single-title</code> 中增加 <code>font-family: RVS Basic Demo;</code>  （我这里是想把基本美术体用于文章的标题，于是修改的是 <code>.single-title</code>，如果想修改副标题或者正文等内容也可以修改对应的类。</p>
+</li>
+<li>
+<p>这时基本就大功告成，响应速度也比较快。但是基本美术体的正式版本依旧没有发布，目前的字体包中只有 2000+ 个字，这样就会出现比较麻烦的情况，比如在文章 <code>毯式建筑小史</code> 中，<code>毯</code> 字和 <code>筑</code> 字这样比较常用的文字会被直接用默认的黑体渲染，显得非常奇怪，于是只好暂时先取消这个方案。</p>
+</li>
+</ol>
+</li>
+<li>
+<p>其次介绍一下线上方案的步骤。这次采用的是 <code>思源黑体</code> 和 <code>思源宋体</code> 两种字体满足各种场景的使用。其中 <code>思源宋体</code> 用于标题。<a href="https://source.typekit.com/source-han-serif/cn/#get-the-fonts" target="_blank" rel="noopener noreffer">思源宋体的官方介绍</a></p>
+<ol>
+<li>
+<p>在<a href="https://fonts.adobe.com/search/fonts?query=source%2Bhan" target="_blank" rel="noopener noreffer">Adobe Fonts</a> 中将 <code>思源黑体</code> 和 <code>思源宋体</code> 添加到 Web 项目。之后复制新建的 Web 项目的 Html 代码块，复制到 <code>/layouts/partials/head/link.html</code> 最后。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">d</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="kd">var</span> <span class="nx">config</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">kitId</span><span class="o">:</span> <span class="s1">&#39;xxxxxxx&#39;</span><span class="p">,</span> <span class="c">&lt;!--</span><span class="nx">置入你的项目的ID</span><span class="o">--&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">scriptTimeout</span><span class="o">:</span> <span class="mi">3000</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">async</span><span class="o">:</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">      <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">h</span><span class="o">=</span><span class="nx">d</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">,</span><span class="nx">t</span><span class="o">=</span><span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span><span class="nx">h</span><span class="p">.</span><span class="nx">className</span><span class="o">=</span><span class="nx">h</span><span class="p">.</span><span class="nx">className</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/\bwf-loading\b/g</span><span class="p">,</span><span class="s2">&#34;&#34;</span><span class="p">)</span><span class="o">+</span><span class="s2">&#34; wf-inactive&#34;</span><span class="p">;},</span><span class="nx">config</span><span class="p">.</span><span class="nx">scriptTimeout</span><span class="p">),</span><span class="nx">tk</span><span class="o">=</span><span class="nx">d</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&#34;script&#34;</span><span class="p">),</span><span class="nx">f</span><span class="o">=</span><span class="kc">false</span><span class="p">,</span><span class="nx">s</span><span class="o">=</span><span class="nx">d</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="s2">&#34;script&#34;</span><span class="p">)[</span><span class="mi">0</span><span class="p">],</span><span class="nx">a</span><span class="p">;</span><span class="nx">h</span><span class="p">.</span><span class="nx">className</span><span class="o">+=</span><span class="s2">&#34; wf-loading&#34;</span><span class="p">;</span><span class="nx">tk</span><span class="p">.</span><span class="nx">src</span><span class="o">=</span><span class="s1">&#39;https://use.typekit.net/&#39;</span><span class="o">+</span><span class="nx">config</span><span class="p">.</span><span class="nx">kitId</span><span class="o">+</span><span class="s1">&#39;.js&#39;</span><span class="p">;</span><span class="nx">tk</span><span class="p">.</span><span class="kr">async</span><span class="o">=</span><span class="kc">true</span><span class="p">;</span><span class="nx">tk</span><span class="p">.</span><span class="nx">onload</span><span class="o">=</span><span class="nx">tk</span><span class="p">.</span><span class="nx">onreadystatechange</span><span class="o">=</span><span class="kd">function</span><span class="p">(){</span><span class="nx">a</span><span class="o">=</span><span class="k">this</span><span class="p">.</span><span class="nx">readyState</span><span class="p">;</span><span class="k">if</span><span class="p">(</span><span class="nx">f</span><span class="o">||</span><span class="nx">a</span><span class="o">&amp;&amp;</span><span class="nx">a</span><span class="o">!=</span><span class="s2">&#34;complete&#34;</span><span class="o">&amp;&amp;</span><span class="nx">a</span><span class="o">!=</span><span class="s2">&#34;loaded&#34;</span><span class="p">)</span><span class="k">return</span><span class="p">;</span><span class="nx">f</span><span class="o">=</span><span class="kc">true</span><span class="p">;</span><span class="nx">clearTimeout</span><span class="p">(</span><span class="nx">t</span><span class="p">);</span><span class="k">try</span><span class="p">{</span><span class="nx">Typekit</span><span class="p">.</span><span class="nx">load</span><span class="p">(</span><span class="nx">config</span><span class="p">)}</span><span class="k">catch</span><span class="p">(</span><span class="nx">e</span><span class="p">){}};</span><span class="nx">s</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">insertBefore</span><span class="p">(</span><span class="nx">tk</span><span class="p">,</span><span class="nx">s</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">})(</span><span class="nb">document</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>最后就是在 <code>/assets/css/_page/_single.scss</code> 对应的位置增加相对应字体的 CSS 代码，可以进入 Adobe Fonts 的项目中，复制想使用的字体的 CSS，点击下图每行的右边复制按钮即可。</p>
+<center><a data-fancybox="gallery" href="first_post\image-20220904174845731.png"><img src="first_post\image-20220904174845731.png"></a>
+<style>
+p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
+p.source {line-height:70%; font-size:1px; color:gray;}
+</style>
+</li>
+</ol>
+</li>
+<li>
+<p>另外，博客中所有颜色的管理都在 <code>/assets/css/_partial/_variables.scss</code> 中。可以通过 <code>$single-link-color</code> 和 <code>$single-link-color-dark</code> 的色彩值来修改每级标题等链接的颜色；通过 <code>$blockquote-color</code> 和 <code>$blockquote-color-dark</code> 的色彩值则可以修改引用框的颜色</p>
+</li>
+</ol>
 <h3 id="查阅文档">查阅文档</h3>
 <ul>
 <li><a href="https://www.markdown.xyz/basic-syntax/" target="_blank" rel="noopener noreffer">Markdown基本语法</a> 和<a href="https://www.markdown.xyz/cheat-sheet/" target="_blank" rel="noopener noreffer">Markdown速查表</a></li>
@@ -1488,6 +1600,9 @@ K: C
 <li><a href="https://xwi88.com/hugo-plugin-busuanzi/" target="_blank" rel="noopener noreffer">Hugo 网站访问计数插件不蒜子集成</a></li>
 <li><a href="https://www.xiaodejiyi.com/2021/01/build-blog-theme-config/" target="_blank" rel="noopener noreffer">使用Hugo框架搭建博客的过程 - 主题配置</a></li>
 <li><a href="https://www.whexy.com/posts/blog-diy" target="_blank" rel="noopener noreffer">构建自己的博客系统</a> 设立一个终极目标吧！未来自己构建博客系统！</li>
+<li><a href="https://yihui.org/cn/2017/04/source-han-serif/#fn:-1" target="_blank" rel="noopener noreffer">思源宋体</a></li>
+<li><a href="https://frankindev.com/2017/04/09/source-han-serif-in-web/" target="_blank" rel="noopener noreffer">Web 中使用思源宋体</a></li>
+<li><a href="https://blog.yfei.page/cn/2020/12/siyuansongti/" target="_blank" rel="noopener noreffer">在网页中使用思源宋体</a></li>
 </ul>
 <h3 id="总结">总结</h3>
 <ul>

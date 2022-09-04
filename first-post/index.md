@@ -793,6 +793,76 @@ K: C
 
    这个方法用着玩玩吧，还是太繁琐了。Arya 的交互不是很好用，另外 abcjs 的库写的也很不清晰，很多功能（比如某段乐句的注释，以及吉他简谱）都没有。以后还是乖乖用 Guitar Pro 写入以后截图吧。
 
+#### 修改字体和颜色
+
+在入门了 `Html` 和 `CSS` 之后，就动了修改主题模板的小心思。大的改动还没有能力，不过对字体和颜色相关的简单修改可以做到了。
+
+1. 首先复制一下 `/themes/LoveIt/asset/` 文件夹的内容到根目录里（后面会用到的 html 文件和其他字体等也需要类似操作），这是为了区分开自己的修改和主题源文件。通常来讲，本地 `woff` 和 `woff2` 格式的字体文件保存在主题中 `/static/lib/webfonts` 文件夹下，最好在根目录创建一下相同的目录
+
+2. 安装字体有两种途径，一种是使用本地 `woff` 格式的文件渲染，另一种则是调用线上的资源。
+
+   > 这里还有一点需要提前了解，通常英文字体这两种方式区别不大，但中文字体由于需要保存上千个文字，源文件极大，在使用第二种方法时容易有数秒的延迟（这与 Adobe 等服务器在大陆访问的速度也有关系，尽管 Adobe 会提供按需加载用到的子集和异步加载的服务，延迟依旧相当明显）。
+   >
+   > 但另一个问题则是，当我试图将 `思源宋体` 和 `思源黑体` 通过一些在线的 woff 转换器转换格式时，又是怎么也不能转换出正确的文件。于是只能采用第二种办法。
+
+3. 首先说一下怎么使用本地文件。这里以 [三言 3type 的厉致谦设计师设计的基本美术体](https://3type.cn/fonts/rvs_basic/index.html) 为例。
+
+   1. 首先在链接中下载试用版本的字体文件，在 [Transfonter](https://transfonter.org/) 中转换成 `woff`  和 `woff2` 格式的文件，并且复制到 `/static/lib/webfonts`  中。
+
+
+   <center><a data-fancybox="gallery" href="first_post\image-20220904172213403.png"><img src="first_post\image-20220904172213403.png"></a>
+   <style>
+   p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
+   p.source {line-height:70%; font-size:1px; color:gray;}
+   </style>
+   <body>
+   <p class="title">
+   基本美术体的字体样式
+   </p>
+   <p class="source">
+   source: 3type
+   </p></center>
+   2. 在 `/assets/css/_partial/_variables.scss` 中添加
+
+      ```scss
+      @font-face {
+        font-family: 'RVS Basic Demo';
+        src: url('../../static/lib/webfonts/RVSBasicDemo-Regular.woff2') format('woff2'),
+              url('../../static/lib/webfonts/RVSBasicDemo-Regular.woff') format('woff');
+      }
+      ```
+
+   3. 在 `/assets/css/_page/_single.scss` 中的 `.single` 类下的 `.single-title` 中增加 `font-family: RVS Basic Demo;`  （我这里是想把基本美术体用于文章的标题，于是修改的是 `.single-title`，如果想修改副标题或者正文等内容也可以修改对应的类。
+
+   4. 这时基本就大功告成，响应速度也比较快。但是基本美术体的正式版本依旧没有发布，目前的字体包中只有 2000+ 个字，这样就会出现比较麻烦的情况，比如在文章 `毯式建筑小史` 中，`毯` 字和 `筑` 字这样比较常用的文字会被直接用默认的黑体渲染，显得非常奇怪，于是只好暂时先取消这个方案。
+
+4. 其次介绍一下线上方案的步骤。这次采用的是 `思源黑体` 和 `思源宋体` 两种字体满足各种场景的使用。其中 `思源宋体` 用于标题。[思源宋体的官方介绍](https://source.typekit.com/source-han-serif/cn/#get-the-fonts)
+
+   1. 在[Adobe Fonts](https://fonts.adobe.com/search/fonts?query=source%2Bhan) 中将 `思源黑体` 和 `思源宋体` 添加到 Web 项目。之后复制新建的 Web 项目的 Html 代码块，复制到 `/layouts/partials/head/link.html` 最后。
+
+      ```html
+      <script>
+          (function(d) {
+            var config = {
+              kitId: 'xxxxxxx', <!--置入你的项目的ID-->
+              scriptTimeout: 3000,
+              async: true
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+          })(document);
+        </script>
+      ```
+
+   2. 最后就是在 `/assets/css/_page/_single.scss` 对应的位置增加相对应字体的 CSS 代码，可以进入 Adobe Fonts 的项目中，复制想使用的字体的 CSS，点击下图每行的右边复制按钮即可。
+
+      <center><a data-fancybox="gallery" href="first_post\image-20220904174845731.png"><img src="first_post\image-20220904174845731.png"></a>
+      <style>
+      p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
+      p.source {line-height:70%; font-size:1px; color:gray;}
+      </style>
+
+5. 另外，博客中所有颜色的管理都在 `/assets/css/_partial/_variables.scss` 中。可以通过 `$single-link-color` 和 `$single-link-color-dark` 的色彩值来修改每级标题等链接的颜色；通过 `$blockquote-color` 和 `$blockquote-color-dark` 的色彩值则可以修改引用框的颜色
+
 ### 查阅文档
 
 * [Markdown基本语法](https://www.markdown.xyz/basic-syntax/) 和[Markdown速查表](https://www.markdown.xyz/cheat-sheet/)
@@ -825,6 +895,9 @@ K: C
 * [Hugo 网站访问计数插件不蒜子集成](https://xwi88.com/hugo-plugin-busuanzi/)
 * [使用Hugo框架搭建博客的过程 - 主题配置](https://www.xiaodejiyi.com/2021/01/build-blog-theme-config/)
 * [构建自己的博客系统](https://www.whexy.com/posts/blog-diy) 设立一个终极目标吧！未来自己构建博客系统！
+* [思源宋体](https://yihui.org/cn/2017/04/source-han-serif/#fn:-1) 
+* [Web 中使用思源宋体](https://frankindev.com/2017/04/09/source-han-serif-in-web/)
+* [在网页中使用思源宋体](https://blog.yfei.page/cn/2020/12/siyuansongti/)
 
 ### 总结
 
