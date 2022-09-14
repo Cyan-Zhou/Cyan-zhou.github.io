@@ -20,7 +20,7 @@
 
 ### 安装Hugo & Git
 
-1. Hugo的安装在：[Install Hugo](https://gohugo.io/getting-started/installing/) 有详细指南，或者直接在 [Hugo GitHub Release Page](https://github.com/gohugoio/hugo/releases) 下载最新版的extended版本，我在*2022/05/21*安装的是 [hugo_extended_0.99.1_Windows-64bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.99.1/hugo_extended_0.99.1_Windows-64bit.zip) ，解压后把hugo.exe文件放到指定的安装目录，比如`D:/Program Files/Hugo/bin`，然后打开**win+R &rarr; sysdm.cpl &rarr; Advanced &rarr; Environment Variables &rarr; System variables - path **  添加进去，命令行输入`Hugo version` 如果显示则成功
+1. Hugo的安装在：[Install Hugo](https://gohugo.io/getting-started/installing/) 有详细指南，或者直接在 [Hugo GitHub Release Page](https://github.com/gohugoio/hugo/releases) 下载最新版的extended版本，我在*2022/05/21*安装的是 [hugo_extended_0.99.1_Windows-64bit.zip](https://github.com/gohugoio/hugo/releases/download/v0.99.1/hugo_extended_0.99.1_Windows-64bit.zip) ，解压后把hugo.exe文件放到指定的安装目录，比如`D:/Program Files/Hugo/bin`，然后打开**win+R &rarr; sysdm.cpl &rarr; Advanced &rarr; Environment Variables &rarr; System variables - path**  添加进去，命令行输入`Hugo version` 如果显示则成功
 2. 直接下载 [Git](https://git-scm.com/) 一路下一步
 
 ### GitHub新建仓库
@@ -803,25 +803,27 @@ K: C
 
    > 这里还有一点需要提前了解，通常英文字体这两种方式区别不大，但中文字体由于需要保存上千个文字，源文件极大，在使用第二种方法时容易有数秒的延迟（这与 Adobe 等服务器在大陆访问的速度也有关系，尽管 Adobe 会提供按需加载用到的子集和异步加载的服务，延迟依旧相当明显）。
    >
-   > 但另一个问题则是，当我试图将 `思源宋体` 和 `思源黑体` 通过一些在线的 woff 转换器转换格式时，又是怎么也不能转换出正确的文件。于是只能采用第二种办法。
+   > 但另一个问题则是，一些中文字体因为文件过大的缘故，通过一些在线的 woff 转换器转换格式时，很难转换出正确的文件。
 
 3. 首先说一下怎么使用本地文件。这里以 [三言 3type 的厉致谦设计师设计的基本美术体](https://3type.cn/fonts/rvs_basic/index.html) 为例。
 
+   
+
    1. 首先在链接中下载试用版本的字体文件，在 [Transfonter](https://transfonter.org/) 中转换成 `woff`  和 `woff2` 格式的文件，并且复制到 `/static/lib/webfonts`  中。
 
+         <center><a data-fancybox="gallery" href="first_post\image-20220904172213403.png"><img src="first_post\image-20220904172213403.png"></a>
+         <style>
+         p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
+         p.source {line-height:70%; font-size:1px; color:gray;}
+         </style>
+         <body>
+         <p class="title">
+         基本美术体的字体样式
+         </p>
+         <p class="source">
+         source: 3type
+         </p></center>
 
-   <center><a data-fancybox="gallery" href="first_post\image-20220904172213403.png"><img src="first_post\image-20220904172213403.png"></a>
-   <style>
-   p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
-   p.source {line-height:70%; font-size:1px; color:gray;}
-   </style>
-   <body>
-   <p class="title">
-   基本美术体的字体样式
-   </p>
-   <p class="source">
-   source: 3type
-   </p></center>
    2. 在 `/assets/css/_partial/_variables.scss` 中添加
 
       ```scss
@@ -836,7 +838,17 @@ K: C
 
    4. 这时基本就大功告成，响应速度也比较快。但是基本美术体的正式版本依旧没有发布，目前的字体包中只有 2000+ 个字，这样就会出现比较麻烦的情况，比如在文章 `毯式建筑小史` 中，`毯` 字和 `筑` 字这样比较常用的文字会被直接用默认的黑体渲染，显得非常奇怪，于是只好暂时先取消这个方案。
 
-4. 其次介绍一下线上方案的步骤。这次采用的是 `思源黑体` 和 `思源宋体` 两种字体满足各种场景的使用。其中 `思源宋体` 用于标题。[思源宋体的官方介绍](https://source.typekit.com/source-han-serif/cn/#get-the-fonts)
+4. 再举例讲一下 `思源宋体` 和 `思源黑体` 的步骤，其实和上一步差别不大
+
+   1. 这里可以使用 [Google-webfonts-helper](https://google-webfonts-helper.herokuapp.com/fonts) 来生成 CSS 代码以及对应的字体文件，使用非常舒适。例如我想使用 `思源宋体` 和 `思源黑体` ，只需要在左上角的搜索栏分别输入 `Noto Serif SC` 和 `Noto Sans SC` ，在右边按照指引复制 CSS 文件以及下载对应的字体文件压缩包即可。
+
+   2. 把对应的字体文件放到  `/static/lib/webfonts` 中，每种 weight 应该对应了 `.eot` 、`.svg` 、`.woff`、`.woff2` 四个文件。（这里下载指引中提示还会有 `.ttf` 文档，但并没有在压缩包中，暂时不管了）
+
+   3. 把生成的 @font-face 代码复制进  `/assets/css/_partial/_variables.scss` 中，注意修改每个文件的路径，`url('../../static/lib/webfonts/noto-serif-sc-v22-latin_chinese-simplified-regular.eot');` 
+
+   4. 修改 `/assets/css/_page/_single.scss`  中对应部分的字体格式即可
+
+5. 介绍一下线上方案的步骤。这次采用的是 `思源黑体` 和 `思源宋体` 两种字体满足各种场景的使用。其中 `思源宋体` 用于标题。[思源宋体的官方介绍](https://source.typekit.com/source-han-serif/cn/#get-the-fonts)
 
    1. 在[Adobe Fonts](https://fonts.adobe.com/search/fonts?query=source%2Bhan) 中将 `思源黑体` 和 `思源宋体` 添加到 Web 项目。之后复制新建的 Web 项目的 Html 代码块，复制到 `/layouts/partials/head/link.html` 最后。
 
@@ -853,15 +865,16 @@ K: C
         </script>
       ```
 
+
    2. 最后就是在 `/assets/css/_page/_single.scss` 对应的位置增加相对应字体的 CSS 代码，可以进入 Adobe Fonts 的项目中，复制想使用的字体的 CSS，点击下图每行的右边复制按钮即可。
 
-      <center><a data-fancybox="gallery" href="first_post\image-20220904174845731.png"><img src="first_post\image-20220904174845731.png"></a>
-      <style>
-      p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
-      p.source {line-height:70%; font-size:1px; color:gray;}
-      </style>
+   <center><a data-fancybox="gallery" href="first_post\image-20220904174845731.png"><img src="first_post\image-20220904174845731.png"></a>
+   <style>
+   p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
+   p.source {line-height:70%; font-size:1px; color:gray;}
+   </style>
 
-5. 另外，博客中所有颜色的管理都在 `/assets/css/_partial/_variables.scss` 中。可以通过 `$single-link-color` 和 `$single-link-color-dark` 的色彩值来修改每级标题等链接的颜色；通过 `$blockquote-color` 和 `$blockquote-color-dark` 的色彩值则可以修改引用框的颜色
+6. 另外，博客中所有颜色的管理都在 `/assets/css/_partial/_variables.scss` 中。可以通过 `$single-link-color` 和 `$single-link-color-dark` 的色彩值来修改每级标题等链接的颜色；通过 `$blockquote-color` 和 `$blockquote-color-dark` 的色彩值则可以修改引用框的颜色
 
 ### 查阅文档
 

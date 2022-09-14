@@ -19,16 +19,7 @@
 <meta name="application-name" content="Cyan Zhou">
 <meta name="apple-mobile-web-app-title" content="Cyan Zhou"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Cyan-zhou.github.io/first-post/" /><link rel="next" href="https://Cyan-zhou.github.io/the_republic_reading_note/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script>
-    (function(d) {
-      var config = {
-        kitId: 'vlv5igv',
-        scriptTimeout: 3000,
-        async: true
-      },
-      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-    })(document);
-  </script><script type="application/ld+json">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -37,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/Cyan-zhou.github.io\/first-post\/"
-        },"genre": "posts","keywords": "Blog","wordcount":  2782 ,
+        },"genre": "posts","keywords": "Blog","wordcount":  2819 ,
         "url": "https:\/\/Cyan-zhou.github.io\/first-post\/","datePublished": "2022-05-21T21:21:18+08:00","dateModified": "2022-05-21T21:21:18+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -126,7 +117,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX" > Hugo &#43; GitHub Pages 搭建博客备忘录</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-category">included in <a href="/categories/blog/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Blog</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="far fa-calendar-check fa-fw"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2782 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="far fa-calendar-check fa-fw"></i>&nbsp;<time datetime="2022-05-21">2022-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2819 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;14 minutes&nbsp;
     
 
@@ -220,7 +211,7 @@
 </ol>
 <h3 id="安装hugo--git">安装Hugo &amp; Git</h3>
 <ol>
-<li>Hugo的安装在：<a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener noreffer">Install Hugo</a> 有详细指南，或者直接在 <a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener noreffer">Hugo GitHub Release Page</a> 下载最新版的extended版本，我在<em>2022/05/21</em>安装的是 <a href="https://github.com/gohugoio/hugo/releases/download/v0.99.1/hugo_extended_0.99.1_Windows-64bit.zip" target="_blank" rel="noopener noreffer">hugo_extended_0.99.1_Windows-64bit.zip</a> ，解压后把hugo.exe文件放到指定的安装目录，比如<code>D:/Program Files/Hugo/bin</code>，然后打开**win+R → sysdm.cpl → Advanced → Environment Variables → System variables - path **  添加进去，命令行输入<code>Hugo version</code> 如果显示则成功</li>
+<li>Hugo的安装在：<a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener noreffer">Install Hugo</a> 有详细指南，或者直接在 <a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener noreffer">Hugo GitHub Release Page</a> 下载最新版的extended版本，我在<em>2022/05/21</em>安装的是 <a href="https://github.com/gohugoio/hugo/releases/download/v0.99.1/hugo_extended_0.99.1_Windows-64bit.zip" target="_blank" rel="noopener noreffer">hugo_extended_0.99.1_Windows-64bit.zip</a> ，解压后把hugo.exe文件放到指定的安装目录，比如<code>D:/Program Files/Hugo/bin</code>，然后打开<strong>win+R → sysdm.cpl → Advanced → Environment Variables → System variables - path</strong>  添加进去，命令行输入<code>Hugo version</code> 如果显示则成功</li>
 <li>直接下载 <a href="https://git-scm.com/" target="_blank" rel="noopener noreffer">Git</a> 一路下一步</li>
 </ol>
 <h3 id="github新建仓库">GitHub新建仓库</h3>
@@ -1476,27 +1467,29 @@ K: C
 <p>安装字体有两种途径，一种是使用本地 <code>woff</code> 格式的文件渲染，另一种则是调用线上的资源。</p>
 <blockquote>
 <p>这里还有一点需要提前了解，通常英文字体这两种方式区别不大，但中文字体由于需要保存上千个文字，源文件极大，在使用第二种方法时容易有数秒的延迟（这与 Adobe 等服务器在大陆访问的速度也有关系，尽管 Adobe 会提供按需加载用到的子集和异步加载的服务，延迟依旧相当明显）。</p>
-<p>但另一个问题则是，当我试图将 <code>思源宋体</code> 和 <code>思源黑体</code> 通过一些在线的 woff 转换器转换格式时，又是怎么也不能转换出正确的文件。于是只能采用第二种办法。</p>
+<p>但另一个问题则是，一些中文字体因为文件过大的缘故，通过一些在线的 woff 转换器转换格式时，很难转换出正确的文件。</p>
 </blockquote>
 </li>
 <li>
 <p>首先说一下怎么使用本地文件。这里以 <a href="https://3type.cn/fonts/rvs_basic/index.html" target="_blank" rel="noopener noreffer">三言 3type 的厉致谦设计师设计的基本美术体</a> 为例。</p>
 <ol>
-<li>首先在链接中下载试用版本的字体文件，在 <a href="https://transfonter.org/" target="_blank" rel="noopener noreffer">Transfonter</a> 中转换成 <code>woff</code>  和 <code>woff2</code> 格式的文件，并且复制到 <code>/static/lib/webfonts</code>  中。</li>
-</ol>
-<center><a data-fancybox="gallery" href="first_post\image-20220904172213403.png"><img src="first_post\image-20220904172213403.png"></a>
-<style>
-p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
-p.source {line-height:70%; font-size:1px; color:gray;}
-</style>
-<body>
-<p class="title">
-基本美术体的字体样式
-</p>
-<p class="source">
-source: 3type
-</p></center>
-2. 在 `/assets/css/_partial/_variables.scss` 中添加
+<li>
+<p>首先在链接中下载试用版本的字体文件，在 <a href="https://transfonter.org/" target="_blank" rel="noopener noreffer">Transfonter</a> 中转换成 <code>woff</code>  和 <code>woff2</code> 格式的文件，并且复制到 <code>/static/lib/webfonts</code>  中。</p>
+   <center><a data-fancybox="gallery" href="first_post\image-20220904172213403.png"><img src="first_post\image-20220904172213403.png"></a>
+   <style>
+   p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
+   p.source {line-height:70%; font-size:1px; color:gray;}
+   </style>
+   <body>
+   <p class="title">
+   基本美术体的字体样式
+   </p>
+   <p class="source">
+   source: 3type
+   </p></center>
+</li>
+<li>
+<p>在 <code>/assets/css/_partial/_variables.scss</code> 中添加</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -1513,7 +1506,7 @@ source: 3type
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><ol start="3">
+</div></li>
 <li>
 <p>在 <code>/assets/css/_page/_single.scss</code> 中的 <code>.single</code> 类下的 <code>.single-title</code> 中增加 <code>font-family: RVS Basic Demo;</code>  （我这里是想把基本美术体用于文章的标题，于是修改的是 <code>.single-title</code>，如果想修改副标题或者正文等内容也可以修改对应的类。</p>
 </li>
@@ -1523,7 +1516,24 @@ source: 3type
 </ol>
 </li>
 <li>
-<p>其次介绍一下线上方案的步骤。这次采用的是 <code>思源黑体</code> 和 <code>思源宋体</code> 两种字体满足各种场景的使用。其中 <code>思源宋体</code> 用于标题。<a href="https://source.typekit.com/source-han-serif/cn/#get-the-fonts" target="_blank" rel="noopener noreffer">思源宋体的官方介绍</a></p>
+<p>再举例讲一下 <code>思源宋体</code> 和 <code>思源黑体</code> 的步骤，其实和上一步差别不大</p>
+<ol>
+<li>
+<p>这里可以使用 <a href="https://google-webfonts-helper.herokuapp.com/fonts" target="_blank" rel="noopener noreffer">Google-webfonts-helper</a> 来生成 CSS 代码以及对应的字体文件，使用非常舒适。例如我想使用 <code>思源宋体</code> 和 <code>思源黑体</code> ，只需要在左上角的搜索栏分别输入 <code>Noto Serif SC</code> 和 <code>Noto Sans SC</code> ，在右边按照指引复制 CSS 文件以及下载对应的字体文件压缩包即可。</p>
+</li>
+<li>
+<p>把对应的字体文件放到  <code>/static/lib/webfonts</code> 中，每种 weight 应该对应了 <code>.eot</code> 、<code>.svg</code> 、<code>.woff</code>、<code>.woff2</code> 四个文件。（这里下载指引中提示还会有 <code>.ttf</code> 文档，但并没有在压缩包中，暂时不管了）</p>
+</li>
+<li>
+<p>把生成的 @font-face 代码复制进  <code>/assets/css/_partial/_variables.scss</code> 中，注意修改每个文件的路径，<code>url('../../static/lib/webfonts/noto-serif-sc-v22-latin_chinese-simplified-regular.eot');</code></p>
+</li>
+<li>
+<p>修改 <code>/assets/css/_page/_single.scss</code>  中对应部分的字体格式即可</p>
+</li>
+</ol>
+</li>
+<li>
+<p>介绍一下线上方案的步骤。这次采用的是 <code>思源黑体</code> 和 <code>思源宋体</code> 两种字体满足各种场景的使用。其中 <code>思源宋体</code> 用于标题。<a href="https://source.typekit.com/source-han-serif/cn/#get-the-fonts" target="_blank" rel="noopener noreffer">思源宋体的官方介绍</a></p>
 <ol>
 <li>
 <p>在<a href="https://fonts.adobe.com/search/fonts?query=source%2Bhan" target="_blank" rel="noopener noreffer">Adobe Fonts</a> 中将 <code>思源黑体</code> 和 <code>思源宋体</code> 添加到 Web 项目。之后复制新建的 Web 项目的 Html 代码块，复制到 <code>/layouts/partials/head/link.html</code> 最后。</p>
@@ -1556,13 +1566,13 @@ source: 3type
 </div></li>
 <li>
 <p>最后就是在 <code>/assets/css/_page/_single.scss</code> 对应的位置增加相对应字体的 CSS 代码，可以进入 Adobe Fonts 的项目中，复制想使用的字体的 CSS，点击下图每行的右边复制按钮即可。</p>
+</li>
+</ol>
 <center><a data-fancybox="gallery" href="first_post\image-20220904174845731.png"><img src="first_post\image-20220904174845731.png"></a>
 <style>
 p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
 p.source {line-height:70%; font-size:1px; color:gray;}
 </style>
-</li>
-</ol>
 </li>
 <li>
 <p>另外，博客中所有颜色的管理都在 <code>/assets/css/_partial/_variables.scss</code> 中。可以通过 <code>$single-link-color</code> 和 <code>$single-link-color-dark</code> 的色彩值来修改每级标题等链接的颜色；通过 <code>$blockquote-color</code> 和 <code>$blockquote-color-dark</code> 的色彩值则可以修改引用框的颜色</p>

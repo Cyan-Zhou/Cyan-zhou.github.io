@@ -20,7 +20,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 </style>
 <body>
 <p class="title">
-想象这个故事的内容，出自苏格拉底之口，经柏拉图转为文字后，再由译者译为中英双语。一个远不及游吟歌手的歌声生动的过程。
+出自苏格拉底之口的故事，经柏拉图转为文字后，再由译者译为双语，远不及游吟歌手的歌声生动。
 </p>
 <p class="source">
 Sappho and Alcaeus, Sir Lawrence Alma-Tadema, 1881. The Walters Art Museum 
