@@ -811,7 +811,7 @@ K: C
 
    1. 首先在链接中下载试用版本的字体文件，在 [Transfonter](https://transfonter.org/) 中转换成 `woff`  和 `woff2` 格式的文件，并且复制到 `/static/lib/webfonts`  中。
 
-         <center><a data-fancybox="gallery" href="first_post\image-20220904172213403.png"><img src="first_post\image-20220904172213403.png"></a>
+         <center><a data-fancybox="gallery" href="\first_post\image-20220904172213403.png"><img src="\first_post\image-20220904172213403.png"></a>
          <style>
          p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
          p.source {line-height:70%; font-size:1px; color:gray;}
@@ -868,7 +868,7 @@ K: C
 
    2. 最后就是在 `/assets/css/_page/_single.scss` 对应的位置增加相对应字体的 CSS 代码，可以进入 Adobe Fonts 的项目中，复制想使用的字体的 CSS，点击下图每行的右边复制按钮即可。
 
-   <center><a data-fancybox="gallery" href="first_post\image-20220904174845731.png"><img src="first_post\image-20220904174845731.png"></a>
+   <center><a data-fancybox="gallery" href="\first_post\image-20220904174845731.png"><img src="\first_post\image-20220904174845731.png"></a>
    <style>
    p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
    p.source {line-height:70%; font-size:1px; color:gray;}
