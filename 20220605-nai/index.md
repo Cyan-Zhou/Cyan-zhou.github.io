@@ -3,6 +3,8 @@
 
 <!--more-->
 
+<p><img src="https://img.shields.io/badge/last%20modified-2022--8--28-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-4129-yellow?style=flat" >  <img src="https://img.shields.io/badge/11%20minutes-lightgray?style=flat" ></p>
+
 {{< bilibili id=BV1Q94y1R7c8 >}}
 
 完整中字版： https://pan.baidu.com/s/1C3BeJ3ptw0fm_694HA0lbQ?pwd=awey

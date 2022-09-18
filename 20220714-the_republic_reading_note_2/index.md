@@ -3,7 +3,8 @@
 
 <!--more-->
 
-<img src="https://img.shields.io/badge/last%20modified-2022--09--14-ff69b4?style=flat" > <img src="https://img.shields.io/badge/English version-Penguin Classic 2007-blue?style=flat" > <img src="https://img.shields.io/badge/中文版本-人民出版社2017年增订本-blue?style=flat" > <img src="https://geps.dev/progress/47" >
+<p><img src="https://img.shields.io/badge/last%20modified-2022--9--14-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-8228-yellow?style=flat" >  <img src="https://img.shields.io/badge/22%20minutes-lightgray?style=flat" ></p>
+<p><img src="https://img.shields.io/badge/English version-Penguin Classic 2007-blue?style=flat" > <img src="https://img.shields.io/badge/中文版本-人民出版社2017年增订本-blue?style=flat" > <img src="https://geps.dev/progress/47" > </p>
 
 {{< admonition type=info title="阅读版本" open=true >}}
 阅读的英文版是企鹅出版社2007年出版的 *The Republic* ，Desmond Lee 翻译；同时对照人民出版社 2017 年王晓朝译本的增订版，后者直接基于希腊文文本翻译，并且有比较丰富的注释。
@@ -90,7 +91,7 @@ Treat them as a plurality, offer to hand over the property or the power or the p
 
 they will spend their whole time making and correcting detailed regulations of the sort you’ve described, always expecting to achieve perfection.
 
-‘You mean,’ said I, ‘that they will lead lives like invalids who lack the restraint to give up a vicious way of life.’
+'You mean,' said I, ‘that they will lead lives like invalids who lack the restraint to give up a vicious way of life.’
 
 {{< /admonition >}}
 
@@ -262,19 +263,19 @@ Philoxenus of Eretria or Apelles (orig. painting) c. 100 BC
 
 ‘Then what about anyone who has distinguished himself for bravery? Do you agree that he should first be duly crowned, while the army is still in the field, by his fellow-campaigners, by youngmen32 and children in turn?’
 
-‘Yes.’
+'Yes.'
 
 ‘And that they should shake his hand?’
 
 ‘I agree again.’
 
-‘But I’m afraid you won’t agree to what I’m going to say next.’
+'But I'm afraid you won't agree to what I'm going to say next.'
 
 ‘What is it?’
 
 ‘That he should exchange kisses with them.’
 
-‘I think it’s the best idea of all,’ said Glaucon. ‘And what is [c] more, I should add to your law a clause that would forbid anyone to refuse his kisses for the rest of the campaign, as an encouragement to those in love with a boy or girl to be all the keener to win an award for bravery.’
+‘I think it’s the best idea of all,’ said Glaucon. 'And what is more, I should add to your law a clause that would forbid anyone to refuse his kisses for the rest of the campaign, as an encouragement to those in love with a boy or girl to be all the keener to win an award for bravery.’
 
 {{< /admonition >}}
 

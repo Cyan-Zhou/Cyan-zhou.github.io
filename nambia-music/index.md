@@ -3,7 +3,9 @@
 
 <!--more-->
 
-<img src="https://img.shields.io/badge/last%20modified-2022--06--2-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Album-Namibie: musique instrumentale-blue?style=flat" >
+<p><img src="https://img.shields.io/badge/last%20modified-2022--6--2-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-6887-yellow?style=flat" >  <img src="https://img.shields.io/badge/18%20minutes-lightgray?style=flat" ></p>
+
+<p><img src="https://img.shields.io/badge/Album-Namibie: musique instrumentale-blue?style=flat" ></p>
 
 {{< admonition type=info title="Intro" open=true >}}
 

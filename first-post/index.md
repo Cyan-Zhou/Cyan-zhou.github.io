@@ -3,7 +3,9 @@
 
 <!--more-->
 
-<img src="https://img.shields.io/badge/last%20modified-2022--06--15-ff69b4?style=flat" >   <img src="https://img.shields.io/badge/Hugo version-0.99.1-blue?style=flat" >    <img src="https://img.shields.io/badge/Status-updating-blue?style=flat" >
+<p><img src="https://img.shields.io/badge/last%20modified-2022--9--18-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-9191-yellow?style=flat" >  <img src="https://img.shields.io/badge/24%20minutes-lightgray?style=flat" ></p>
+
+<img src="https://img.shields.io/badge/Hugo version-0.99.1-blue?style=flat" > <img src="https://img.shields.io/badge/Status-updating-blue?style=flat" >
 
 打算搭建博客的想法已经有两三年了，一直到最近对代码不再一无所知，而且待业在家才终于决定着手搭建一个简单的博客。之前大概看过 Squarespace、Cargo 这类 SaaS 平台，考虑到
 
@@ -842,7 +844,7 @@ K: C
 
    1. 这里可以使用 [Google-webfonts-helper](https://google-webfonts-helper.herokuapp.com/fonts) 来生成 CSS 代码以及对应的字体文件，使用非常舒适。例如我想使用 `思源宋体` 和 `思源黑体` ，只需要在左上角的搜索栏分别输入 `Noto Serif SC` 和 `Noto Sans SC` ，在右边按照指引复制 CSS 文件以及下载对应的字体文件压缩包即可。
 
-   2. 把对应的字体文件放到  `/static/lib/webfonts` 中，每种 weight 应该对应了 `.eot` 、`.svg` 、`.woff`、`.woff2` 四个文件。（这里下载指引中提示还会有 `.ttf` 文档，但并没有在压缩包中，暂时不管了）
+   2. 把对应的字体文件放到  `/static/lib/webfonts` 中，每种 weight 应该对应了 `.eot` 、`.svg` 、`.woff`、`.woff2` 四个文件。（这里下载指引中提示还会有 `.ttf` 文档，但并没有在压缩包中，暂时不管了）。（这导致网页字体加载速度相当缓慢，发现 `.woff2` 当下已经使用得足够普遍，不需要再去浪非有限的加载空间来上传其他格式的字体，于是删除了其他的几种格式）
 
    3. 把生成的 @font-face 代码复制进  `/assets/css/_partial/_variables.scss` 中，注意修改每个文件的路径，`url('../../static/lib/webfonts/noto-serif-sc-v22-latin_chinese-simplified-regular.eot');` 
 
@@ -911,6 +913,7 @@ K: C
 * [思源宋体](https://yihui.org/cn/2017/04/source-han-serif/#fn:-1) 
 * [Web 中使用思源宋体](https://frankindev.com/2017/04/09/source-han-serif-in-web/)
 * [在网页中使用思源宋体](https://blog.yfei.page/cn/2020/12/siyuansongti/)
+* [Hugo 主题移动端开发的一些心得](https://wocai.de/post/2020/03/hugo-%E4%B8%BB%E9%A2%98%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%BC%80%E5%8F%91%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BF%83%E5%BE%97/)
 
 ### 总结
 
