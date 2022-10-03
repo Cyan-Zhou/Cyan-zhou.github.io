@@ -255,18 +255,8 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 
 按理来说，本文计划中在这里就要结束了。看到永安寺和大云寺的壁画时，我和成博讨论这一画法的来源，判断不来这究竟是画师突然的创作，还是早有粉本的画法。还是一篇大牛的微博竟然一下子列举了 9 尊不同处理方法的剺面画像，才提醒我这是一种明清流行于晋北的画法。其创作基础或许来自于十九祖鸠摩罗多尊者、宝志和尚，或者来自于《法华经》等经文中那句「内秘菩萨行，外现声闻相」。无论如何，可以想象，在昏暗的大殿里，信徒漫步殿中，一抬头看到可怖的明王撑开面皮，露出慈祥和蔼的面容，那不敬神的心思早被一扫而光。
 
-<center><a data-fancybox="gallery" href="/20220924-buddhaface/11.jpg"><img src="/20220924-buddhaface/11.jpg" width="400"></a>
-<style>
-p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
-p.source {line-height:70%; font-size:1px; color:gray;}
-</style>
-<body>
-<p class="title">
-宝志和尚木雕
-</p>
-<p class="source">
-京都西往寺，平安时代
-</p></center>
+
+
 
 {{< admonition note "十九祖鸠摩罗多尊者" true >}}
 
