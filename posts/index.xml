@@ -3,7 +3,15 @@
         <title>All Posts - Ush Terek</title>
         <link>https://Cyan-zhou.github.io/posts/</link>
         <description>All Posts | Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 04 Oct 2022 02:52:31 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 26 Nov 2022 12:15:13 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>2022/11/25</title>
+    <link>https://Cyan-zhou.github.io/20221126-%E4%B8%80%E4%B8%AA%E7%9F%AD%E7%AF%87/</link>
+    <pubDate>Sat, 26 Nov 2022 12:15:13 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>https://Cyan-zhou.github.io/20221126-%E4%B8%80%E4%B8%AA%E7%9F%AD%E7%AF%87/</guid>
+    <description><![CDATA[对一个夜晚的致敬和追思]]></description>
+</item>
+<item>
     <title>The Fountainhead</title>
     <link>https://Cyan-zhou.github.io/20221004-thefountainhead/</link>
     <pubDate>Tue, 04 Oct 2022 02:52:31 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>Cyan Zhou</author>
     <guid>https://Cyan-zhou.github.io/the_republic_reading_note/</guid>
     <description><![CDATA[《国家篇》流水账式阅读记录]]></description>
-</item>
-<item>
-    <title> Hugo &#43; GitHub Pages 搭建博客备忘录</title>
-    <link>https://Cyan-zhou.github.io/first-post/</link>
-    <pubDate>Sat, 21 May 2022 21:21:18 &#43;0800</pubDate>
-    <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/first-post/</guid>
-    <description><![CDATA[汇总了一些操作过程中遇到的问题，另外记录一些常用操作免得忘记]]></description>
 </item>
 </channel>
 </rss>
