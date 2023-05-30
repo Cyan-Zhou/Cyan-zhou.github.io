@@ -7,6 +7,14 @@
             <atom:link href="https://Cyan-zhou.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>一些杂感</title>
+    <link>https://Cyan-zhou.github.io/20230528-recap-copy/</link>
+    <pubDate>Sun, 28 May 2023 12:05:17 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>https://Cyan-zhou.github.io/20230528-recap-copy/</guid>
+    <description><![CDATA[2023年过了一半，那些发生了的，和将要发生的事情。]]></description>
+</item>
+<item>
+    <title>一些杂感</title>
     <link>https://Cyan-zhou.github.io/20230528-recap/</link>
     <pubDate>Sun, 28 May 2023 12:05:17 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
@@ -76,14 +84,6 @@
     <author>Cyan Zhou</author>
     <guid>https://Cyan-zhou.github.io/20220614-rss/</guid>
     <description><![CDATA[为什么我觉得大家都应该用 RSS 和一些推荐的订阅源]]></description>
-</item>
-<item>
-    <title>N!ai，一位昆族女性的故事</title>
-    <link>https://Cyan-zhou.github.io/20220605-nai/</link>
-    <pubDate>Sun, 05 Jun 2022 13:19:34 &#43;0800</pubDate>
-    <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20220605-nai/</guid>
-    <description><![CDATA[从一部非洲民族志纪录片到女性主义的边界]]></description>
 </item>
 </channel>
 </rss>
