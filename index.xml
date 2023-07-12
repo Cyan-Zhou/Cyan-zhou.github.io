@@ -3,15 +3,23 @@
         <title>Ush Terek</title>
         <link>https://Cyan-zhou.github.io/</link>
         <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 28 May 2023 12:05:17 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 12 Jul 2023 22:53:33 &#43;0800</lastBuildDate>
             <atom:link href="https://Cyan-zhou.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>一些杂感</title>
-    <link>https://Cyan-zhou.github.io/20230528-recap-copy/</link>
-    <pubDate>Sun, 28 May 2023 12:05:17 &#43;0800</pubDate>
+    <title>乌什-捷列克周刊 [Issue_2] It&#39;s all about a good story (Pt.2) </title>
+    <link>https://Cyan-zhou.github.io/20230712-digest_2/</link>
+    <pubDate>Wed, 12 Jul 2023 22:53:33 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20230528-recap-copy/</guid>
-    <description><![CDATA[2023年过了一半，那些发生了的，和将要发生的事情。]]></description>
+    <guid>https://Cyan-zhou.github.io/20230712-digest_2/</guid>
+    <description><![CDATA[计划了很久的设计周刊，总算开始制作。整理了我常见的一些订阅源中，个人感兴趣的内容，前两期是过往收藏记录的整理。]]></description>
+</item>
+<item>
+    <title>乌什-捷列克周刊 [Issue_1] It&#39;s all about a good story (Pt.1)</title>
+    <link>https://Cyan-zhou.github.io/20230712-digest_1/</link>
+    <pubDate>Wed, 12 Jul 2023 22:52:05 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>https://Cyan-zhou.github.io/20230712-digest_1/</guid>
+    <description><![CDATA[计划了很久的设计周刊，总算开始制作。整理了我常见的一些订阅源中，个人感兴趣的内容，前两期是过往收藏记录的整理。]]></description>
 </item>
 <item>
     <title>一些杂感</title>
@@ -76,14 +84,6 @@
     <author>Cyan Zhou</author>
     <guid>https://Cyan-zhou.github.io/nambia-music/</guid>
     <description><![CDATA[Namibie: musique instrumentale 专辑引介]]></description>
-</item>
-<item>
-    <title>用RSS回到开放的互联网</title>
-    <link>https://Cyan-zhou.github.io/20220614-rss/</link>
-    <pubDate>Tue, 14 Jun 2022 22:22:20 &#43;0800</pubDate>
-    <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20220614-rss/</guid>
-    <description><![CDATA[为什么我觉得大家都应该用 RSS 和一些推荐的订阅源]]></description>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,337 @@
+# 乌什-捷列克周刊 [Issue_2] It's all about a good story (Pt.2) 
+
+
+<!--more-->
+
+<p><img src="https://img.shields.io/badge/last%20modified-2022--0--0-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-00-yellow?style=flat" >  <img src="https://img.shields.io/badge/00%20minutes-lightgray?style=flat" ></p>
+
+<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>建筑</b></center></td></tr></table>
+
+1. [**B125 高层的核心筒解决方案**](https://afasiaarchzine.com/2023/03/philipp-bruhwiler-architekt-konrad-hurlimann-architekten-b125-baarerstrasse-zug/)
+
+<p align="right"><b>建筑师： konrad hürlimann architekten/ philipp brühwiler</b></p>
+
+建筑师展现了一个优雅的建筑立面，和充满智慧的核心筒设计方案，通过将完整的方形核心筒拆分为楼梯-电梯-配套设施三个部分，增加了建筑四角的空间进深，允许更多活动的可能性。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-00-3907.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-00-3907.png"></a><body></center>
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-00-3924.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-00-3924.png"></a><body></center>
+
+2. [**VILLA BW 全身包裹的瓷砖立面**](https://divisare.com/projects/472946-mecanoo-villa-bw?utm_campaign=Atom&utm_medium=Feed&utm_source=Selected+Projects)
+
+<p align="right"><b>建筑师：Mecanoo</b></p>
+
+非常简洁的设计思路，让这个小住宅在更大的区域内脱颖而出，马赛克般的瓷砖允许建筑屋顶的曲率变化。收边做得异常干净，让建筑成为工艺品。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-00-4109.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-00-4109.png"></a><body></center>
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-00-4207.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-00-4207.png"></a><body></center>
+
+3. [**OMA 为Dior在日本设计的展览**](https://divisare.com/projects/473015-oma-daici-ano-christian-dior-designer-of-dreams?utm_campaign=Atom&utm_medium=Feed&utm_source=Selected+Projects)
+
+<p align="right"><b>建筑师：OMA</b></p>
+
+OMA 为时尚品牌的展览和秀场设计每次都非常能够简明地表达设计的主题。这次的主题是 Dior 和日本的关系，用到了不少日本传统的建筑元素和空间。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-00-4545.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-00-4545.png"></a><body></center>
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-00-4708.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-00-4708.png"></a><body></center>
+
+4. [**一篇缅怀 Antonio Monestiroli 的文章**](https://divisare.com/projects/473289-antonio-monestiroli-aldo-amoretti-remembering-antonio-monestiroli?utm_campaign=Atom&utm_medium=Feed&utm_source=Selected+Projects)
+
+<p align="right"><b>建筑师：Antonio Monestiroli </b></p>
+
+作者 Aldo Amoretti 是一名摄影师，曾经是 Antonio Monestiroli 的学生，是他的构成课程启蒙了作者的建筑认知。他出版了 Antonio Monestiroli 设计的墓地的影集，建筑高度理性，与 Aldo Rossi 的墓园有着一样的沉静的精神气质。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/10-23_51_07-20230710235107_413.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/10-23_51_07-20230710235107_413.png"></a><body></center>
+
+5. [**马德里一家鞋店**](https://divisare.com/projects/473302-estudio-diir-david-zarzoso-diplomatic?utm_campaign=Atom&utm_medium=Feed&utm_source=Selected+Projects)
+
+<p align="right"><b>建筑师：ESTUDIO DIIR</b></p>
+
+这家鞋店的设计很像 Domus 上曾经刊登过的一个上世纪后半叶的鞋店的经典设计。核心的圆形空间被光线笼罩，鞋履是空间中最重要的主角，迟早有一天这样以商品为核心的空间设计也将在中国兴起。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/10-23_53_07-20230710235340_cab.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/10-23_53_07-20230710235340_cab.png"></a><body></center>
+
+6. [**AMO 的颠覆性设计和对层高的思考**](https://afasiaarchzine.com/2023/01/amo-2/)
+
+<p align="right"><b>建筑师：AMO</b></p>
+
+几乎没有几个组织能如此轻松地从建筑最根本的元素出发，完成一个具有独特眼光的设计。在 Prada Fall Winter 2023 的秀场设计中，AMO 构思了一个可变的天花板，通过层高和灯光的配合，营造出完全不同的空间氛围。
+
+{{< vimeo 790041339 >}}
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/10-23_55_07-20230710235546_10b.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/10-23_55_07-20230710235546_10b.png"></a><body></center>
+
+7. [**香料的室内设计**](https://divisare.com/projects/473316-love-architecture-stefan-leitner-refurbishment-and-conversion-of-a-carpenter-s-workshop-into-a-spice-shop?utm_campaign=Atom&utm_medium=Feed&utm_source=Selected+Projects)
+
+<p align="right"><b>建筑师：LOVE ARCHITECTURE</b></p>
+
+Van den Berg spice company 的新空间设计，房间内四处种植和悬挂的香料营造出一种独特的 smellscape。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-00_00_07-20230711000011_741.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-00_00_07-20230711000011_741.png"></a><body></center>
+
+8. [**树屋概念的住宅区翻新**](https://divisare.com/projects/462500-blrm-noshe-treehouses-bebelallee?utm_campaign=Atom&utm_medium=Feed&utm_source=Selected+Projects)
+
+<p align="right"><b>建筑师：BLRM BLRM</b></p>
+
+50 年代的汉堡二层社区被翻新成为新的住宅，建筑师在上层加建了 2 层新结构 ，并赋予其树屋的概念。改造的思路相当大胆，材料上也借用了传统德国住宅的木制镶板。 
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-00_04_07-20230711000426_d0b.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-00_04_07-20230711000426_d0b.png"></a><body></center>
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-00_04_07-20230711000431_e31.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-00_04_07-20230711000431_e31.png"></a><body></center>
+
+9. [**一根柱子的奥秘**](https://divisare.com/projects/473137-ignacio-prego-architectures-simone-bossi-luc-boegly-iphe?utm_campaign=Atom&utm_medium=Feed&utm_source=Selected+Projects)
+
+<p align="right"><b>建筑师：IGNACIO PREGO ARCHITECTURES</b></p>
+
+建筑师对这个项目中这一根柱子的材质、周边的材料和做法在每层都做了不一样的表达。极致的精致。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-00_10_07-20230711001002_edb.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-00_10_07-20230711001002_edb.png"></a><body></center>
+
+10. [**卢塞恩的新剧院的竞赛方案**](https://afasiaarchzine.com/2023/01/graber-pulver-3/)
+
+<p align="right"><b>建筑师：graber pulver architekten</b></p>
+
+很大胆的设计，这种曲面玻璃如果能做到的话效果应该非常好，但是造价和品控方面，需要建筑师有良好的控制力。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-00_20_07-20230711002052_f6f.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-00_20_07-20230711002052_f6f.png"></a><body></center>
+
+11. [**法国社会住宅的折板立面**](https://divisare.com/projects/480508-philippe-dubus-architectes-julien-hourcade-residence-sociale-zac-du-bac-d-asnieres?utm_campaign=Atom&utm_medium=Feed&utm_source=Selected+Projects)
+
+<p align="right"><b>建筑师：PHILIPPE DUBUS ARCHITECTES</b></p>
+
+楔形场地的建筑解决策略。纯白的立面既让建筑成为一个整体，也遮挡了外界噪音。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-15_51_07-20230711155128_1cf.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-15_51_07-20230711155128_1cf.png"></a><body></center>
+
+12. [**Aalto的自宅**](https://ofhouses.com/post/722160645002362880/1060-alvar-aalto-alvar-and-aino-aalto-house)
+
+<p align="right"><b>建筑师：Alvar Aalto</b></p>
+
+OfHouses 刊登的阿尔托夫妇在赫尔辛基的自宅，细节细腻，对生活一尺一寸的拿捏和恰到好处的松弛感，仔细一看，各个家具都是设计史中有名有姓的经典产品，把这些产品搭配起来也展现了很强的审美功底。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/12-00_38_07-20230712003817_344.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/12-00_38_07-20230712003817_344.png"></a><body></center>
+
+13. [**巴塞尔的社会住宅设计**](https://afasiaarchzine.com/2023/07/esch-sintzel-conversion-wine-storage-into-housing-basel/)
+
+<p align="right"><b>建筑师：Esch Sintzel</b></p>
+
+建筑师把一个葡萄酒储藏室转化为了社会住宅，首层室内的蘑菇形柱子代表了原有的储藏室的结构。建筑外立面的绿色和赭色选取得非常恰到好处，节点的细节（实际上代表了一种工业预制化的程度）让人舒服，波纹铝板和简洁的室内昭示了社会住宅的身份。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/12-00_57_07-20230712005705_17d.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/12-00_57_07-20230712005705_17d.png"></a><body></center>
+
+14. [**瑞典教会主导的社区实验**](https://www.architectural-review.com/buildings/garden-centre-hage-in-lund-sweden-by-brendeland-kristoffersen)
+
+<p align="right"><b>建筑师：Brendeland & Kristoffersen</b></p>
+
+Lund 市的教会决定自己建设一个 2000 年的计划，实现时代之间的对话。挪威建筑师 Brendeland & Kristoffersen 采用了一个激进的策略：在开放的农田景观中建设一个 40m x 40m 的砖墙围墙，“农业城市化”，作为未来城市密度的一个空白。先在周围的城市之前建立城市空白，是一件激进的事情。
+
+而场地内其他的建筑将由其他建筑师负责，意在打造一个乌托邦式的、自给自足、自治的社区 ，探索当代城市可能的方向。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/12-01_08_07-20230712010845_960.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/12-01_08_07-20230712010845_960.png"></a><body></center>
+
+<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>产品</b></center></td></tr></table>
+
+1. [**B&O的新配色设计**](https://design-milk.com/bang-olufsen-beoplay-ex-beosound-2-atelier-editions-green/?utm_source=rss&utm_medium=rss&utm_campaign=bang-olufsen-beoplay-ex-beosound-2-atelier-editions-green)
+
+Atelier Editions 系列，只发布了64个绿色的产品，走奢侈品化的路线。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-01-5315.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-01-5315.png"></a><body></center>
+
+2. [**Kriskadecor的链条体系**](https://design-milk.com/kriskadecors-feel-free-system-allows-chain-structures-to-stand-on-their-own/?utm_source=rss&utm_medium=rss&utm_campaign=kriskadecors-feel-free-system-allows-chain-structures-to-stand-on-their-own)
+
+Kriskadecor 是一家专注链节结构的公司，他们的产品可以为设计带来新的创造力，Feel Free 是由 estudi{H}ac-JMFerrero 设计的独立系统，允许链条结构安装在几乎任何地方，允许在大多数项目和地点使用。可以通过提供宽敞感的轻型隔板创建通风，明亮的多学科区域。没有墙壁或围栏的硬定义。易于安装和移动。
+
+至于可持续性，Feel Free 系统包括一个底座和一个钢桅杆，可以很容易地分离以进行回收。Quad 和链条均由铝制成，这种材料可以无限回收而不会失去其原始质量。此外，Kriskadecor 的链接包括 20% 的回收材料，这有助于减少品牌的碳足迹。
+
+这种设计可以用于品牌旗舰店等地，非常具有识别性。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-01-5513.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-01-5513.png"></a><body></center>
+
+3. [**键盘上的磁条设计**](https://design-milk.com/geistmaschine-asp-series-keyboards-are-ambitiously-elegant/?utm_source=rss&utm_medium=rss&utm_campaign=geistmaschine-asp-series-keyboards-are-ambitiously-elegant)
+
+德国客制化键盘公司 Geistmachine 的新产品，modular ferritic stainless steel band construction 是它的核心，按照说明所述，这些钢带既可以划分功能，也可以用来磁性连接无数配件，这点比较有趣，磁性的确是最便捷的模块化组合方式。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-02-0114.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-02-0114.png"></a><body></center>
+
+4. [**Sam Jacob 的纪念碑的图像**](https://afasiaarchzine.com/2023/03/sam-jacob-against-nature/)
+
+{{< admonition note "建筑反对自然" true >}}
+
+Architecture is always against nature. Against as in next to. Against as in contrasting. Against as in protecting. Against as in anticipating. Against as in resisting. Against as in facing. Against as in touching. Against as in challenging. Against as in opposing. Against as defending. Against as defying. Against as a debit. Against as towards. Against as before. Against as comparison. Against as compensation. Against as contradicting. Against as preparation. Against as supporting.
+
+{{< /admonition >}}
+
+Sam Jacob 的这组图像颇有传承自布雷和 superstudio 的超级纪念碑风格。巨大的建筑的形象缺位的情况下，自然成为了被征服之物，不用怀疑的是，图像中剩余的自然环境也将迟早转变为人工的城市和道路，Architecture is always against nature 
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-00-5812.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-00-5812.png"></a><body></center>
+
+5. [**在铝制家具中表达力**](https://design-milk.com/the-monochrome-collection-brings-a-new-appeal-to-aluminum/?utm_source=rss&utm_medium=rss&utm_campaign=the-monochrome-collection-brings-a-new-appeal-to-aluminum)
+
+中国设计师 [李希米](http://www.ximilidesign.com/)  为他自己的品牌 Urbancraft 完成的新设计，表达了铝的延展性和柔韧性。焊接的痕迹非常明显直接，或许坦诚表现了中国本土的家具制作工艺。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-01-0213.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-01-0213.png"></a><body></center>
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-01-0227.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-01-0227.png"></a><body></center>
+
+6. [**Rafeal Prieto的个人展览的和谐元素**](https://design-milk.com/together-over-time-showcases-work-that-balances-fragility-robustness/?utm_source=rss&utm_medium=rss&utm_campaign=together-over-time-showcases-work-that-balances-fragility-robustness)
+
+Together over time 是 Rafeal Prieto 的首次个展，他用不同材质的雕塑、家具和灯光与画廊的建筑巧妙融合，创造了一种微妙的优雅。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/10-23_32_07-20230710233214_bb1.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/10-23_32_07-20230710233214_bb1.png"></a><body></center>
+
+7. [**徕卡Q3**](https://design-milk.com/leica-q3-the-travel-and-street-photography-camera-perfected/?utm_source=rss&utm_medium=rss&utm_campaign=leica-q3-the-travel-and-street-photography-camera-perfected)
+
+通过借鉴 iPhone 式的渐进式迭代，徕卡推出了继承 Q2 不少优点的 Q3，提供 28、35、50、75 和 90 毫米的焦距，性能优秀。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/10-23_34_07-20230710233446_a3a.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/10-23_34_07-20230710233446_a3a.png"></a><body></center>
+
+8. [**不为人所知的复杂机械**](https://afasiaarchzine.com/2023/06/thomas-struth-marian-goodman-gallery-retired-detector-opal-cern-meyrin-2019-2019/)
+
+Thomas Struth 是一名关注工业技术和城市景观的关系的摄影师，他拍摄的CERN的探测器、离子产生器和磁铁等机械，揭示了社会运行的复杂一面。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/10-23_38_07-20230710233803_634.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/10-23_38_07-20230710233803_634.png"></a><body></center>
+
+9. [**回收树脂制成的建筑材料**](https://design-milk.com/3form-flek-pure-is-a-100-recycled-material-that-remains-translucent/?utm_source=rss&utm_medium=rss&utm_campaign=3form-flek-pure-is-a-100-recycled-material-that-remains-translucent)
+
+3form 的 Flek Pure 材料是用回收的树脂制成为的纹理化的水磨石状材料。和我在做作品集的想法一样，建筑材料的回收利用大有市场前景，尤其是塑料树脂这类半透明的高分子材料，用合适的方法处理以后很有可能可以制作成低成本的立面材料或室内装饰面板。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/10-23_41_07-20230710234153_f20.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/10-23_41_07-20230710234153_f20.png"></a><body></center>
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/10-23_42_07-20230710234204_1bf.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/10-23_42_07-20230710234204_1bf.png"></a><body></center>
+
+类似的，OiKo Design 也致力于将高分子废料设计，开发和制造为材料，使用回收的洗涤剂和肥皂瓶，将它们压碎、清洗、挤压和压制，制成构成座椅、桌子、建筑材料的面板。在 [CCCC展出的展览 8′ 33″](https://design-milk.com/8-33-takes-part-in-scenes-from-the-near-future/?utm_source=rss&utm_medium=rss&utm_campaign=8-33-takes-part-in-scenes-from-the-near-future)  就是 Alejandra Gandía-Blasco joined Rocío Gambín 和 OiKo Design 完成的一场模块化回收家具的展览。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-23_04_07-20230711230426_04f.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-23_04_07-20230711230426_04f.png"></a><body></center>
+
+10. [**一款涂鸦式的电子乐器**](https://design-milk.com/love-hultens-doodlestation-synthesizes-sounds-and-smiles/?utm_source=rss&utm_medium=rss&utm_campaign=love-hultens-doodlestation-synthesizes-sounds-and-smiles)
+
+电子音乐的乐器是当前最具创新性的设计行业之一了，视听艺术家和木工 [Love Hultén](https://www.lovehulten.com/) 在斯德哥尔摩制作的这款键盘很酷，上面的屏幕可以根据声音同步变化。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-00_28_07-20230711002813_8de.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-00_28_07-20230711002813_8de.png"></a><body></center>
+
+11. [**Talk Chair**](https://design-milk.com/the-talk-chair-has-a-spare-yet-strong-geometric-presence/?utm_source=rss&utm_medium=rss&utm_campaign=the-talk-chair-has-a-spare-yet-strong-geometric-presence)
+
+Talk 是由意大利设计师 Alessandro Di Prisco 为 Mogg 设计的软垫躺椅。设计非常简洁。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-22_39_07-20230711223928_71f.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-22_39_07-20230711223928_71f.png"></a><body></center>
+
+12. [**用废弃帐篷制作的斗篷**](https://design-milk.com/genette-dibsdall-makes-luxury-garments-from-discarded-festival-tents/?utm_source=rss&utm_medium=rss&utm_campaign=genette-dibsdall-makes-luxury-garments-from-discarded-festival-tents)
+
+Genette Dibsdall 因为对废弃帐篷的浪费构思了 the maverick，和 freitag 似的思路，用废弃的工业用材料制作成服装和配饰，模特照拍的是真好。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-22_49_07-20230711224913_2cc.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-22_49_07-20230711224913_2cc.png"></a><body></center>
+
+13. [**一组组合式的花瓶**](https://design-milk.com/sea-anemone-inspired-this-system-of-translucent-vases/?utm_source=rss&utm_medium=rss&utm_campaign=sea-anemone-inspired-this-system-of-translucent-vases)
+
+delaO 设计工作室的 Anemona 系列花瓶由墨西哥城的玻璃工匠制作，有多种嵌套的组合可能，在阳光的照射下非常美丽。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-22_51_07-20230711225128_939.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-22_51_07-20230711225128_939.png"></a><body></center>
+
+14. [**Thos. Moser的1972年设计的椅子**](https://design-milk.com/the-1972-chair-fetes-50-years-of-thos-moser/?utm_source=rss&utm_medium=rss&utm_campaign=the-1972-chair-fetes-50-years-of-thos-moser)
+
+经典的椅子设计，曲线非常优美。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-22_55_07-20230711225551_e95.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-22_55_07-20230711225551_e95.png"></a><body></center>
+
+<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>文章</b></center></td></tr></table>
+
+1. [**In practice: Space Popular**](https://www.architectural-review.com/essays/in-practice-space-popular)
+
+Space Popular 于 10 年前在曼谷成立，自 2016 年以来一直总部设在伦敦。该工作室创作建筑、家具和室内设计，以及探索虚拟世界设计潜力的展览和装置。在 2022 年 12 月至 2023 年 1 月在 MAXXI 展出的“搜索历史”中，受博物馆 Aldo Rossi 藏品的启发，参观者被邀请进入沉浸式纺织品展览中。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-13-4631.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-13-4631.png"></a><body></center>
+
+{{< admonition note "DOORS" true >}}
+
+‘We believe that portals will be the key architectural element of the coming decades’
+
+“我们相信门户将成为未来几十年的关键建筑元素”
+
+{{< /admonition >}}
+
+
+Space Popular 认真思考了VR可能带给建筑的改变，进而发现了门户的重要意义，或许未来就是哆啦A梦的任意门的时代，具有前瞻性。
+
+2. [**大量文物储存给博物馆造成的压力**](https://www.architectural-review.com/essays/out-of-storage-the-architecture-of-the-museum-depot)
+
+一直很好奇，博物馆的仓储到底是什么样的形式。尤其在参与到博物馆的建设中后，更对博物馆储藏的海量藏品有了认识。19世纪后期，博物馆开始将公共展览与储藏研究分开，博物馆开始具有储存功能。许多博物馆的实际展品仅占其藏品的 5% 以下，而这些多余的藏品被深藏仓库之中，似乎总违背博物馆开放的宗旨。在20世纪下半叶，藏品几乎呈指数级增长，需要更大的场外存储解决方案。因此，开始出现半无障碍博物馆储藏室让参观者观看。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-13-5642.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-13-5642.png"></a><body></center>
+<style>
+p.source {line-height:70%; font-size:1px; color:gray;}
+</style>
+<p class="source">
+© Vitra Design Museum
+</p></center>
+
+V&A East 仓库将于 2025 年开放，该仓库将位于伦敦奥林匹克公园现有的 Hawkins\Brown Here East 综合体（AR March 2020）的一部分内，其内部由 Diller Scofidio + Renfro 在 Austin-Smith：Lord 的支持下设计。入场免费，游客可以通过一楼的收藏品商店和上面的高架人行道进行自助游。这是第一次一些项目——例如被拆除的罗宾汉花园庄园的 V&A 部分——将永久出现在公众视野中。
+
+大英博物馆采取了不同的方法。在伯克希尔的乡村，它目前正在将其部分考古馆藏转移到 BM Arc ，这是一个由 John McAslan + Partners 设计的无窗棚传统设计的最先进的新存储设施。由于今年晚些时候开放，该设施将免费向学校团体和公众开放 - 但必须严格预约。该建筑主要用于学术研究和保护，作为研究设施而不是开放式存储。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-13-5819.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-13-5819.png"></a><body></center>
+<style>
+p.source {line-height:70%; font-size:1px; color:gray;}
+</style>
+<p class="source">
+The Cabinet 是香港 M+ 的机械化存储系统，灵感来自 Moderna Museet prototype。在开放时间，面板每两小时随机洗牌一次。“参观者不知道哪件作品会脱颖而出，” M+ 的首席解读和学习策展人 Keri Ryan 说。
+</p></center>
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-13-5920.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-13-5920.png"></a><body></center>
+
+3. [住宅建造的秘密](https://www.architectural-review.com/essays/keynote/room-of-ones-own-the-construction-of-a-home)
+
+每个人的房间内桌面的物品布局，都有着细致入微的使用习惯，能表现这个人的个性和生活。房间里充满了秘密。这篇AR的文章讲述了一系列关于家和其中秘密的哲学观念与艺术装置，展现了弗洛伊德、沃尔特·本杰明、奉俊昊的《寄生虫》等所表现的对家的思考。一个家庭有两个建筑师——分别负责设计和生活。建筑师必须接受自己的设计的失控和自由发展，像是梦的持续进行。
+
+4. [Fisheye](https://fisheyemagazine.fr/en/concours/photographers-now-is-the-time-to-apply-for-the-prix-fisheye/)
+
+fisheye 是一个法国的摄影杂志网站。展出的摄影作品非常有创意。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-00_25_07-20230711002503_33d.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-00_25_07-20230711002503_33d.png"></a><body></center>
+
+5. Design Milk 的 2022 年年度盘点
+
+[十个最受欢迎贴文](https://design-milk.com/best-of-the-best-top-10-posts-of-2022/?utm_source=rss&utm_medium=rss&utm_campaign=best-of-the-best-top-10-posts-of-2022)
+
+关于建筑、关于产品，看到最受欢迎的推广是什么样的。
+
+[十个艺术贴文](https://design-milk.com/top-10-art-posts-of-2022/?utm_source=rss&utm_medium=rss&utm_campaign=top-10-art-posts-of-2022)
+
+从家具、乐高到平面设计，Design Milk 精选的十个贴文让你看看时代的趋势。
+
+[十个循环利用贴文](https://design-milk.com/2022-year-in-review-circular-by-design/?utm_source=rss&utm_medium=rss&utm_campaign=2022-year-in-review-circular-by-design)
+
+艺术家和设计师用各种循环材料制作家具、物件和建筑材料。
+
+[2022 年的 World Design Rankings (WDR) 前十名](https://design-milk.com/the-2022-world-design-rankings-wdr-by-the-a-design-award/?utm_source=rss&utm_medium=rss&utm_campaign=the-2022-world-design-rankings-wdr-by-the-a-design-award)
+
+有趣的一点是，这个奖项已经连续由中国夺得头魁，显而易见中国的得分也高出第二名美国三倍。然而，从现实来看，中国的设计环境和设计产品还和国外有很大差距，还需要继续追赶。
+
+[The 2022 L A M P Competition](https://design-milk.com/announcing-the-winners-of-the-2022-l-a-m-p-competition/?utm_source=rss&utm_medium=rss&utm_campaign=announcing-the-winners-of-the-2022-l-a-m-p-competition)
+
+照明设计竞赛的结果。比赛的奖项设置很有趣。分为学生、专业和制造三个组，另外 Pendant, Floor, and Table 三个字列表用来说明照明的应用场景。Skylar by [Jiahao Huang](https://www.instagram.com/jiahao_hh/ ) 用灯光打造出包包的模样，以虚代实，很有创意。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-18_30_07-20230711183033_047.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-18_30_07-20230711183033_047.png"></a><body></center>
+
+6. [Dylan Mulvaney 的访谈](https://design-milk.com/f5-dylan-mulvaney-looks-to-the-past-to-create-the-future/?utm_source=rss&utm_medium=rss&utm_campaign=f5-dylan-mulvaney-looks-to-the-past-to-create-the-future)
+
+纽约平面设计师 Dylan Mulvaney 是 Gretel 的设计主管。访谈主要讲了几个艺术作品对他的影响。其中提到了公元 150 年古罗马的Fortis 陶器是最早采用品牌观念的物品。把品牌名称印在陶器背面，将它们与竞争对手区分开来，并建立质量声誉，使他们能够收取溢价。没想到现代的品牌的概念这么早就形成了。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-18_40_07-20230711184023_a9f.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-18_40_07-20230711184023_a9f.png"></a><body></center>
+
+7. [Vitra 设计博物馆的 *Garden Futures: Designing with Nature* 展览](https://www.architectural-review.com/essays/exhibitions/living-with-plants-garden-futures-at-vitra-design-museum)
+
+这次展览由意大利设计二人组 Formafantasma 设计。展览重新反思了人和自然的关系，设计师认为花园城市以来，园艺被视为一种社会规训和控制的方式，而近代以来的农药和泛滥的修剪则被认为是对植物的酷刑。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/12-00_50_07-20230712005018_c9e.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/12-00_50_07-20230712005018_c9e.png"></a><body></center>
+
+<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>集合</b></center></td></tr></table>
+
+1. [Issi Nanabeyin 关于展览的观点](https://design-milk.com/f5-issi-nanabeyin-on-exhibitions-an-architect-market-that-inspire/?utm_source=rss&utm_medium=rss&utm_campaign=f5-issi-nanabeyin-on-exhibitions-an-architect-market-that-inspire)
+
+Issi Nanabeyin 是一位巴特莱特建筑学院毕业的黑人艺术家，通过完成在非洲人的注视下重新构想苏格兰高地来颠覆占主导地位的殖民模式的毕业设计 _An Architecture Between Cultures_ ，他获得了关注。Issi 谈论了影响了自己创作的几位艺术家和建筑师，有埃森曼的首饰设计和加纳的市场。Issi 本人的创作充满对身体和动态的迷恋。
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/12-00_46_07-20230712004658_e56.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/12-00_46_07-20230712004658_e56.png"></a><body></center>
+
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/12-00_42_07-20230712004226_782.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/12-00_42_07-20230712004226_782.png"></a><body></center>
