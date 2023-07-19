@@ -3,9 +3,17 @@
         <title>Ush Terek</title>
         <link>https://Cyan-zhou.github.io/</link>
         <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 12 Jul 2023 22:53:33 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 15 Jul 2023 18:09:00 &#43;0800</lastBuildDate>
             <atom:link href="https://Cyan-zhou.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>乌什-捷列克周刊 [Issue_3] 越不觉得与世界保持联系，我们就越不感到要永远连接的迫切冲动 </title>
+    <link>https://Cyan-zhou.github.io/20230719_issue_3/</link>
+    <pubDate>Sat, 15 Jul 2023 18:09:00 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>https://Cyan-zhou.github.io/20230719_issue_3/</guid>
+    <description><![CDATA[计划了很久的设计周刊，总算开始制作。整理了我常见的一些订阅源中，个人感兴趣的内容，前两期是过往收藏记录的整理。]]></description>
+</item>
+<item>
     <title>乌什-捷列克周刊 [Issue_2] It&#39;s all about a good story (Pt.2) </title>
     <link>https://Cyan-zhou.github.io/20230712-digest_2/</link>
     <pubDate>Wed, 12 Jul 2023 22:53:33 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>Cyan Zhou</author>
     <guid>https://Cyan-zhou.github.io/20220714-the_republic_reading_note_2/</guid>
     <description><![CDATA[《国家篇》流水账式阅读记录]]></description>
-</item>
-<item>
-    <title>非洲音乐档案 01</title>
-    <link>https://Cyan-zhou.github.io/nambia-music/</link>
-    <pubDate>Sun, 26 Jun 2022 00:04:52 &#43;0800</pubDate>
-    <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/nambia-music/</guid>
-    <description><![CDATA[Namibie: musique instrumentale 专辑引介]]></description>
 </item>
 </channel>
 </rss>
