@@ -4,7 +4,7 @@
 <!--more-->
 <p><img src="https://img.shields.io/badge/last%20modified-2023--July--19-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-4052-yellow?style=flat" >  <img src="https://img.shields.io/badge/8%20minutes-lightgray?style=flat" ></p>
 
-<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>建筑</b></center></td></tr></table>
+<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>建&nbsp;&nbsp;筑</b></center></td></tr></table>
 
 1. [**改造一座1550年的农舍**](https://afasiaarchzine.com/2023/07/acha-zaballa-restoration-of-muneko-goikoa-farmhouse-orozko/)
 
@@ -73,7 +73,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/18-00_28_07-20230718002829_752.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/18-00_28_07-20230718002829_752.png"></a></center>
 
 
-<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>产品</b></center></td></tr></table>
+<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>设&nbsp;&nbsp;计</b></center></td></tr></table>
 
 1. [**# 雷诺 Twingo 的电动概念车**](https://design-milk.com/a-transparently-modern-reimagining-of-the-30-year-old-renault-twingo/?utm_source=rss&utm_medium=rss&utm_campaign=a-transparently-modern-reimagining-of-the-30-year-old-renault-twingo)
 
@@ -142,7 +142,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 <p class="source">
 深洋红色 Ruby Star，历史可以追溯到1991年，在保时捷911、928和944车型上都能看到。</p></center>
 
-<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>文章</b></center></td></tr></table>
+<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>文&nbsp;&nbsp;章</b></center></td></tr></table>
 
 1. [**Holly Hunt 的转行之路**](https://design-milk.com/f5-holly-hunt-loves-a-good-espresso-martini-one-of-a-kind-earrings-more/?utm_source=rss&utm_medium=rss&utm_campaign=f5-holly-hunt-loves-a-good-espresso-martini-one-of-a-kind-earrings-more)
 
@@ -173,7 +173,7 @@ Holly Hunt 是著名的家具设计师，具有良好的商业头脑、品味和
 Steve 推荐。这篇文章讲述了最近出租车和网约车的后座前，经常出现的儿童绘画或者司机自述，内容让人感动。我一直觉得，在备受规训的日常生活和城市环境中，寻找这些充满人性的瞬间，既是一种乐趣，也是一种对于贫瘠生活的抵抗。类似的事情重复出现在外卖员的头盔、咖啡店的纸杯和路旁小店的招牌上，即便是平凡的瞬间，也会因为这些人的痕迹而变得可爱。在学习城市的过程中，我先是愤怒地反对从居民手中剥夺城市面貌的控制权，继而又渐渐意识到，在这种城市管理的高压之下，反倒是让那些分文不值的角落成为城市真正的脸。
 
 
-<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>集合</b></center></td></tr></table>
+<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>集&nbsp;&nbsp;合</b></center></td></tr></table>
 
 1. [**一篇全屋网络搭建指南**](https://sspai.com/post/81073)
 

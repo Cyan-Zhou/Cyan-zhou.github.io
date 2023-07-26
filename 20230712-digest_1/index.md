@@ -5,7 +5,7 @@
 
 <p><img src="https://img.shields.io/badge/last%20modified-2023--July--12-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-6146-yellow?style=flat" >  <img src="https://img.shields.io/badge/12%20minutes-lightgray?style=flat" ></p>
 
-<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>建筑</b></center></td></tr></table>
+<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>建&nbsp;&nbsp;筑</b></center></td></tr></table>
 
 
 1. [**LIBRARY PAVILION, EKE**](https://divisare.com/projects/482697-felt-stijn-bollaert-library-pavilion-eke?utm_campaign=Atom&utm_medium=Feed&utm_source=Selected+Projects) 
@@ -104,7 +104,7 @@
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-00-1914.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/T-10-00-1914.png"></a><body></center>
 
-<h1><table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>产品</b></center></td></tr></table></h1>
+<h1><table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>设&nbsp;&nbsp;计</b></center></td></tr></table></h1>
 
 1. [**平面设计师Bob Dinetz 的陶瓷美学观念**](https://design-milk.com/dmtv-milkshake-ceramicist-bob-dinetz-on-finding-the-beauty-in-chance/?utm_source=rss&utm_medium=rss&utm_campaign=dmtv-milkshake-ceramicist-bob-dinetz-on-finding-the-beauty-in-chance)
 
@@ -209,7 +209,7 @@ Joseph Kamaru（又名KMRU）目前在柏林学习声音艺术，是一位出生
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-23_01_07-20230711230109_dd2.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-23_01_07-20230711230109_dd2.png"></a><body></center>
 
-<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>文章</b></center></td></tr></table>
+<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>文&nbsp;&nbsp;章</b></center></td></tr></table>
 
 1. [**ALBERTO CAMPO BAEZA 关于建筑的七堂课**](https://divisare.com/projects/482704-alberto-campo-baeza-seven-lessons-on-architecture?utm_campaign=Atom&utm_medium=Feed&utm_source=Selected+Projects)
 
@@ -299,7 +299,7 @@ AR 的巴勒斯坦建筑专辑，系统讲述了巴勒斯坦的采石业、材�
 
 欧美建筑师正在研究将材料扩展至生物基或种子基的材料，旨在实现人与自然的融合，使用玉米棒、秸秆、真菌、芦苇、海藻或加工过的复合材料，实现建筑业的 decarbonised construction
 
-<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>集合</b></center></td></tr></table>
+<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>集&nbsp;&nbsp;合</b></center></td></tr></table>
 
 1.  [**Wissahickon block**](https://blogs.agu.org/mountainbeltway/2023/06/30/friday-fold-wissahickon-block/)
 

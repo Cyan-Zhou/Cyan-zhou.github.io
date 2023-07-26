@@ -5,7 +5,7 @@
 
 <p><img src="https://img.shields.io/badge/last%20modified-2023--July--12-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-6359-yellow?style=flat" >  <img src="https://img.shields.io/badge/12%20minutes-lightgray?style=flat" ></p>
 
-<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>建筑</b></center></td></tr></table>
+<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>建&nbsp;&nbsp;筑</b></center></td></tr></table>
 
 1. [**B125 高层的核心筒解决方案**](https://afasiaarchzine.com/2023/03/philipp-bruhwiler-architekt-konrad-hurlimann-architekten-b125-baarerstrasse-zug/)
 
@@ -131,7 +131,7 @@ Lund 市的教会决定自己建设一个 2000 年的计划，实现时代之间
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/12-01_08_07-20230712010845_960.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/12-01_08_07-20230712010845_960.png"></a><body></center>
 
-<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>产品</b></center></td></tr></table>
+<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>设&nbsp;&nbsp;计</b></center></td></tr></table>
 
 1. [**B&O的新配色设计**](https://design-milk.com/bang-olufsen-beoplay-ex-beosound-2-atelier-editions-green/?utm_source=rss&utm_medium=rss&utm_campaign=bang-olufsen-beoplay-ex-beosound-2-atelier-editions-green)
 
@@ -235,7 +235,7 @@ delaO 设计工作室的 Anemona 系列花瓶由墨西哥城的玻璃工匠制�
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-22_55_07-20230711225551_e95.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/11-22_55_07-20230711225551_e95.png"></a><body></center>
 
-<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>文章</b></center></td></tr></table>
+<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>文&nbsp;&nbsp;章</b></center></td></tr></table>
 
 1. [**In practice: Space Popular**](https://www.architectural-review.com/essays/in-practice-space-popular)
 
@@ -326,7 +326,7 @@ fisheye 是一个法国的摄影杂志网站。展出的摄影作品非常有创
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/12-00_50_07-20230712005018_c9e.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/12-00_50_07-20230712005018_c9e.png"></a><body></center>
 
-<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>集合</b></center></td></tr></table>
+<table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>集&nbsp;&nbsp;合</b></center></td></tr></table>
 
 1. [Issi Nanabeyin 关于展览的观点](https://design-milk.com/f5-issi-nanabeyin-on-exhibitions-an-architect-market-that-inspire/?utm_source=rss&utm_medium=rss&utm_campaign=f5-issi-nanabeyin-on-exhibitions-an-architect-market-that-inspire)
 
