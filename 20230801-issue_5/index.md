@@ -76,18 +76,17 @@ Caruso 主导了布鲁塞尔皇家比利时酒店的翻新。布鲁塞尔皇家�
 
 日本公司 Ariake 生产，Inga Sempé 设计的 Cabine Mirror 非常简洁，但实现了神奇的视觉效果，拥有成为经典产品的潜力。
 
-
-<center><a data-fancybox="gallery" href="https://design-milk.com/images/2023/07/Cabine-Mirror-Inga-Sempe-for-Ariake-2.jpg"><img src="https://design-milk.com/images/2023/07/Cabine-Mirror-Inga-Sempe-for-Ariake-2.jpg"></a></center>
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_35_08-20230803003539_b50.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_35_08-20230803003539_b50.png"></a></center>
 
 4. [**古根海姆的第 20 辆宝马艺术车收藏**](https://design-milk.com/guggenheim-hosts-the-unveiling-of-the-20th-bmw-art-car/?utm_source=rss&utm_medium=rss&utm_campaign=guggenheim-hosts-the-unveiling-of-the-20th-bmw-art-car)
 
 纽约艺术家 Julie Mehretu 设计的 “rolling sculpture”– the 640-hp BMW M Hybrid V8 在古根海姆博物馆展出。
 
-<center><a data-fancybox="gallery" href="https://design-milk.com/images/2023/07/DM-070623-BMWxGuggenheim-5-810x754.jpg"><img src="https://design-milk.com/images/2023/07/DM-070623-BMWxGuggenheim-5-810x754.jpg"></a></center>
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_36_08-20230803003615_ea4.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_36_08-20230803003615_ea4.png"></a></center>
 
 BMW Art Cars collection 是 1975 年发起的邀请艺术家参与到车身装饰的系列。
 
-<center><a data-fancybox="gallery" href="https://design-milk.com/images/2023/07/DM_BMW-Art-Car-14_-David-Hockney_photo-Enes-Kucevic-810x540.jpg"><img src="https://design-milk.com/images/2023/07/DM_BMW-Art-Car-14_-David-Hockney_photo-Enes-Kucevic-810x540.jpg"></a></center>
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_36_08-20230803003636_b67.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_36_08-20230803003636_b67.png"></a></center>
 <style>
 p.source {line-height:70%; font-size:1px; color:gray;}
 </style>
@@ -95,7 +94,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 David Hockney’s 1995 14th edition BMW Art Car \\\ Photo: Enes Kucevic
 </p></center>
 
-<center><a data-fancybox="gallery" href="https://design-milk.com/images/2023/07/DM_BMW-Art-Car_Andy-Warhol-810x590.jpg"><img src="https://design-milk.com/images/2023/07/DM_BMW-Art-Car_Andy-Warhol-810x590.jpg"></a></center>
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_36_08-20230803003658_68d.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_36_08-20230803003658_68d.png"></a></center>
 <style>
 p.source {line-height:70%; font-size:1px; color:gray;}
 </style>
@@ -103,7 +102,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 Andy Warhol’s 1979 4th edition of the BMW Art Car
 </p></center>
 
-<center><a data-fancybox="gallery" href="https://design-milk.com/images/2023/07/DM_BMW-Art-Car-16_-olafur-Eliasson-810x540.jpg"><img src="https://design-milk.com/images/2023/07/DM_BMW-Art-Car-16_-olafur-Eliasson-810x540.jpg"></a></center>
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_37_08-20230803003719_449.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_37_08-20230803003719_449.png"></a></center>
 <style>
 p.source {line-height:70%; font-size:1px; color:gray;}
 </style>
@@ -115,7 +114,7 @@ Olafur Eliasson 为 2007 年 16th BMW Art Car 设计的疯狂车辆
 
 Patrica Urquiola 为 Mutina 设计的大胆的 Mater 瓷砖系列，灵感来自于 50 年代的 Virtri 陶瓷。釉色和底色形成的纹理像是新时期时代的陶器。我发现，很多瓷砖品牌都聚集在欧洲，尤其是意大利周边。相反，国内作为陶瓷艺术的发源地，却少有如此具有艺术气质和创造力的瓷砖设计。
 
-<center><a data-fancybox="gallery" href="https://design-milk.com/images/2023/06/Mater-Tile-Collection-Mutina-Patricia-Urquiola-Photo-Officine-Mimesi-3.jpg"><img src="https://design-milk.com/images/2023/06/Mater-Tile-Collection-Mutina-Patricia-Urquiola-Photo-Officine-Mimesi-3.jpg"></a></center>
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_38_08-20230803003836_a06.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_38_08-20230803003836_a06.png"></a></center>
 
 6. [**三个酒类品牌的包装设计**](https://design-milk.com/embodying-spirit-the-visual-storytelling-behind-3-liquor-brands/?utm_source=rss&utm_medium=rss&utm_campaign=embodying-spirit-the-visual-storytelling-behind-3-liquor-brands)
 
@@ -123,11 +122,11 @@ Patrica Urquiola 为 Mutina 设计的大胆的 Mater 瓷砖系列，灵感来自
 
 Doce Mezcal 是一款墨西哥的家族酿酒厂产品，瓶子包装的灵感来自于古老的玛雅日历，由 Morgan Light 设计。凭借其大胆的色彩、阶梯图案和纸的纹理，获得了可识别性和解读性，与寻求有机的消费者产生共鸣。设计师此前工作在时尚界，因此对色彩、纹理有足够的敏感。
 
-<center><a data-fancybox="gallery" href="https://design-milk.com/images/2023/07/Taste-July23-Liquor-DOCE-Emma-Trim.jpg"><img src="https://design-milk.com/images/2023/07/Taste-July23-Liquor-DOCE-Emma-Trim.jpg"></a></center>
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_38_08-20230803003859_762.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_38_08-20230803003859_762.png"></a></center>
 
 Pinhook Bourbon 是一款来自肯塔基州的波本威士忌，通过与赛马行业联名打造包装的特色。负责营销的 Charles Fulford 发现市面上的威士忌讲着类似的故事——古老的配方和手工做法，他找到了从设计作为切入点，于是品牌与当地一家纯种马场合作，事实上，肯塔基州以其纯种马著名，将赛马的头像印刷在瓶身上，而文字使用的是 Grilli Type – GT sectra，一种仿古的衬线字体，但与此同时某些棱角分明的元素看起来非常现代。通过这样的包装，他们希望把威士忌推出到女性和中性市场，扩大受众范围。
 
-<center><a data-fancybox="gallery" href="https://design-milk.com/images/2023/07/Taste-July23-Liquor-Pinhook-Bourbon-taste-work_shop.jpg"><img src="https://design-milk.com/images/2023/07/Taste-July23-Liquor-Pinhook-Bourbon-taste-work_shop.jpg"></a></center>
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_39_08-20230803003938_cae.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_39_08-20230803003938_cae.png"></a></center>
 
 <table><tr><td height=1px; bgcolor=#0000B9><center><font color=FFFFFF size="6"><b>影像与声音</b></center></td></tr></table>
 
@@ -231,7 +230,7 @@ FOUR GENERATIONS . 2023
 
 虽然去不了纽约，但可以看看纽约的展览嘛。
 
-<center><a data-fancybox="gallery" href="https://design-milk.com/images/2023/07/4NYCExhibitions-Doyle-Lane-David-Kordansky-01.jpg"><img src="https://design-milk.com/images/2023/07/4NYCExhibitions-Doyle-Lane-David-Kordansky-01.jpg"></a></center>
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_40_08-20230803004012_cf3.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_40_08-20230803004012_cf3.png"></a></center>
 <style>
 p.source {line-height:70%; font-size:1px; color:gray;}
 </style>
@@ -241,7 +240,7 @@ Doyle Lane 的 98 个陶瓷作品，非常可爱。
 
 Ann Veronica Janssens 通过对孔雀羽毛的成色机制进行研究，将一块带肋的玻璃放入水底，水面上有一层人造黑色色素，通过抽干水分，让色素聚集又撕裂，最后吸附于玻璃之上。
 
-<center><a data-fancybox="gallery" href="https://design-milk.com/images/2023/07/4NYCExhibitions-Ann-Veronica-Janssens-Bortolami-08.jpg"><img src="https://design-milk.com/images/2023/07/4NYCExhibitions-Ann-Veronica-Janssens-Bortolami-08.jpg"></a></center>
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_40_08-20230803004043_6af.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_40_08-20230803004043_6af.png"></a></center>
 <style>
 p.source {line-height:70%; font-size:1px; color:gray;}
 </style>
@@ -251,7 +250,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 
 Evian Wenyi Zhang 发展了一种她称为是 「image-tabulating system」的系统，代表她的注意力与被观察图像的关系。下面的「Backing Flour」的画表现了她看到一个消防员和一袋面粉时，注意力能看到的东西。会让人想到大卫霍克尼的摄影拼贴，尽管世界是连续的，但我们的观察是片面而分散的。
 
-<center><a data-fancybox="gallery" href="https://design-milk.com/images/2023/07/4NYCExhibitions-Evian-Wenyi-Zhang-12.jpg"><img src="https://design-milk.com/images/2023/07/4NYCExhibitions-Evian-Wenyi-Zhang-12.jpg"></a></center>
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_41_08-20230803004107_a87.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_41_08-20230803004107_a87.png"></a></center>
 
 <center><a data-fancybox="gallery" href="https://www.creativeboom.com/uploads/articles/81/81b7b9de601024fa853f11f862d4d2d6b9ce8681_1620.jpg"><img src="https://www.creativeboom.com/uploads/articles/81/81b7b9de601024fa853f11f862d4d2d6b9ce8681_1620.jpg"></a></center>
 <style>
@@ -263,7 +262,7 @@ David Hockney "Paint Trolley, L.A. 1985" Photographic collage 40 x 60” © Davi
 
 Harry Gould Harvey IV 是一名 1991 年出生的艺术家，他关注表现阴暗奇幻的中世纪故事，他的画框来自于废弃的教堂和住宅——为他的作品增添了一丝神秘性。两幅同样场景的绘画被并置在一起，如同寂静岭的表里世界，一边在摧毁，另一边在创造。艺术家同时对其他感官有所关注，展览也可以同时听到设计好的配音。
 
-<center><a data-fancybox="gallery" href="https://design-milk.com/images/2023/07/4NYCExhibitions-Harry-Gould-Harvey-IV-PPOW-18.jpg"><img src="https://design-milk.com/images/2023/07/4NYCExhibitions-Harry-Gould-Harvey-IV-PPOW-18.jpg"></a></center>
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_41_08-20230803004131_b43.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_41_08-20230803004131_b43.png"></a></center>
 <style>
 p.source {line-height:70%; font-size:1px; color:gray;}
 </style>
