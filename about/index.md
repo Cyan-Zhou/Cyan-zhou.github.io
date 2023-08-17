@@ -71,4 +71,4 @@ Ush Terek是索尔仁尼琴的小说《癌症楼》中，科斯托格洛托夫�
 
 <font color=B20600>2022.10.1 </font> | 修改 `head` 显示子标签页个数，修改文章目录显示
 
-<font color=B20600>2022.10.1 </font> | 将主题颜色从红色改为蓝色，增加  `terek` admonition 
+<font color=B20600>2023.8.1 </font> | 将主题颜色从红色改为蓝色，增加  `terek` admonition 

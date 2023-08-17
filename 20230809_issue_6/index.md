@@ -3,9 +3,9 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2023--July--26-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-5867-yellow?style=flat" >  <img src="https://img.shields.io/badge/10%20minutes-lightgray?style=flat" ></p>
+<p><img src="https://img.shields.io/badge/last%20modified-2023--Aug--09-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-6004-yellow?style=flat" >  <img src="https://img.shields.io/badge/10%20minutes-lightgray?style=flat" ></p>
 
-<table frame=void><tr><td height=1px; bgcolor=#FFFFFF><center><font color=e0e0ff size="6"><b>ARCHITECTURE</b><font color=0000B9 size="6"><b>ARCHITECTURE</b><font color=e0e0ff size="6"><b>ARCHITECTURE</b></center></td></tr></table>
+<table frame=void><tr><td height=1px; bgcolor: transparent><center><font color=e0e0ff size="6"><b>ARCHITECTURE</b><font color=0000B9 size="6"><b>ARCHITECTURE</b><font color=e0e0ff size="6"><b>ARCHITECTURE</b></center></td></tr></table>
 
 1. [**建筑业可能面临的超低碳排放未来**](https://www.architectural-review.com/essays/keynote/demolish-nothing-densifying-the-built-environment-through-accretion)
 
@@ -87,7 +87,7 @@ NL architects 在阿姆斯特丹城区设计的社会住宅项目，共 133 套�
 
 看到这个建筑，第一时间想到的词汇是「克制的表达」，周边环境美不胜收，通常的设计做法要让建筑拥有最棒的景观面和空间——换言之，建筑摇身一变成为空间的主角。然而，KKAA YTAA 采取了完全相反的做法，他们选择了最通用的造型和混凝土砌块来控制自己的自由度，最终设计出了一个克制的、灵活的住宅，少有地实现了建筑师的消隐。
 
-<table frame=void><tr><td height=1px; bgcolor=#FFFFFF><center><font color=e0e0ff size="6"><b>SIGNDESIGNDESIGN</b><font color=0000B9 size="6"><b>DESIGN</b><font color=e0e0ff size="6"><b>DESIGNDESIGNDESI</b></center></td></tr></table>
+<table frame=void><tr><td height=1px; bgcolor: transparent><center><font color=e0e0ff size="6"><b>SIGNDESIGNDESIGN</b><font color=0000B9 size="6"><b>DESIGN</b><font color=e0e0ff size="6"><b>DESIGNDESIGNDESI</b></center></td></tr></table>
 
 1. [**飞米推出 Manta 垂直起降固定翼无人机**](https://www.fimi.com/cn/fimi-manta.html)
 
@@ -150,7 +150,7 @@ Planck 配列键盘是一种直列键盘，也就是每行之间没有错位，�
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/07-23_20_08-20230807232022_b7f.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/07-23_20_08-20230807232022_b7f.png"></a></center>
 
 
-<table frame=void><tr><td height=1px; bgcolor=#FFFFFF><center><font color=e0e0ff size="6"><b>DVDCDDVDCDDVD</b><font color=0000B9 size="6"><b>DVD&CD</b><font color=e0e0ff size="6"><b>CDDVDCDDVDCDD</b></center></td></tr></table>
+<table frame=void><tr><td height=1px; bgcolor: transparent><center><font color=e0e0ff size="6"><b>DVDCDDVDCDDVD</b><font color=0000B9 size="6"><b>DVD&CD</b><font color=e0e0ff size="6"><b>CDDVDCDDVDCDD</b></center></td></tr></table>
 
 1. [**Obongjayar: Tiny Desk Concert**](https://www.youtube.com/watch?v=ILOnnEW2iRg&ab_channel=NPRMusic)
 
@@ -158,7 +158,7 @@ Obongjayar 是在伦敦发展的尼日利亚音乐人 Steven Umoh，他在尼日
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/10-00_00_08-20230810000058_17c.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/10-00_00_08-20230810000058_17c.png"></a></center>
 
-<table frame=void><tr><td height=1px; bgcolor=#FFFFFF><center><font color=e0e0ff size="6"><b>LEARTICLEARTICLE</b><font color=0000B9 size="6"><b>ARTICLE</b><font color=e0e0ff size="6"><b>ARTICLEARTICLEAR</b></center></td></tr></table>
+<table frame=void><tr><td height=1px; bgcolor: transparent><center><font color=e0e0ff size="6"><b>LEARTICLEARTICLE</b><font color=0000B9 size="6"><b>ARTICLE</b><font color=e0e0ff size="6"><b>ARTICLEARTICLEAR</b></center></td></tr></table>
 
 1. [**日本作家森村诚一去世，作品曾揭露731部队暴行**](https://cn.nytimes.com/obits/20230804/seiichi-morimura-dead/dual)
 
@@ -178,7 +178,7 @@ NYT 发布了日本作家森村诚一去世的纪念文章。森村诚一出生�
 
 一部由 Netflix 出品的韩国全女综艺《海妖的呼唤：火之岛生存战》取得了好评，由此把「全女综艺」这个词汇带到了大众视野，中国似乎一直有着选秀性的「全女综艺」的节目，但其实这背后是讨好占主导的女性观众，而不是节目组真的对女性主义有多么深刻的见解。必须坦率地承认，中国的主流综艺往往不具有什么立场性。
 
-<table frame=void><tr><td height=1px; bgcolor=#FFFFFF><center><font color=e0e0ff size="6"><b>TIONCOLLECTION</b><font color=0000B9 size="6"><b>COLLECTION</b><font color=e0e0ff size="6"><b>COLLECTIONCOLL</b></center></td></tr></table>
+<table frame=void><tr><td height=1px; bgcolor: transparent><center><font color=e0e0ff size="6"><b>TIONCOLLECTION</b><font color=0000B9 size="6"><b>COLLECTION</b><font color=e0e0ff size="6"><b>COLLECTIONCOLL</b></center></td></tr></table>
 
 1. [**为 LoveIt 主题添加更多视频分享 shortcodes**](https://blog.233so.com/2020/04/hugo-loveit-with-more-video-share-shortcodes-supported/)
 
@@ -246,7 +246,7 @@ Pretty Polly是一款 AI 口语机器人，帮助你学习外语。如果学语�
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/08-23_30_08-20230808233044_335.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/08-23_30_08-20230808233044_335.png"></a></center>
 
-<table frame=void><tr><td height=1px; bgcolor=#FFFFFF><center><font color=e0e0ff size="6"><b>OOKSBOOKSBOOKS</b><font color=0000B9 size="6"><b>BOOKS</b><font color=e0e0ff size="6"><b>BOOKSBOOKSBOOK</b></center></td></tr></table>
+<table frame=void><tr><td height=1px; bgcolor: transparent><center><font color=e0e0ff size="6"><b>OOKSBOOKSBOOKS</b><font color=0000B9 size="6"><b>BOOKS</b><font color=e0e0ff size="6"><b>BOOKSBOOKSBOOK</b></center></td></tr></table>
 
 1. [**A Moving Border: Alpine Cartographies of Climate Change**](https://www.arch.columbia.edu/books/catalog/369-a-moving-border-alpine-cartographies-of-climate-change)
 

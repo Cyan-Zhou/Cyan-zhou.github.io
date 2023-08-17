@@ -168,6 +168,12 @@ hugo server -w -e production -DF
 
 <a data-fancybox="gallery" href="/first_post/favicon.png"><img src="/first_post/favicon.png"></a>
 
+`2023 Aug 13 更新`
+
+本周收到了一封来自 virginia lameda 的邮件，发现了一小段神奇的互联网故事。Virginia 似乎在 7 月给我发送过一封邮件，内容是我的这篇文章中推荐的 favicon generator 还有更好的替代工具。但当时我并没有收到这封邮件，于是，这周她又给我发了一封提醒邮件，我很惊喜于博客并没有开放给互联网搜索，却也能被其他地方的用户看到，也很开心能和读者一起共创博客。Virginia 推荐的 [WebsitePlanet](https://www.websiteplanet.com/zh-hans/webtools/favicon-generator/) 可以接受 5 MB 以下的图片输入。
+
+<a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/13-00_45_08-20230813004517_994.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/13-00_45_08-20230813004517_994.png"></a>
+
 #### admonition用法
 
 一共12个样式，用起来很方便，这里用到了 `shortcodes` 的扩展
@@ -230,6 +236,14 @@ type = example
 
 {{<admonition quote "Quote" true >}}
 type = quote
+{{< /admonition >}}
+
+` 2023 Aug 1 更新`
+
+修改了博客主题颜色，并且增加了一款 admonition 类型
+
+{{<admonition terek "Terek" true >}}
+type = terek
 {{< /admonition >}}
 
 #### 设置评论区
