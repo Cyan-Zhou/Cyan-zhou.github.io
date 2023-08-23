@@ -141,7 +141,7 @@ Black Midi 不愧是近年来最好的乐队，这场疫情期间为 KEXP 准备
 
 <table><tr><td height=1px; bgcolor=#0000B9><center><font color=FFFFFF size="6"><b>文&nbsp;&nbsp;章</b></center></td></tr></table>
 
-1. [**Oltre Terra - 一篇有关羊毛提取和生产的展览的访谈**](https://kill-the-newsletter.com/alternates/uwl46xaau3m04nme.html)
+1. [**Oltre Terra - 一篇有关羊毛提取和生产的展览的访谈**](https://www.koozarch.com/author/formafantasma-hanne-eide-emanuele-coccia)
 
 这篇很有趣的访谈来自于 KoozArch 对 Formafantasma 工作室的采访。Oltre Terra 是 Formafantasma 工作室在奥斯陆国家博物馆赞助下关注羊毛提取和生产的历史、生态和全球化的调查展览。Formafantasma 一开始做了一种非常有趣的、针对展陈本身的思考。他们发现博物馆的展陈逻辑基于的是对叙事的结果或者物品的展示，很少能看到与自然环境直接相关的物体。要看到真正来自自然的物品——就去自然博物馆吧。但是，自然博物馆的展陈又有什么问题呢？自然博物馆是一种「diorama - 西洋镜」的策展思路，人们透过玻璃看到被创造的自然和动物，人类驯养的动物从来不是自然博物馆的主角，因为与人类的密切关联，它们从自然中被开除出去了。
 
@@ -151,7 +151,7 @@ Black Midi 不愧是近年来最好的乐队，这场疫情期间为 KEXP 准备
 
 {{< /admonition >}}
 
-<center><a data-fancybox="gallery" href="https://mcusercontent.com/baef522dad01b3ba4e9032add/_compresseds/0c9b5953-5362-8e02-3f57-951bf241e30c.jpg"><img src="https://mcusercontent.com/baef522dad01b3ba4e9032add/_compresseds/0c9b5953-5362-8e02-3f57-951bf241e30c.jpg"></a><body></center>
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/19-00_22_08-20230819002241_ec4.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/19-00_22_08-20230819002241_ec4.png"></a><body></center>
 <style>
 p.source {line-height:70%; font-size:1px; color:gray;}
 </style>
