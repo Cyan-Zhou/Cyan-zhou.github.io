@@ -3,9 +3,17 @@
         <title>Ush Terek</title>
         <link>https://Cyan-zhou.github.io/</link>
         <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 17 Aug 2023 21:46:00 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 22 Aug 2023 23:14:00 &#43;0800</lastBuildDate>
             <atom:link href="https://Cyan-zhou.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>乌什-捷列克周刊 [Issue_9] 真實的人在各種社會力量的糾葛中生活 </title>
+    <link>https://Cyan-zhou.github.io/20230822_issue_9/</link>
+    <pubDate>Tue, 22 Aug 2023 23:14:00 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>https://Cyan-zhou.github.io/20230822_issue_9/</guid>
+    <description><![CDATA[「在场」的评选词作为本期标题，希望各位读者能在压力之中寻找到生活的缝隙。]]></description>
+</item>
+<item>
     <title>乌什-捷列克周刊 [Issue_8] 下一份工作就做货郎吧 </title>
     <link>https://Cyan-zhou.github.io/20230817_issue_8/</link>
     <pubDate>Thu, 17 Aug 2023 21:46:00 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>Cyan Zhou</author>
     <guid>https://Cyan-zhou.github.io/20230528-recap/</guid>
     <description><![CDATA[2023年过了一半，那些发生了的，和将要发生的事情。]]></description>
-</item>
-<item>
-    <title>2022年过去了，我很怀念它。</title>
-    <link>https://Cyan-zhou.github.io/20230130-2022review/</link>
-    <pubDate>Mon, 30 Jan 2023 21:43:11 &#43;0800</pubDate>
-    <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20230130-2022review/</guid>
-    <description><![CDATA[一段让人惊惧的路程过去了，走在路上的人回望，没找到一地鸡毛，反而重拾了一些希望。]]></description>
 </item>
 </channel>
 </rss>
