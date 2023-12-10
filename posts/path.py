@@ -2,7 +2,9 @@ import pyperclip
 import re
 
 while True:
-    url = input("请输入含有图片链接的文本(输入'q'结束程序)：")
+    longline = input("请输入含有图片链接的文本(输入'q'结束程序)：")
+    match = re.search(r'!\[image\.png\]\((.*?)\)', longline)
+    url = match.group(1) if match else None
     
     if url == 'q':
         break
@@ -11,3 +13,4 @@ while True:
         print(output)
         pyperclip.copy(output)
         print("输出已复制到剪贴板")
+
