@@ -13,7 +13,7 @@
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/05-14_43_08-20230805144332_675.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/05-14_43_08-20230805144332_675.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Black & White Building
@@ -33,7 +33,7 @@ Black & White Building
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/05-15_11_08-20230805151112_c09.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/05-15_11_08-20230805151112_c09.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Lacaton & Vassal 在波尔多建设的扩建项目增加了住宅面积，也不用搬出。他们的口号是 ‘never demolish, never remove or replace, always add, transform and reuse’.
@@ -105,7 +105,7 @@ SWNA 设计的 Dancing Grid 是一个模块化的厨房系统，包括六种 3D 
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/05-15_32_08-20230805153252_db4.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/05-15_32_08-20230805153252_db4.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 利用瓷砖不同方向的阴影创造出不同的光影。

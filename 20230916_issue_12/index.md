@@ -39,7 +39,7 @@ Luigi Moretti 是我非常喜欢的建筑师，他的作品有着意大利的优
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/09/17-22_55_09-20230917225556_3b7.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/09/17-22_55_09-20230917225556_3b7.png"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Villa Adriana
@@ -47,7 +47,7 @@ Villa Adriana
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/09/17-22_56_09-20230917225617_83d.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/09/17-22_56_09-20230917225617_83d.png"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 梵蒂冈圣彼得大教堂
@@ -55,7 +55,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/09/17-22_56_09-20230917225622_aac.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/09/17-22_56_09-20230917225622_aac.png"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Spazio naturale, disegno di L.F.Cassas, inciso da Leveè, 1802
@@ -63,7 +63,7 @@ Spazio naturale, disegno di L.F.Cassas, inciso da Leveè, 1802
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/09/17-23_09_09-20230917230938_9de.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/09/17-23_09_09-20230917230938_9de.png"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 里斯本 S. Maria della Divina Provvidenza 教堂
@@ -71,7 +71,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/09/17-23_09_09-20230917230948_1c8.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/09/17-23_09_09-20230917230948_1c8.png"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Guarino Guarini,  la chiesa di S.Filippo Neri in Casale Monferrato 
@@ -79,7 +79,7 @@ Guarino Guarini,  la chiesa di S.Filippo Neri in Casale Monferrato
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/09/17-23_05_09-20230917230532_e68.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/09/17-23_05_09-20230917230532_e68.png" width="800"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Luigi Moretti - Corso Italia Complex, Milan 1956
@@ -105,7 +105,7 @@ Morris Adjmi 是一名建筑师，他曾经和 Aldo Rossi 共事过 13 年。Des
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/09/17-23_36_09-20230917233633_8a6.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/09/17-23_36_09-20230917233633_8a6.png"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Shaker Design

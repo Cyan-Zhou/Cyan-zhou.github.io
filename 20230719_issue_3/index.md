@@ -26,7 +26,7 @@ Irénée Scarbert y 6a architects - Intervention. Never Modern.
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/16-00_24_07-20230716002438_03c.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/16-00_24_07-20230716002438_03c.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 农舍的原貌
@@ -87,7 +87,7 @@ displeasing some people is what Le Quément likes doing best. 非常有个性。
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/16-00_34_07-20230716003454_a05.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/16-00_34_07-20230716003454_a05.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 第一代雷诺 Twingo 的 frog's eye 设计
@@ -95,7 +95,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/16-00_44_07-20230716004411_4a9.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/16-00_44_07-20230716004411_4a9.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 为了纪念 Twingo 30 周年而推出的 Twingo 电动概念车。
@@ -113,7 +113,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/16-01_41_07-20230716014152_980.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/16-01_41_07-20230716014152_980.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Heisenberg Objekt No. VI – Cortez, 2021, Resin, Nike Cortez 1985, Acrylic Rods
@@ -137,7 +137,7 @@ Heisenberg Objekt No. VI – Cortez, 2021, Resin, Nike Cortez 1985, Acrylic Rods
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/16-02_04_07-20230716020429_56c.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/16-02_04_07-20230716020429_56c.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 深洋红色 Ruby Star，历史可以追溯到1991年，在保时捷911、928和944车型上都能看到。</p></center>

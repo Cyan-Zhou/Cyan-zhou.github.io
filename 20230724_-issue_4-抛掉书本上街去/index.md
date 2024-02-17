@@ -14,7 +14,7 @@
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/20-23_22_07-20230720232229_dc0.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/20-23_22_07-20230720232229_dc0.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 改造后的牛棚
@@ -24,7 +24,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/20-23_22_07-20230720232252_45a.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/20-23_22_07-20230720232252_45a.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 农场的变化对比图
@@ -216,7 +216,7 @@ Git 是我在使用博客时总会使用到命令，命令的顺序早都烂熟�
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/22-19_21_07-20230722192137_451.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/22-19_21_07-20230722192137_451.png"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 source: https://www.instagram.com/p/B3E1fFSh8is/
@@ -224,7 +224,7 @@ source: https://www.instagram.com/p/B3E1fFSh8is/
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/22-19_19_07-20230722191929_7bc.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/07/22-19_19_07-20230722191929_7bc.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 source: https://www.instagram.com/p/CMcLyElgEvt/

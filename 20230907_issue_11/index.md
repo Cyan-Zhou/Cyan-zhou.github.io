@@ -23,7 +23,7 @@
 
 <center><a data-fancybox="gallery" href="https://afasiaarchzine.com/wp-content/uploads/2023/09/Sou-Fujimoto-.-2025-expo-ring-roof-.-osaka-afasia-9.jpg"><img src="https://afasiaarchzine.com/wp-content/uploads/2023/09/Sou-Fujimoto-.-2025-expo-ring-roof-.-osaka-afasia-9.jpg"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 正在建造的圆形结构
@@ -31,7 +31,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/09/10-15_24_09-20230910152406_924.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/09/10-15_24_09-20230910152406_924.png"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 1970 年的大版世博会全景

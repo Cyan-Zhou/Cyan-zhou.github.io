@@ -25,7 +25,7 @@ lacaton & vassal 在根特完成的规划和建筑设计竞赛，竞赛题目是
 
 <center><a data-fancybox="gallery" href="https://afasiaarchzine.com/wp-content/uploads/2023/03/Lacaton-Vassal-.-renovation-of-icc-and-masterplan-of-the-floralien-hall-.-ghent-AFASIA-20.jpg"><img src="https://afasiaarchzine.com/wp-content/uploads/2023/03/Lacaton-Vassal-.-renovation-of-icc-and-masterplan-of-the-floralien-hall-.-ghent-AFASIA-20.jpg"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 比较喜欢这张 diagram，大体表现了设计发力的几个方面
@@ -124,7 +124,7 @@ Wadada Leo Smith 于 1941 年出生于美国密西西比，1967 年他成为 AAC
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/17-21_58_08-20230817215838_cb4.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/17-21_58_08-20230817215838_cb4.png" width="1000"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Wadada Leo Smith, ‘Vision, from Kosmic Music, n.d..’ One of four parts matted together, 32 in. × 15 3/4 in (81.2 cm × 40 cm). | Image courtesy of the artist and Corbett vs Dempsey, Chicago.
@@ -182,7 +182,7 @@ Wadada Leo Smith, ‘Vision, from Kosmic Music, n.d..’ One of four parts matte
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/15-23_31_08-20230815233149_f39.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/15-23_31_08-20230815233149_f39.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 100PoisonMpts 标注专家们的工作界面
@@ -196,7 +196,7 @@ Youtuber bored_tech 去伦敦 science museum 的后台记录了 IMAX 胶片的�
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/09-00_13_08-20230809001332_055.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/09-00_13_08-20230809001332_055.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 专门用来拼接 70mm 胶卷的仪器
@@ -204,7 +204,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/09-00_16_08-20230809001655_1b2.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/09-00_16_08-20230809001655_1b2.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 每个胶卷开头的标记，GADGET 是《奥本海默》的代号。
@@ -222,7 +222,7 @@ Callan Bentley 的地质文章和视频我已经分享很多遍了，他是 Pied
 
 {{< youtube PX1oeTRHNYM >}}
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 cooling column, the brazil nut effect, basalt bed 的实地讲解
@@ -292,7 +292,7 @@ The idea of reciprocal relationships implies repair, new agreements, and languag
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/15-23_05_08-20230815230514_392.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/15-23_05_08-20230815230514_392.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 刚果正在经历的 deforestation mapping

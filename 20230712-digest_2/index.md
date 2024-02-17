@@ -260,7 +260,7 @@ Space Popular 认真思考了VR可能带给建筑的改变，进而发现了门�
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-13-5642.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-13-5642.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 © Vitra Design Museum
@@ -272,7 +272,7 @@ V&A East 仓库将于 2025 年开放，该仓库将位于伦敦奥林匹克公�
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-13-5819.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-13-5819.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 The Cabinet 是香港 M+ 的机械化存储系统，灵感来自 Moderna Museet prototype。在开放时间，面板每两小时随机洗牌一次。“参观者不知道哪件作品会脱颖而出，” M+ 的首席解读和学习策展人 Keri Ryan 说。

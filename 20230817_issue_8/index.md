@@ -58,7 +58,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 
 <center><a data-fancybox="gallery" href="https://afasiaarchzine.com/wp-content/uploads/2023/03/Herzog-de-Meuron-.-570-Bridge-Porto-.-Porto-afasia-16.jpg"><img src="https://afasiaarchzine.com/wp-content/uploads/2023/03/Herzog-de-Meuron-.-570-Bridge-Porto-.-Porto-afasia-16.jpg"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 结构内应力的表达
@@ -110,7 +110,7 @@ Jen Samson 是加州的室内设计公司 Jen Samson Design 的创始人兼首�
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-21_41_08-20230820214123_dcf.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-21_41_08-20230820214123_dcf.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Marfa Stance 的绗缝夹克
@@ -118,7 +118,7 @@ Marfa Stance 的绗缝夹克
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-21_45_08-20230820214516_d69.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-21_45_08-20230820214516_d69.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Rhea Luna Lava Vessel
@@ -138,7 +138,7 @@ Rhea Luna Lava Vessel
 渥美清曾经和货郎学习叫卖的语言和动态，因为他的叫卖有着强大的感染力，寅次郎才被设定为一名流浪日本的货郎。
  <video width="800"  controls> <source src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/2023-08-23%2022-11-02.mp4" type="video/mp4"></video>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 寅次郎的故事. EP6. 纯情篇
@@ -154,7 +154,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 
 {{< bilibili BV1zt4y1N7a3 >}} 
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 bass cover by BennyTheBassman
@@ -176,7 +176,7 @@ bass cover by BennyTheBassman
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-16_09_08-20230820160914_d4e.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-16_09_08-20230820160914_d4e.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 （非负）矩阵及其图
@@ -186,7 +186,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-16_17_08-20230820161759_5b8.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-16_17_08-20230820161759_5b8.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 用矩阵表达 2 个强关联的组件组成的图
@@ -198,7 +198,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-16_20_08-20230820162028_6f0.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-16_20_08-20230820162028_6f0.png"></a><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-16_21_08-20230820162101_ffb.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-16_21_08-20230820162101_ffb.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 图的分解
@@ -206,7 +206,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-16_21_08-20230820162128_b94.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-16_21_08-20230820162128_b94.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 分解后形成的矩阵
@@ -216,7 +216,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-16_23_08-20230820162327_e2a.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-16_23_08-20230820162327_e2a.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Frobenius 定理（也就是保持图的结构不变，可以一直优化矩阵直到 Frobenius 范式的方式）
@@ -240,7 +240,7 @@ token 的 comsume 方法类似于 pop 函数，返回一个 token 的同时删�
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-23_15_08-20230820231548_1a2.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/20-23_15_08-20230820231548_1a2.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Apple Watch 中的 S1 芯片

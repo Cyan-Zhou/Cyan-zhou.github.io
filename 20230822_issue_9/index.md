@@ -41,7 +41,7 @@ eduardo souto de moura 设计了一个嵌在山体内的酒庄， 提供观察�
 
 <center><a data-fancybox="gallery" href="https://afasiaarchzine.com/wp-content/uploads/2023/05/Souto-de-Moura-.-Portela-.-Casa-Sarmento-Winery-.-Cantanhede-Luis-Ferreira-Alves-afasia-30.jpg"><img src="https://afasiaarchzine.com/wp-content/uploads/2023/05/Souto-de-Moura-.-Portela-.-Casa-Sarmento-Winery-.-Cantanhede-Luis-Ferreira-Alves-afasia-30.jpg"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 山体内的平面图
@@ -107,7 +107,7 @@ TEd'A 参加比利时 Herentals 的竞赛第一名作品，建筑师设计了一
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/29-22_55_08-20230829225549_cfd.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/29-22_55_08-20230829225549_cfd.png"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 很喜欢这一组用微缩模型展示牌面设计的场景
@@ -211,7 +211,7 @@ Arc 招募的团队异常强大，这也得益于大家对品牌理念的认可�
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/27-23_16_08-20230827231629_d6a.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/27-23_16_08-20230827231629_d6a.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 看到模型的亲戚们争论院子里当年种的是什么花，还讨论是否要在院子里放一个祖父的塑像

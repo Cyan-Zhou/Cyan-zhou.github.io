@@ -152,7 +152,7 @@ Teenage Engineering 是一家我非常喜欢的公司，他们的产品设计语
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-01-0703.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-01-0703.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <body>
 <p class="source">
@@ -161,7 +161,7 @@ Black Hole, 2014, Buenos Aires \\\ Photo: Jan Kalab Studio
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-01-0907.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-01-0907.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <body>
 <p class="source">
@@ -249,7 +249,7 @@ Casa Naila 的住宅由 BAA'Q Architects 设计，为与会者提供了一个画
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-02-0321.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-02-0321.png" ></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Yayoi Kusama, I Spend Each Day Embracing Flowers, 2023 
@@ -269,7 +269,7 @@ Thannal （在南印度语马拉雅拉姆语中意为“阴影”）是一个成
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-11-4414.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-11-4414.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 平坦的泥屋顶的构造，Karingota 叶子充当了蒸汽屏障。
@@ -277,7 +277,7 @@ p.source {line-height:70%; font-size:1px; color:gray;}
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-11-5051.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/obsidian/2023/07/T-06-11-5051.png" width="800"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 另一种使用土壤的技术是土袋结构，其中黄麻袋充满潮湿的泥土，彼此堆叠并用手搅拌压缩 - 由于黄麻袋会随着时间的推移而降解，因此墙壁必须抹灰

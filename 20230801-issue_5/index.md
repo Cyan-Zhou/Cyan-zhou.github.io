@@ -88,7 +88,7 @@ BMW Art Cars collection 是 1975 年发起的邀请艺术家参与到车身装�
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_36_08-20230803003636_b67.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_36_08-20230803003636_b67.png"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 David Hockney’s 1995 14th edition BMW Art Car \\\ Photo: Enes Kucevic
@@ -96,7 +96,7 @@ David Hockney’s 1995 14th edition BMW Art Car \\\ Photo: Enes Kucevic
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_36_08-20230803003658_68d.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_36_08-20230803003658_68d.png"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Andy Warhol’s 1979 4th edition of the BMW Art Car
@@ -104,7 +104,7 @@ Andy Warhol’s 1979 4th edition of the BMW Art Car
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_37_08-20230803003719_449.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_37_08-20230803003719_449.png"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Olafur Eliasson 为 2007 年 16th BMW Art Car 设计的疯狂车辆
@@ -153,7 +153,7 @@ Black Midi 不愧是近年来最好的乐队，这场疫情期间为 KEXP 准备
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/19-00_22_08-20230819002241_ec4.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/19-00_22_08-20230819002241_ec4.png"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 "Oltre Terra. Why Wool Matters", exhibition by Formafantasma, curated by Hanne Eide.
@@ -220,7 +220,7 @@ Natia Lemay 的童年生活在多伦多摇摇欲坠的房屋和充满毒品的�
 
 <center><a data-fancybox="gallery" href="https://afasiaarchzine.com/wp-content/uploads/2023/07/04-Natia-Lemay-.-FOUR-GENERATIONS-.-2023-1000x1024.jpg"><img src="https://afasiaarchzine.com/wp-content/uploads/2023/07/04-Natia-Lemay-.-FOUR-GENERATIONS-.-2023-1000x1024.jpg"></a><body></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 FOUR GENERATIONS . 2023
@@ -232,7 +232,7 @@ FOUR GENERATIONS . 2023
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_40_08-20230803004012_cf3.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_40_08-20230803004012_cf3.png"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Doyle Lane 的 98 个陶瓷作品，非常可爱。
@@ -242,7 +242,7 @@ Ann Veronica Janssens 通过对孔雀羽毛的成色机制进行研究，将一�
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_40_08-20230803004043_6af.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_40_08-20230803004043_6af.png"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 29.04.23 #2, 2023 (detail) by Ann Veronica Janssens 
@@ -254,7 +254,7 @@ Evian Wenyi Zhang 发展了一种她称为是 「image-tabulating system」的�
 
 <center><a data-fancybox="gallery" href="https://www.creativeboom.com/uploads/articles/81/81b7b9de601024fa853f11f862d4d2d6b9ce8681_1620.jpg"><img src="https://www.creativeboom.com/uploads/articles/81/81b7b9de601024fa853f11f862d4d2d6b9ce8681_1620.jpg"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 David Hockney "Paint Trolley, L.A. 1985" Photographic collage 40 x 60” © David Hockney Photo Credit: Richard Schmidt
@@ -264,7 +264,7 @@ Harry Gould Harvey IV 是一名 1991 年出生的艺术家，他关注表现阴�
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_41_08-20230803004131_b43.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2023/08/03-00_41_08-20230803004131_b43.png"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Harry Gould Harvey IV, “Presupposition Of Saint Anne, 2023” Courtesy of Harry Gould Harvey IV and P·P·O·W, New York
@@ -287,7 +287,7 @@ Harry Gould Harvey IV, “Presupposition Of Saint Anne, 2023” Courtesy of Harr
 <center class="half"><a data-fancybox="gallery" href="https://blogs.agu.org/mountainbeltway/files/2023/07/ffgnp2.jpg"><img src="https://blogs.agu.org/mountainbeltway/files/2023/07/ffgnp2.jpg" height="290"></a> <a data-fancybox="gallery" href="https://blogs.agu.org/mountainbeltway/files/2023/07/ffgnp1.jpg
 "><img src="https://blogs.agu.org/mountainbeltway/files/2023/07/ffgnp1.jpg" height="290"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 False anticline: almost uniformly dipping strata of the Empire Formation
@@ -296,7 +296,7 @@ False anticline: almost uniformly dipping strata of the Empire Formation
 <center class="half"><a data-fancybox="gallery" href="https://blogs.agu.org/mountainbeltway/files/2023/07/ffgnp3.jpg"><img src="https://blogs.agu.org/mountainbeltway/files/2023/07/ffgnp3.jpg" height="290"></a> <a data-fancybox="gallery" href="https://blogs.agu.org/mountainbeltway/files/2023/07/ffgnp4.jpg
 "><img src="https://blogs.agu.org/mountainbeltway/files/2023/07/ffgnp4.jpg" height="290"></a></center>
 <style>
-p.source {line-height:70%; font-size:1px; color:gray;}
+p.source {line-height:70%; font-size:0.5vw; color:gray;}
 </style>
 <p class="source">
 Actual anticline: bisected by a valley between Rising Wolf Mountain (left/west) and Spot Mountain (right/east)
