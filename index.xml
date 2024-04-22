@@ -3,9 +3,17 @@
         <title>Ush Terek</title>
         <link>https://Cyan-zhou.github.io/</link>
         <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 17 Feb 2024 22:53:00 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 22 Apr 2024 23:25:10 &#43;0800</lastBuildDate>
             <atom:link href="https://Cyan-zhou.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>- 物尽其用 - 关于两则佛学语录</title>
+    <link>https://Cyan-zhou.github.io/20240422-2stories/</link>
+    <pubDate>Mon, 22 Apr 2024 23:25:10 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>https://Cyan-zhou.github.io/20240422-2stories/</guid>
+    <description><![CDATA[Null]]></description>
+</item>
+<item>
     <title>- 物尽其用 issue 01- 新年快乐 </title>
     <link>https://Cyan-zhou.github.io/20240217-%E7%89%A9%E5%B0%BD%E5%85%B6%E7%94%A8issue_1/</link>
     <pubDate>Sat, 17 Feb 2024 22:53:00 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>Cyan Zhou</author>
     <guid>https://Cyan-zhou.github.io/20230809_issue_6/</guid>
     <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>乌什-捷列克周刊 [Issue_5] 写作是一种自我怀疑的方式 </title>
-    <link>https://Cyan-zhou.github.io/20230801-issue_5/</link>
-    <pubDate>Wed, 26 Jul 2023 22:05:00 &#43;0800</pubDate>
-    <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20230801-issue_5/</guid>
-    <description><![CDATA[本周世界发生多起重大变化，一些人描绘着一种美好的未来，另一些人面前是洪水退去的一片狼藉。]]></description>
 </item>
 </channel>
 </rss>
