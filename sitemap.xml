@@ -3,6 +3,7 @@
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
             <loc>https://Cyan-zhou.github.io/about/</loc><lastmod>2022-06-01T21:18:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+<<<<<<< HEAD
             <loc>https://Cyan-zhou.github.io/categories/</loc><lastmod>2024-06-22T22:13:08&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://Cyan-zhou.github.io/tags/cs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc><lastmod>2024-06-22T22:13:08&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://Cyan-zhou.github.io/posts/</loc><lastmod>2024-06-22T22:13:08&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
@@ -13,6 +14,15 @@
             <loc>https://Cyan-zhou.github.io/20240422-2stories/</loc><lastmod>2024-04-22T23:25:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://Cyan-zhou.github.io/tags/%E7%89%A9%E5%B0%BD%E5%85%B6%E7%94%A8/</loc><lastmod>2024-04-22T23:25:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://Cyan-zhou.github.io/categories/%E7%89%A9%E5%B0%BD%E5%85%B6%E7%94%A8/</loc><lastmod>2024-04-22T23:25:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+=======
+            <loc>https://Cyan-zhou.github.io/20240422-2stories/</loc><lastmod>2024-04-22T23:25:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://Cyan-zhou.github.io/categories/</loc><lastmod>2024-04-22T23:25:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://Cyan-zhou.github.io/posts/</loc><lastmod>2024-04-22T23:25:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://Cyan-zhou.github.io/tags/</loc><lastmod>2024-04-22T23:25:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://Cyan-zhou.github.io/</loc><lastmod>2024-04-22T23:25:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://Cyan-zhou.github.io/tags/%E7%89%A9%E5%B0%BD%E5%85%B6%E7%94%A8/</loc><lastmod>2024-04-22T23:25:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://Cyan-zhou.github.io/categories/%E7%89%A9%E5%B0%BD%E5%85%B6%E7%94%A8/</loc><lastmod>2024-04-22T23:25:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+>>>>>>> d7dd8c44c4f6b9ff2112a5c68c9226a590c1935b
             <loc>https://Cyan-zhou.github.io/20240217-%E7%89%A9%E5%B0%BD%E5%85%B6%E7%94%A8issue_1/</loc><lastmod>2024-02-17T23:04:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://Cyan-zhou.github.io/tags/weekly_digest/</loc><lastmod>2024-02-17T23:04:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://Cyan-zhou.github.io/categories/weekly_digest/</loc><lastmod>2024-02-17T23:04:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
