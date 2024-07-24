@@ -3,7 +3,15 @@
         <title>All Posts - Ush Terek</title>
         <link>https://Cyan-zhou.github.io/posts/</link>
         <description>All Posts | Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 22 Jun 2024 22:13:08 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 23 Jul 2024 23:32:15 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>物尽其用 | 铝型材 DIY 第一期</title>
+    <link>https://Cyan-zhou.github.io/20240723-aluminum/</link>
+    <pubDate>Tue, 23 Jul 2024 23:32:15 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>https://Cyan-zhou.github.io/20240723-aluminum/</guid>
+    <description><![CDATA[Null]]></description>
+</item>
+<item>
     <title>记 NAS 文件迁移</title>
     <link>https://Cyan-zhou.github.io/20240622-%E8%AE%B0nas%E8%BF%81%E7%A7%BB/</link>
     <pubDate>Sat, 22 Jun 2024 22:13:08 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>Cyan Zhou</author>
     <guid>https://Cyan-zhou.github.io/20230817_issue_8/</guid>
     <description><![CDATA[本周天气开始转凉，经济继续下行。]]></description>
-</item>
-<item>
-    <title>乌什-捷列克周刊 [Issue_7] 任何一种叙事都是危险的</title>
-    <link>https://Cyan-zhou.github.io/20230810_issue_7/</link>
-    <pubDate>Wed, 09 Aug 2023 00:01:00 &#43;0800</pubDate>
-    <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20230810_issue_7/</guid>
-    <description><![CDATA[最近一周身体抱恙，推迟一天更新。免疫力很重要，越是不安的时代，越要让自己变得强大，精神和身体上都是的。]]></description>
 </item>
 </channel>
 </rss>
