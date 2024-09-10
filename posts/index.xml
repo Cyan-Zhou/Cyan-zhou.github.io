@@ -3,13 +3,21 @@
         <title>All Posts - Ush Terek</title>
         <link>https://Cyan-zhou.github.io/posts/</link>
         <description>All Posts | Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 23 Jul 2024 23:32:15 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 10 Sep 2024 23:30:42 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>渔具，也关于海洋和人</title>
+    <link>https://Cyan-zhou.github.io/%E6%B8%94%E5%85%B7%E5%88%97%E4%BC%A0/</link>
+    <pubDate>Tue, 10 Sep 2024 23:30:42 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>https://Cyan-zhou.github.io/%E6%B8%94%E5%85%B7%E5%88%97%E4%BC%A0/</guid>
+    <description><![CDATA[真理是被创造的，而不是被发现的。渔具如同语汇，在语汇的构建之下，语言就自然浮现了。因此编织出的半岛渔事，也就有了真实性。]]></description>
+</item>
+<item>
     <title>物尽其用 | 铝型材 DIY 第一期</title>
     <link>https://Cyan-zhou.github.io/20240723-aluminum/</link>
     <pubDate>Tue, 23 Jul 2024 23:32:15 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
     <guid>https://Cyan-zhou.github.io/20240723-aluminum/</guid>
-    <description><![CDATA[Null]]></description>
+    <description><![CDATA[第一次做铝型材的设计，很有趣，在这里分享一些经验。]]></description>
 </item>
 <item>
     <title>记 NAS 文件迁移</title>
@@ -74,14 +82,6 @@
     <author>Cyan Zhou</author>
     <guid>https://Cyan-zhou.github.io/20230822_issue_9/</guid>
     <description><![CDATA[「在场」的评选词作为本期标题，希望各位读者能在压力之中寻找到生活的缝隙。]]></description>
-</item>
-<item>
-    <title>乌什-捷列克周刊 [Issue_8] 下一份工作就做货郎吧 </title>
-    <link>https://Cyan-zhou.github.io/20230817_issue_8/</link>
-    <pubDate>Thu, 17 Aug 2023 21:46:00 &#43;0800</pubDate>
-    <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20230817_issue_8/</guid>
-    <description><![CDATA[本周天气开始转凉，经济继续下行。]]></description>
 </item>
 </channel>
 </rss>
