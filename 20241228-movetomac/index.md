@@ -3,7 +3,7 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2022--0--0-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-00-yellow?style=flat" >  <img src="https://img.shields.io/badge/00%20minutes-lightgray?style=flat" ></p>
+<p><img src="https://img.shields.io/badge/last%20modified-2024--12--29-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-1760-yellow?style=flat" >  <img src="https://img.shields.io/badge/6%20minutes-lightgray?style=flat" ></p>
 
 最近新添置了 Mac Mini 替换服役了 7 年的 windows 主机，除了文件和软件搬运外，一直拖着没有解决的问题就是博客的配置。恰好最近和 ChatGPT 的协作越来越深入，在博客配置上，我预测 GPT 可以帮我解决不少博客配置上我不了解的问题。所以博客搬运就在和 GPT 的协作对话中开始了。
 
@@ -64,6 +64,8 @@ this is source
 <center><a data-fancybox="gallery" href="$url"><img src="$url" width="1000"></a> <style> p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;} p.source {line-height:100%; font-size:13px; color:gray;} </style> <p class="title"> this is title </p> <p class="source"> this is source </p> </center>
 ```
 
+最后实现的步骤是：截图到剪贴板以后，需要用picgo快捷键上传到图床，然后自动返回需要的链接模版到剪贴板。其实这个步骤比起之前在obsidian还是复杂了一些，obsidian有自动的image auto upload plugin插件，可以实现不需要快捷键上传图床的操作，当然这也是因为我之前用obsidian主要只用于博客，所以不太会在其他界面黏贴图片。
+
 ## 在visual studio实现实时预览
 
 在 Visual studio上偶然发现有一款插件 Front Matter，似乎是静态网站必用的神器。在marketplace下载安装 FM 以后，就会看到vs code出现FM的logo。进行一些基本配置以后（重点是选择content文件夹，以及选择hugo或者你使用的静态服务），FM主要有2个作用：
@@ -83,4 +85,70 @@ vs code 中实时渲染的效果
 </p>
 </center>
 
+# 最后一步 let's push
 
+push 到仓库这一步，还需要配置 github 的SSH 公钥访问。
+
+当我发出`git push origin master `的指令后，返回的结果是 
+
+```
+The authenticity of host 'github.com(20.205.243.166)' can't be established.
+ED25519 key fingerprint is SHA256:********. 
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+```
+
+这里需要理解下SSH是什么。把 GitHub理解成一个城堡，仓库里储存了你的代码，那么城堡的大门一定有守卫确认取用代码的人是安全的，这个守卫就是 [SSH]^(Secure Shell) ，那么要证明身份，就要用到 SSH Key。
+
+* 私钥：Private Key，你在电脑上保管的钥匙
+
+* 公钥：Public Key，守卫认识的钥匙。
+
+这套要是是无法复制的，所以即使你不用用户名和密码，城堡依然知道是你。这样以来，向你的仓库推送数据，也不需要你的
+
+这个报错的原因是我的系统并没有和GitHub通过SSH连通过，所以它问我这个是否可信任。首先确认这个SHA256 的fingerprint是否和GitHub官方的 `ED25519 fingerprint：SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU` 一致，如果一致的话，可以回答yes继续。此时我收到的新的弹出是
+
+``` 
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+ssh_dispatch_run_fatal: Connection to 20.205.243.166 port 22: Operation timed out
+致命错误：无法读取远程仓库。
+
+请确认您有正确的访问权限并且仓库存在。
+```
+原因其实就是系统不能通过SSH链接GitHub。此时输入
+
+``` bash
+ssh -T git@github.com
+```
+命令行的回复是有permission error，这证明的确是链接的问题。下面开始解决问题：
+
+``` bash
+ls ~/.ssh/id_*
+```
+
+如果没有key的话，生成一个
+
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+就用默认路径 “~/.ssh/id_ed25519” 以及跳过 passphrase。
+
+```
+# 把生成的 key 添加到 SSH 中
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+
+# 再复制你的公钥
+cat ~/.ssh/id_ed25519.pub
+```
+去 GitHub [SSH key 设置](https://github.com/settings/keys)中添加SSH key。此时再进行测试应该就会发现连接问题得到了解决。
+```
+ssh -T git@github.com
+
+# 确认url
+git remote -v
+
+# 如果是 git@github.com: your repository 那么就说明可以连接到你的仓库了
+```
+到这一步，基本上问题就都得到了解决。

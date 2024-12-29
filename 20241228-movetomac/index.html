@@ -32,7 +32,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/Cyan-zhou.github.io\/20241228-movetomac\/"
-        },"genre": "posts","keywords": "Blog","wordcount":  208 ,
+        },"genre": "posts","keywords": "Blog","wordcount":  373 ,
         "url": "https:\/\/Cyan-zhou.github.io\/20241228-movetomac\/","datePublished": "2024-12-29T10:38:42+00:00","dateModified": "2024-12-28T13:04:01+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -151,7 +151,7 @@
     <li><a href="#在visual-studio实现实时预览">在visual studio实现实时预览</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><p><img src="https://img.shields.io/badge/last%20modified-2022--0--0-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-00-yellow?style=flat" >  <img src="https://img.shields.io/badge/00%20minutes-lightgray?style=flat" ></p>
+            </div><div class="content" id="content"><p><img src="https://img.shields.io/badge/last%20modified-2024--12--29-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-1760-yellow?style=flat" >  <img src="https://img.shields.io/badge/6%20minutes-lightgray?style=flat" ></p>
 <p>最近新添置了 Mac Mini 替换服役了 7 年的 windows 主机，除了文件和软件搬运外，一直拖着没有解决的问题就是博客的配置。恰好最近和 ChatGPT 的协作越来越深入，在博客配置上，我预测 GPT 可以帮我解决不少博客配置上我不了解的问题。所以博客搬运就在和 GPT 的协作对话中开始了。</p>
 <h2 id="基本软件下载">基本软件下载</h2>
 <p>首先要搞定的是 hugo、git 的配置问题，mac 平台上要下载 homebrew ，然后安装 hugo</p>
@@ -237,7 +237,8 @@
 </span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">center</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">data-fancybox</span><span class="o">=</span><span class="s">&#34;gallery&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;$url&#34;</span><span class="p">&gt;&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;$url&#34;</span> <span class="na">width</span><span class="o">=</span><span class="s">&#34;1000&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span> <span class="nt">p</span><span class="p">.</span><span class="nc">title</span> <span class="p">{</span><span class="k">line-height</span><span class="p">:</span><span class="mi">100</span><span class="kt">%</span><span class="p">;</span> <span class="k">font-size</span><span class="p">:</span><span class="mi">15</span><span class="kt">px</span><span class="p">;</span> <span class="k">color</span><span class="p">:</span><span class="kc">black</span><span class="p">;</span> <span class="k">font-weight</span><span class="p">:</span><span class="kc">bold</span><span class="p">;}</span> <span class="nt">p</span><span class="p">.</span><span class="nc">source</span> <span class="p">{</span><span class="k">line-height</span><span class="p">:</span><span class="mi">100</span><span class="kt">%</span><span class="p">;</span> <span class="k">font-size</span><span class="p">:</span><span class="mi">13</span><span class="kt">px</span><span class="p">;</span> <span class="k">color</span><span class="p">:</span><span class="kc">gray</span><span class="p">;}</span> <span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;title&#34;</span><span class="p">&gt;</span> this is title <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;source&#34;</span><span class="p">&gt;</span> this is source <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span> <span class="p">&lt;/</span><span class="nt">center</span><span class="p">&gt;</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="在visual-studio实现实时预览">在visual studio实现实时预览</h2>
+</div><p>最后实现的步骤是：截图到剪贴板以后，需要用picgo快捷键上传到图床，然后自动返回需要的链接模版到剪贴板。其实这个步骤比起之前在obsidian还是复杂了一些，obsidian有自动的image auto upload plugin插件，可以实现不需要快捷键上传图床的操作，当然这也是因为我之前用obsidian主要只用于博客，所以不太会在其他界面黏贴图片。</p>
+<h2 id="在visual-studio实现实时预览">在visual studio实现实时预览</h2>
 <p>在 Visual studio上偶然发现有一款插件 Front Matter，似乎是静态网站必用的神器。在marketplace下载安装 FM 以后，就会看到vs code出现FM的logo。进行一些基本配置以后（重点是选择content文件夹，以及选择hugo或者你使用的静态服务），FM主要有2个作用：</p>
 <ul>
 <li>可视化界面配置front matter，实现tag管理，以及易懂的界面</li>
@@ -251,7 +252,117 @@ p.source {line-height:100%; font-size:13px; color:gray;}
 <p class="source">
 vs code 中实时渲染的效果
 </p>
-</center></div><div class="post-footer" id="post-footer">
+</center>
+<h1 id="最后一步-lets-push">最后一步 let&rsquo;s push</h1>
+<p>push 到仓库这一步，还需要配置 github 的SSH 公钥访问。</p>
+<p>当我发出<code>git push origin master </code>的指令后，返回的结果是</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">The authenticity of host &#39;github.com(20.205.243.166)&#39; can&#39;t be established.
+</span></span><span class="line"><span class="cl">ED25519 key fingerprint is SHA256:********. 
+</span></span><span class="line"><span class="cl">This key is not known by any other names.
+</span></span><span class="line"><span class="cl">Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这里需要理解下SSH是什么。把 GitHub理解成一个城堡，仓库里储存了你的代码，那么城堡的大门一定有守卫确认取用代码的人是安全的，这个守卫就是 <strong><ruby>SSH<rt>Secure Shell</rt></ruby></strong> ，那么要证明身份，就要用到 SSH Key。</p>
+<ul>
+<li>
+<p>私钥：Private Key，你在电脑上保管的钥匙</p>
+</li>
+<li>
+<p>公钥：Public Key，守卫认识的钥匙。</p>
+</li>
+</ul>
+<p>这套要是是无法复制的，所以即使你不用用户名和密码，城堡依然知道是你。这样以来，向你的仓库推送数据，也不需要你的</p>
+<p>这个报错的原因是我的系统并没有和GitHub通过SSH连通过，所以它问我这个是否可信任。首先确认这个SHA256 的fingerprint是否和GitHub官方的 <code>ED25519 fingerprint：SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU</code> 一致，如果一致的话，可以回答yes继续。此时我收到的新的弹出是</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Warning: Permanently added &#39;github.com&#39; (ED25519) to the list of known hosts.
+</span></span><span class="line"><span class="cl">ssh_dispatch_run_fatal: Connection to 20.205.243.166 port 22: Operation timed out
+</span></span><span class="line"><span class="cl">致命错误：无法读取远程仓库。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">请确认您有正确的访问权限并且仓库存在。
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>原因其实就是系统不能通过SSH链接GitHub。此时输入</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh -T git@github.com
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>命令行的回复是有permission error，这证明的确是链接的问题。下面开始解决问题：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ls ~/.ssh/id_*
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果没有key的话，生成一个</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh-keygen -t ed25519 -C &#34;your_email@example.com&#34;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>就用默认路径 “~/.ssh/id_ed25519” 以及跳过 passphrase。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 把生成的 key 添加到 SSH 中
+</span></span><span class="line"><span class="cl">eval &#34;$(ssh-agent -s)&#34;
+</span></span><span class="line"><span class="cl">ssh-add ~/.ssh/id_ed25519
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 再复制你的公钥
+</span></span><span class="line"><span class="cl">cat ~/.ssh/id_ed25519.pub
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>去 GitHub <a href="https://github.com/settings/keys" target="_blank" rel="noopener noreffer">SSH key 设置</a>中添加SSH key。此时再进行测试应该就会发现连接问题得到了解决。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh -T git@github.com
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 确认url
+</span></span><span class="line"><span class="cl">git remote -v
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 如果是 git@github.com: your repository 那么就说明可以连接到你的仓库了
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>到这一步，基本上问题就都得到了解决。</p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
