@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "E:/HugoWebsite/cyan_blog",
+	"sourceRoot": "/Users/cyanzhou/Desktop/cyan_blog",
 	"sources": [
 		"assets/css/style.scss",
 		"assets/lib/normalize/normalize.css",

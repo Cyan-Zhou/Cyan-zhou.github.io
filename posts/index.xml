@@ -3,7 +3,15 @@
         <title>All Posts - Ush Terek</title>
         <link>https://Cyan-zhou.github.io/posts/</link>
         <description>All Posts | Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 10 Sep 2024 23:30:42 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 29 Dec 2024 10:38:42 &#43;0000</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>博客环境搬运 Mac 笔记</title>
+    <link>https://Cyan-zhou.github.io/20241228-movetomac/</link>
+    <pubDate>Sun, 29 Dec 2024 10:38:42 &#43;0000</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>https://Cyan-zhou.github.io/20241228-movetomac/</guid>
+    <description><![CDATA[最近新添置了 Mac Mini 替换服役了 7 年的 windows 主机，一直拖着没有解决的问题就是博客的配置。恰好最近和 ChatGPT 的协作越来越深入，所以搬运就在和 GPT 的协作对话中开始了。]]></description>
+</item>
+<item>
     <title>渔具，也关于海洋和人</title>
     <link>https://Cyan-zhou.github.io/%E6%B8%94%E5%85%B7%E5%88%97%E4%BC%A0/</link>
     <pubDate>Tue, 10 Sep 2024 23:30:42 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>Cyan Zhou</author>
     <guid>https://Cyan-zhou.github.io/20230831_issue_10/</guid>
     <description><![CDATA[第 10 期周刊匆忙到来，时间过得真是快极了]]></description>
-</item>
-<item>
-    <title>乌什-捷列克周刊 [Issue_9] 真實的人在各種社會力量的糾葛中生活 </title>
-    <link>https://Cyan-zhou.github.io/20230822_issue_9/</link>
-    <pubDate>Tue, 22 Aug 2023 23:14:00 &#43;0800</pubDate>
-    <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20230822_issue_9/</guid>
-    <description><![CDATA[「在场」的评选词作为本期标题，希望各位读者能在压力之中寻找到生活的缝隙。]]></description>
 </item>
 </channel>
 </rss>
