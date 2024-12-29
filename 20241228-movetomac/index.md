@@ -151,4 +151,25 @@ git remote -v
 
 # 如果是 git@github.com: your repository 那么就说明可以连接到你的仓库了
 ```
+此时，如果commit的话，还可能会收到
+
+```
+Committer: ******default_name****** <******default_email******>
+您的姓名和邮件地址基于登录名和主机名进行了自动设置。请检查它们正确
+与否。您可以对其进行设置以免再出现本提示信息：
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+
+设置完毕后，您可以用下面的命令来修正本次提交所使用的用户身份：
+git commit --amend --reset-author
+```
+按照这里设置你想要的用户名和邮箱地址，amend 以后，会进入到一个新的界面，这里其实是 vim 编辑器的页面，此时你看到的是当前提交的说明如 20241230-1 ，默认情况下，这时是只读模式，按下`i`键进入编辑模式，此时会显示 `-- INSERT --`，编辑你需要的提交说明。完成编辑后，按 `ESC` 键退出编辑模式，输入 `:wq` 回车保存并退出
+
+* `:w` 表示保存 
+
+* `:q` 表示退出
+
+
 到这一步，基本上问题就都得到了解决。
+
+
