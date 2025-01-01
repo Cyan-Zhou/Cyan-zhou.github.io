@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>博客目录页面优化记录 - Ush Terek</title><meta name="Description" content="趁新年假期，在GPT的协助下修改博客目录页面长期存在的bug。"><meta property="og:url" content="https://Cyan-zhou.github.io/20250101-postpageedit/">
+  <meta property="og:site_name" content="Ush Terek">
+  <meta property="og:title" content="博客目录页面优化记录">
+  <meta property="og:description" content="趁新年假期，在GPT的协助下修改博客目录页面长期存在的bug。">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-01-01T18:13:57+08:00">
+    <meta property="article:modified_time" content="2025-01-01T15:18:55+00:00">
+    <meta property="article:tag" content="CS学习笔记">
+    <meta property="article:tag" content="Blog">
+    <meta property="og:image" content="https://Cyan-zhou.github.io/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://Cyan-zhou.github.io/logo.png">
+  <meta name="twitter:title" content="博客目录页面优化记录">
+  <meta name="twitter:description" content="趁新年假期，在GPT的协助下修改博客目录页面长期存在的bug。">
+<meta name="application-name" content="Cyan Zhou">
+<meta name="apple-mobile-web-app-title" content="Cyan Zhou"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Cyan-zhou.github.io/20250101-postpageedit/" /><link rel="prev" href="https://Cyan-zhou.github.io/20241228-movetomac/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><link rel="stylesheet" href="https://Cyan-zhou.github.io/css/flexbox.min.738cdc51066c4ebd63589d238b836b873d65e7ca36ad6b323fcbf869efc9736b.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "博客目录页面优化记录",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/Cyan-zhou.github.io\/20250101-postpageedit\/"
+        },"genre": "posts","keywords": "CS学习笔记, Blog","wordcount":  325 ,
+        "url": "https:\/\/Cyan-zhou.github.io\/20250101-postpageedit\/","datePublished": "2025-01-01T18:13:57+08:00","dateModified": "2025-01-01T15:18:55+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Cyan Zhou"
+            },"description": "趁新年假期，在GPT的协助下修改博客目录页面长期存在的bug。"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Ush Terek"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/avocado128.png"
+        data-srcset="/images/avocado128.png, /images/avocado128.png 1.5x, /images/avocado128.png 2x"
+        data-sizes="auto"
+        alt="/images/avocado128.png"
+        title="/images/avocado128.png" />Ush Terek</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/about/" title="关于"> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Ush Terek"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/avocado128.png"
+        data-srcset="/images/avocado128.png, /images/avocado128.png 1.5x, /images/avocado128.png 2x"
+        data-sizes="auto"
+        alt="/images/avocado128.png"
+        title="/images/avocado128.png" />Ush Terek</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/about/" title="关于">关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX" >
+            
+            博客目录页面优化记录
+        </h1><h2 class="single-subtitle">优化原有的目录页面</h2><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-category">included in <a href="/categories/blog/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Blog</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-01-01">2025-01-01</time>&nbsp;
+                
+    
+
+    
+        
+
+        
+        
+            <span id="busuanzi_container_value_page_pv"><i class="far fa-eye fa-fw"></i>
+                
+                <span id="busuanzi_value_page_pv"></span>&nbsp;views</span>
+        
+    
+
+</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#文件1创建flexboxcss">文件1：创建flexbox.css</a></li>
+        <li><a href="#文件2-修改-linkhtml">文件2: 修改 link.html</a>
+          <ul>
+            <li><a href="#head-部分的作用">head 部分的作用</a></li>
+            <li><a href="#为什么单独用一个文件来管理样式表">为什么单独用一个文件来管理样式表？</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p><img src="https://img.shields.io/badge/last%20modified-2025--1--1-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-403-yellow?style=flat" >  <img src="https://img.shields.io/badge/02%20minutes-lightgray?style=flat" ></p>
+<p>趁新年假期，在GPT的协助下修改博客目录页面长期存在的bug。</p>
+<p>2年前配置博客的时候，当时在网页查询各种教程的辅助下，胡乱调整代码，把目录页按照自己想要的风格做了一些代码上的修改（具体修改处已经记不清了），但是一直存在很多bug。</p>
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2025/01/01-18_20_01-202501011820231_dcf.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2025/01/01-18_20_01-202501011820231_dcf.png" width="1000"></a> <style> p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;} p.source {line-height:100%; font-size:13px; color:gray;} </style> <p class="title"> 这就是之前的界面，很明显排版上有很多问题 </p> <p class="source">  </p> </center>
+<p>一直想系统学习前端知识，搞明白整个博客的架构，然后再做更好的修改。但是一方面没有时间，另一方面系统学习对个人的时间和精力要求太高，目的仅仅是博客管理的情况下，确实难度太高。现在有了GPT的协助，我可以让GPT告诉我博客里某个文件的功能是什么，它的代码应该怎么理解，很大程度上减轻了学习的负担，而且目的性更强。在和GPT的讨论下，我完成了界面的优化修改。</p>
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2025/01/01-23_09_01-202501012309006_cab.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2025/01/01-23_09_01-202501012309006_cab.png" width="1000"></a> <style> p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;} p.source {line-height:100%; font-size:13px; color:gray;} </style> <p class="title"> 我和GPT的沟通 </p> <p class="source"> GPT-4o </p> </center>
+<center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2025/01/01-22_32_01-202501012232000_75f.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2025/01/01-22_32_01-202501012232000_75f.png" width="1000"></a> <style> p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;} p.source {line-height:100%; font-size:13px; color:gray;} </style> <p class="title"> 修改后的结果 </p> <p class="source"> </p> </center>
+<p>具体来说，一共需要修改3个文件</p>
+<h3 id="文件1创建flexboxcss">文件1：创建flexbox.css</h3>
+<p>在 /assets 文件夹中新建一个css文件 flexbox.css</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">/* Flexbox 样式：标题左对齐，换行，日期右对齐 */</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">archive-item</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">display</span><span class="p">:</span> <span class="kc">flex</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">justify-content</span><span class="p">:</span> <span class="kc">space-between</span><span class="p">;</span> <span class="c">/* 水平两端对齐 */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">align-items</span><span class="p">:</span> <span class="kc">flex-start</span> <span class="cp">!important</span><span class="p">;</span> <span class="c">/* 子元素顶部对齐 */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">gap</span><span class="p">:</span> <span class="mi">10</span><span class="kt">px</span><span class="p">;</span> <span class="c">/* 标题和日期之间的间距 */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">margin-bottom</span><span class="p">:</span> <span class="mi">15</span><span class="kt">px</span><span class="p">;</span> <span class="c">/* 不同标题之间的间距 */</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">archive-item-link</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">flex</span><span class="p">:</span> <span class="mi">1</span><span class="p">;</span><span class="c">/* 标题占据剩余空间 */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">word-break</span><span class="p">:</span> <span class="kc">break-word</span><span class="p">;</span> <span class="c">/* 长单词换行 */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">text-align</span><span class="p">:</span> <span class="kc">left</span><span class="p">;</span> <span class="c">/* 确保标题左对齐 */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">white-space</span><span class="p">:</span> <span class="kc">normal</span><span class="p">;</span> <span class="c">/* 标题允许换行 */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">line-height</span><span class="p">:</span> <span class="mf">1.2</span><span class="p">;</span> <span class="c">/* 设置行高，适当紧凑 */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">margin-right</span><span class="p">:</span> <span class="mi">10</span><span class="kt">px</span><span class="p">;</span> <span class="c">/* 与日期保持间距 */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">overflow</span><span class="p">:</span> <span class="kc">visible</span><span class="p">;</span> <span class="c">/* 移除溢出隐藏 */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">text-overflow</span><span class="p">:</span> <span class="kc">clip</span><span class="p">;</span> <span class="c">/* 不使用省略号 */</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">archive-item-date</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">flex-shrink</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span> <span class="c">/* 防止日期被压缩 */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">text-align</span><span class="p">:</span> <span class="kc">left</span><span class="p">;</span> <span class="c">/* 在有限范围内左对齐 */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">min-width</span><span class="p">:</span> <span class="mi">40</span><span class="kt">px</span><span class="p">;</span> <span class="c">/* 固定宽度 */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">margin-left</span><span class="p">:</span> <span class="mi">10</span><span class="kt">px</span><span class="p">;</span> <span class="c">/* 日期与标题之间保持一定距离 */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">align-self</span><span class="p">:</span> <span class="kc">flex-start</span><span class="p">;</span> <span class="c">/* 让日期单独顶部对齐 */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">font-feature-settings</span><span class="p">:</span> <span class="s2">&#34;tnum&#34;</span><span class="p">;</span> <span class="c">/* 确保字体支持等宽数字 */</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">/* 移动端适配 */</span>
+</span></span><span class="line"><span class="cl"><span class="p">@</span><span class="k">media</span> <span class="o">(</span><span class="nt">max-width</span><span class="o">:</span> <span class="nt">768px</span><span class="o">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nc">archive-item</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">flex-direction</span><span class="p">:</span> <span class="kc">column</span><span class="p">;</span> <span class="c">/* 垂直布局 */</span>
+</span></span><span class="line"><span class="cl">        <span class="k">align-items</span><span class="p">:</span> <span class="kc">flex-start</span><span class="p">;</span> <span class="c">/* 子元素左对齐 */</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nc">archive-item-date</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">text-align</span><span class="p">:</span> <span class="kc">left</span><span class="p">;</span> <span class="c">/* 日期左对齐 */</span>
+</span></span><span class="line"><span class="cl">        <span class="k">margin-top</span><span class="p">:</span> <span class="mi">10</span><span class="kt">px</span><span class="p">;</span> <span class="c">/* 增加标题和日期的垂直间距 */</span>
+</span></span><span class="line"><span class="cl">        <span class="k">align-self</span><span class="p">:</span> <span class="kc">flex-start</span><span class="p">;</span> <span class="c">/* 确保在小屏幕上仍然顶部对齐 */</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>css文件是为了更好统一管理渲染的样式，通过这个文件，定义每个模块的显示效果</p>
+<ul>
+<li>
+<p><code>.archive-item</code> 文章整体页面的格式</p>
+</li>
+<li>
+<p><code>.archive-item-link</code> 文章链接的格式</p>
+</li>
+<li>
+<p><code>.archive-item-date</code> 日期部分的格式</p>
+</li>
+<li>
+<p><code>@media</code> 移动端的配置</p>
+</li>
+</ul>
+<ol>
+<li>PC端</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">+----------------------------------------+
+</span></span><span class="line"><span class="cl">|  标题标题标题标题标题标题标题标题标题  |
+</span></span><span class="line"><span class="cl">|                                  日期  |
+</span></span><span class="line"><span class="cl">+----------------------------------------+
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>移动端</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">+----------------------------------------+
+</span></span><span class="line"><span class="cl">|  标题标题标题标题标题标题标题标题标题  |
+</span></span><span class="line"><span class="cl">|  日期                                   |
+</span></span><span class="line"><span class="cl">+----------------------------------------+
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="文件2-修改-linkhtml">文件2: 修改 link.html</h3>
+<p>在/layouts/partials/head/link.html 文件中需要增加以下的代码，用于把<code>flexbox.css</code> 添加到整个文档系统中</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">{{- /* flexbox.CSS */ -}}
+</span></span><span class="line"><span class="cl">{{- $customCSS := resources.Get &#34;css/flexbox.css&#34; | resources.Minify | resources.Fingerprint }}
+</span></span><span class="line"><span class="cl">{{- partial &#34;plugin/style.html&#34; (dict &#34;Source&#34; $customCSS.Permalink &#34;Fingerprint&#34; $fingerprint &#34;Preload&#34; false) -}}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>resources.Get</code>：加载 scss/theme.scss 文件。</p>
+<p><code>resources.ToCSS</code>：将 SCSS 文件编译为 CSS。</p>
+<p><code>resources.Minify</code>：压缩 CSS 文件。</p>
+<p><code>resources.Fingerprint</code>：为文件生成指纹（版本号）。</p>
+<p>在 Hugo 框架中，<code>layouts/partials/head/link.html</code> 通常负责管理网站的 <code>&lt;head&gt;</code> 部分，包括样式表（CSS）的加载、外部资源的引入以及其他元数据设置。</p>
+<h4 id="head-部分的作用">head 部分的作用</h4>
+<p><code>&lt;head&gt;</code> 是 HTML 页面结构的一部分：
+它位于 <code>&lt;html&gt;</code> 标签内，用来定义页面的元信息和加载资源。
+<code>&lt;head&gt; </code>的内容在页面加载时会被浏览器优先处理。
+主要功能：
+定义页面标题（<code>&lt;title&gt;</code>）。
+加载样式表（<code>&lt;link&gt;</code>）。
+引入脚本文件（<code>&lt;script&gt;</code>）。
+设置元数据（<code>&lt;meta&gt;</code>），如描述、关键字、视口设置等。</p>
+<h4 id="为什么单独用一个文件来管理样式表">为什么单独用一个文件来管理样式表？</h4>
+<p>模块化设计，Hugo 模板文件通过 partials 将功能拆分成独立的模块（如 link.html 专管样式表）。这样便于维护和扩展，避免所有代码堆积在一个大文件中。</p>
+<p>复用性，link.html 可以在整个站点中被多个页面调用，例如首页、文章列表页、单篇文章页等。通过修改一个文件即可全局更新样式表加载逻辑。</p>
+<p>动态加载，link.html 可以结合 Hugo Pipes 动态加载和处理 CSS 文件，例如：</p>
+<ul>
+<li>
+<p>压缩 CSS 文件。</p>
+</li>
+<li>
+<p>生成唯一指纹（版本号），防止缓存问题。</p>
+</li>
+<li>
+<p>按需加载不同的样式文件。</p>
+</li>
+</ul></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2025-01-01</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/20250101-postpageedit/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Cyan-zhou.github.io/20250101-postpageedit/" data-title="博客目录页面优化记录" data-hashtags="CS学习笔记,Blog"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Cyan-zhou.github.io/20250101-postpageedit/" data-hashtag="CS学习笔记"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://Cyan-zhou.github.io/20250101-postpageedit/" data-title="博客目录页面优化记录"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://Cyan-zhou.github.io/20250101-postpageedit/" data-title="博客目录页面优化记录"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://Cyan-zhou.github.io/20250101-postpageedit/" data-title="博客目录页面优化记录"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/cs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">CS学习笔记</a>,&nbsp;<a href="/tags/blog/">Blog</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"></div>
+</div>
+<div id="comments"><div id="giscus" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://giscus.app">Giscus</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.140.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>
+    
+        
+        <script async src=" //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js "></script>
+    
+
+    
+        
+            <section>
+                
+                    <span id="busuanzi_container_value_site_pv"><i class="far fa-eye fa-fw"></i>
+                        
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+
+                
+                    &nbsp;|&nbsp;              
+                
+
+                
+                    <span id="busuanzi_container_value_site_uv"><i class="fa fa-user"></i>
+                        
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+            </section>
+        
+
+        
+        
+    
+
+</div>
+        </div>
+    </footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+</div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/contrib/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":30},"comment":{"giscus":{"category":"Announcements","categoryId":"DIC_kwDOHY8H884CPRSQ","darkTheme":"dark","emitMetadata":"0","inputPosition":"top","lang":"en","lazyLoading":false,"lightTheme":"light","mapping":"pathname","reactionsEnabled":"1","repo":"Cyan-Zhou/blog_comment","repoId":"R_kgDOHY8H8w"}},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-JJSCM686L4', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-JJSCM686L4" async></script></body>
+</html>
