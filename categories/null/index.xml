@@ -3,12 +3,20 @@
         <title>Null - Category - Ush Terek</title>
         <link>http://localhost:1313/categories/null/</link>
         <description>Null - Category - Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Feb 2025 23:53:19 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/categories/null/" rel="self" type="application/rss+xml" /><item>
-    <title>Let&#39;s talk about GEB</title>
-    <link>http://localhost:1313/20250201-geb/</link>
-    <pubDate>Sat, 01 Feb 2025 23:53:19 &#43;0800</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 11 May 2025 22:34:55 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/categories/null/" rel="self" type="application/rss+xml" /><item>
+    <title>20250511 Pork</title>
+    <link>http://localhost:1313/20250511-pork/</link>
+    <pubDate>Sun, 11 May 2025 22:34:55 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>http://localhost:1313/20250201-geb/</guid>
+    <guid>http://localhost:1313/20250511-pork/</guid>
+    <description><![CDATA[Null]]></description>
+</item>
+<item>
+    <title>20250330 Reading 策略思维</title>
+    <link>http://localhost:1313/20250330-reading-%E7%AD%96%E7%95%A5%E6%80%9D%E7%BB%B4/</link>
+    <pubDate>Sun, 30 Mar 2025 00:24:54 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>http://localhost:1313/20250330-reading-%E7%AD%96%E7%95%A5%E6%80%9D%E7%BB%B4/</guid>
     <description><![CDATA[Null]]></description>
 </item>
 <item>

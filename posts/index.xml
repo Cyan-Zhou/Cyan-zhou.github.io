@@ -3,7 +3,15 @@
         <title>All Posts - Ush Terek</title>
         <link>https://Cyan-zhou.github.io/posts/</link>
         <description>All Posts | Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Feb 2025 23:53:19 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 11 May 2025 22:34:55 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>青椒土豆炖排骨</title>
+    <link>https://Cyan-zhou.github.io/20250511-pork/</link>
+    <pubDate>Sun, 11 May 2025 22:34:55 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>https://Cyan-zhou.github.io/20250511-pork/</guid>
+    <description><![CDATA[今天在家招待两位朋友，一起在家和成都的朋友们开读书会，做了这份土豆青椒排骨，记录一下菜谱。后续还有改进空间]]></description>
+</item>
+<item>
     <title>Let&#39;s talk about GEB</title>
     <link>https://Cyan-zhou.github.io/20250201-geb/</link>
     <pubDate>Sat, 01 Feb 2025 23:53:19 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>Cyan Zhou</author>
     <guid>https://Cyan-zhou.github.io/20231030-issue_13/</guid>
     <description><![CDATA[好久不见，这次简单直接了许多]]></description>
-</item>
-<item>
-    <title>乌什-捷列克周刊 [Issue_12] 实践一种「反同温层」的生存哲学 </title>
-    <link>https://Cyan-zhou.github.io/20230916_issue_12/</link>
-    <pubDate>Sat, 16 Sep 2023 22:47:00 &#43;0800</pubDate>
-    <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20230916_issue_12/</guid>
-    <description><![CDATA[最近一直在思考一个概念——「同温层」。在城市中生活工作的我们，太容易陷入一种生活的「同温层」，与我们交谈的人都是听得懂我们的人。人们在身边划下许多鸿沟，不了解身边的社会和世界。]]></description>
 </item>
 </channel>
 </rss>
