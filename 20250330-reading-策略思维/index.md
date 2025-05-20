@@ -7,6 +7,10 @@
 
 
 
+
+
+
+
 <center><a data-fancybox="gallery" href="/folder/pic.png"><img src="/folder/pic.png" width="100"></a>
 <style>
 p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;}
