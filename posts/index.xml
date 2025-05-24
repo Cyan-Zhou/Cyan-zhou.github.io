@@ -3,7 +3,15 @@
         <title>All Posts - Ush Terek</title>
         <link>https://Cyan-zhou.github.io/posts/</link>
         <description>All Posts | Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 May 2025 10:04:13 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 May 2025 10:15:13 &#43;0000</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Shortcode的几点应用</title>
+    <link>https://Cyan-zhou.github.io/20250524-shortcodeplayground/</link>
+    <pubDate>Sat, 24 May 2025 10:15:13 &#43;0000</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>https://Cyan-zhou.github.io/20250524-shortcodeplayground/</guid>
+    <description><![CDATA[用shortcode功能减轻博客书写的负担]]></description>
+</item>
+<item>
     <title>从一副货郎图到南宋的恋物癖</title>
     <link>https://Cyan-zhou.github.io/20250524-%E8%B4%A7%E9%83%8E%E5%9B%BE/</link>
     <pubDate>Sat, 24 May 2025 08:49:59 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>Cyan Zhou</author>
     <guid>https://Cyan-zhou.github.io/20240622-%E8%AE%B0nas%E8%BF%81%E7%A7%BB/</guid>
     <description><![CDATA[最近买入了群晖的 NAS，这周末又和网络斗智斗勇，记录下一些过程。]]></description>
-</item>
-<item>
-    <title>- 物尽其用 - 关于两则佛学语录</title>
-    <link>https://Cyan-zhou.github.io/20240422-2stories/</link>
-    <pubDate>Mon, 22 Apr 2024 23:25:10 &#43;0800</pubDate>
-    <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20240422-2stories/</guid>
-    <description><![CDATA[Null]]></description>
 </item>
 </channel>
 </rss>
