@@ -1,38 +1,38 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Blog - Tag - Ush Terek</title>
-        <link>https://Cyan-zhou.github.io/tags/blog/</link>
-        <description>Blog - Tag - Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 May 2025 10:15:13 &#43;0000</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/tags/blog/" rel="self" type="application/rss+xml" /><item>
+        <title>Blog - tag - </title>
+        <link>/tags/blog/</link>
+        <description>Blog - tag - </description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 May 2025 10:15:13 &#43;0000</lastBuildDate><atom:link href="/tags/blog/" rel="self" type="application/rss+xml" /><item>
     <title>Shortcode的几点应用</title>
-    <link>https://Cyan-zhou.github.io/20250524-shortcodeplayground/</link>
+    <link>/20250524-shortcodeplayground/</link>
     <pubDate>Sat, 24 May 2025 10:15:13 &#43;0000</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20250524-shortcodeplayground/</guid>
+    <guid>/20250524-shortcodeplayground/</guid>
     <description><![CDATA[用shortcode功能减轻博客书写的负担]]></description>
 </item>
 <item>
     <title>博客目录页面优化记录</title>
-    <link>https://Cyan-zhou.github.io/20250101-postpageedit/</link>
+    <link>/20250101-postpageedit/</link>
     <pubDate>Wed, 01 Jan 2025 18:13:57 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20250101-postpageedit/</guid>
+    <guid>/20250101-postpageedit/</guid>
     <description><![CDATA[趁新年假期，在GPT的协助下修改博客目录页面长期存在的bug。]]></description>
 </item>
 <item>
     <title>博客环境搬运 Mac 笔记</title>
-    <link>https://Cyan-zhou.github.io/20241228-movetomac/</link>
+    <link>/20241228-movetomac/</link>
     <pubDate>Sun, 29 Dec 2024 17:09:26 &#43;0000</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20241228-movetomac/</guid>
+    <guid>/20241228-movetomac/</guid>
     <description><![CDATA[最近新添置了 Mac Mini 替换服役了 7 年的 windows 主机，一直拖着没有解决的问题就是博客的配置。恰好最近和 ChatGPT 的协作越来越深入，所以搬运就在和 GPT 的协作对话中开始了。]]></description>
 </item>
 <item>
     <title> Hugo &#43; GitHub Pages 搭建博客备忘录</title>
-    <link>https://Cyan-zhou.github.io/first-post/</link>
+    <link>/first-post/</link>
     <pubDate>Sat, 21 May 2022 21:21:18 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/first-post/</guid>
+    <guid>/first-post/</guid>
     <description><![CDATA[汇总了一些操作过程中遇到的问题，另外记录一些常用操作免得忘记]]></description>
 </item>
 </channel>

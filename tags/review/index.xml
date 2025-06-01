@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Review - Tag - Ush Terek</title>
-        <link>https://Cyan-zhou.github.io/tags/review/</link>
-        <description>Review - Tag - Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 30 Jan 2023 21:43:11 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/tags/review/" rel="self" type="application/rss+xml" /><item>
+        <title>Review - tag - </title>
+        <link>/tags/review/</link>
+        <description>Review - tag - </description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 30 Jan 2023 21:43:11 &#43;0800</lastBuildDate><atom:link href="/tags/review/" rel="self" type="application/rss+xml" /><item>
     <title>2022年过去了，我很怀念它。</title>
-    <link>https://Cyan-zhou.github.io/20230130-2022review/</link>
+    <link>/20230130-2022review/</link>
     <pubDate>Mon, 30 Jan 2023 21:43:11 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20230130-2022review/</guid>
+    <guid>/20230130-2022review/</guid>
     <description><![CDATA[一段让人惊惧的路程过去了，走在路上的人回望，没找到一地鸡毛，反而重拾了一些希望。]]></description>
 </item>
 </channel>

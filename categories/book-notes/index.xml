@@ -1,46 +1,46 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Book Notes - Category - Ush Terek</title>
-        <link>https://Cyan-zhou.github.io/categories/book-notes/</link>
-        <description>Book Notes - Category - Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 May 2025 08:49:59 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/categories/book-notes/" rel="self" type="application/rss+xml" /><item>
+        <title>Book Notes - category - </title>
+        <link>/categories/book-notes/</link>
+        <description>Book Notes - category - </description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 May 2025 08:49:59 &#43;0800</lastBuildDate><atom:link href="/categories/book-notes/" rel="self" type="application/rss+xml" /><item>
     <title>从一副货郎图到南宋的恋物癖</title>
-    <link>https://Cyan-zhou.github.io/20250524-%E8%B4%A7%E9%83%8E%E5%9B%BE/</link>
+    <link>/20250524-%E8%B4%A7%E9%83%8E%E5%9B%BE/</link>
     <pubDate>Sat, 24 May 2025 08:49:59 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20250524-%E8%B4%A7%E9%83%8E%E5%9B%BE/</guid>
+    <guid>/20250524-%E8%B4%A7%E9%83%8E%E5%9B%BE/</guid>
     <description><![CDATA[一本关于货郎图的书的读后感]]></description>
 </item>
 <item>
     <title>Let&#39;s talk about GEB</title>
-    <link>https://Cyan-zhou.github.io/20250201-geb/</link>
+    <link>/20250201-geb/</link>
     <pubDate>Sat, 01 Feb 2025 23:53:19 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20250201-geb/</guid>
+    <guid>/20250201-geb/</guid>
     <description><![CDATA[Null]]></description>
 </item>
 <item>
     <title>渔具，也关于海洋和人</title>
-    <link>https://Cyan-zhou.github.io/%E6%B8%94%E5%85%B7%E5%88%97%E4%BC%A0/</link>
+    <link>/%E6%B8%94%E5%85%B7%E5%88%97%E4%BC%A0/</link>
     <pubDate>Tue, 10 Sep 2024 23:30:42 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/%E6%B8%94%E5%85%B7%E5%88%97%E4%BC%A0/</guid>
+    <guid>/%E6%B8%94%E5%85%B7%E5%88%97%E4%BC%A0/</guid>
     <description><![CDATA[真理是被创造的，而不是被发现的。渔具如同语汇，在语汇的构建之下，语言就自然浮现了。因此编织出的半岛渔事，也就有了真实性。]]></description>
 </item>
 <item>
     <title>《国家篇》读书笔记 | 第 4 - 6 部分</title>
-    <link>https://Cyan-zhou.github.io/20220714-the_republic_reading_note_2/</link>
+    <link>/20220714-the_republic_reading_note_2/</link>
     <pubDate>Thu, 14 Jul 2022 01:32:16 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20220714-the_republic_reading_note_2/</guid>
+    <guid>/20220714-the_republic_reading_note_2/</guid>
     <description><![CDATA[《国家篇》流水账式阅读记录]]></description>
 </item>
 <item>
     <title>《国家篇》读书笔记 | 第 1 - 3 部分</title>
-    <link>https://Cyan-zhou.github.io/the_republic_reading_note/</link>
+    <link>/the_republic_reading_note/</link>
     <pubDate>Sun, 22 May 2022 23:45:39 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/the_republic_reading_note/</guid>
+    <guid>/the_republic_reading_note/</guid>
     <description><![CDATA[《国家篇》流水账式阅读记录]]></description>
 </item>
 </channel>

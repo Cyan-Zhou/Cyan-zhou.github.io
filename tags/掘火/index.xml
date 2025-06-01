@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>掘火 - Tag - Ush Terek</title>
-        <link>https://Cyan-zhou.github.io/tags/%E6%8E%98%E7%81%AB/</link>
-        <description>掘火 - Tag - Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 05 Jun 2022 13:19:34 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/tags/%E6%8E%98%E7%81%AB/" rel="self" type="application/rss+xml" /><item>
+        <title>掘火 - tag - </title>
+        <link>/tags/%E6%8E%98%E7%81%AB/</link>
+        <description>掘火 - tag - </description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 05 Jun 2022 13:19:34 &#43;0800</lastBuildDate><atom:link href="/tags/%E6%8E%98%E7%81%AB/" rel="self" type="application/rss+xml" /><item>
     <title>N!ai，一位昆族女性的故事</title>
-    <link>https://Cyan-zhou.github.io/20220605-nai/</link>
+    <link>/20220605-nai/</link>
     <pubDate>Sun, 05 Jun 2022 13:19:34 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20220605-nai/</guid>
+    <guid>/20220605-nai/</guid>
     <description><![CDATA[从一部非洲民族志纪录片到女性主义的边界]]></description>
 </item>
 </channel>

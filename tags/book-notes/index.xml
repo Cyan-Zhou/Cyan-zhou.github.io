@@ -1,38 +1,38 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Book Notes - Tag - Ush Terek</title>
-        <link>https://Cyan-zhou.github.io/tags/book-notes/</link>
-        <description>Book Notes - Tag - Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 May 2025 08:49:59 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/tags/book-notes/" rel="self" type="application/rss+xml" /><item>
+        <title>Book Notes - tag - </title>
+        <link>/tags/book-notes/</link>
+        <description>Book Notes - tag - </description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 May 2025 08:49:59 &#43;0800</lastBuildDate><atom:link href="/tags/book-notes/" rel="self" type="application/rss+xml" /><item>
     <title>从一副货郎图到南宋的恋物癖</title>
-    <link>https://Cyan-zhou.github.io/20250524-%E8%B4%A7%E9%83%8E%E5%9B%BE/</link>
+    <link>/20250524-%E8%B4%A7%E9%83%8E%E5%9B%BE/</link>
     <pubDate>Sat, 24 May 2025 08:49:59 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20250524-%E8%B4%A7%E9%83%8E%E5%9B%BE/</guid>
+    <guid>/20250524-%E8%B4%A7%E9%83%8E%E5%9B%BE/</guid>
     <description><![CDATA[一本关于货郎图的书的读后感]]></description>
 </item>
 <item>
     <title>Let&#39;s talk about GEB</title>
-    <link>https://Cyan-zhou.github.io/20250201-geb/</link>
+    <link>/20250201-geb/</link>
     <pubDate>Sat, 01 Feb 2025 23:53:19 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20250201-geb/</guid>
+    <guid>/20250201-geb/</guid>
     <description><![CDATA[Null]]></description>
 </item>
 <item>
     <title>《国家篇》读书笔记 | 第 4 - 6 部分</title>
-    <link>https://Cyan-zhou.github.io/20220714-the_republic_reading_note_2/</link>
+    <link>/20220714-the_republic_reading_note_2/</link>
     <pubDate>Thu, 14 Jul 2022 01:32:16 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20220714-the_republic_reading_note_2/</guid>
+    <guid>/20220714-the_republic_reading_note_2/</guid>
     <description><![CDATA[《国家篇》流水账式阅读记录]]></description>
 </item>
 <item>
     <title>《国家篇》读书笔记 | 第 1 - 3 部分</title>
-    <link>https://Cyan-zhou.github.io/the_republic_reading_note/</link>
+    <link>/the_republic_reading_note/</link>
     <pubDate>Sun, 22 May 2022 23:45:39 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/the_republic_reading_note/</guid>
+    <guid>/the_republic_reading_note/</guid>
     <description><![CDATA[《国家篇》流水账式阅读记录]]></description>
 </item>
 </channel>

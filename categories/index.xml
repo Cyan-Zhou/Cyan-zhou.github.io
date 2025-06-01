@@ -1,86 +1,86 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Categories - Category - Ush Terek</title>
-        <link>https://Cyan-zhou.github.io/categories/</link>
-        <description>Categories - Category - Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 May 2025 10:15:13 &#43;0000</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+        <title>Categories - category - </title>
+        <link>/categories/</link>
+        <description>Categories - category - </description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 May 2025 10:15:13 &#43;0000</lastBuildDate><atom:link href="/categories/" rel="self" type="application/rss+xml" /><item>
     <title>Blog</title>
-    <link>https://Cyan-zhou.github.io/categories/blog/</link>
+    <link>/categories/blog/</link>
     <pubDate>Sat, 24 May 2025 10:15:13 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://Cyan-zhou.github.io/categories/blog/</guid>
+    <author>xxxx</author>
+    <guid>/categories/blog/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Book Notes</title>
-    <link>https://Cyan-zhou.github.io/categories/book-notes/</link>
+    <link>/categories/book-notes/</link>
     <pubDate>Sat, 24 May 2025 08:49:59 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://Cyan-zhou.github.io/categories/book-notes/</guid>
+    <author>xxxx</author>
+    <guid>/categories/book-notes/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>菜谱</title>
-    <link>https://Cyan-zhou.github.io/categories/%E8%8F%9C%E8%B0%B1/</link>
+    <link>/categories/%E8%8F%9C%E8%B0%B1/</link>
     <pubDate>Tue, 20 May 2025 22:57:35 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://Cyan-zhou.github.io/categories/%E8%8F%9C%E8%B0%B1/</guid>
+    <author>xxxx</author>
+    <guid>/categories/%E8%8F%9C%E8%B0%B1/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Writing</title>
-    <link>https://Cyan-zhou.github.io/categories/writing/</link>
+    <link>/categories/writing/</link>
     <pubDate>Sun, 29 Dec 2024 17:09:26 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://Cyan-zhou.github.io/categories/writing/</guid>
+    <author>xxxx</author>
+    <guid>/categories/writing/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>物尽其用</title>
-    <link>https://Cyan-zhou.github.io/categories/%E7%89%A9%E5%B0%BD%E5%85%B6%E7%94%A8/</link>
+    <link>/categories/%E7%89%A9%E5%B0%BD%E5%85%B6%E7%94%A8/</link>
     <pubDate>Tue, 23 Jul 2024 23:32:15 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://Cyan-zhou.github.io/categories/%E7%89%A9%E5%B0%BD%E5%85%B6%E7%94%A8/</guid>
+    <author>xxxx</author>
+    <guid>/categories/%E7%89%A9%E5%B0%BD%E5%85%B6%E7%94%A8/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Research</title>
-    <link>https://Cyan-zhou.github.io/categories/research/</link>
+    <link>/categories/research/</link>
     <pubDate>Sat, 22 Jun 2024 22:13:08 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://Cyan-zhou.github.io/categories/research/</guid>
+    <author>xxxx</author>
+    <guid>/categories/research/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Weekly_digest</title>
-    <link>https://Cyan-zhou.github.io/categories/weekly_digest/</link>
+    <link>/categories/weekly_digest/</link>
     <pubDate>Sat, 17 Feb 2024 22:53:00 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://Cyan-zhou.github.io/categories/weekly_digest/</guid>
+    <author>xxxx</author>
+    <guid>/categories/weekly_digest/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Music</title>
-    <link>https://Cyan-zhou.github.io/categories/music/</link>
+    <link>/categories/music/</link>
     <pubDate>Sat, 26 Nov 2022 12:15:13 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://Cyan-zhou.github.io/categories/music/</guid>
+    <author>xxxx</author>
+    <guid>/categories/music/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>日记</title>
-    <link>https://Cyan-zhou.github.io/categories/%E6%97%A5%E8%AE%B0/</link>
+    <link>/categories/%E6%97%A5%E8%AE%B0/</link>
     <pubDate>Tue, 04 Oct 2022 02:52:31 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://Cyan-zhou.github.io/categories/%E6%97%A5%E8%AE%B0/</guid>
+    <author>xxxx</author>
+    <guid>/categories/%E6%97%A5%E8%AE%B0/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Archi</title>
-    <link>https://Cyan-zhou.github.io/categories/archi/</link>
+    <link>/categories/archi/</link>
     <pubDate>Fri, 02 Sep 2022 14:29:45 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://Cyan-zhou.github.io/categories/archi/</guid>
+    <author>xxxx</author>
+    <guid>/categories/archi/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

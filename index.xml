@@ -1,88 +1,88 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Ush Terek</title>
-        <link>https://Cyan-zhou.github.io/</link>
+        <title></title>
+        <link>/</link>
         <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 May 2025 10:15:13 &#43;0000</lastBuildDate>
-            <atom:link href="https://Cyan-zhou.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 01 Jun 2025 23:11:13 &#43;0800</lastBuildDate>
+            <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Shortcode的几点应用</title>
-    <link>https://Cyan-zhou.github.io/20250524-shortcodeplayground/</link>
+    <link>/20250524-shortcodeplayground/</link>
     <pubDate>Sat, 24 May 2025 10:15:13 &#43;0000</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20250524-shortcodeplayground/</guid>
+    <guid>/20250524-shortcodeplayground/</guid>
     <description><![CDATA[用shortcode功能减轻博客书写的负担]]></description>
 </item>
 <item>
     <title>从一副货郎图到南宋的恋物癖</title>
-    <link>https://Cyan-zhou.github.io/20250524-%E8%B4%A7%E9%83%8E%E5%9B%BE/</link>
+    <link>/20250524-%E8%B4%A7%E9%83%8E%E5%9B%BE/</link>
     <pubDate>Sat, 24 May 2025 08:49:59 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20250524-%E8%B4%A7%E9%83%8E%E5%9B%BE/</guid>
+    <guid>/20250524-%E8%B4%A7%E9%83%8E%E5%9B%BE/</guid>
     <description><![CDATA[一本关于货郎图的书的读后感]]></description>
 </item>
 <item>
     <title>周末晚宴和三个菜谱</title>
-    <link>https://Cyan-zhou.github.io/20250520-moredishes/</link>
+    <link>/20250520-moredishes/</link>
     <pubDate>Tue, 20 May 2025 22:57:35 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20250520-moredishes/</guid>
+    <guid>/20250520-moredishes/</guid>
     <description><![CDATA[上周家里来了三位朋友，我们做了一桌丰盛的晚宴，贡献了 3 道菜——青椒鸡（没错，和上一次的菜实际上差不多），空心菜和煲仔饭，先看成品]]></description>
 </item>
 <item>
     <title>青椒土豆炖排骨</title>
-    <link>https://Cyan-zhou.github.io/20250511-pork/</link>
+    <link>/20250511-pork/</link>
     <pubDate>Sun, 11 May 2025 22:34:55 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20250511-pork/</guid>
+    <guid>/20250511-pork/</guid>
     <description><![CDATA[今天在家招待两位朋友，一起在家和成都的朋友们开读书会，做了这份土豆青椒排骨，记录一下菜谱。后续还有改进空间]]></description>
 </item>
 <item>
     <title>Let&#39;s talk about GEB</title>
-    <link>https://Cyan-zhou.github.io/20250201-geb/</link>
+    <link>/20250201-geb/</link>
     <pubDate>Sat, 01 Feb 2025 23:53:19 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20250201-geb/</guid>
+    <guid>/20250201-geb/</guid>
     <description><![CDATA[Null]]></description>
 </item>
 <item>
     <title>博客目录页面优化记录</title>
-    <link>https://Cyan-zhou.github.io/20250101-postpageedit/</link>
+    <link>/20250101-postpageedit/</link>
     <pubDate>Wed, 01 Jan 2025 18:13:57 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20250101-postpageedit/</guid>
+    <guid>/20250101-postpageedit/</guid>
     <description><![CDATA[趁新年假期，在GPT的协助下修改博客目录页面长期存在的bug。]]></description>
 </item>
 <item>
     <title>博客环境搬运 Mac 笔记</title>
-    <link>https://Cyan-zhou.github.io/20241228-movetomac/</link>
+    <link>/20241228-movetomac/</link>
     <pubDate>Sun, 29 Dec 2024 17:09:26 &#43;0000</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20241228-movetomac/</guid>
+    <guid>/20241228-movetomac/</guid>
     <description><![CDATA[最近新添置了 Mac Mini 替换服役了 7 年的 windows 主机，一直拖着没有解决的问题就是博客的配置。恰好最近和 ChatGPT 的协作越来越深入，所以搬运就在和 GPT 的协作对话中开始了。]]></description>
 </item>
 <item>
     <title>渔具，也关于海洋和人</title>
-    <link>https://Cyan-zhou.github.io/%E6%B8%94%E5%85%B7%E5%88%97%E4%BC%A0/</link>
+    <link>/%E6%B8%94%E5%85%B7%E5%88%97%E4%BC%A0/</link>
     <pubDate>Tue, 10 Sep 2024 23:30:42 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/%E6%B8%94%E5%85%B7%E5%88%97%E4%BC%A0/</guid>
+    <guid>/%E6%B8%94%E5%85%B7%E5%88%97%E4%BC%A0/</guid>
     <description><![CDATA[真理是被创造的，而不是被发现的。渔具如同语汇，在语汇的构建之下，语言就自然浮现了。因此编织出的半岛渔事，也就有了真实性。]]></description>
 </item>
 <item>
     <title>物尽其用 | 铝型材 DIY 第一期</title>
-    <link>https://Cyan-zhou.github.io/20240723-aluminum/</link>
+    <link>/20240723-aluminum/</link>
     <pubDate>Tue, 23 Jul 2024 23:32:15 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20240723-aluminum/</guid>
+    <guid>/20240723-aluminum/</guid>
     <description><![CDATA[第一次做铝型材的设计，很有趣，在这里分享一些经验。]]></description>
 </item>
 <item>
     <title>记 NAS 文件迁移</title>
-    <link>https://Cyan-zhou.github.io/20240622-%E8%AE%B0nas%E8%BF%81%E7%A7%BB/</link>
+    <link>/20240622-%E8%AE%B0nas%E8%BF%81%E7%A7%BB/</link>
     <pubDate>Sat, 22 Jun 2024 22:13:08 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20240622-%E8%AE%B0nas%E8%BF%81%E7%A7%BB/</guid>
+    <guid>/20240622-%E8%AE%B0nas%E8%BF%81%E7%A7%BB/</guid>
     <description><![CDATA[最近买入了群晖的 NAS，这周末又和网络斗智斗勇，记录下一些过程。]]></description>
 </item>
 </channel>

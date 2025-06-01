@@ -1,22 +1,22 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>CS学习笔记 - Tag - Ush Terek</title>
-        <link>https://Cyan-zhou.github.io/tags/cs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
-        <description>CS学习笔记 - Tag - Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 18:13:57 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/tags/cs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
+        <title>CS学习笔记 - tag - </title>
+        <link>/tags/cs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+        <description>CS学习笔记 - tag - </description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 18:13:57 &#43;0800</lastBuildDate><atom:link href="/tags/cs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
     <title>博客目录页面优化记录</title>
-    <link>https://Cyan-zhou.github.io/20250101-postpageedit/</link>
+    <link>/20250101-postpageedit/</link>
     <pubDate>Wed, 01 Jan 2025 18:13:57 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20250101-postpageedit/</guid>
+    <guid>/20250101-postpageedit/</guid>
     <description><![CDATA[趁新年假期，在GPT的协助下修改博客目录页面长期存在的bug。]]></description>
 </item>
 <item>
     <title>记 NAS 文件迁移</title>
-    <link>https://Cyan-zhou.github.io/20240622-%E8%AE%B0nas%E8%BF%81%E7%A7%BB/</link>
+    <link>/20240622-%E8%AE%B0nas%E8%BF%81%E7%A7%BB/</link>
     <pubDate>Sat, 22 Jun 2024 22:13:08 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20240622-%E8%AE%B0nas%E8%BF%81%E7%A7%BB/</guid>
+    <guid>/20240622-%E8%AE%B0nas%E8%BF%81%E7%A7%BB/</guid>
     <description><![CDATA[最近买入了群晖的 NAS，这周末又和网络斗智斗勇，记录下一些过程。]]></description>
 </item>
 </channel>

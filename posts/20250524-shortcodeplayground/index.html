@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Shortcode的几点应用 - </title><meta name="Description" content="用shortcode功能减轻博客书写的负担"><meta property="og:url" content="//localhost:1313/posts/20250524-shortcodeplayground/">
+  <meta property="og:site_name" content="Ush">
+  <meta property="og:title" content="Shortcode的几点应用">
+  <meta property="og:description" content="用shortcode功能减轻博客书写的负担">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-05-24T10:15:13+00:00">
+    <meta property="article:modified_time" content="2025-05-24T10:15:26+00:00">
+    <meta property="article:tag" content="Blog">
+    <meta property="og:image" content="//localhost:1313/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="//localhost:1313/logo.png">
+  <meta name="twitter:title" content="Shortcode的几点应用">
+  <meta name="twitter:description" content="用shortcode功能减轻博客书写的负担">
+<meta name="application-name" content="Cyan Zhou">
+<meta name="apple-mobile-web-app-title" content="Cyan Zhou"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="//localhost:1313/posts/20250524-shortcodeplayground/" /><link rel="prev" href="//localhost:1313/posts/20250524-%E8%B4%A7%E9%83%8E%E5%9B%BE/" /><link rel="next" href="//localhost:1313/posts/202550601-filmdanmace/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><link rel="stylesheet" href="//localhost:1313/css/flexbox.min.738cdc51066c4ebd63589d238b836b873d65e7ca36ad6b323fcbf869efc9736b.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Shortcode的几点应用",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/\/localhost:1313\/posts\/20250524-shortcodeplayground\/"
+        },"genre": "posts","keywords": "Blog","wordcount":  571 ,
+        "url": "\/\/localhost:1313\/posts\/20250524-shortcodeplayground\/","datePublished": "2025-05-24T10:15:13+00:00","dateModified": "2025-05-24T10:15:26+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Cyan Zhou"
+            },"description": "用shortcode功能减轻博客书写的负担"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title=""><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/avocado128.png"
+        data-srcset="/images/avocado128.png, /images/avocado128.png 1.5x, /images/avocado128.png 2x"
+        data-sizes="auto"
+        alt="/images/avocado128.png"
+        title="/images/avocado128.png" />Ush Terek</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/about/" title="关于"> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="" id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title=""><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/avocado128.png"
+        data-srcset="/images/avocado128.png, /images/avocado128.png 1.5x, /images/avocado128.png 2x"
+        data-sizes="auto"
+        alt="/images/avocado128.png"
+        title="/images/avocado128.png" />Ush Terek</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="" id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/about/" title="关于">关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title"></h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX" >
+            
+            Shortcode的几点应用
+        </h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-category"></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-05-24">2025-05-24</time>&nbsp;
+                
+    
+
+    
+        
+
+        
+        
+            <span id="busuanzi_container_value_page_pv"><i class="far fa-eye fa-fw"></i>
+                
+                <span id="busuanzi_value_page_pv"></span>&nbsp;</span>
+        
+    
+
+</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span></span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#单张图片">单张图片</a>
+      <ul>
+        <li><a href="#示例代码">示例代码</a></li>
+        <li><a href="#教程">教程</a></li>
+      </ul>
+    </li>
+    <li><a href="#多栏排版">多栏排版</a>
+      <ul>
+        <li><a href="#示例代码-1">示例代码</a></li>
+        <li><a href="#教程-1">教程</a></li>
+      </ul>
+    </li>
+    <li><a href="#弹出框">弹出框</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p><img src="https://img.shields.io/badge/last%20modified-2025--5--24-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-300-yellow?style=flat" >  <img src="https://img.shields.io/badge/1%20minutes-lightgray?style=flat" ></p>
+<p>最近发现shortcode很好用，能比较好减轻我的博客编辑负担，chatGPT的帮助下添加了图片的shortcode工具</p>
+<h2 id="单张图片">单张图片</h2>
+<p>添加时间：2025/5/24</p>
+<h3 id="示例代码">示例代码</h3>
+<pre tabindex="0"><code>{{&lt; imgbox src=&#34;图片链接&#34; width=&#34;800&#34; title=&#34;图片标题&#34; source=&#34;图片来源&#34; &gt;}} 
+</code></pre><h3 id="教程">教程</h3>
+<h4 id="需求">需求</h4>
+<table>
+  <thead>
+      <tr>
+          <th>参数</th>
+          <th>是否必填</th>
+          <th>默认值</th>
+          <th>说明</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>src</td>
+          <td>✅</td>
+          <td>无</td>
+          <td>图片链接</td>
+      </tr>
+      <tr>
+          <td>width</td>
+          <td>❌</td>
+          <td>100%</td>
+          <td>图片宽度（如 800，单位像素）</td>
+      </tr>
+      <tr>
+          <td>title</td>
+          <td>❌</td>
+          <td>无</td>
+          <td>图片下方标题文本</td>
+      </tr>
+      <tr>
+          <td>source</td>
+          <td>❌</td>
+          <td>无</td>
+          <td>图片下方来源或说明文本</td>
+      </tr>
+  </tbody>
+</table>
+<p>在 layouts/shortcodes/ 文件夹下创建 imgbox.html</p>
+<pre tabindex="0"><code>your-site/
+├── layouts/
+│   └── shortcodes/
+│       └── imgbox.html
+</code></pre><p>写入以下 Shortcode 模板内容：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">center</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">data-fancybox</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gallery&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Get &#34;</span><span style="color:#a6e22e">src</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">}}&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Get &#34;</span><span style="color:#a6e22e">src</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">}}&#34;</span> 
+</span></span><span style="display:flex;"><span>           <span style="color:#960050;background-color:#1e0010">{{</span> <span style="color:#a6e22e">with</span> <span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">Get</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">width</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">}}</span><span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ . }}&#34;</span><span style="color:#960050;background-color:#1e0010">{{</span> <span style="color:#a6e22e">else</span> <span style="color:#960050;background-color:#1e0010">}}</span><span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width: 100%;&#34;</span><span style="color:#960050;background-color:#1e0010">{{</span> <span style="color:#a6e22e">end</span> <span style="color:#960050;background-color:#1e0010">}}</span> /&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>    {{ if or (.Get &#34;title&#34;) (.Get &#34;source&#34;) }}
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">style</span>&gt;
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">p</span>.<span style="color:#a6e22e">title</span> {
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">line-height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">black</span>;
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0.5</span><span style="color:#66d9ef">em</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">p</span>.<span style="color:#a6e22e">source</span> {
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">line-height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">13</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">gray</span>;
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#f92672">style</span>&gt;
+</span></span><span style="display:flex;"><span>      {{ with .Get &#34;title&#34; }}&lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;title&#34;</span>&gt;{{ . }}&lt;/<span style="color:#f92672">p</span>&gt;{{ end }}
+</span></span><span style="display:flex;"><span>      {{ with .Get &#34;source&#34; }}&lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;source&#34;</span>&gt;{{ . }}&lt;/<span style="color:#f92672">p</span>&gt;{{ end }}
+</span></span><span style="display:flex;"><span>    {{ end }}
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">center</span>&gt;
+</span></span></code></pre></div><h4 id="示例效果">示例效果</h4>
+<pre tabindex="0"><code>{{&lt; imgbox src=&#34;图片链接&#34; width=&#34;800&#34; title=&#34;图片标题&#34; source=&#34;图片来源&#34; &gt;}} 
+</code></pre><p>博客页面上就会自动渲染为：居中大图（800px 或默认填满）；支持 Fancybox 点击放大；下方自动带有可选的标题与来源信息；不需要手写 HTML，每次都能省很多时间。</p>
+<p>另外，把 Picgo的设置中自定义链接的格式改为 <code>{{&lt; imgbox src=&quot;$url&quot; width=&quot;800&quot; title=&quot;&quot; source=&quot;&quot; &gt;}}</code>，就可以实现picgo自动复制链接到剪贴板。</p>
+<blockquote>
+<p>和以前picgo的代码 <code>&lt;center&gt;&lt;a data-fancybox=&quot;gallery&quot; href=&quot;$url&quot;&gt;&lt;img src=&quot;$url&quot; width=&quot;1000&quot;&gt;&lt;/a&gt; &lt;style&gt; p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;} p.source {line-height:100%; font-size:13px; color:gray;} &lt;/style&gt; &lt;p class=&quot;title&quot;&gt; this is title &lt;/p&gt; &lt;p class=&quot;source&quot;&gt; this is source &lt;/p&gt; &lt;/center&gt;</code> 对比还是有巨大收益的</p>
+</blockquote>
+<h2 id="多栏排版">多栏排版</h2>
+<p>除此之外，我还想实现多栏排版的功能</p>
+<h3 id="示例代码-1">示例代码</h3>
+<h4 id="3张图片并排">3张图片并排</h4>
+<pre tabindex="0"><code>{{&lt; multicol layout=&#34;2fr 2fr 2fr&#34; &gt;}}
+{{&lt; colbox
+  type=&#34;image&#34;
+  src=&#34;/images/avocado128.png&#34;
+  title=&#34;图一标题&#34;
+  source=&#34;图一来源&#34;
+  desc=&#34;图一描述&#34;
+  height=&#34;150&#34;
+&gt;}}
+这里是图一的说明，可以使用 **加粗** 或 [链接](#)。
+{{&lt; /colbox &gt;}}
+{{&lt; colbox
+  type=&#34;image&#34;
+  src=&#34;/images/avocado128.png&#34;
+  title=&#34;图二标题&#34;
+  source=&#34;图二来源&#34;
+  desc=&#34;图二描述&#34;
+  height=&#34;150&#34;
+&gt;}}
+这里是图二说明。
+{{&lt; /colbox &gt;}}
+{{&lt; colbox
+  type=&#34;image&#34;
+  src=&#34;/images/avocado128.png&#34;
+  title=&#34;图三标题&#34;
+  source=&#34;图三来源&#34;
+  desc=&#34;图三描述&#34;
+  height=&#34;150&#34;
+&gt;}}
+图三内容描述。
+{{&lt; /colbox &gt;}}
+{{&lt; /multicol &gt;}}
+</code></pre><p>示例</p>
+
+<div style="
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  gap: 10px;
+  max-width: 800px;
+  margin: 2em auto;
+  align-items: flex-start;
+">
+  
+<div style="text-align: left; word-break: break-word;">
+    
+      
+        <a data-fancybox="gallery" href="/images/avocado128.png">
+            <img src="/images/avocado128.png"
+            style="height: 150px;
+                   width: auto;
+                   display: block;
+                   margin: 0 auto 0.5em auto;
+                   border-radius: 6px;">
+       
+        </a>
+      
+    
+  
+    
+      <p style="font-size: 15px; font-weight: bold; margin: 0.2em 0;">图一标题</p>
+    
+  
+    
+      <p style="font-size: 13px; color: gray; margin: 0;">图一来源</p>
+    
+  
+    
+      <p style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">图一描述</p>
+    
+  
+    
+      <div style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">
+        这里是图一的说明，可以使用 <strong>加粗</strong> 或 <a href="#" rel="">链接</a>。
+      </div>
+    
+  </div>
+  
+<div style="text-align: left; word-break: break-word;">
+    
+      
+        <a data-fancybox="gallery" href="/images/avocado128.png">
+            <img src="/images/avocado128.png"
+            style="height: 150px;
+                   width: auto;
+                   display: block;
+                   margin: 0 auto 0.5em auto;
+                   border-radius: 6px;">
+       
+        </a>
+      
+    
+  
+    
+      <p style="font-size: 15px; font-weight: bold; margin: 0.2em 0;">图二标题</p>
+    
+  
+    
+      <p style="font-size: 13px; color: gray; margin: 0;">图二来源</p>
+    
+  
+    
+      <p style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">图二描述</p>
+    
+  
+    
+      <div style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">
+        这里是图二说明。
+      </div>
+    
+  </div>
+  
+<div style="text-align: left; word-break: break-word;">
+    
+      
+        <a data-fancybox="gallery" href="/images/avocado128.png">
+            <img src="/images/avocado128.png"
+            style="height: 150px;
+                   width: auto;
+                   display: block;
+                   margin: 0 auto 0.5em auto;
+                   border-radius: 6px;">
+       
+        </a>
+      
+    
+  
+    
+      <p style="font-size: 15px; font-weight: bold; margin: 0.2em 0;">图三标题</p>
+    
+  
+    
+      <p style="font-size: 13px; color: gray; margin: 0;">图三来源</p>
+    
+  
+    
+      <p style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">图三描述</p>
+    
+  
+    
+      <div style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">
+        图三内容描述。
+      </div>
+    
+  </div>
+  
+
+</div>
+
+<h4 id="2张图片并排">2张图片并排</h4>
+<pre tabindex="0"><code>{{&lt; multicol layout=&#34;2fr 2fr&#34; &gt;}}
+{{&lt; colbox
+  type=&#34;image&#34;
+  src=&#34;/images/avocado128.png&#34;
+  title=&#34;图一标题&#34;
+  source=&#34;图一来源&#34;
+  desc=&#34;图一描述&#34;
+  height=&#34;150&#34;
+&gt;}}
+这里是图一的说明，可以使用 **加粗** 或 [链接](#)。
+{{&lt; /colbox &gt;}}
+{{&lt; colbox
+  type=&#34;image&#34;
+  src=&#34;/images/avocado128.png&#34;
+  title=&#34;图二标题&#34;
+  source=&#34;图二来源&#34;
+  desc=&#34;图二描述&#34;
+  height=&#34;150&#34;
+&gt;}}
+这里是图二说明。
+{{&lt; /colbox &gt;}}
+{{&lt; /multicol &gt;}}
+</code></pre><p>示例</p>
+
+<div style="
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 10px;
+  max-width: 800px;
+  margin: 2em auto;
+  align-items: flex-start;
+">
+  
+<div style="text-align: left; word-break: break-word;">
+    
+      
+        <a data-fancybox="gallery" href="/images/avocado128.png">
+            <img src="/images/avocado128.png"
+            style="height: 150px;
+                   width: auto;
+                   display: block;
+                   margin: 0 auto 0.5em auto;
+                   border-radius: 6px;">
+       
+        </a>
+      
+    
+  
+    
+      <p style="font-size: 15px; font-weight: bold; margin: 0.2em 0;">图一标题</p>
+    
+  
+    
+      <p style="font-size: 13px; color: gray; margin: 0;">图一来源</p>
+    
+  
+    
+      <p style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">图一描述</p>
+    
+  
+    
+      <div style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">
+        这里是图一的说明，可以使用 <strong>加粗</strong> 或 <a href="#" rel="">链接</a>。
+      </div>
+    
+  </div>
+  
+<div style="text-align: left; word-break: break-word;">
+    
+      
+        <a data-fancybox="gallery" href="/images/avocado128.png">
+            <img src="/images/avocado128.png"
+            style="height: 150px;
+                   width: auto;
+                   display: block;
+                   margin: 0 auto 0.5em auto;
+                   border-radius: 6px;">
+       
+        </a>
+      
+    
+  
+    
+      <p style="font-size: 15px; font-weight: bold; margin: 0.2em 0;">图二标题</p>
+    
+  
+    
+      <p style="font-size: 13px; color: gray; margin: 0;">图二来源</p>
+    
+  
+    
+      <p style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">图二描述</p>
+    
+  
+    
+      <div style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">
+        这里是图二说明。
+      </div>
+    
+  </div>
+  
+
+</div>
+
+<h4 id="左图右文并排">左图右文并排</h4>
+<pre tabindex="0"><code>{{&lt; multicol layout=&#34;2fr 2fr&#34; &gt;}}
+{{&lt; colbox
+  type=&#34;image&#34;
+  src=&#34;/images/avocado128.png&#34;
+  title=&#34;图一标题&#34;
+  source=&#34;图一来源&#34;
+  desc=&#34;图一描述&#34;
+  height=&#34;150&#34;
+&gt;}}
+
+{{&lt; /colbox &gt;}}
+{{&lt; colbox
+  type=&#34;text&#34;
+  title=&#34;标题&#34;
+  source=&#34;来源&#34;
+  desc=&#34;描述&#34;
+&gt;}}
+这里是文字说明。
+{{&lt; /colbox &gt;}}
+
+{{&lt; /multicol &gt;}}
+</code></pre><p>示例</p>
+
+<div style="
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 10px;
+  max-width: 800px;
+  margin: 2em auto;
+  align-items: flex-start;
+">
+  
+<div style="text-align: left; word-break: break-word;">
+    
+      
+        <a data-fancybox="gallery" href="/images/avocado128.png">
+            <img src="/images/avocado128.png"
+            style="height: 150px;
+                   width: auto;
+                   display: block;
+                   margin: 0 auto 0.5em auto;
+                   border-radius: 6px;">
+       
+        </a>
+      
+    
+  
+    
+      <p style="font-size: 15px; font-weight: bold; margin: 0.2em 0;">图一标题</p>
+    
+  
+    
+      <p style="font-size: 13px; color: gray; margin: 0;">图一来源</p>
+    
+  
+    
+      <p style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">图一描述</p>
+    
+  
+    
+      <div style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">
+        
+      </div>
+    
+  </div>
+  
+<div style="text-align: left; word-break: break-word;">
+    
+  
+    
+      <p style="font-size: 15px; font-weight: bold; margin: 0.2em 0;">标题</p>
+    
+  
+    
+      <p style="font-size: 13px; color: gray; margin: 0;">来源</p>
+    
+  
+    
+      <p style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">描述</p>
+    
+  
+    
+      <div style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">
+        这里是文字说明。
+      </div>
+    
+  </div>
+  
+
+
+</div>
+
+<h3 id="教程-1">教程</h3>
+<h4 id="需求-1">需求</h4>
+<p>支持2栏、3栏甚至更多的显示，每栏宽度可自定义</p>
+<p>支持文字或图片</p>
+<p>将这两个文件分别放在你的 Hugo 项目路径：</p>
+<pre tabindex="0"><code>your-hugo-site/
+└── layouts/
+    └── shortcodes/
+        ├── multicol.html
+        └── colbox.html
+</code></pre><h4 id="-文件一multicolhtml多栏容器">✅ 文件一：multicol.html（多栏容器）</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ $layout := .Get &#34;layout&#34; | default &#34;1fr 1fr 1fr&#34; }}
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  display: grid;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  grid-template-columns: {{ $layout }};
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  gap: 10px;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  max-width: 800px;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  margin: 2em auto;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  align-items: flex-start;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  {{ .Inner }}
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span></code></pre></div><p>✅ 支持参数：
+columns：通过修改每栏的数量和相对宽度，可以调节栏数以及宽度</p>
+<h4 id="-文件二colboxhtml每栏内容模块">✅ 文件二：colbox.html（每栏内容模块）</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text-align: left; word-break: break-word;&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    {{ if eq (.Get &#34;type&#34;) &#34;image&#34; }}
+</span></span><span style="display:flex;"><span>      {{ if .Get &#34;src&#34; }}
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">data-fancybox</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gallery&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Get &#34;</span><span style="color:#a6e22e">src</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">}}&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Get &#34;</span><span style="color:#a6e22e">src</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">}}&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;height: {{ with .Get &#34;</span><span style="color:#a6e22e">height</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">}}{{</span> <span style="color:#960050;background-color:#1e0010">.</span> <span style="color:#960050;background-color:#1e0010">}}</span><span style="color:#a6e22e">px</span><span style="color:#960050;background-color:#1e0010">{{</span> <span style="color:#a6e22e">else</span> <span style="color:#960050;background-color:#1e0010">}}</span><span style="color:#a6e22e">200px</span><span style="color:#960050;background-color:#1e0010">{{</span> <span style="color:#a6e22e">end</span> <span style="color:#960050;background-color:#1e0010">}};</span>
+</span></span><span style="display:flex;"><span>                   <span style="color:#a6e22e">width:</span> <span style="color:#a6e22e">auto</span><span style="color:#960050;background-color:#1e0010">;</span>
+</span></span><span style="display:flex;"><span>                   <span style="color:#a6e22e">display:</span> <span style="color:#a6e22e">block</span><span style="color:#960050;background-color:#1e0010">;</span>
+</span></span><span style="display:flex;"><span>                   <span style="color:#a6e22e">margin:</span> <span style="color:#a6e22e">0</span> <span style="color:#a6e22e">auto</span> <span style="color:#a6e22e">0</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">5em</span> <span style="color:#a6e22e">auto</span><span style="color:#960050;background-color:#1e0010">;</span>
+</span></span><span style="display:flex;"><span>                   <span style="color:#a6e22e">border-radius:</span> <span style="color:#a6e22e">6px</span><span style="color:#960050;background-color:#1e0010">;&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>       
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>      {{ end }}
+</span></span><span style="display:flex;"><span>    {{ end }}
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>    {{ if .Get &#34;title&#34; }}
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;font-size: 15px; font-weight: bold; margin: 0.2em 0;&#34;</span>&gt;{{ .Get &#34;title&#34; }}&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>    {{ end }}
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>    {{ if .Get &#34;source&#34; }}
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;font-size: 13px; color: gray; margin: 0;&#34;</span>&gt;{{ .Get &#34;source&#34; }}&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>    {{ end }}
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>    {{ if .Get &#34;desc&#34; }}
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;font-size: 14px; line-height: 1.6; margin-top: 0.5em;&#34;</span>&gt;{{ .Get &#34;desc&#34; }}&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>    {{ end }}
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>    {{ if .Inner }}
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;font-size: 14px; line-height: 1.6; margin-top: 0.5em;&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        {{ .Inner | markdownify }}
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    {{ end }}
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>  
+</span></span></code></pre></div><h4 id="效果特点">效果特点：</h4>
+<p>图片自动填满每栏宽度，保持等比缩放</p>
+<p>分栏数自定义，自动均分宽度</p>
+<p>每栏支持标题、来源和自由描述</p>
+<p>图片可 Fancybox 放大（需启用 params.fancybox = true）</p>
+
+<div style="
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  gap: 10px;
+  max-width: 800px;
+  margin: 2em auto;
+  align-items: flex-start;
+">
+  
+<div style="text-align: left; word-break: break-word;">
+    
+      
+        <a data-fancybox="gallery" href="/images/avocado128.png">
+            <img src="/images/avocado128.png"
+            style="height: 150px;
+                   width: auto;
+                   display: block;
+                   margin: 0 auto 0.5em auto;
+                   border-radius: 6px;">
+       
+        </a>
+      
+    
+  
+    
+      <p style="font-size: 15px; font-weight: bold; margin: 0.2em 0;">图一标题</p>
+    
+  
+    
+      <p style="font-size: 13px; color: gray; margin: 0;">图一来源</p>
+    
+  
+    
+      <p style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">图一描述</p>
+    
+  
+    
+      <div style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">
+        这里是图一的说明，可以使用 <strong>加粗</strong> 或 <a href="#" rel="">链接</a>。
+      </div>
+    
+  </div>
+  
+<div style="text-align: left; word-break: break-word;">
+    
+      
+        <a data-fancybox="gallery" href="/images/avocado128.png">
+            <img src="/images/avocado128.png"
+            style="height: 150px;
+                   width: auto;
+                   display: block;
+                   margin: 0 auto 0.5em auto;
+                   border-radius: 6px;">
+       
+        </a>
+      
+    
+  
+    
+      <p style="font-size: 15px; font-weight: bold; margin: 0.2em 0;">图二标题</p>
+    
+  
+    
+      <p style="font-size: 13px; color: gray; margin: 0;">图二来源</p>
+    
+  
+    
+      <p style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">图二描述</p>
+    
+  
+    
+      <div style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">
+        这里是图二说明。
+      </div>
+    
+  </div>
+  
+<div style="text-align: left; word-break: break-word;">
+    
+      
+        <a data-fancybox="gallery" href="/images/avocado128.png">
+            <img src="/images/avocado128.png"
+            style="height: 150px;
+                   width: auto;
+                   display: block;
+                   margin: 0 auto 0.5em auto;
+                   border-radius: 6px;">
+       
+        </a>
+      
+    
+  
+    
+      <p style="font-size: 15px; font-weight: bold; margin: 0.2em 0;">图三标题</p>
+    
+  
+    
+      <p style="font-size: 13px; color: gray; margin: 0;">图三来源</p>
+    
+  
+    
+      <p style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">图三描述</p>
+    
+  
+    
+      <div style="font-size: 14px; line-height: 1.6; margin-top: 0.5em;">
+        图三内容描述。
+      </div>
+    
+  </div>
+  
+
+</div>
+
+<h2 id="弹出框">弹出框</h2>
+<div class="details admonition note">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>See you later<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">持续更新..</div>
+        </div>
+    </div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span></span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title=" Twitter" data-sharer="twitter" data-url="//localhost:1313/posts/20250524-shortcodeplayground/" data-title="Shortcode的几点应用" data-hashtags="Blog"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title=" Facebook" data-sharer="facebook" data-url="//localhost:1313/posts/20250524-shortcodeplayground/" data-hashtag="Blog"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title=" Hacker News" data-sharer="hackernews" data-url="//localhost:1313/posts/20250524-shortcodeplayground/" data-title="Shortcode的几点应用"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title=" Line" data-sharer="line" data-url="//localhost:1313/posts/20250524-shortcodeplayground/" data-title="Shortcode的几点应用"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title=" 微博" data-sharer="weibo" data-url="//localhost:1313/posts/20250524-shortcodeplayground/" data-title="Shortcode的几点应用"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/blog/">Blog</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();"></a></span>&nbsp;|&nbsp;<span><a href="/"></a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"></div>
+</div>
+
+<div class="comment-placeholder"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">xxxx</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>
+    
+        
+        <script async src=" //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js "></script>
+    
+
+    
+        
+            <section>
+                
+                    <span id="busuanzi_container_value_site_pv"><i class="far fa-eye fa-fw"></i>
+                        
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+
+                
+                    &nbsp;|&nbsp;              
+                
+
+                
+                    <span id="busuanzi_container_value_site_uv"><i class="fa fa-user"></i>
+                        
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+            </section>
+        
+
+        
+        
+    
+
+</div>
+        </div>
+    </footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+</div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/contrib/copy-tex.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"","maxShownLines":50},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"","snippetLength":30}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

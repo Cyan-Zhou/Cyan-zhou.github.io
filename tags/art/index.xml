@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Art - Tag - Ush Terek</title>
-        <link>https://Cyan-zhou.github.io/tags/art/</link>
-        <description>Art - Tag - Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 Sep 2022 21:05:27 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/tags/art/" rel="self" type="application/rss+xml" /><item>
+        <title>Art - tag - </title>
+        <link>/tags/art/</link>
+        <description>Art - tag - </description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 Sep 2022 21:05:27 &#43;0800</lastBuildDate><atom:link href="/tags/art/" rel="self" type="application/rss+xml" /><item>
     <title>剺面明王</title>
-    <link>https://Cyan-zhou.github.io/20220924-buddhaface/</link>
+    <link>/20220924-buddhaface/</link>
     <pubDate>Sat, 24 Sep 2022 21:05:27 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20220924-buddhaface/</guid>
+    <guid>/20220924-buddhaface/</guid>
     <description><![CDATA[极不严谨的有关一尊明王壁画的研究]]></description>
 </item>
 </channel>

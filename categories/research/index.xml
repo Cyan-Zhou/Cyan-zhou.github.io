@@ -1,22 +1,22 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Research - Category - Ush Terek</title>
-        <link>https://Cyan-zhou.github.io/categories/research/</link>
-        <description>Research - Category - Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 22 Jun 2024 22:13:08 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/categories/research/" rel="self" type="application/rss+xml" /><item>
+        <title>Research - category - </title>
+        <link>/categories/research/</link>
+        <description>Research - category - </description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 22 Jun 2024 22:13:08 &#43;0800</lastBuildDate><atom:link href="/categories/research/" rel="self" type="application/rss+xml" /><item>
     <title>记 NAS 文件迁移</title>
-    <link>https://Cyan-zhou.github.io/20240622-%E8%AE%B0nas%E8%BF%81%E7%A7%BB/</link>
+    <link>/20240622-%E8%AE%B0nas%E8%BF%81%E7%A7%BB/</link>
     <pubDate>Sat, 22 Jun 2024 22:13:08 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20240622-%E8%AE%B0nas%E8%BF%81%E7%A7%BB/</guid>
+    <guid>/20240622-%E8%AE%B0nas%E8%BF%81%E7%A7%BB/</guid>
     <description><![CDATA[最近买入了群晖的 NAS，这周末又和网络斗智斗勇，记录下一些过程。]]></description>
 </item>
 <item>
     <title>剺面明王</title>
-    <link>https://Cyan-zhou.github.io/20220924-buddhaface/</link>
+    <link>/20220924-buddhaface/</link>
     <pubDate>Sat, 24 Sep 2022 21:05:27 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20220924-buddhaface/</guid>
+    <guid>/20220924-buddhaface/</guid>
     <description><![CDATA[极不严谨的有关一尊明王壁画的研究]]></description>
 </item>
 </channel>

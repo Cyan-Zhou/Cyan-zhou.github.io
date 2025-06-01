@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Archi - Tag - Ush Terek</title>
-        <link>https://Cyan-zhou.github.io/tags/archi/</link>
-        <description>Archi - Tag - Ush Terek</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 02 Sep 2022 14:29:45 &#43;0800</lastBuildDate><atom:link href="https://Cyan-zhou.github.io/tags/archi/" rel="self" type="application/rss+xml" /><item>
+        <title>Archi - tag - </title>
+        <link>/tags/archi/</link>
+        <description>Archi - tag - </description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 02 Sep 2022 14:29:45 &#43;0800</lastBuildDate><atom:link href="/tags/archi/" rel="self" type="application/rss+xml" /><item>
     <title>毯式建筑小史</title>
-    <link>https://Cyan-zhou.github.io/20220902-matbuilding/</link>
+    <link>/20220902-matbuilding/</link>
     <pubDate>Fri, 02 Sep 2022 14:29:45 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>https://Cyan-zhou.github.io/20220902-matbuilding/</guid>
+    <guid>/20220902-matbuilding/</guid>
     <description><![CDATA[对「毯式建筑」概念一次简单的回望。]]></description>
 </item>
 </channel>
