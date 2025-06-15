@@ -110,7 +110,7 @@
 
 #### STEP 2 ｜ 先做米饭
 
-把米饭多淘洗几次，至少3-4次，让淀粉被充分洗掉，然后加入1.5倍左右的水（实际上这里我发现水多了一些，1.3可能就够），在米饭底层放一些油；水里再放一些油，加入盐，起到口感更好，避免粘锅的作用。然后先中大火预热砂锅至水沸。即可盖上锅盖，小火闷煮。
+把米饭多淘洗几次，至少3-4次，让淀粉被充分洗掉，然后加入1.5倍左右的水（实际上这里我发现水多了一些，1.3可能就够；25/6/15更新：1.3试了一次，7个人，500g米饭，650g水，饭稍微多了一点，水我感觉还是多了一些），在米饭底层放一些油；水里再放一些油，加入盐，起到口感更好，避免粘锅的作用。然后先中大火预热砂锅至水沸。即可盖上锅盖，小火闷煮。
 
 <center><a data-fancybox="gallery" href="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2025/05/20-23_17_05-202505202317597_283.png"><img src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2025/05/20-23_17_05-202505202317597_283.png" width="1000"></a> <style> p.title {line-height:100%; font-size:15px; color:black; font-weight:bold;} p.source {line-height:100%; font-size:13px; color:gray;} </style> <p class="title"> 开始烧水 </p></center>
 

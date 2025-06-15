@@ -74,6 +74,7 @@ hugo new posts/first-post.md
 hugo server -D
 #4.注意，如果有博客中draft为true的话，这里使用hugo serve 是看不到新建的博文的，另一种方式是 hugo serve --buildDrafts， 目的都是overwrite这里draft的参数，但是在在线版本还是要记得修改draft的值为false
 #5.如果一切ok的话ctrl+C，之后生成Public文件夹下的用来同步的文件结构
+#6. 2025年6月12日更新：hugo server --disableFastRender --ignoreCache -D 可以刷新预览网页样式的修改。
 hugo
 #6.这一步结束后应该会出现public文件夹，里面的文件就是打算部署的版本
 ```

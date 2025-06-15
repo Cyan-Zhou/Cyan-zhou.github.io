@@ -3,7 +3,15 @@
         <title> - </title>
         <link>/posts/</link>
         <description> | </description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 01 Jun 2025 23:11:13 &#43;0800</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 15 Jun 2025 23:45:31 &#43;0800</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>刘辣子夹馍</title>
+    <link>/20250612-recipe/</link>
+    <pubDate>Sun, 15 Jun 2025 23:45:31 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>/20250612-recipe/</guid>
+    <description><![CDATA[记录这周尝试的几道菜肴。]]></description>
+</item>
+<item>
     <title>Shortcode的几点应用</title>
     <link>/20250524-shortcodeplayground/</link>
     <pubDate>Sat, 24 May 2025 10:15:13 &#43;0000</pubDate>
@@ -74,14 +82,6 @@
     <author>Cyan Zhou</author>
     <guid>/20240723-aluminum/</guid>
     <description><![CDATA[第一次做铝型材的设计，很有趣，在这里分享一些经验。]]></description>
-</item>
-<item>
-    <title>记 NAS 文件迁移</title>
-    <link>/20240622-%E8%AE%B0nas%E8%BF%81%E7%A7%BB/</link>
-    <pubDate>Sat, 22 Jun 2024 22:13:08 &#43;0800</pubDate>
-    <author>Cyan Zhou</author>
-    <guid>/20240622-%E8%AE%B0nas%E8%BF%81%E7%A7%BB/</guid>
-    <description><![CDATA[最近买入了群晖的 NAS，这周末又和网络斗智斗勇，记录下一些过程。]]></description>
 </item>
 </channel>
 </rss>
