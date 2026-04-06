@@ -3,7 +3,23 @@
         <title> - </title>
         <link>/posts/</link>
         <description> | </description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 31 Jan 2026 17:22:41 &#43;0000</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 06 Apr 2026 09:12:01 &#43;0000</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>清蒸黄花鱼</title>
+    <link>/20260406-fish01/</link>
+    <pubDate>Mon, 06 Apr 2026 09:12:01 &#43;0000</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>/20260406-fish01/</guid>
+    <description><![CDATA[从这期开始尝试做菜场的鱼。]]></description>
+</item>
+<item>
+    <title>如何做一碗香喷喷的卤面</title>
+    <link>/20260406-noodle/</link>
+    <pubDate>Mon, 06 Apr 2026 08:49:14 &#43;0000</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>/20260406-noodle/</guid>
+    <description><![CDATA[第二次尝试做卤面，这次比较成功一点。]]></description>
+</item>
+<item>
     <title>菜谱：红烧肉</title>
     <link>/20260201_receipt/</link>
     <pubDate>Sat, 31 Jan 2026 17:22:41 &#43;0000</pubDate>
@@ -66,22 +82,6 @@
     <author>Cyan Zhou</author>
     <guid>/20250201-geb/</guid>
     <description><![CDATA[Null]]></description>
-</item>
-<item>
-    <title>博客目录页面优化记录</title>
-    <link>/20250101-postpageedit/</link>
-    <pubDate>Wed, 01 Jan 2025 18:13:57 &#43;0800</pubDate>
-    <author>Cyan Zhou</author>
-    <guid>/20250101-postpageedit/</guid>
-    <description><![CDATA[趁新年假期，在GPT的协助下修改博客目录页面长期存在的bug。]]></description>
-</item>
-<item>
-    <title>博客环境搬运 Mac 笔记</title>
-    <link>/20241228-movetomac/</link>
-    <pubDate>Sun, 29 Dec 2024 17:09:26 &#43;0000</pubDate>
-    <author>Cyan Zhou</author>
-    <guid>/20241228-movetomac/</guid>
-    <description><![CDATA[最近新添置了 Mac Mini 替换服役了 7 年的 windows 主机，一直拖着没有解决的问题就是博客的配置。恰好最近和 ChatGPT 的协作越来越深入，所以搬运就在和 GPT 的协作对话中开始了。]]></description>
 </item>
 </channel>
 </rss>
