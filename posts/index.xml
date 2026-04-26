@@ -3,7 +3,15 @@
         <title> - </title>
         <link>/posts/</link>
         <description> | </description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 06 Apr 2026 09:12:01 &#43;0000</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Apr 2026 15:47:11 &#43;0000</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>香煎南昌鱼</title>
+    <link>/20260426-fish2/</link>
+    <pubDate>Sun, 26 Apr 2026 15:47:11 &#43;0000</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>/20260426-fish2/</guid>
+    <description><![CDATA[第二弹：南昌鱼 ]]></description>
+</item>
+<item>
     <title>清蒸黄花鱼</title>
     <link>/20260406-fish01/</link>
     <pubDate>Mon, 06 Apr 2026 09:12:01 &#43;0000</pubDate>
@@ -74,14 +82,6 @@
     <author>Cyan Zhou</author>
     <guid>/20250511-pork/</guid>
     <description><![CDATA[今天在家招待两位朋友，一起在家和成都的朋友们开读书会，做了这份土豆青椒排骨，记录一下菜谱。后续还有改进空间]]></description>
-</item>
-<item>
-    <title>Let&#39;s talk about GEB</title>
-    <link>/20250201-geb/</link>
-    <pubDate>Sat, 01 Feb 2025 23:53:19 &#43;0800</pubDate>
-    <author>Cyan Zhou</author>
-    <guid>/20250201-geb/</guid>
-    <description><![CDATA[Null]]></description>
 </item>
 </channel>
 </rss>

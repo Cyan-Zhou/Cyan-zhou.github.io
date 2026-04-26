@@ -3,7 +3,15 @@
         <title>菜谱 - category - </title>
         <link>/categories/%E8%8F%9C%E8%B0%B1/</link>
         <description>菜谱 - category - </description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 06 Apr 2026 09:12:01 &#43;0000</lastBuildDate><atom:link href="/categories/%E8%8F%9C%E8%B0%B1/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Apr 2026 15:47:11 &#43;0000</lastBuildDate><atom:link href="/categories/%E8%8F%9C%E8%B0%B1/" rel="self" type="application/rss+xml" /><item>
+    <title>香煎南昌鱼</title>
+    <link>/20260426-fish2/</link>
+    <pubDate>Sun, 26 Apr 2026 15:47:11 &#43;0000</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>/20260426-fish2/</guid>
+    <description><![CDATA[第二弹：南昌鱼 ]]></description>
+</item>
+<item>
     <title>清蒸黄花鱼</title>
     <link>/20260406-fish01/</link>
     <pubDate>Mon, 06 Apr 2026 09:12:01 &#43;0000</pubDate>

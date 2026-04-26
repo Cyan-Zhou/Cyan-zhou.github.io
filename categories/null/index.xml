@@ -3,21 +3,13 @@
         <title>Null - category - </title>
         <link>//localhost:1313/categories/null/</link>
         <description>Null - category - </description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 06 Apr 2026 16:49:36 &#43;0800</lastBuildDate><atom:link href="//localhost:1313/categories/null/" rel="self" type="application/rss+xml" /><item>
-    <title>20260406 Noodle</title>
-    <link>//localhost:1313/20260406-noodle/</link>
-    <pubDate>Mon, 06 Apr 2026 16:49:36 &#43;0800</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Apr 2026 23:22:33 &#43;0800</lastBuildDate><atom:link href="//localhost:1313/categories/null/" rel="self" type="application/rss+xml" /><item>
+    <title>香煎南昌鱼</title>
+    <link>//localhost:1313/20260426-fish2/</link>
+    <pubDate>Sun, 26 Apr 2026 23:22:33 &#43;0800</pubDate>
     <author>Cyan Zhou</author>
-    <guid>//localhost:1313/20260406-noodle/</guid>
+    <guid>//localhost:1313/20260426-fish2/</guid>
     <description><![CDATA[Null]]></description>
-</item>
-<item>
-    <title>如何做一碗香喷喷的卤面</title>
-    <link>//localhost:1313/20260406-fish01/</link>
-    <pubDate>Mon, 06 Apr 2026 08:49:14 &#43;0000</pubDate>
-    <author>Cyan Zhou</author>
-    <guid>//localhost:1313/20260406-fish01/</guid>
-    <description><![CDATA[第二次尝试做卤面，这次比较成功一点。]]></description>
 </item>
 <item>
     <title>202550601 FilmDanMace</title>
