@@ -1,0 +1,31 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>布罗卡和韦尼克 - tag - </title>
+        <link>/tags/%E5%B8%83%E7%BD%97%E5%8D%A1%E5%92%8C%E9%9F%A6%E5%B0%BC%E5%85%8B/</link>
+        <description>布罗卡和韦尼克 - tag - </description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 28 May 2023 12:05:17 &#43;0800</lastBuildDate><atom:link href="/tags/%E5%B8%83%E7%BD%97%E5%8D%A1%E5%92%8C%E9%9F%A6%E5%B0%BC%E5%85%8B/" rel="self" type="application/rss+xml" /><item>
+    <title>一些杂感</title>
+    <link>/20230528-recap/</link>
+    <pubDate>Sun, 28 May 2023 12:05:17 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>/20230528-recap/</guid>
+    <description><![CDATA[2023年过了一半，那些发生了的，和将要发生的事情。]]></description>
+</item>
+<item>
+    <title>2022年过去了，我很怀念它。</title>
+    <link>/20230130-2022review/</link>
+    <pubDate>Mon, 30 Jan 2023 21:43:11 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>/20230130-2022review/</guid>
+    <description><![CDATA[一段让人惊惧的路程过去了，走在路上的人回望，没找到一地鸡毛，反而重拾了一些希望。]]></description>
+</item>
+<item>
+    <title>2022/11/25</title>
+    <link>/20221126-song-from-yao/</link>
+    <pubDate>Sat, 26 Nov 2022 12:15:13 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>/20221126-song-from-yao/</guid>
+    <description><![CDATA[对一个夜晚的致敬和追思]]></description>
+</item>
+</channel>
+</rss>

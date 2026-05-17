@@ -1,0 +1,68 @@
+# 菜谱：红烧肉
+
+
+<!--more-->
+
+<p><img src="https://img.shields.io/badge/last%20modified-2026--2--1-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-300-yellow?style=flat" >  <img src="https://img.shields.io/badge/5%20minutes-lightgray?style=flat" ></p>
+
+今天更新的菜谱是红烧肉。这其实是第二次做红烧肉，上次做过的味道比这次更好。今天做，主要是也买了新的高压锅，把过去炖两个钟头的漫长时间压缩到了20分钟里，新得神器，有心得也有没做好的，记录在这里。
+
+关于下一次：可以再少煎一会，而且不需要炒糖色。这个分量基本刚好三个人
+
+# 一 原料
+
+* 五花肉。是上一次在山姆买的肉剩下的一半，用保鲜膜包好放到密实袋里冰冻，可以保存很久。估计这一半有一斤左右
+* 山姆买的太太乐红烧肉酱料
+* 其他香料
+
+# 二 步骤
+
+## 焯水
+
+第一步先是焯水，类似的方式，葱姜和五花肉切块冷水下锅，加入料酒，水开后大概煮沸3分钟左右。焯水以后再温水清洗煮肉，洗去肉上的浮沫。
+
+{{< imgbox src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2026/02/01-00_52_02-202602010052227_330.png" width="800" title="" source="" >}}
+
+{{< imgbox src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2026/02/01-00_52_02-202602010052967_906.png" width="800" title="焯好水的五花肉" source="" >}}
+
+## 煎
+
+首先红烧肉要适当煎一下，这一步至关重要，但是我这两次都没有做好，主要的表现是煎的时间太久，把肉煎硬了。
+
+在锅里放很少量的油，把五花肉的四面煎到金黄。这里要注意盖上锅盖，因为肉含水量很高，而且会不断析出油脂，所以很容易飞溅。
+
+{{< imgbox src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2026/02/01-00_53_02-202602010053645_449.png" width="800" title="" source="" >}}
+
+如下图这样，其实深色的部分就是煎过的地方，会让肉整体干枯很多。煎到金黄色即可，在锅热肉热油热的情况下，大概2分钟左右就可以在一面达到这个状态。
+
+{{< imgbox src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2026/02/01-00_53_02-202602010053516_8da.png" width="800" title="" source="" >}}
+
+
+煎好的样子，其实盛出来的时候就感觉到不对劲了，锅中间的肉已经基本煎干，也要注意大锅的火候不均匀的问题。
+
+{{< imgbox src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2026/02/01-01_02_02-202602010102010_f8e.png" width="800" title="" source="" >}}
+
+## 上色翻炒 
+
+后面的步骤其实都很简单，上一步的猪油可以先留着，这一步里锅内放少量油，先放少量冰糖（10颗），炒出糖色，也就是糖有绵密的小泡沫的时候，把肉放进去翻炒。大概翻炒差不多的时候放入红烧肉酱料。其实不需要炒糖色，因为酱料本身就有糖色，放冰糖其实会让整体变得更甜。
+
+
+
+{{< imgbox src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2026/02/01-01_06_02-202602010106400_fb2.png" width="800" title="" source="" >}}
+
+## 高压锅压制
+
+把食材放到高压锅，加入没过肉的开水，放入香料包，我还加入了小葱、2个小米辣和一个wmz从云南带回来的涮涮辣。盖盖开大火上汽，等阀门开始喷气的时候，转小火炖20分钟。然后静置放气。气跑完以后就大火收汁即可。
+
+{{< imgbox src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2026/02/01-01_10_02-202602010110563_9b1.png" width="800" title="" source="" >}}
+
+## 成品
+
+{{< imgbox src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2026/02/01-01_17_02-202602010117978_d83.png" width="800" title="" source="" >}}
+
+{{< imgbox src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2026/02/01-01_18_02-202602010118152_b30.png" width="800" title="" source="" >}}
+
+{{< imgbox src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2026/02/01-01_19_02-202602010119584_266.png" width="800" title="" source="" >}}
+
+在2026年2月的第一天，工作的压力来到了一个新的高度，有朋友从远方来，在家中用心准备一桌这样的大餐，让精力从很多不相关的事情转移到具体的生活上来。神经放松下来的时候，才可以做一些超越琐碎的思考，希望新年能有更多好的变化。
+

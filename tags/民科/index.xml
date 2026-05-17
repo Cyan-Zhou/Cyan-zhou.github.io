@@ -1,0 +1,39 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>民科 - tag - </title>
+        <link>/tags/%E6%B0%91%E7%A7%91/</link>
+        <description>民科 - tag - </description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 Sep 2022 21:05:27 &#43;0800</lastBuildDate><atom:link href="/tags/%E6%B0%91%E7%A7%91/" rel="self" type="application/rss+xml" /><item>
+    <title>剺面明王</title>
+    <link>/20220924-buddhaface/</link>
+    <pubDate>Sat, 24 Sep 2022 21:05:27 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>/20220924-buddhaface/</guid>
+    <description><![CDATA[极不严谨的有关一尊明王壁画的研究]]></description>
+</item>
+<item>
+    <title>毯式建筑小史</title>
+    <link>/20220902-matbuilding/</link>
+    <pubDate>Fri, 02 Sep 2022 14:29:45 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>/20220902-matbuilding/</guid>
+    <description><![CDATA[对「毯式建筑」概念一次简单的回望。]]></description>
+</item>
+<item>
+    <title>非洲音乐档案 01</title>
+    <link>/music-nambia-music/</link>
+    <pubDate>Sun, 26 Jun 2022 00:04:52 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>/music-nambia-music/</guid>
+    <description><![CDATA[Namibie: musique instrumentale 专辑引介]]></description>
+</item>
+<item>
+    <title>N!ai，一位昆族女性的故事</title>
+    <link>/music-2022-06-05-nai/</link>
+    <pubDate>Sun, 05 Jun 2022 13:19:34 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>/music-2022-06-05-nai/</guid>
+    <description><![CDATA[从一部非洲民族志纪录片到女性主义的边界]]></description>
+</item>
+</channel>
+</rss>

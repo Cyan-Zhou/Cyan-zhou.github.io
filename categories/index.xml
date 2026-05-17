@@ -4,83 +4,35 @@
         <link>/categories/</link>
         <description>Categories - category - </description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Apr 2026 15:47:11 &#43;0000</lastBuildDate><atom:link href="/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>菜谱</title>
-    <link>/categories/%E8%8F%9C%E8%B0%B1/</link>
+    <title>Life</title>
+    <link>/categories/life/</link>
     <pubDate>Sun, 26 Apr 2026 15:47:11 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>/categories/%E8%8F%9C%E8%B0%B1/</guid>
+    <guid>/categories/life/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Blog</title>
-    <link>/categories/blog/</link>
+    <title>Tech</title>
+    <link>/categories/tech/</link>
     <pubDate>Sat, 24 May 2025 10:15:13 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>/categories/blog/</guid>
+    <guid>/categories/tech/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Book Notes</title>
-    <link>/categories/book-notes/</link>
+    <title>Mind</title>
+    <link>/categories/mind/</link>
     <pubDate>Sat, 24 May 2025 08:49:59 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>/categories/book-notes/</guid>
+    <guid>/categories/mind/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Writing</title>
-    <link>/categories/writing/</link>
-    <pubDate>Sun, 29 Dec 2024 17:09:26 &#43;0000</pubDate>
-    <author>xxxx</author>
-    <guid>/categories/writing/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>物尽其用</title>
-    <link>/categories/%E7%89%A9%E5%B0%BD%E5%85%B6%E7%94%A8/</link>
+    <title>Log</title>
+    <link>/categories/log/</link>
     <pubDate>Tue, 23 Jul 2024 23:32:15 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>/categories/%E7%89%A9%E5%B0%BD%E5%85%B6%E7%94%A8/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Research</title>
-    <link>/categories/research/</link>
-    <pubDate>Sat, 22 Jun 2024 22:13:08 &#43;0800</pubDate>
-    <author>xxxx</author>
-    <guid>/categories/research/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Weekly_digest</title>
-    <link>/categories/weekly_digest/</link>
-    <pubDate>Sat, 17 Feb 2024 22:53:00 &#43;0800</pubDate>
-    <author>xxxx</author>
-    <guid>/categories/weekly_digest/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Music</title>
-    <link>/categories/music/</link>
-    <pubDate>Sat, 26 Nov 2022 12:15:13 &#43;0800</pubDate>
-    <author>xxxx</author>
-    <guid>/categories/music/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>日记</title>
-    <link>/categories/%E6%97%A5%E8%AE%B0/</link>
-    <pubDate>Tue, 04 Oct 2022 02:52:31 &#43;0800</pubDate>
-    <author>xxxx</author>
-    <guid>/categories/%E6%97%A5%E8%AE%B0/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Archi</title>
-    <link>/categories/archi/</link>
-    <pubDate>Fri, 02 Sep 2022 14:29:45 &#43;0800</pubDate>
-    <author>xxxx</author>
-    <guid>/categories/archi/</guid>
+    <guid>/categories/log/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
