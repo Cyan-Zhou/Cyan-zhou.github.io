@@ -3,7 +3,52 @@
         <title>Tech - category - </title>
         <link>/categories/tech/</link>
         <description>Tech - category - </description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 May 2025 10:15:13 &#43;0000</lastBuildDate><atom:link href="/categories/tech/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 23 May 2026 18:00:00 &#43;0800</lastBuildDate><atom:link href="/categories/tech/" rel="self" type="application/rss+xml" /><item>
+    <title>与 Gemini 协同落地个人博客的Memos瀑布流</title>
+    <link>/20260523-workwithgemini/</link>
+    <pubDate>Sat, 23 May 2026 18:00:00 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>/20260523-workwithgemini/</guid>
+    <description><![CDATA[<p>   </p>
+<p>一直以来，我都希望能有一个类似于微博、微信朋友圈或者开源 Memos 的零散空间——它不需要长篇大论，专门用来承载不到 500 字的短读书笔记、灵感偶得、或是生活剪影；也是为了替代微博、朋友圈，一方面满足了我的分享欲望，另一方面又能彻底解决被窥视的负面感受。同时还要有极其快速的 <code>#Tag</code> 自动分流。但在 Hugo 这种先天没有后端数据库的静态网站框架下，想要达成“手机敲字、点击发送、博客秒级同步”的动态流，往往意味着要折腾复杂的自托管服务器或者高成本的云端后台。</p>
+<p>而这次，通过和 <strong>Gemini</strong> 的第一次深度协同，我们完全颠覆了传统路线。从零开始到最终打磨出完全符合我预期的冷峻极简风微博客页面，整个过程的丝滑与部署速度，只能用**“惊叹”**来形容。一天之内就完成了页面的部署和优化</p>
+<p>下面把这次需求的落地过程、技术方案的最终敲定、以及代码层面的核心打磨重点简单总结一下，也算作是一份个人的“折腾备忘录”。</p>
+<hr>
+<h2 id="需求定义">需求定义</h2>
+<p>对于这个微博流（Microblog）页面，我的预期非常纯粹和严苛：</p>
+<ol>
+<li><strong>零成本与去服务器化</strong>：坚决不引入任何付费或维护成本极高的云数据库。</li>
+<li><strong>多端快捷发布</strong>：在网页端或手机上能随时随地敲字、发图，点发送即博客同步更新，不需要频繁打开 VS Code 本地打包上传。</li>
+<li><strong>高颜值与极致低调</strong>：
+<ul>
+<li>抛弃繁琐的社交媒体UI（如个人头像），正文和标签绝对优先。</li>
+<li>账号名与发布时间作为次要信息“沉底”在卡片下方，保持克制。</li>
+<li>所有的 <code>#Tag</code> 自动转为带有圆角矩形质感的小胶囊，且能实现无感的前端一秒动态分类过滤。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="技术方案从giscus转移到github-issue的api">技术方案从giscus转移到GitHub issue的API</h2>
+<p>在讨论初期，我们曾试图利用博客已有的 Giscus 评论系统（基于 GitHub Discussions）来反向“白嫖”发言数据。但在线上部署后，遇到了由于未登录匿名请求而触发的跨域（CORS）与 GitHub API 严格限速的暗坑。</p>
+<p>在 Gemini 的建议下，我们果断放弃了不稳定的逆向路线，切换到了更稳健的<strong>正规军方案——直接调用官方公开的 GitHub Issues API</strong>。</p>
+<ul>
+<li><strong>工作流机制</strong>：在评论仓库中新建一个特定 Issue 作为微博客的大本营。</li>
+<li><strong>发布端</strong>：以后无论是摸鱼时在电脑网页端，还是在路上通过手机 <strong>GitHub App</strong>，只需在这个 Issue 下直接提交或拖拽上传图片发表评论（Comment）即可。</li>
+<li><strong>展示端</strong>：博客前端页面通过一段极轻量的原生 JavaScript 进行数据抓取，直接无缝驯服官方接口，稳定性与安全性直接拉满。</li>
+</ul>
+<hr>
+<h2 id="前端细节打磨">前端细节打磨</h2>
+<p>跳过中间的网络环境调试，最让我觉得过瘾的是在页面视觉风格、性能优化以及文字排版上，我们做出的几次精准微调：</p>
+<h3 id="1-前端css优化">1. 前端CSS优化</h3>
+<ul>
+<li><strong>第一层</strong>：Markdown 文本正文置顶，让读者第一眼聚焦于内容。</li>
+<li><strong>第二层</strong>：居中的独立 Tag 区域，通过正则匹配把正文里的 <code>#tag</code> 自动抹除，剥离成小胶囊（<code>tag-capsule</code>）。</li>
+<li><strong>第三层</strong>：账号名与时间完全沉底，并在上方用一条极为克制的浅色虚线（<code>dashed</code>）做视觉隔离，弱化存在感。</li>
+</ul>
+<h3 id="2-图片格式优化">2. 图片格式优化</h3>
+<p>当在手机端直接往 Issue 拖拽图片时，GitHub 会生成硬编码尺寸的巨大原图标签（甚至高达几MB），导致页面排版当场爆炸、加载如同拉窗帘般龟速。为了解决这个痛点，Gemini 为其注入了云端动态压缩技术：</p>]]></description>
+</item>
+<item>
     <title>Shortcode的几点应用</title>
     <link>/20250524-shortcodeplayground/</link>
     <pubDate>Sat, 24 May 2025 10:15:13 &#43;0000</pubDate>

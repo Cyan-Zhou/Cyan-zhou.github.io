@@ -3,13 +3,16 @@
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
             <loc>/about/</loc><lastmod>2022-06-01T21:18:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/</loc><lastmod>2026-05-23T12:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/</loc><lastmod>2026-05-23T15:52:41&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/categories/</loc><lastmod>2026-05-23T15:52:41&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/posts/</loc><lastmod>2026-05-23T15:52:41&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/tags/</loc><lastmod>2026-05-23T15:52:41&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/categories/tech/</loc><lastmod>2026-05-23T15:52:41&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/20260523-workwithgemini/</loc><lastmod>2026-05-23T15:52:41&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE%E5%B7%A5%E7%A8%8B/</loc><lastmod>2026-05-23T15:52:41&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/memos/</loc><lastmod>2026-05-23T12:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/memos/memos/</loc><lastmod>2026-05-23T12:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/categories/</loc><lastmod>2026-04-26T23:22:33&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>/categories/life/</loc><lastmod>2026-04-26T23:22:33&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>/posts/</loc><lastmod>2026-04-26T23:22:33&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>/tags/</loc><lastmod>2026-04-26T23:22:33&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>/tags/%E5%90%83%E9%B1%BC%E6%97%A5%E8%AE%B0/</loc><lastmod>2026-04-26T23:22:33&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>/tags/%E9%A3%9F%E4%B8%8D%E5%8E%8C%E7%B2%BE/</loc><lastmod>2026-04-26T23:22:33&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>/20260426-fish2/</loc><lastmod>2026-04-26T23:22:33&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
@@ -19,8 +22,6 @@
             <loc>/20260110-currybeef/</loc><lastmod>2026-01-10T23:55:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/20250612-spicy-chili-roujiamo/</loc><lastmod>2025-06-15T16:23:41&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/20250524-shortcodeplayground/</loc><lastmod>2025-05-24T10:15:26&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/categories/tech/</loc><lastmod>2025-05-24T10:15:26&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE%E5%B7%A5%E7%A8%8B/</loc><lastmod>2025-05-24T10:15:26&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/tags/%E6%8A%98%E8%85%BE/</loc><lastmod>2025-05-24T10:15:26&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/categories/mind/</loc><lastmod>2025-05-24T09:26:57&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/20250524-the-peddler/</loc><lastmod>2025-05-24T09:26:57&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

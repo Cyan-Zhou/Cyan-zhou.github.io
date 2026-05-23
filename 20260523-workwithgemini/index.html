@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>与 Gemini 协同落地个人博客的Memos瀑布流 - </title><meta name="Description" content="第一次和Gemini合作博客开发，1天时间就上线了一个新的页面功能。令人惊叹"><meta property="og:url" content="/20260523-workwithgemini/">
+  <meta property="og:site_name" content="Ush">
+  <meta property="og:title" content="与 Gemini 协同落地个人博客的Memos瀑布流">
+  <meta property="og:description" content="第一次和Gemini合作博客开发，1天时间就上线了一个新的页面功能。令人惊叹">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-05-23T18:00:00+08:00">
+    <meta property="article:modified_time" content="2026-05-23T15:52:41+00:00">
+    <meta property="article:tag" content="博客建设工程">
+    <meta property="og:image" content="/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="/logo.png">
+  <meta name="twitter:title" content="与 Gemini 协同落地个人博客的Memos瀑布流">
+  <meta name="twitter:description" content="第一次和Gemini合作博客开发，1天时间就上线了一个新的页面功能。令人惊叹">
+<meta name="application-name" content="Cyan Zhou">
+<meta name="apple-mobile-web-app-title" content="Cyan Zhou"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="/20260523-workwithgemini/" /><link rel="prev" href="/20260426-fish2/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><link rel="stylesheet" href="/css/flexbox.min.738cdc51066c4ebd63589d238b836b873d65e7ca36ad6b323fcbf869efc9736b.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "与 Gemini 协同落地个人博客的Memos瀑布流",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/20260523-workwithgemini\/"
+        },"genre": "posts","keywords": "博客建设工程","wordcount":  164 ,
+        "url": "\/20260523-workwithgemini\/","datePublished": "2026-05-23T18:00:00+08:00","dateModified": "2026-05-23T15:52:41+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Cyan Zhou"
+            },"description": "第一次和Gemini合作博客开发，1天时间就上线了一个新的页面功能。令人惊叹"
+    }
+    </script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700;900&display=swap"
+  rel="stylesheet">
+</head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title=""><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/avocado128.png"
+        data-srcset="/images/avocado128.png, /images/avocado128.png 1.5x, /images/avocado128.png 2x"
+        data-sizes="auto"
+        alt="/images/avocado128.png"
+        title="/images/avocado128.png" />Ush Terek</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/memos/" title="短笔记"> Memos </a><a class="menu-item" href="/categories/"> 目录 </a><a class="menu-item" href="/about/" title="About"> About </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="" id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title=""><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/avocado128.png"
+        data-srcset="/images/avocado128.png, /images/avocado128.png 1.5x, /images/avocado128.png 2x"
+        data-sizes="auto"
+        alt="/images/avocado128.png"
+        title="/images/avocado128.png" />Ush Terek</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="" id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/memos/" title="短笔记">Memos</a><a class="menu-item" href="/categories/" title="">目录</a><a class="menu-item" href="/about/" title="About">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title"></h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX" >
+            
+            与 Gemini 协同落地个人博客的Memos瀑布流
+        </h1><h2 class="single-subtitle">感受一点微小的震撼</h2><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-category"></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2026-05-23">2026-05-23</time>&nbsp;
+                
+    
+
+    
+        
+
+        
+        
+            <span id="busuanzi_container_value_page_pv"><i class="far fa-eye fa-fw"></i>
+                
+                <span id="busuanzi_value_page_pv"></span>&nbsp;</span>
+        
+    
+
+</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span></span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#需求定义">需求定义</a></li>
+    <li><a href="#技术方案从giscus转移到github-issue的api">技术方案从giscus转移到GitHub issue的API</a></li>
+    <li><a href="#前端细节打磨">前端细节打磨</a>
+      <ul>
+        <li><a href="#1-前端css优化">1. 前端CSS优化</a></li>
+        <li><a href="#2-图片格式优化">2. 图片格式优化</a></li>
+        <li><a href="#3-引入官方解析引擎markedjs解析markdown语法">3. 引入官方解析引擎（marked.js）解析markdown语法</a></li>
+        <li><a href="#4-黑白色的主题切换">4. 黑白色的主题切换</a></li>
+      </ul>
+    </li>
+    <li><a href="#结语关于-ai-协同">结语：关于 AI 协同</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p><img src="https://img.shields.io/badge/last%20modified-2026--5--23-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-2000-yellow?style=flat" >  <img src="https://img.shields.io/badge/12%20minutes-lightgray?style=flat" ></p>
+<p>一直以来，我都希望能有一个类似于微博、微信朋友圈或者开源 Memos 的零散空间——它不需要长篇大论，专门用来承载不到 500 字的短读书笔记、灵感偶得、或是生活剪影；也是为了替代微博、朋友圈，一方面满足了我的分享欲望，另一方面又能彻底解决被窥视的负面感受。同时还要有极其快速的 <code>#Tag</code> 自动分流。但在 Hugo 这种先天没有后端数据库的静态网站框架下，想要达成“手机敲字、点击发送、博客秒级同步”的动态流，往往意味着要折腾复杂的自托管服务器或者高成本的云端后台。</p>
+<p>而这次，通过和 <strong>Gemini</strong> 的第一次深度协同，我们完全颠覆了传统路线。从零开始到最终打磨出完全符合我预期的冷峻极简风微博客页面，整个过程的丝滑与部署速度，只能用**“惊叹”**来形容。一天之内就完成了页面的部署和优化</p>
+<p>下面把这次需求的落地过程、技术方案的最终敲定、以及代码层面的核心打磨重点简单总结一下，也算作是一份个人的“折腾备忘录”。</p>
+<hr>
+<h2 id="需求定义">需求定义</h2>
+<p>对于这个微博流（Microblog）页面，我的预期非常纯粹和严苛：</p>
+<ol>
+<li><strong>零成本与去服务器化</strong>：坚决不引入任何付费或维护成本极高的云数据库。</li>
+<li><strong>多端快捷发布</strong>：在网页端或手机上能随时随地敲字、发图，点发送即博客同步更新，不需要频繁打开 VS Code 本地打包上传。</li>
+<li><strong>高颜值与极致低调</strong>：
+<ul>
+<li>抛弃繁琐的社交媒体UI（如个人头像），正文和标签绝对优先。</li>
+<li>账号名与发布时间作为次要信息“沉底”在卡片下方，保持克制。</li>
+<li>所有的 <code>#Tag</code> 自动转为带有圆角矩形质感的小胶囊，且能实现无感的前端一秒动态分类过滤。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="技术方案从giscus转移到github-issue的api">技术方案从giscus转移到GitHub issue的API</h2>
+<p>在讨论初期，我们曾试图利用博客已有的 Giscus 评论系统（基于 GitHub Discussions）来反向“白嫖”发言数据。但在线上部署后，遇到了由于未登录匿名请求而触发的跨域（CORS）与 GitHub API 严格限速的暗坑。</p>
+<p>在 Gemini 的建议下，我们果断放弃了不稳定的逆向路线，切换到了更稳健的<strong>正规军方案——直接调用官方公开的 GitHub Issues API</strong>。</p>
+<ul>
+<li><strong>工作流机制</strong>：在评论仓库中新建一个特定 Issue 作为微博客的大本营。</li>
+<li><strong>发布端</strong>：以后无论是摸鱼时在电脑网页端，还是在路上通过手机 <strong>GitHub App</strong>，只需在这个 Issue 下直接提交或拖拽上传图片发表评论（Comment）即可。</li>
+<li><strong>展示端</strong>：博客前端页面通过一段极轻量的原生 JavaScript 进行数据抓取，直接无缝驯服官方接口，稳定性与安全性直接拉满。</li>
+</ul>
+<hr>
+<h2 id="前端细节打磨">前端细节打磨</h2>
+<p>跳过中间的网络环境调试，最让我觉得过瘾的是在页面视觉风格、性能优化以及文字排版上，我们做出的几次精准微调：</p>
+<h3 id="1-前端css优化">1. 前端CSS优化</h3>
+<ul>
+<li><strong>第一层</strong>：Markdown 文本正文置顶，让读者第一眼聚焦于内容。</li>
+<li><strong>第二层</strong>：居中的独立 Tag 区域，通过正则匹配把正文里的 <code>#tag</code> 自动抹除，剥离成小胶囊（<code>tag-capsule</code>）。</li>
+<li><strong>第三层</strong>：账号名与时间完全沉底，并在上方用一条极为克制的浅色虚线（<code>dashed</code>）做视觉隔离，弱化存在感。</li>
+</ul>
+<h3 id="2-图片格式优化">2. 图片格式优化</h3>
+<p>当在手机端直接往 Issue 拖拽图片时，GitHub 会生成硬编码尺寸的巨大原图标签（甚至高达几MB），导致页面排版当场爆炸、加载如同拉窗帘般龟速。为了解决这个痛点，Gemini 为其注入了云端动态压缩技术：</p>
+<ul>
+<li>脚本会自动全网拦截图片 URL，将其统一交由免费的全球图片加速代理服务（<code>wsrv.nl</code>），在云端毫秒间把几兆的原图“捏”成一张只有 20KB 的 <code>220x220</code> 极轻量 WebP 格式缩略图，并加入 <code>loading=&quot;lazy&quot;</code> 懒加载。</li>
+<li>配合手写的轻量级黑底毛玻璃遮罩层（Lightbox），<strong>“只有在点击小方块缩略图时，才会去下载真实的高清原图”</strong>。这极大地保证了首屏秒开的极速体验。</li>
+</ul>
+<h3 id="3-引入官方解析引擎markedjs解析markdown语法">3. 引入官方解析引擎（marked.js）解析markdown语法</h3>
+<p>原先手写的简陋字串替换无法完美保留读书摘抄时复杂的段落换行和语义。我们直接引入了轻量级开源解析引擎 <code>marked.js</code>，让 Issue 里的粗体、段落间距等 Markdown 语法 100% 规范转化为网页 HTML 代码。
+针对某些中文字体库先天“字重残缺”、导致 <code>font-weight</code> 加粗不明显的问题，我们采用了一种极具 Notion 质感的绝招：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">.</span><span class="nc">memo-content</span> <span class="nt">strong</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">font-weight</span><span class="p">:</span> <span class="kc">bold</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">font-family</span><span class="p">:</span> <span class="o">-</span><span class="n">apple-system</span><span class="p">,</span> <span class="n">BlinkMacSystemFont</span><span class="p">,</span> <span class="s2">&#34;PingFang SC&#34;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">strong</span><span class="o">-</span><span class="kc">text</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">background-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">strong</span><span class="o">-</span><span class="n">bg</span><span class="p">);</span> <span class="c">/* 克制的荧光笔底色 */</span>
+</span></span><span class="line"><span class="cl">    <span class="k">padding</span><span class="p">:</span> <span class="mi">2</span><span class="kt">px</span> <span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border-radius</span><span class="p">:</span> <span class="mi">4</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>强行调用系统默认黑体，并给加粗的段落垫上一层极度克制的浅灰色（夜间模式下为半透明深灰）“马克笔”高亮底色</p>
+<h3 id="4-黑白色的主题切换">4. 黑白色的主题切换</h3>
+<p>为了不让亮白的卡片在夜间显得刺眼，代码引入body[theme=&ldquo;dark&rdquo;] 夜间的兼容，并附带了 0.3s ease 的平滑过渡</p>
+<h2 id="结语关于-ai-协同">结语：关于 AI 协同</h2>
+<p>这是我第一次尝试和大模型合作去从头到尾落地一个完整的功能需求。</p>
+<p>作为一个对代码了解并不深入的创作者，以往面对跨域报错（CORS）、JSON 数据结构对不上、或是复杂的响应式样式调整时，往往需要在技术论坛里痛苦地折腾几天几夜。而这次，Gemini 就像是一个时刻坐在身边的全栈前端专家：它能根据我随手甩过去的浏览器控制台（Console）报错截图精准“破案”；能一眼看穿我从主题里扒出来的 _base.scss 源码机制；甚至能在我把 Hugo 闭合标签 {{ end }} 搞丢报错时瞬间指出卡壳点。</p>
+<p>这种“提出诉求 ➡️ 实时代码显现 ➡️ 抓取报错 ➡️ 部署”的闭环，让开发效率快得让人惊叹。</p>
+<p>最后，这篇文章本身也是Gemini帮我写的，AI味道很足。但是我觉得也无所谓去修改太多细节，它的确在博客搭建这件事上，成为了能力远超我的导师。而终于实现了我想要的功能开发，非常令人满意。Gemini在文章中加的这句话“这可能是我自搭建博客以来，最让人惊叹且富有成就感的一次功能落地。” 颇有添油加醋的王婆卖瓜之意，但也确实没错。</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span></span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/20260523-workwithgemini/index.md" target="_blank"></a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title=" Twitter" data-sharer="twitter" data-url="/20260523-workwithgemini/" data-title="与 Gemini 协同落地个人博客的Memos瀑布流" data-hashtags="博客建设工程"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title=" Facebook" data-sharer="facebook" data-url="/20260523-workwithgemini/" data-hashtag="博客建设工程"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title=" Hacker News" data-sharer="hackernews" data-url="/20260523-workwithgemini/" data-title="与 Gemini 协同落地个人博客的Memos瀑布流"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title=" Line" data-sharer="line" data-url="/20260523-workwithgemini/" data-title="与 Gemini 协同落地个人博客的Memos瀑布流"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.0.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title=" 微博" data-sharer="weibo" data-url="/20260523-workwithgemini/" data-title="与 Gemini 协同落地个人博客的Memos瀑布流"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE%E5%B7%A5%E7%A8%8B/">博客建设工程</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();"></a></span>&nbsp;|&nbsp;<span><a href="/"></a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"></div>
+</div>
+
+<div class="comment-placeholder"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">xxxx</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>
+    
+        
+        <script async src=" //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js "></script>
+    
+
+    
+        
+            <section>
+                
+                    <span id="busuanzi_container_value_site_pv"><i class="far fa-eye fa-fw"></i>
+                        
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+
+                
+                    &nbsp;|&nbsp;              
+                
+
+                
+                    <span id="busuanzi_container_value_site_uv"><i class="fa fa-user"></i>
+                        
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+            </section>
+        
+
+        
+        
+    
+
+</div>
+        </div>
+    </footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+</div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/copy-tex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/mhchem.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"","maxShownLines":50},"cookieconsent":{"content":{"dismiss":"","link":"","message":""},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-JJSCM686L4', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-JJSCM686L4" async></script></body>
+</html>
