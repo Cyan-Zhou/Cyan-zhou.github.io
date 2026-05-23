@@ -1,11 +1,7 @@
 # 热茶
 
 
-
-
 <p><img src="https://img.shields.io/badge/last%20modified-2022--00--00-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-0-yellow?style=flat" >  <img src="https://img.shields.io/badge/0%20minutes-lightgray?style=flat" ></p>
-
-
 
 ”雄鹰、烈火、磐石，还有海浪波涛，这些都是对雄性特征毫不掩饰的词汇，还有钢铁，你想想，有太多了。“
 
