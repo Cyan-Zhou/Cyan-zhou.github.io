@@ -6,7 +6,14 @@
     <description>Recent content in Memos on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 12:00:00 +0800</lastBuildDate>
     <atom:link href="/memos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memos · 碎碎念</title>
+      <link>/memos/memos/</link>
+      <pubDate>Sat, 23 May 2026 12:00:00 +0800</pubDate>
+      <guid>/memos/memos/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
