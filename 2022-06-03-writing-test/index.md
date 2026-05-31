@@ -1,7 +1,6 @@
 # 公文写作相关知识
 
 
-<p><img src="https://img.shields.io/badge/last%20modified-2022--7--10-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-10973-yellow?style=flat" >  <img src="https://img.shields.io/badge/29%20minutes-lightgray?style=flat" ></p>
 
 ## 公文写作
 

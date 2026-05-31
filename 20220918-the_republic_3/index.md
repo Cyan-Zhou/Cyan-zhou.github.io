@@ -3,8 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2022--0--0-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-00-yellow?style=flat" >  <img src="https://img.shields.io/badge/00%20minutes-lightgray?style=flat" ></p>
-
 <p><img src="https://img.shields.io/badge/English version-Penguin Classic 2007-blue?style=flat" > <img src="https://img.shields.io/badge/中文版本-人民出版社2017年增订本-blue?style=flat" > <img src="https://geps.dev/progress/47" > </p>
 
 {{< admonition type=info title="阅读版本" open=true >}}

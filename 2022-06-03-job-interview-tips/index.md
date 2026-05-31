@@ -1,8 +1,6 @@
 # 面试准备
 
 
-<p><img src="https://img.shields.io/badge/last%20modified-2022--7--10-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-12755-yellow?style=flat" >  <img src="https://img.shields.io/badge/33%20minutes-lightgray?style=flat" ></p>
-
 公认的面试题目考察方式，是通过这四种类型的题目来一一对应各能力来考察：
 
 1、组织计划题；

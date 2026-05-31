@@ -1,7 +1,6 @@
 # 若干好听常用的 Riff
 
 
-<p><img src="https://img.shields.io/badge/last%20modified-2022--00--00-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-0-yellow?style=flat" >  <img src="https://img.shields.io/badge/0%20minutes-lightgray?style=flat" ></p>
 
 当年搞了好久才成功把乐谱从代码变成真的能显示的小蝌蚪，记录在这里。
 
