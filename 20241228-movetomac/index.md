@@ -3,7 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2024--12--29-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-1760-yellow?style=flat" >  <img src="https://img.shields.io/badge/6%20minutes-lightgray?style=flat" ></p>
 
 最近新添置了 Mac Mini 替换服役了 7 年的 windows 主机，除了文件和软件搬运外，一直拖着没有解决的问题就是博客的配置。恰好最近和 ChatGPT 的协作越来越深入，在博客配置上，我预测 GPT 可以帮我解决不少博客配置上我不了解的问题。所以博客搬运就在和 GPT 的协作对话中开始了。
 

@@ -3,8 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2025--5--20-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-1106-yellow?style=flat" >  <img src="https://img.shields.io/badge/3%20minutes-lightgray?style=flat" ></p>
-
 上周家里来了三位朋友，我们做了一桌丰盛的晚宴，贡献了 3 道菜——青椒鸡（没错，和上一次的菜实际上差不多），空心菜和煲仔饭，先看成品
 
 ### 菜单

@@ -3,8 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2025--2--4-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-789-yellow?style=flat" >  <img src="https://img.shields.io/badge/5%20minutes-lightgray?style=flat" ></p>
-
 写在前面：在完成这次读书笔记的过程中，由于准备时间的不充分和GEB此书内容之庞杂，我尝试了一种AI协作的策展式写作方法，也就是我负责策划整体的叙事逻辑，在必要的位置向AI提出需求，AI生成片段化的内容。在这种方式的辅助下，我可以专注在如何搭建更好的内容框架和叙述逻辑，如何在不同板块之间寻找联系，而不必费心于每个内容板块内的文字搭建。
 
 开始之前，我们先聊聊一个程序

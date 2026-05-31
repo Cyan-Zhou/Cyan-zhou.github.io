@@ -3,8 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2024--Feb--17-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-5004-yellow?style=flat" >   <img src="https://img.shields.io/badge/15%20minutes-lightgray?style=flat" ></p>
-
 诸位新年好！
 
 2023 年，过的丰富、艰难，遇到了很多困难，困难面前又有很多转机。记忆的过程，又能回味重新生活的乐趣。有很顺利的时候，很开心的时候，旅行的奇遇，生活的偶得，记录的视角下，日子如同万花筒一般难以捉摸又值得期待。

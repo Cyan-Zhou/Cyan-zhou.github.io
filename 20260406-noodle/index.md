@@ -3,7 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2026--4--6-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-400-yellow?style=flat" >  <img src="https://img.shields.io/badge/5%20minutes-lightgray?style=flat" ></p>
 
 清明节假期前两天去了龙南staycation，连吃了2天爆辣的江西菜，回到深圳以后，只想尝试口味清淡一些的食物。突然想到去年5月的时候做过一次卤面，那次味道有点失败，接近一年时间过去了，是时候再尝试一次。
 

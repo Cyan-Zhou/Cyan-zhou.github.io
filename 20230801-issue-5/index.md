@@ -3,7 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2023--Aug--1-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-6333-yellow?style=flat" >  <img src="https://img.shields.io/badge/12%20minutes-lightgray?style=flat" ></p>
 
 <table frame=void><tr><td height=1px; bgcolor=#FFFFFF><center><font color=0000B9 size="6"><b>公&nbsp;&nbsp;告</b></center></td></tr></table>
 

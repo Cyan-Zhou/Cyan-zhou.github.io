@@ -2,7 +2,7 @@
 
 
 <!--more-->
-<p><img src="https://img.shields.io/badge/last%20modified-2023--July--26-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-3271-yellow?style=flat" >  <img src="https://img.shields.io/badge/6%20minutes-lightgray?style=flat" ></p>
+
 
 <table><tr><td height=1px; bgcolor=#F1EEEE><center><font color=205375 size="6"><b>建&nbsp;&nbsp;筑</b></center></td></tr></table>
 

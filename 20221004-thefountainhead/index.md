@@ -3,7 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/version-Penguin%202007-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-00-yellow?style=flat" >  <img src="https://img.shields.io/badge/00%20minutes-lightgray?style=flat" ></p>
 
 今夜醉酒，写信，读书。读到 *The Fountainhead* 这段，突然感到和 Howard Roack 强烈的共情。
 

@@ -3,8 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2026--01--10-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-500-yellow?style=flat" >  <img src="https://img.shields.io/badge/5%20minutes-lightgray?style=flat" ></p>
-
 元旦第二天去了澳门大快朵颐，吃到了咖喱全的咖喱牛腩，口感软糯，且极辣。当晚和老鼠散步路过了的士司机随口推荐的叠记————司机口中好吃不排队，也在官也街的另一家平价咖喱，步入买了一瓶咖喱酱。难熬的六天调休终于结束了，想复刻澳门的辣味咖喱，于是中午就去到了家附近的福中福市场。
 
 {{< imgbox src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2026/01/11-00_30_01-202601110030487_223.png" width="800" title="叠记的咖喱膏通过了考验，好吃，可以再买" source="" >}}

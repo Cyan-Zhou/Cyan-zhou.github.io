@@ -3,8 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2026--4--6-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-400-yellow?style=flat" >  <img src="https://img.shields.io/badge/5%20minutes-lightgray?style=flat" ></p>
-
 最近不知道怎么回事，爱上了吃鱼。每天晚上在小红书刷做鱼的视频，早就手痒想在周末尝试一把。今天上午去市场买了一条黄鱼。记录在这里。
 
 ## 原料

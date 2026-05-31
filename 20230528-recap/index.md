@@ -3,7 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2023--5--28-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-1934-yellow?style=flat" >  <img src="https://img.shields.io/badge/5%20minutes-lightgray?style=flat" ></p>
 
 ## 最近做了什么
 

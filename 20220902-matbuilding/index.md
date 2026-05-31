@@ -3,8 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/Last%20modified-2022--9--18-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-7759-yellow?style=flat" > <img src="https://img.shields.io/badge/20%20minutes-lightgray?style=flat" ></p>
-
 
 
 ## 综述

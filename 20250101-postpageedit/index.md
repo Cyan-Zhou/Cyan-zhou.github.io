@@ -3,7 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2025--1--1-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-403-yellow?style=flat" >  <img src="https://img.shields.io/badge/02%20minutes-lightgray?style=flat" ></p>
 
 趁新年假期，在GPT的协助下修改博客目录页面长期存在的bug。
 

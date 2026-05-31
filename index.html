@@ -30,15 +30,10 @@
                 "name": "xxxx"
             },"description": "This is my cool site","name": ""
     }
-    </script>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&family=Roboto&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-
-<link
-  href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700;900&display=swap"
-  rel="stylesheet">
-</head>
-    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+    </script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"></head>
+    <body class="page-home" data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
@@ -113,100 +108,187 @@
     <div class="search-dropdown mobile">
         <div id="search-dropdown-mobile"></div>
     </div><main class="main">
-                <div class="container"><div class="page home" data-home="posts"><div class="home-profile"><div class="home-avatar"><a href="/posts/" title="所有文章"><img
+                <div class="container"><div class="page home" data-home="posts"><section class="home-profile" aria-labelledby="home-title"><div class="home-avatar"><img
         class="lazyload"
         src="/svg/loading.min.svg"
         data-src="/images/output_avatar-1.jpg"
         data-srcset="/images/output_avatar-1.jpg, /images/output_avatar-1.jpg 1.5x, /images/output_avatar-1.jpg 2x"
         data-sizes="auto"
         alt="/images/output_avatar-1.jpg"
-        title="/images/output_avatar-1.jpg" /></a></div><div class="home-subtitle"><div id="id-1" class="typeit"></div></div><div class="links"><a href="https://www.instagram.com/jingyan_zhou_/" title="Instagram" target="_blank" rel="noopener noreffer me"><i class="fab fa-instagram fa-fw" aria-hidden="true"></i></a><a href="mailto:jingyan.zhou.x@outlook.com" title="Email" rel=" me"><i class="far fa-envelope fa-fw" aria-hidden="true"></i></a><a href="/index.xml" title="RSS" target="_blank" rel="noopener noreffer me"><i class="fas fa-rss fa-fw" aria-hidden="true"></i></a></div></div>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/20260523-workwithgemini/">与 Gemini 协同落地个人博客的Memos瀑布流</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-publish"></span>&nbsp;<span class="post-category"></span></div><div class="content"><p><img src="https://img.shields.io/badge/last%20modified-2026--5--23-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-2000-yellow?style=flat" >  <img src="https://img.shields.io/badge/12%20minutes-lightgray?style=flat" ></p>
-<p>一直以来，我都希望能有一个类似于微博、微信朋友圈或者开源 Memos 的零散空间——它不需要长篇大论，专门用来承载不到 500 字的短读书笔记、灵感偶得、或是生活剪影；也是为了替代微博、朋友圈，一方面满足了我的分享欲望，另一方面又能彻底解决被窥视的负面感受。同时还要有极其快速的 <code>#Tag</code> 自动分流。但在 Hugo 这种先天没有后端数据库的静态网站框架下，想要达成“手机敲字、点击发送、博客秒级同步”的动态流，往往意味着要折腾复杂的自托管服务器或者高成本的云端后台。</p>
-<p>而这次，通过和 <strong>Gemini</strong> 的第一次深度协同，我们完全颠覆了传统路线。从零开始到最终打磨出完全符合我预期的冷峻极简风微博客页面，整个过程的丝滑与部署速度，只能用**“惊叹”**来形容。一天之内就完成了页面的部署和优化</p>
-<p>下面把这次需求的落地过程、技术方案的最终敲定、以及代码层面的核心打磨重点简单总结一下，也算作是一份个人的“折腾备忘录”。</p>
-<hr>
-<h2 id="需求定义">需求定义</h2>
-<p>对于这个微博流（Microblog）页面，我的预期非常纯粹和严苛：</p>
-<ol>
-<li><strong>零成本与去服务器化</strong>：坚决不引入任何付费或维护成本极高的云数据库。</li>
-<li><strong>多端快捷发布</strong>：在网页端或手机上能随时随地敲字、发图，点发送即博客同步更新，不需要频繁打开 VS Code 本地打包上传。</li>
-<li><strong>高颜值与极致低调</strong>：
-<ul>
-<li>抛弃繁琐的社交媒体UI（如个人头像），正文和标签绝对优先。</li>
-<li>账号名与发布时间作为次要信息“沉底”在卡片下方，保持克制。</li>
-<li>所有的 <code>#Tag</code> 自动转为带有圆角矩形质感的小胶囊，且能实现无感的前端一秒动态分类过滤。</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="技术方案从giscus转移到github-issue的api">技术方案从giscus转移到GitHub issue的API</h2>
-<p>在讨论初期，我们曾试图利用博客已有的 Giscus 评论系统（基于 GitHub Discussions）来反向“白嫖”发言数据。但在线上部署后，遇到了由于未登录匿名请求而触发的跨域（CORS）与 GitHub API 严格限速的暗坑。</p>
-<p>在 Gemini 的建议下，我们果断放弃了不稳定的逆向路线，切换到了更稳健的<strong>正规军方案——直接调用官方公开的 GitHub Issues API</strong>。</p>
-<ul>
-<li><strong>工作流机制</strong>：在评论仓库中新建一个特定 Issue 作为微博客的大本营。</li>
-<li><strong>发布端</strong>：以后无论是摸鱼时在电脑网页端，还是在路上通过手机 <strong>GitHub App</strong>，只需在这个 Issue 下直接提交或拖拽上传图片发表评论（Comment）即可。</li>
-<li><strong>展示端</strong>：博客前端页面通过一段极轻量的原生 JavaScript 进行数据抓取，直接无缝驯服官方接口，稳定性与安全性直接拉满。</li>
-</ul>
-<hr>
-<h2 id="前端细节打磨">前端细节打磨</h2>
-<p>跳过中间的网络环境调试，最让我觉得过瘾的是在页面视觉风格、性能优化以及文字排版上，我们做出的几次精准微调：</p>
-<h3 id="1-前端css优化">1. 前端CSS优化</h3>
-<ul>
-<li><strong>第一层</strong>：Markdown 文本正文置顶，让读者第一眼聚焦于内容。</li>
-<li><strong>第二层</strong>：居中的独立 Tag 区域，通过正则匹配把正文里的 <code>#tag</code> 自动抹除，剥离成小胶囊（<code>tag-capsule</code>）。</li>
-<li><strong>第三层</strong>：账号名与时间完全沉底，并在上方用一条极为克制的浅色虚线（<code>dashed</code>）做视觉隔离，弱化存在感。</li>
-</ul>
-<h3 id="2-图片格式优化">2. 图片格式优化</h3>
-<p>当在手机端直接往 Issue 拖拽图片时，GitHub 会生成硬编码尺寸的巨大原图标签（甚至高达几MB），导致页面排版当场爆炸、加载如同拉窗帘般龟速。为了解决这个痛点，Gemini 为其注入了云端动态压缩技术：</p></div><div class="post-footer">
-        <a href="/20260523-workwithgemini/"></a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE%E5%B7%A5%E7%A8%8B/">博客建设工程</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/20260426-fish2/">香煎南昌鱼</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-publish"></span>&nbsp;<span class="post-category"></span></div><div class="content">第二弹：南昌鱼 </div><div class="post-footer">
-        <a href="/20260426-fish2/"></a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E5%90%83%E9%B1%BC%E6%97%A5%E8%AE%B0/">吃鱼日记</a>,&nbsp;<a href="/tags/%E9%A3%9F%E4%B8%8D%E5%8E%8C%E7%B2%BE/">食不厌精</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/20260406-fish01/">清蒸黄花鱼</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-publish"></span>&nbsp;<span class="post-category"></span></div><div class="content">从这期开始尝试做菜场的鱼。</div><div class="post-footer">
-        <a href="/20260406-fish01/"></a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E5%90%83%E9%B1%BC%E6%97%A5%E8%AE%B0/">吃鱼日记</a>,&nbsp;<a href="/tags/%E9%A3%9F%E4%B8%8D%E5%8E%8C%E7%B2%BE/">食不厌精</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/20260406-noodle/">如何做一碗香喷喷的卤面</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-publish"></span>&nbsp;<span class="post-category"></span></div><div class="content">第二次尝试做卤面，这次比较成功一点。</div><div class="post-footer">
-        <a href="/20260406-noodle/"></a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E9%A3%9F%E4%B8%8D%E5%8E%8C%E7%B2%BE/">食不厌精</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/20260201-red-braised-pork-belly/">菜谱：红烧肉</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-publish"></span>&nbsp;<span class="post-category"></span></div><div class="content">这次分享的菜谱是快手辣红烧肉</div><div class="post-footer">
-        <a href="/20260201-red-braised-pork-belly/"></a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E9%A3%9F%E4%B8%8D%E5%8E%8C%E7%B2%BE/">食不厌精</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/20260110-currybeef/">咖喱牛腩菜谱</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cyan Zhou</a></span>&nbsp;<span class="post-publish"></span>&nbsp;<span class="post-category"></span></div><div class="content">复刻澳门辣味咖喱牛腩</div><div class="post-footer">
-        <a href="/20260110-currybeef/"></a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E9%A3%9F%E4%B8%8D%E5%8E%8C%E7%B2%BE/">食不厌精</a></div></div>
-</article><ul class="pagination"><li class="page-item active">
-                    <span class="page-link">
-                        <a href="/">1</a>
-                    </span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/page/2/">2</a>
-                    </span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/page/3/">3</a>
-                    </span>
-                </li><li class="page-item ">
-                    <span class="page-link" aria-hidden="true">&hellip;</span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/page/8/">8</a>
-                    </span>
-                </li></ul></div></div>
+        title="/images/output_avatar-1.jpg" /></div><h1 id="home-title" class="home-title">个人档案，短笔记，阅读与日常实验。</h1>
+
+  <p class="home-intro">这里收集我的生活观察。一个持续生长的私人索引。</p><div class="links" aria-label="Social links"><a href="https://www.instagram.com/jingyan_zhou_/" title="Instagram" target="_blank" rel="noopener noreffer me"><i class="fab fa-instagram fa-fw" aria-hidden="true"></i></a><a href="mailto:jingyan.zhou.x@outlook.com" title="Email" rel=" me"><i class="far fa-envelope fa-fw" aria-hidden="true"></i></a><a href="/index.xml" title="RSS" target="_blank" rel="noopener noreffer me"><i class="fas fa-rss fa-fw" aria-hidden="true"></i></a></div></section><section class="home-section home-latest" aria-labelledby="home-latest-title">
+        <div class="home-section-header">
+          <h2 id="home-latest-title">Latest</h2>
+          <a href="/posts/">所有文章</a>
+        </div>
+
+        <div class="home-latest-list"><article class="summary" itemscope itemtype="http://schema.org/Article">
+  <h3 class="summary-title" itemprop="name headline">
+    <a href="/20260523-workwithgemini/">与 Gemini 协同落地个人博客的Memos瀑布流</a>
+  </h3>
+
+  <div class="summary-meta"><time datetime="2026-05-23">2026-05-23</time><span class="summary-dot">·</span><a href="/categories/tech/">Tech</a></div>
+
+  <div class="summary-excerpt">第一次和Gemini合作博客开发，1天时间就上线了一个新的页面功能。令人惊叹</div><div class="summary-tags"><a href="/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE%E5%B7%A5%E7%A8%8B/"># 博客建设工程</a></div></article><article class="summary" itemscope itemtype="http://schema.org/Article">
+  <h3 class="summary-title" itemprop="name headline">
+    <a href="/20260426-fish2/">香煎南昌鱼</a>
+  </h3>
+
+  <div class="summary-meta"><time datetime="2026-04-26">2026-04-26</time><span class="summary-dot">·</span><a href="/categories/life/">Life</a></div>
+
+  <div class="summary-excerpt">第二弹：南昌鱼 </div><div class="summary-tags"><a href="/tags/%E5%90%83%E9%B1%BC%E6%97%A5%E8%AE%B0/"># 吃鱼日记</a><a href="/tags/%E9%A3%9F%E4%B8%8D%E5%8E%8C%E7%B2%BE/"># 食不厌精</a></div></article><article class="summary" itemscope itemtype="http://schema.org/Article">
+  <h3 class="summary-title" itemprop="name headline">
+    <a href="/20260406-fish01/">清蒸黄花鱼</a>
+  </h3>
+
+  <div class="summary-meta"><time datetime="2026-04-06">2026-04-06</time><span class="summary-dot">·</span><a href="/categories/life/">Life</a></div>
+
+  <div class="summary-excerpt">从这期开始尝试做菜场的鱼。</div><div class="summary-tags"><a href="/tags/%E5%90%83%E9%B1%BC%E6%97%A5%E8%AE%B0/"># 吃鱼日记</a><a href="/tags/%E9%A3%9F%E4%B8%8D%E5%8E%8C%E7%B2%BE/"># 食不厌精</a></div></article><article class="summary" itemscope itemtype="http://schema.org/Article">
+  <h3 class="summary-title" itemprop="name headline">
+    <a href="/20260406-noodle/">如何做一碗香喷喷的卤面</a>
+  </h3>
+
+  <div class="summary-meta"><time datetime="2026-04-06">2026-04-06</time><span class="summary-dot">·</span><a href="/categories/life/">Life</a></div>
+
+  <div class="summary-excerpt">第二次尝试做卤面，这次比较成功一点。</div><div class="summary-tags"><a href="/tags/%E9%A3%9F%E4%B8%8D%E5%8E%8C%E7%B2%BE/"># 食不厌精</a></div></article><article class="summary" itemscope itemtype="http://schema.org/Article">
+  <h3 class="summary-title" itemprop="name headline">
+    <a href="/20260201-red-braised-pork-belly/">菜谱：红烧肉</a>
+  </h3>
+
+  <div class="summary-meta"><time datetime="2026-01-31">2026-01-31</time><span class="summary-dot">·</span><a href="/categories/life/">Life</a></div>
+
+  <div class="summary-excerpt">这次分享的菜谱是快手辣红烧肉</div><div class="summary-tags"><a href="/tags/%E9%A3%9F%E4%B8%8D%E5%8E%8C%E7%B2%BE/"># 食不厌精</a></div></article><article class="summary" itemscope itemtype="http://schema.org/Article">
+  <h3 class="summary-title" itemprop="name headline">
+    <a href="/20260110-currybeef/">咖喱牛腩菜谱</a>
+  </h3>
+
+  <div class="summary-meta"><time datetime="2026-01-10">2026-01-10</time><span class="summary-dot">·</span><a href="/categories/life/">Life</a></div>
+
+  <div class="summary-excerpt">复刻澳门辣味咖喱牛腩</div><div class="summary-tags"><a href="/tags/%E9%A3%9F%E4%B8%8D%E5%8E%8C%E7%B2%BE/"># 食不厌精</a></div></article></div>
+      </section><section class="home-section home-recent-memos" aria-labelledby="home-memos-title">
+      <div class="home-section-header">
+        <h2 id="home-memos-title">Recent Memos</h2>
+        <a href="/memos/">全部 Memos</a>
+      </div>
+
+      <div class="home-memo-list" id="home-memo-list">
+        <div class="home-memo-loading">正在同步短笔记...</div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    (function () {
+      const repo = "Cyan-Zhou/blog_comment";
+      const issueNumber = 15;
+      const container = document.getElementById("home-memo-list");
+
+      if (!container) return;
+
+      function formatDate(dateString) {
+        return new Date(dateString).toLocaleDateString("zh-CN", {
+          year: "numeric",
+          month: "2-digit",
+          day: "2-digit"
+        });
+      }
+
+      function cleanMemoBody(raw) {
+        return (raw || "")
+          .replace(/!\[.*?\]\((.*?)\)/g, "")
+          .replace(/<img[^>]*src=["'][^"']+["'][^>]*>/gi, "")
+          .replace(/#\s*([^\s#<]+)/g, "")
+          .replace(/\*\*(.*?)\*\*/g, "$1")
+          .replace(/__(.*?)__/g, "$1")
+          .replace(/\[(.*?)\]\((.*?)\)/g, "$1")
+          .replace(/[`>*_~]/g, "")
+          .replace(/\s+/g, " ")
+          .trim();
+      }
+
+      function getTags(raw) {
+        const tags = [];
+        const regex = /#\s*([^\s#<]+)/g;
+        let match;
+
+        while ((match = regex.exec(raw || "")) !== null) {
+          tags.push(match[1]);
+        }
+
+        return tags.slice(0, 3);
+      }
+
+      function renderMemo(memo) {
+        const item = document.createElement("article");
+        item.className = "home-memo-item";
+
+        const content = document.createElement("p");
+        content.className = "home-memo-content";
+        const memoText = cleanMemoBody(memo.bodyRaw);
+        content.textContent = memoText.length > 96 ? memoText.slice(0, 96) + "..." : memoText;
+
+        const meta = document.createElement("div");
+        meta.className = "home-memo-meta";
+
+        const time = document.createElement("time");
+        time.dateTime = memo.createdAt;
+        time.textContent = formatDate(memo.createdAt);
+
+        const tags = document.createElement("div");
+        tags.className = "home-memo-tags";
+
+        getTags(memo.bodyRaw).forEach(function (tag) {
+          const pill = document.createElement("span");
+          pill.textContent = "# " + tag;
+          tags.appendChild(pill);
+        });
+
+        meta.appendChild(time);
+        meta.appendChild(tags);
+
+        item.appendChild(content);
+        item.appendChild(meta);
+
+        return item;
+      }
+
+      fetch(`https://api.github.com/repos/${repo}/issues/${issueNumber}/comments`)
+        .then(function (response) {
+          if (!response.ok) throw new Error("Memo request failed");
+          return response.json();
+        })
+        .then(function (comments) {
+          const memos = comments
+            .map(function (comment) {
+              return {
+                author: comment.user ? comment.user.login : "Cyan Zhou",
+                createdAt: comment.created_at,
+                bodyRaw: comment.body || ""
+              };
+            })
+            .filter(function (memo) {
+              return memo.author === "Cyan-Zhou" || memo.author === "Cyan Zhou";
+            })
+            .reverse()
+            .slice(0, 4);
+
+          container.innerHTML = "";
+
+          if (!memos.length) {
+            container.innerHTML = '<div class="home-memo-loading">暂无短笔记。</div>';
+            return;
+          }
+
+          memos.forEach(function (memo) {
+            container.appendChild(renderMemo(memo));
+          });
+        })
+        .catch(function () {
+          container.innerHTML = '<div class="home-memo-loading">暂时无法同步短笔记。</div>';
+        });
+    })();
+  </script></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">
                 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">xxxx</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>
@@ -256,7 +338,7 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/copy-tex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.5.4/dist/index.umd.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/mhchem.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"","maxShownLines":50},"cookieconsent":{"content":{"dismiss":"","link":"","message":""},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"id-1":"Hello"},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/copy-tex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/mhchem.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"","maxShownLines":50},"cookieconsent":{"content":{"dismiss":"","link":"","message":""},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
             window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
             gtag('config', 'G-JJSCM686L4', { 'anonymize_ip': true });
         </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-JJSCM686L4" async></script></body>

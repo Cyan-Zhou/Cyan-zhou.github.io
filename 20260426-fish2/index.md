@@ -3,7 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2026--4--26-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-200-yellow?style=flat" >  <img src="https://img.shields.io/badge/5%20minutes-lightgray?style=flat" ></p>
 
 ## 原料
 

@@ -3,8 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2022--9--18-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-9191-yellow?style=flat" >  <img src="https://img.shields.io/badge/24%20minutes-lightgray?style=flat" ></p>
-
 <img src="https://img.shields.io/badge/Hugo version-0.99.1-blue?style=flat" > <img src="https://img.shields.io/badge/Status-updating-blue?style=flat" >
 
 打算搭建博客的想法已经有两三年了，一直到最近对代码不再一无所知，而且待业在家才终于决定着手搭建一个简单的博客。之前大概看过 Squarespace、Cargo 这类 SaaS 平台，考虑到

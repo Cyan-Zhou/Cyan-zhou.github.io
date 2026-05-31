@@ -3,7 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2023--Sep--6-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-3269-yellow?style=flat" >   <img src="https://img.shields.io/badge/10%20minutes-lightgray?style=flat" ></p>
 <table frame=void><tr><td height=1px; bgcolor=#FFFFFF><center><font color=0000B9 size="6"><b>引</b></center></td></tr></table>
 
 已经来到第 10 期周刊，时间过得真是快极了，尤其是开始做周刊以后，每周的空闲时间都需要给周刊分出一些。尽管通过周刊学到了很多东西，但个人运营，时间和精力上的压力的确有所增加，苦思冥想了很久提高效率的办法，灵机一动想到了 AI。因此，从本期开始，我将借助 AI 工具的力量，让 AI 分析网页，生成一部分介绍性的语句，<font color="0000B9">我在此基础上增加自己的内容，用蓝色文字表示。</font>目前还没有完全确定最适配的工具，本期使用 Poe 中的 `Llama-2` 大语言模型尝试生成介绍文本（我也会再加工处理）。

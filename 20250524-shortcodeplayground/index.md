@@ -2,8 +2,7 @@
 
 
 <!--more-->
-
-<p><img src="https://img.shields.io/badge/last%20modified-2025--5--24-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-300-yellow?style=flat" >  <img src="https://img.shields.io/badge/1%20minutes-lightgray?style=flat" ></p>
+ 
 
 最近发现shortcode很好用，能比较好减轻我的博客编辑负担，chatGPT的帮助下添加了图片的shortcode工具
 

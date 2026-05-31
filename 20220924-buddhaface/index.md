@@ -3,9 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2022--10--3-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-7567-yellow?style=flat" >  <img src="https://img.shields.io/badge/20%20minutes-lightgray?style=flat" ></p>
-
-
 
 ## 缘起
 

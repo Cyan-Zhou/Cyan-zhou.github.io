@@ -3,7 +3,7 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2023--Aug--23-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-4737-yellow?style=flat" >   <img src="https://img.shields.io/badge/15%20minutes-lightgray?style=flat" ></p>
+
 
 
 <table frame=void><tr><td height=1px; bgcolor: transparent><center><font color=e0e0ff size="6"><b>ARCHITECTURE</b><font color=0000B9 size="6"><b>ARCHITECTURE</b><font color=e0e0ff size="6"><b>ARCHITECTURE</b></center></td></tr></table>

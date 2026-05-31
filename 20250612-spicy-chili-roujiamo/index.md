@@ -3,8 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2025--6--16-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-1212-yellow?style=flat" >  <img src="https://img.shields.io/badge/5%20minutes-lightgray?style=flat" ></p>
-
 记录这周尝试的几道菜肴。周六白天去公司培训，下午回家，心血来潮突然想吃从小吃到大的绿辣子夹馍（陕西话叫「刘辣子夹摸」）。
 
 {{< imgbox src="https://images-1319077775.cos.ap-guangzhou.myqcloud.com/2025/06/15-23_59_06-202506152359866_e98.png" width="800" title="分享一张今天在别人家里看到偶然走入的小鸡背影" source="" >}}

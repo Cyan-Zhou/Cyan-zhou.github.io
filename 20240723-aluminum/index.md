@@ -3,8 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2024--7--25-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-1314-yellow?style=flat" >  <img src="https://img.shields.io/badge/5%20minutes-lightgray?style=flat" ></p>
-
 前一阵从小红书看到有人用铝型材 DIY 各种家具，才偶然之间发现铝型材 DIY 的社群。正好现在在用的显示器支架总觉得不够美观，和桌面不搭，于是立即着手设计。
 
 ## 明确需求

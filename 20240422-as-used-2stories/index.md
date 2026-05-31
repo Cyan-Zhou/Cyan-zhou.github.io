@@ -3,7 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2024--4--22-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-453-yellow?style=flat" >  <img src="https://img.shields.io/badge/5%20minutes-lightgray?style=flat" ></p>
 
 最近在阅读《坛经》，「忏悔品第六」的结尾有一句“学道常于自性观，即与诸佛同一类。”这里注释提到了 2 本典籍，我觉得写的很好，一下子点出成佛的本质。分享在这里。
 

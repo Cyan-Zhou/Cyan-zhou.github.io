@@ -3,7 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2024--9--11-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-8345-yellow?style=flat" >  <img src="https://img.shields.io/badge/10%20minutes-lightgray?style=flat" ></p>
 
 ## 引言
 

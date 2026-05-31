@@ -3,11 +3,7 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2025--5--11-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-1105-yellow?style=flat" >  <img src="https://img.shields.io/badge/3%20minutes-lightgray?style=flat" ></p>
-
-今天在家招待两位朋友，一起在家和成都的朋友们开读书会，做了这份土豆青椒排骨，记录一下菜谱。后续还有改进空间
-
-### 原料
+# 原料
 
 排骨2根，大概一斤八两
 
@@ -25,7 +21,7 @@
 
 香料-少许白芷、白豆蔻、香叶、桂皮、八角、小茴香10+、陈皮、花椒10+、干辣椒4、丁香4
 
-## 步骤
+# 步骤
 
 ### STEP 0 ｜ 备菜
 

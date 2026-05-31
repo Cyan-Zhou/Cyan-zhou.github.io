@@ -5,8 +5,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2023--Sep--13-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-5229-yellow?style=flat" >   <img src="https://img.shields.io/badge/15%20minutes-lightgray?style=flat" ></p>
-
 <table frame=void><tr><td height=1px; bgcolor=#FFFFFF><center><font color=0000B9 size="6"><b>引</b></center></td></tr></table>
 
 因为 AI 的内容质量太低，其实真正用得到的内容很少，所以修改一下规则，<font color="0000B9">AI 生成的内容用蓝色表示。</font>

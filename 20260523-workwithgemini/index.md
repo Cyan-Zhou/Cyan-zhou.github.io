@@ -1,7 +1,8 @@
 # 与 Gemini 协同落地个人博客的Memos瀑布流
 
 
-<p><img src="https://img.shields.io/badge/last%20modified-2026--5--23-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-2000-yellow?style=flat" >  <img src="https://img.shields.io/badge/12%20minutes-lightgray?style=flat" ></p>
+<!--more-->
+
 
 一直以来，我都希望能有一个类似于微博、微信朋友圈或者开源 Memos 的零散空间——它不需要长篇大论，专门用来承载不到 500 字的短读书笔记、灵感偶得、或是生活剪影；也是为了替代微博、朋友圈，一方面满足了我的分享欲望，另一方面又能彻底解决被窥视的负面感受。同时还要有极其快速的 `#Tag` 自动分流。但在 Hugo 这种先天没有后端数据库的静态网站框架下，想要达成“手机敲字、点击发送、博客秒级同步”的动态流，往往意味着要折腾复杂的自托管服务器或者高成本的云端后台。
 

@@ -3,7 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2023--Aug--30-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-7173-yellow?style=flat" >   <img src="https://img.shields.io/badge/24%20minutes-lightgray?style=flat" ></p>
 <table frame=void><tr><td height=1px; bgcolor=#FFFFFF><center><font color=0000B9 size="6"><b>引</b></center></td></tr></table>
 
 本周 Lili 终于过了澳门签注的冷静期。周末我们去了澳门和珠海，这次和 19 年一样，坐船抵达澳门码头，澳门还是一样的安逸热闹，Lili 带着我吃了很多好吃的食物，我们穿越大三巴附近的人群，摇摇晃晃到了世外桃源一样的路环岛，隔着路环岛，看到珠海的码头叫嚷，倏忽之间来到了珠海，隔着口岸看到新葡京。几年过去，我甚至开始享受并珍惜新葡京的景象。找寻生活中一些没有变化的痕迹，更容易令人感动。

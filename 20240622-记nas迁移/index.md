@@ -3,7 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2024--6--22-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-1734-yellow?style=flat" >  <img src="https://img.shields.io/badge/10%20minutes-lightgray?style=flat" ></p>
 
 最近又面临一段物欲爆棚的时期，心愿单上有不少电子产品，正好最近面临严重的手机空间不足，为了一劳永逸解决手机容量问题，在 618 购入了群晖 DS 423+，替代 bro 送给我的西数 Ex2 Ultra。
 

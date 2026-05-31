@@ -3,8 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2026--2--1-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-300-yellow?style=flat" >  <img src="https://img.shields.io/badge/5%20minutes-lightgray?style=flat" ></p>
-
 今天更新的菜谱是红烧肉。这其实是第二次做红烧肉，上次做过的味道比这次更好。今天做，主要是也买了新的高压锅，把过去炖两个钟头的漫长时间压缩到了20分钟里，新得神器，有心得也有没做好的，记录在这里。
 
 关于下一次：可以再少煎一会，而且不需要炒糖色。这个分量基本刚好三个人

@@ -3,7 +3,6 @@
 
 <!--more-->
 
-<p><img src="https://img.shields.io/badge/last%20modified-2023--Dec--10-ff69b4?style=flat" > <img src="https://img.shields.io/badge/Words-4253-yellow?style=flat" >   <img src="https://img.shields.io/badge/12%20minutes-lightgray?style=flat" ></p>
 
 细心的朋友可以发现，本期的标题从「周刊」变成了「月刊」。从实际的发布周期来看，甚至几乎称得上是「季刊」了，不过，这也是在周刊发布了 12 期之后，我希望做出的一些改变。
 
