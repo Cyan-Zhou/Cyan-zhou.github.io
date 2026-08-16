@@ -3,7 +3,23 @@
         <title>Tags - tag - </title>
         <link>/tags/</link>
         <description>Tags - tag - </description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 23 May 2026 18:00:00 &#43;0800</lastBuildDate><atom:link href="/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 16 Aug 2026 16:21:57 &#43;0000</lastBuildDate><atom:link href="/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>折腾</title>
+    <link>/tags/%E6%8A%98%E8%85%BE/</link>
+    <pubDate>Sun, 16 Aug 2026 16:21:57 &#43;0000</pubDate>
+    <author>xxxx</author>
+    <guid>/tags/%E6%8A%98%E8%85%BE/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>物尽其用</title>
+    <link>/tags/%E7%89%A9%E5%B0%BD%E5%85%B6%E7%94%A8/</link>
+    <pubDate>Sun, 16 Aug 2026 16:21:57 &#43;0000</pubDate>
+    <author>xxxx</author>
+    <guid>/tags/%E7%89%A9%E5%B0%BD%E5%85%B6%E7%94%A8/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>博客建设工程</title>
     <link>/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE%E5%B7%A5%E7%A8%8B/</link>
     <pubDate>Sat, 23 May 2026 18:00:00 &#43;0800</pubDate>
@@ -28,27 +44,11 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>折腾</title>
-    <link>/tags/%E6%8A%98%E8%85%BE/</link>
-    <pubDate>Sat, 24 May 2025 10:15:13 &#43;0000</pubDate>
-    <author>xxxx</author>
-    <guid>/tags/%E6%8A%98%E8%85%BE/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>读书笔记</title>
     <link>/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
     <pubDate>Sat, 24 May 2025 08:49:59 &#43;0800</pubDate>
     <author>xxxx</author>
     <guid>/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>物尽其用</title>
-    <link>/tags/%E7%89%A9%E5%B0%BD%E5%85%B6%E7%94%A8/</link>
-    <pubDate>Tue, 23 Jul 2024 23:32:15 &#43;0800</pubDate>
-    <author>xxxx</author>
-    <guid>/tags/%E7%89%A9%E5%B0%BD%E5%85%B6%E7%94%A8/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>

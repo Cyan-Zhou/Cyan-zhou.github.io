@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>铝型材 - tag - </title>
+        <link>//localhost:1313/tags/%E9%93%9D%E5%9E%8B%E6%9D%90/</link>
+        <description>铝型材 - tag - </description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 09 Aug 2026 23:27:20 &#43;0800</lastBuildDate><atom:link href="//localhost:1313/tags/%E9%93%9D%E5%9E%8B%E6%9D%90/" rel="self" type="application/rss+xml" /><item>
+    <title>物尽其用 | 铝型材 DIY 第二期</title>
+    <link>//localhost:1313/20260809-aluminum-kitchen-rack/</link>
+    <pubDate>Sun, 09 Aug 2026 23:27:20 &#43;0800</pubDate>
+    <author>Cyan Zhou</author>
+    <guid>//localhost:1313/20260809-aluminum-kitchen-rack/</guid>
+    <description><![CDATA[记录一次用铝型材定制厨房收纳架的完整过程，从测量、建模、材料清单到下单和拼装。]]></description>
+</item>
+</channel>
+</rss>
